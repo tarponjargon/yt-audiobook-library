@@ -67,11 +67,23 @@ def dedupe_books():
         print(f"Found {count} duplicates for '{title}' (author_id: {author_id})")
         print(f"  Keeping ID: {ids[0]}, Deleting IDs: {ids_to_delete}")
         
-        # Delete the duplicate records
-        Audiobook.query.filter(Audiobook.id.in_(ids_to_delete)).delete(synchronize_session=False)
-    
-    # Commit the changes
-    db.session.commit()
+        try:
+            # First, delete the associations in the audiobook_categories table
+            for audiobook_id in ids_to_delete:
+                # Execute raw SQL to delete from the association table
+                db.session.execute(
+                    f"DELETE FROM audiobook_categories WHERE audiobook_id = {audiobook_id}"
+                )
+            
+            # Then delete the duplicate audiobook records
+            Audiobook.query.filter(Audiobook.id.in_(ids_to_delete)).delete(synchronize_session=False)
+            
+            # Commit after each group to avoid large transactions
+            db.session.commit()
+            
+        except Exception as e:
+            db.session.rollback()
+            print(f"Error processing group with title '{title}': {str(e)}")
     
     print(f"Deduplication complete. Found {len(duplicate_groups)} duplicate groups with {total_duplicates} total records.")
     print(f"Kept {len(duplicate_groups)} records and deleted {total_deleted} duplicates.")
