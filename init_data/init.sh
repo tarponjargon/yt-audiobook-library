@@ -16,11 +16,11 @@ done
 echo "PostgreSQL is ready!"
 
 # Check if the dump file exists
-if [ ! -f "/docker-entrypoint-initdb.d/ytbooks_dump.sql" ]; then
-  echo "ERROR: Dump file not found at /docker-entrypoint-initdb.d/ytbooks_dump.sql"
+if [ ! -f "/tmp/ytbooks_dump.sql" ]; then
+  echo "ERROR: Dump file not found at /tmp/ytbooks_dump.sql"
   exit 1
 else
-  echo "Found dump file, size: $(ls -lh /docker-entrypoint-initdb.d/ytbooks_dump.sql | awk '{print $5}')"
+  echo "Found dump file, size: $(ls -lh /tmp/ytbooks_dump.sql | awk '{print $5}')"
 fi
 
 # Check if the database is already populated
@@ -33,7 +33,7 @@ if [ "$TABLES" -eq "0" ] || [ -z "$TABLES" ]; then
   
   # Use psql to import the dump file with verbose output
   echo "Starting database import..."
-  psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -v ON_ERROR_STOP=1 -f /docker-entrypoint-initdb.d/ytbooks_dump.sql
+  psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -v ON_ERROR_STOP=1 -f /tmp/ytbooks_dump.sql
   
   # Verify the import
   TABLES_AFTER=$(psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT count(*) FROM information_schema.tables WHERE table_schema = 'public' AND table_type = 'BASE TABLE';" -t | xargs)
