@@ -41,6 +41,8 @@ services:
       POSTGRES_DB: ${DB_NAME}
       POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
+      # Set PGUSER for psql commands in init scripts
+      PGUSER: ${DB_USER}
     volumes:
       - ./postgres_data:/var/lib/postgresql/data
       - ./init_data/ytbooks_dump.sql:/docker-entrypoint-initdb.d/ytbooks_dump.sql
