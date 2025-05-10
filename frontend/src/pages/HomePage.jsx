@@ -37,7 +37,7 @@ function HomePage() {
 
       <section>
         <h2 className="text-2xl font-semibold mb-6">Featured Audiobooks</h2>
-        
+
         {loading ? (
           <div className="flex justify-center py-12">
             <Spinner size="large" />
