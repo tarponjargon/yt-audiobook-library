@@ -1,8 +1,9 @@
 from flask import current_app
 from flask.cli import with_appcontext
 from flask_app.modules.youtube_crawler import crawl_youtube
-from flask_app.models import Category, Author
+from flask_app.models import Category, Author, Audiobook, db
 import random
+from sqlalchemy import func
 
 
 @current_app.cli.command("update_books")
@@ -30,3 +31,47 @@ def update_books():
         author_name = author.name
         print(f"Crawling YouTube for author: {author_name}")
         crawl_youtube(f'intitle:"audiobook" {author_name}')
+
+
+@current_app.cli.command("dedupe_books")
+@with_appcontext
+def dedupe_books():
+    """Delete duplicate audiobook records with the same title and author_id."""
+    print("Starting deduplication of audiobooks...")
+    
+    # Find duplicate groups based on title and author_id
+    duplicate_groups = db.session.query(
+        Audiobook.title,
+        Audiobook.author_id,
+        func.count().label('count'),
+        func.array_agg(Audiobook.id).label('ids')
+    ).group_by(
+        Audiobook.title,
+        Audiobook.author_id
+    ).having(
+        func.count() > 1
+    ).all()
+    
+    total_duplicates = 0
+    total_deleted = 0
+    
+    # Process each group of duplicates
+    for group in duplicate_groups:
+        title, author_id, count, ids = group
+        total_duplicates += count
+        
+        # Keep the first record, delete the rest
+        ids_to_delete = ids[1:]
+        total_deleted += len(ids_to_delete)
+        
+        print(f"Found {count} duplicates for '{title}' (author_id: {author_id})")
+        print(f"  Keeping ID: {ids[0]}, Deleting IDs: {ids_to_delete}")
+        
+        # Delete the duplicate records
+        Audiobook.query.filter(Audiobook.id.in_(ids_to_delete)).delete(synchronize_session=False)
+    
+    # Commit the changes
+    db.session.commit()
+    
+    print(f"Deduplication complete. Found {len(duplicate_groups)} duplicate groups with {total_duplicates} total records.")
+    print(f"Kept {len(duplicate_groups)} records and deleted {total_deleted} duplicates.")
