@@ -10,7 +10,12 @@ def wait_for_postgres():
     postgres_user = os.getenv("DB_USER")
     postgres_password = os.getenv("DB_PASSWORD")
     
-    while True:
+    max_retries = 30
+    retry_count = 0
+    
+    print(f"Waiting for PostgreSQL at {postgres_host}:{postgres_port}...")
+    
+    while retry_count < max_retries:
         try:
             conn = psycopg2.connect(
                 host=postgres_host,
@@ -20,11 +25,15 @@ def wait_for_postgres():
                 password=postgres_password
             )
             conn.close()
-            print("Connected to PostgreSQL!")
-            break
-        except OperationalError:
-            print("PostgreSQL not ready yet, waiting...")
+            print("Successfully connected to PostgreSQL!")
+            return
+        except OperationalError as e:
+            retry_count += 1
+            print(f"PostgreSQL not ready yet (attempt {retry_count}/{max_retries}): {str(e)}")
             time.sleep(2)
+    
+    print("Failed to connect to PostgreSQL after maximum retries")
+    exit(1)
 
 if __name__ == "__main__":
     wait_for_postgres()
