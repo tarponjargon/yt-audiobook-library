@@ -7,9 +7,8 @@ node_modules
 flask_app/static/dist
 *.pyc
 *__pycache__*
-/data
-/data/*
 .pyc
 virtualenv
 virtualenv_python
 venv
+postgres_data

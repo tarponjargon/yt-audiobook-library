@@ -1,15 +1,12 @@
-Run aider
+# PROJECT OVERVIEW
 
-aider --model o3-mini --api-key openai=$OPENAI_API_KEY --chat-language en
-aider --model gemini/gemini-2.5-pro-exp-03-25
+Scrapes youtube for audiobooks and uses an LLM to categorize them. Includes a React front-end for browsing/searching the audiobook library.
 
-Bring up docker image
+## PREREQUISITES
 
-docker-compose up --build
-
-Run a flask command in the container
-
-docker-compose exec flask-app flask add_books "audiobook"
+1.  [Docker](https://www.docker.com/)
+2.  [Google Books API Access](https://developers.google.com/books)
+3.  API access to an LLM
 
 ## FLASK INTERACTIVE SHELL
 
