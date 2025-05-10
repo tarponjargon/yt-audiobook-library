@@ -67,6 +67,10 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
     entrypoint: ["/bin/bash", "-c"]
     command: ["chmod +x /backup_db.sh && /backup_db.sh"]
     networks:
