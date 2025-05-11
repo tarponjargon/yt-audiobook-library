@@ -7,6 +7,9 @@ from sqlalchemy import func, text
 from curl_cffi import requests
 import logging
 
+# Disable SQLAlchemy query logging
+logging.getLogger('sqlalchemy.engine').setLevel(logging.WARNING)
+
 
 @current_app.cli.command("update_books")
 @with_appcontext
