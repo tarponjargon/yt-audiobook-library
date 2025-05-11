@@ -25,6 +25,7 @@ class Category(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), unique=True, nullable=False, index=True)
+    sort_order = db.Column(db.Integer, nullable=False, default=0)
 
     # Relationship back to Audiobooks (optional, but good practice)
     audiobooks = db.relationship(
@@ -33,12 +34,17 @@ class Category(db.Model):
         back_populates='categories',
         lazy='dynamic' # Use dynamic loading if you expect many audiobooks per category
     )
+    
+    # Set default ordering by sort_order
+    __mapper_args__ = {
+        "order_by": sort_order
+    }
 
     def __repr__(self):
         return f'<Category {self.name}>'
 
     def to_dict(self):
-        return {'id': self.id, 'name': self.name}
+        return {'id': self.id, 'name': self.name, 'sort_order': self.sort_order}
 
 
 class Author(db.Model):
