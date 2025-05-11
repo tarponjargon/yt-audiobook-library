@@ -2,35 +2,46 @@ import { useEffect, useState } from 'react'
 import { toast } from 'react-hot-toast'
 import AudiobookGrid from '../components/AudiobookGrid'
 import Spinner from '../components/Spinner'
-import { fetchRandomAudiobooks } from '../api'
+import { fetchRandomAudiobooks, fetchAudiobookCount } from '../api'
 
 function HomePage() {
   const [audiobooks, setAudiobooks] = useState([])
   const [loading, setLoading] = useState(true)
+  const [totalBooks, setTotalBooks] = useState(0)
 
   useEffect(() => {
-    const loadRandomAudiobooks = async () => {
+    const loadData = async () => {
       try {
         setLoading(true)
-        const data = await fetchRandomAudiobooks(5)
-        setAudiobooks(data.audiobooks)
+        
+        // Fetch both the random audiobooks and the total count
+        const [randomData, countData] = await Promise.all([
+          fetchRandomAudiobooks(5),
+          fetchAudiobookCount()
+        ])
+        
+        setAudiobooks(randomData.audiobooks)
+        setTotalBooks(countData.count)
       } catch (error) {
-        console.error('Error fetching random audiobooks:', error)
+        console.error('Error fetching data:', error)
         toast.error('Failed to load audiobooks')
       } finally {
         setLoading(false)
       }
     }
 
-    loadRandomAudiobooks()
+    loadData()
   }, [])
 
   return (
     <div>
       <section className="mb-10">
         <h1 className="text-3xl font-bold mb-2">Welcome to AudioBookFinder</h1>
-        <p className="text-gray-600 mb-6">
+        <p className="text-gray-600 mb-2">
           AudioBookFinder helps you find audiobooks more easily. This web application collects audiobook information from YouTube and organizes it in a clean, searchable interface.
+        </p>
+        <p className="text-gray-600 font-semibold mb-6">
+          Our library currently contains {totalBooks.toLocaleString()} audiobooks and growing!
         </p>
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 mb-6">
           <h2 className="text-xl font-semibold mb-2">With AudioBookFinder, you can:</h2>
