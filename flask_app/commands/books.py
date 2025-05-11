@@ -1,9 +1,11 @@
 from flask import current_app
 from flask.cli import with_appcontext
 from flask_app.modules.youtube_crawler import crawl_youtube
-from flask_app.models import Category, Author, Audiobook, db
+from flask_app.models import Category, Author, Audiobook, db, audiobook_categories
 import random
 from sqlalchemy import func
+from curl_cffi import requests
+import logging
 
 
 @current_app.cli.command("update_books")
@@ -87,3 +89,72 @@ def dedupe_books():
     
     print(f"Deduplication complete. Found {len(duplicate_groups)} duplicate groups with {total_duplicates} total records.")
     print(f"Kept {len(duplicate_groups)} records and deleted {total_deleted} duplicates.")
+
+
+@current_app.cli.command("prune_books")
+@with_appcontext
+def prune_books():
+    """
+    Delete audiobook records where the thumbnail URL returns a 404 error.
+    This indicates the YouTube video has been removed or made private.
+    """
+    print("Starting pruning of unavailable audiobooks...")
+    
+    # Get all audiobooks
+    audiobooks = Audiobook.query.all()
+    total_count = len(audiobooks)
+    deleted_count = 0
+    error_count = 0
+    
+    print(f"Found {total_count} audiobooks to check")
+    
+    # Set up curl_cffi with Chrome browser impersonation
+    session = requests.Session()
+    
+    # Process each audiobook
+    for i, audiobook in enumerate(audiobooks):
+        if i % 10 == 0:
+            print(f"Checking audiobook {i+1}/{total_count}...")
+        
+        # Skip if no thumbnail URL
+        if not audiobook.thumbnail:
+            print(f"Skipping audiobook ID {audiobook.id}: No thumbnail URL")
+            continue
+        
+        try:
+            # Make a HEAD request to check if the thumbnail exists
+            response = session.head(
+                audiobook.thumbnail,
+                impersonate="chrome",  # Impersonate Chrome browser
+                timeout=10,            # 10 second timeout
+                allow_redirects=True   # Follow redirects
+            )
+            
+            # If the response is 404 (Not Found) or 403 (Forbidden), the video is likely gone
+            if response.status_code in [404, 403]:
+                print(f"Audiobook ID {audiobook.id} ({audiobook.title}) is unavailable (Status: {response.status_code})")
+                
+                try:
+                    # Delete from the association table first
+                    db.session.execute(
+                        f"DELETE FROM audiobook_categories WHERE audiobook_id = {audiobook.id}"
+                    )
+                    
+                    # Delete the audiobook record
+                    db.session.delete(audiobook)
+                    db.session.commit()
+                    deleted_count += 1
+                    print(f"  Deleted audiobook ID {audiobook.id}")
+                    
+                except Exception as e:
+                    db.session.rollback()
+                    print(f"  Error deleting audiobook ID {audiobook.id}: {str(e)}")
+                    error_count += 1
+        
+        except Exception as e:
+            print(f"Error checking audiobook ID {audiobook.id}: {str(e)}")
+            error_count += 1
+    
+    print(f"Pruning complete. Checked {total_count} audiobooks.")
+    print(f"Deleted {deleted_count} unavailable audiobooks.")
+    print(f"Encountered {error_count} errors during processing.")
