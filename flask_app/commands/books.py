@@ -70,15 +70,12 @@ def dedupe_books():
         print(f"  Keeping ID: {ids[0]}, Deleting IDs: {ids_to_delete}")
         
         try:
-            # First, delete the associations in the audiobook_categories table
+            # First, clear the categories for each audiobook to be deleted
             for audiobook_id in ids_to_delete:
-                # Check if the audiobook has any categories before trying to delete associations
                 audiobook = Audiobook.query.get(audiobook_id)
-                if audiobook and audiobook.categories:
-                    # Execute raw SQL to delete from the association table using SQLAlchemy text()
-                    db.session.execute(
-                        text(f"DELETE FROM audiobook_categories WHERE audiobook_id = {audiobook_id}")
-                    )
+                if audiobook:
+                    # Clear the categories relationship which will handle the association table properly
+                    audiobook.categories = []
             
             # Then delete the duplicate audiobook records
             Audiobook.query.filter(Audiobook.id.in_(ids_to_delete)).delete(synchronize_session=False)
@@ -145,12 +142,9 @@ def prune_books():
                     author_name = audiobook.author.name if audiobook.author else "No author"
                     category_names = [cat.name for cat in audiobook.categories]
                     
-                    # Check if there are any category associations before trying to delete them
-                    if audiobook.categories:
-                        # Delete from the association table first using SQLAlchemy text()
-                        db.session.execute(
-                            text(f"DELETE FROM audiobook_categories WHERE audiobook_id = {audiobook.id}")
-                        )
+                    # Instead of manually deleting from the association table,
+                    # clear the categories relationship which will handle the association table properly
+                    audiobook.categories = []
                     
                     # Delete the audiobook record
                     db.session.delete(audiobook)
