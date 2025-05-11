@@ -41,7 +41,7 @@ def add_books_by_category():
         crawl_youtube(f'intitle:"audiobook" {category_name}')
 
 
-@current_app.cli.command("add_audiobooks")
+@current_app.cli.command("add_books")
 @with_appcontext
 def update_books():
     crawl_youtube(f'intitle:"audiobook"')
