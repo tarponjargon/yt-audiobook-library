@@ -35,10 +35,6 @@ class Category(db.Model):
         lazy='dynamic' # Use dynamic loading if you expect many audiobooks per category
     )
     
-    # Set default ordering by sort_order
-    __mapper_args__ = {
-        "order_by": [sort_order]
-    }
 
     def __repr__(self):
         return f'<Category {self.name}>'
