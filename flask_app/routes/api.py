@@ -123,6 +123,15 @@ def get_random_audiobooks():
         "total": len(audiobooks)
     })
 
+@api.route("/audiobooks/count", methods=["GET"])
+def get_audiobook_count():
+    """Get the total number of audiobooks in the database."""
+    try:
+        count = Audiobook.query.count()
+        return jsonify({"count": count})
+    except Exception as e:
+        return jsonify({"error": "Failed to get audiobook count"}), 500
+
 # Error handlers
 @api.errorhandler(404)
 def not_found(error):

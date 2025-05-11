@@ -45,3 +45,7 @@ export const fetchRandomAudiobooks = async (number = 5) => {
     params: { number }
   })
 }
+
+export const fetchAudiobookCount = async () => {
+  return api.get('/audiobooks/count')
+}
