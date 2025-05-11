@@ -213,7 +213,7 @@ def simulate_user_interaction(page):
     page.keyboard.press(key)
 
 
-def crawl_youtube(query):
+def crawl_youtube(query, max_scrolls=30):
     with sync_playwright() as p:
         # Launch browser
 
@@ -264,7 +264,7 @@ def crawl_youtube(query):
 
         # Continue scrolling and processing new videos
         print("Scrolling to load more videos...")
-        scroll_and_process_new_videos(page, processed_ids)
+        scroll_and_process_new_videos(page, processed_ids, max_scrolls)
 
         # Close the browser
         browser.close()
@@ -299,7 +299,7 @@ def load_and_process_new_videos(page, processed_ids):
     return len(new_videos)
 
 
-def scroll_and_process_new_videos(page, processed_ids, max_scrolls=3):
+def scroll_and_process_new_videos(page, processed_ids, max_scrolls=30):
     """Scroll down and process new videos that appear, limited by max_scrolls"""
 
     for scroll_count in range(max_scrolls):

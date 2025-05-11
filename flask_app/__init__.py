@@ -5,8 +5,6 @@ from dotenv import load_dotenv
 import click
 import requests
 
-# from commands.add_books import register_commands
-
 # Load environment variables from .env file
 load_dotenv()
 
@@ -35,7 +33,7 @@ def register_extensions(app):
     db.init_app(app)
     # Then initialize Migrate
     Migrate(app, db)
-    
+
     # Enable CORS for all routes
     CORS(app)
 
@@ -63,22 +61,4 @@ def create_app():
         # Import commands here so they register with the app context
         from .commands import books
 
-        # from .commands import test
-
         return app
-
-
-# # --- Database Initialization Command ---
-# @app.cli.command('init-db')
-# def init_db_command():
-#     """Creates the database tables based on models."""
-#     # Use app_context to ensure SQLAlchemy has the app configuration
-#     with app.app_context():
-#         try:
-#             db.create_all()
-#             print('Initialized the database and created tables.')
-#         except Exception as e:
-#             print(f'Error initializing database: {e}')
-#             # Optionally re-raise or exit
-#             exit(1)
-# # --- End Database Initialization Command ---

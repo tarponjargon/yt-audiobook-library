@@ -24,7 +24,7 @@ def add_books_by_authors():
     for author in authors:
         author_name = author.name
         print(f"Crawling YouTube for author: {author_name}")
-        crawl_youtube(f'intitle:"audiobook" {author_name}')
+        crawl_youtube(f'intitle:"audiobook" {author_name}', 3)
 
 
 @current_app.cli.command("add_books_by_category")
@@ -90,7 +90,7 @@ def dedupe_books():
                     audiobook.categories = []
                     # Commit this change to ensure the association is removed
                     db.session.commit()
-                    
+
                     # Now delete the audiobook
                     db.session.delete(audiobook)
                     db.session.commit()
