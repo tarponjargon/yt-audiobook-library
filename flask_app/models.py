@@ -2,9 +2,16 @@
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, date, timezone
 from flask_app.modules.extensions import db
+import logging
 
 # Disable SQLAlchemy modification tracking globally for better performance
 db.session.configure(autoflush=False)
+
+# Configure SQLAlchemy logging - disable SQL query logging
+logging.getLogger('sqlalchemy.engine').setLevel(logging.WARNING)
+logging.getLogger('sqlalchemy.pool').setLevel(logging.WARNING)
+logging.getLogger('sqlalchemy.dialects').setLevel(logging.WARNING)
+logging.getLogger('sqlalchemy.orm').setLevel(logging.WARNING)
 
 # Association table for the many-to-many relationship between Audiobooks and Categories
 audiobook_categories = db.Table('audiobook_categories',
