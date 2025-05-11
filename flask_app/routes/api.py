@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, request, abort
+from flask import Blueprint, jsonify, request, abort, current_app
 from flask_app.models import Audiobook, Category, Author
 from flask_app.modules.extensions import db
 from sqlalchemy import or_, func
