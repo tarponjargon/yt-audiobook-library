@@ -47,5 +47,10 @@ export const fetchRandomAudiobooks = async (number = 5) => {
 }
 
 export const fetchAudiobookCount = async () => {
-  return api.get('/audiobooks/count')
+  try {
+    return api.get('/audiobooks/count')
+  } catch (error) {
+    console.error('Error fetching audiobook count:', error)
+    return { count: 0 } // Return a default value if the API call fails
+  }
 }

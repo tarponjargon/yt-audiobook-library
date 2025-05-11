@@ -130,6 +130,7 @@ def get_audiobook_count():
         count = Audiobook.query.count()
         return jsonify({"count": count})
     except Exception as e:
+        current_app.logger.error(f"Error getting audiobook count: {str(e)}")
         return jsonify({"error": "Failed to get audiobook count"}), 500
 
 # Error handlers

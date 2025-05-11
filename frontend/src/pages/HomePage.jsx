@@ -15,13 +15,20 @@ function HomePage() {
         setLoading(true)
         
         // Fetch both the random audiobooks and the total count
-        const [randomData, countData] = await Promise.all([
-          fetchRandomAudiobooks(5),
-          fetchAudiobookCount()
-        ])
-        
-        setAudiobooks(randomData.audiobooks)
-        setTotalBooks(countData.count)
+        try {
+          const [randomData, countData] = await Promise.all([
+            fetchRandomAudiobooks(5),
+            fetchAudiobookCount()
+          ])
+          
+          setAudiobooks(randomData.audiobooks)
+          setTotalBooks(countData?.count || 0)
+        } catch (error) {
+          console.error('Error fetching data:', error)
+          // Still try to fetch random audiobooks if count fails
+          const randomData = await fetchRandomAudiobooks(5)
+          setAudiobooks(randomData.audiobooks)
+        }
       } catch (error) {
         console.error('Error fetching data:', error)
         toast.error('Failed to load audiobooks')
