@@ -42,9 +42,6 @@ function HomePage() {
             <li>Discover new audiobooks with random suggestions</li>
           </ul>
         </div>
-        <p className="text-gray-600">
-          The application automatically processes YouTube content to identify audiobooks, categorizes them appropriately, and presents them in a straightforward, easy-to-navigate website that works well on both desktop and mobile devices.
-        </p>
       </section>
 
       <section>
