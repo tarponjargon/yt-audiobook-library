@@ -2,6 +2,7 @@ import random
 import re
 import os
 from playwright.sync_api import sync_playwright
+from playwright_stealth import stealth_sync
 from flask_app.modules.user_agent_generator import ValidUAGenerator
 from flask_app.modules.book import (
     check_if_book_exists,
@@ -227,6 +228,7 @@ def crawl_youtube(query):
             viewport={"width": 1280, "height": 800}, user_agent=ua
         )
         page = context.new_page()
+        stealth_sync(page)
 
         # Construct the search URL
         term = query.replace(" ", "+")

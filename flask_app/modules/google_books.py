@@ -26,7 +26,13 @@ def get_book_info(book_title, author=None):
         response.raise_for_status()  # Check for HTTP errors
     except requests.exceptions.RequestException as e:
         print(f"\tError querying Google Books API for '{book_title}': {e}")
-        return None
+        exit(1)
+    except requests.exceptions.HTTPError as e:
+        print(f"\tHTTP error querying Google Books API for '{book_title}': {e}")
+        exit(1)
+    except requests.exceptions.Timeout as e:
+        print(f"\tTimeout error querying Google Books API for '{book_title}': {e}")
+        exit(1)
 
     data = response.json()
     items = data.get("items")
