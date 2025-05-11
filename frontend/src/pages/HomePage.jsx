@@ -1,44 +1,89 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef, useCallback } from 'react'
 import { toast } from 'react-hot-toast'
 import AudiobookGrid from '../components/AudiobookGrid'
 import Spinner from '../components/Spinner'
-import { fetchRandomAudiobooks, fetchAudiobookCount } from '../api'
+import { fetchAllAudiobooks, fetchAudiobookCount } from '../api'
 
 function HomePage() {
   const [audiobooks, setAudiobooks] = useState([])
   const [loading, setLoading] = useState(true)
+  const [loadingMore, setLoadingMore] = useState(false)
   const [totalBooks, setTotalBooks] = useState(0)
+  const [pagination, setPagination] = useState({
+    page: 1,
+    hasNext: false,
+    total: 0
+  })
+  const observer = useRef()
 
+  // Setup intersection observer for infinite scroll
+  const lastAudiobookElementRef = useCallback(node => {
+    if (loading || loadingMore) return
+    if (observer.current) observer.current.disconnect()
+    
+    observer.current = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting && pagination.hasNext) {
+        loadMoreAudiobooks()
+      }
+    })
+    
+    if (node) observer.current.observe(node)
+  }, [loading, loadingMore, pagination.hasNext])
+
+  // Load initial audiobooks
   useEffect(() => {
-    const loadData = async () => {
+    const loadInitialData = async () => {
       try {
         setLoading(true)
-
-        // Fetch both the random audiobooks and the total count
+        
+        // Fetch both the audiobooks and the total count
         try {
-          const [randomData, countData] = await Promise.all([
-            fetchRandomAudiobooks(5),
+          const [audiobooksData, countData] = await Promise.all([
+            fetchAllAudiobooks(1),
             fetchAudiobookCount()
           ])
-
-          setAudiobooks(randomData.audiobooks)
+          
+          setAudiobooks(audiobooksData.audiobooks)
           setTotalBooks(countData?.count || 0)
+          setPagination({
+            page: audiobooksData.pagination.page,
+            hasNext: audiobooksData.pagination.has_next,
+            total: audiobooksData.pagination.total
+          })
         } catch (error) {
           console.error('Error fetching data:', error)
-          // Still try to fetch random audiobooks if count fails
-          const randomData = await fetchRandomAudiobooks(5)
-          setAudiobooks(randomData.audiobooks)
+          toast.error('Failed to load audiobooks')
         }
-      } catch (error) {
-        console.error('Error fetching data:', error)
-        toast.error('Failed to load audiobooks')
       } finally {
         setLoading(false)
       }
     }
-
-    loadData()
+    
+    loadInitialData()
   }, [])
+  
+  // Function to load more audiobooks when scrolling
+  const loadMoreAudiobooks = async () => {
+    if (!pagination.hasNext || loadingMore) return
+    
+    try {
+      setLoadingMore(true)
+      const nextPage = pagination.page + 1
+      const data = await fetchAllAudiobooks(nextPage)
+      
+      setAudiobooks(prev => [...prev, ...data.audiobooks])
+      setPagination({
+        page: data.pagination.page,
+        hasNext: data.pagination.has_next,
+        total: data.pagination.total
+      })
+    } catch (error) {
+      console.error('Error loading more audiobooks:', error)
+      toast.error('Failed to load more audiobooks')
+    } finally {
+      setLoadingMore(false)
+    }
+  }
 
   return (
     <div>
@@ -63,14 +108,31 @@ function HomePage() {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-6">Featured Audiobooks</h2>
+        <h2 className="text-2xl font-semibold mb-6">Browse All Audiobooks</h2>
 
         {loading ? (
           <div className="flex justify-center py-12">
             <Spinner size="large" />
           </div>
         ) : (
-          <AudiobookGrid audiobooks={audiobooks} />
+          <>
+            <AudiobookGrid 
+              audiobooks={audiobooks} 
+              lastAudiobookRef={lastAudiobookElementRef}
+            />
+            
+            {loadingMore && (
+              <div className="flex justify-center py-4">
+                <Spinner />
+              </div>
+            )}
+            
+            {!pagination.hasNext && audiobooks.length > 0 && (
+              <p className="text-center text-gray-500 mt-8 mb-4">
+                You've reached the end of the list
+              </p>
+            )}
+          </>
         )}
       </section>
     </div>

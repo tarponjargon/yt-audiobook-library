@@ -123,6 +123,47 @@ def get_random_audiobooks():
         "total": len(audiobooks)
     })
 
+@api.route("/audiobooks", methods=["GET"])
+def get_all_audiobooks():
+    """Get all audiobooks with pagination, ordered randomly."""
+    # Get pagination parameters
+    page = request.args.get("page", 1, type=int)
+    per_page = request.args.get("per_page", 12, type=int)
+    
+    # Limit per_page to reasonable values
+    per_page = min(max(per_page, 1), 50)
+    
+    # Get total count of audiobooks
+    total_audiobooks = Audiobook.query.count()
+    
+    if total_audiobooks == 0:
+        return jsonify({
+            "audiobooks": [],
+            "pagination": {
+                "total": 0,
+                "page": page,
+                "per_page": per_page,
+                "pages": 0,
+                "has_next": False
+            }
+        })
+    
+    # Get paginated audiobooks ordered randomly
+    audiobooks_paginated = Audiobook.query.order_by(func.random()).paginate(
+        page=page, per_page=per_page, error_out=False
+    )
+    
+    return jsonify({
+        "audiobooks": [audiobook.to_dict() for audiobook in audiobooks_paginated.items],
+        "pagination": {
+            "total": total_audiobooks,
+            "page": page,
+            "per_page": per_page,
+            "pages": audiobooks_paginated.pages,
+            "has_next": audiobooks_paginated.has_next
+        }
+    })
+
 @api.route("/audiobooks/count", methods=["GET"])
 def get_audiobook_count():
     """Get the total number of audiobooks in the database."""

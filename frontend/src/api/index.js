@@ -46,6 +46,12 @@ export const fetchRandomAudiobooks = async (number = 5) => {
   })
 }
 
+export const fetchAllAudiobooks = async (page = 1, perPage = 12) => {
+  return api.get('/audiobooks', {
+    params: { page, per_page: perPage }
+  })
+}
+
 export const fetchAudiobookCount = async () => {
   try {
     return api.get('/audiobooks/count')
