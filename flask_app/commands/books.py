@@ -105,6 +105,8 @@ def prune_books():
     total_count = len(audiobooks)
     deleted_count = 0
     error_count = 0
+    skipped_count = 0
+    available_count = 0
     
     print(f"Found {total_count} audiobooks to check")
     
@@ -119,6 +121,7 @@ def prune_books():
         # Skip if no thumbnail URL
         if not audiobook.thumbnail:
             print(f"Skipping audiobook ID {audiobook.id}: No thumbnail URL")
+            skipped_count += 1
             continue
         
         try:
@@ -135,6 +138,10 @@ def prune_books():
                 print(f"Audiobook ID {audiobook.id} ({audiobook.title}) is unavailable (Status: {response.status_code})")
                 
                 try:
+                    # First, get all related data for logging purposes
+                    author_name = audiobook.author.name if audiobook.author else "No author"
+                    category_names = [cat.name for cat in audiobook.categories]
+                    
                     # Delete from the association table first
                     db.session.execute(
                         f"DELETE FROM audiobook_categories WHERE audiobook_id = {audiobook.id}"
@@ -144,17 +151,25 @@ def prune_books():
                     db.session.delete(audiobook)
                     db.session.commit()
                     deleted_count += 1
-                    print(f"  Deleted audiobook ID {audiobook.id}")
+                    print(f"  Deleted audiobook ID {audiobook.id} - Author: {author_name}, Categories: {category_names}")
                     
                 except Exception as e:
                     db.session.rollback()
                     print(f"  Error deleting audiobook ID {audiobook.id}: {str(e)}")
                     error_count += 1
+            else:
+                # Audiobook is available
+                available_count += 1
+                if i % 50 == 0:  # Only log every 50th available book to reduce output
+                    print(f"Audiobook ID {audiobook.id} is available (Status: {response.status_code})")
         
         except Exception as e:
             print(f"Error checking audiobook ID {audiobook.id}: {str(e)}")
             error_count += 1
     
-    print(f"Pruning complete. Checked {total_count} audiobooks.")
-    print(f"Deleted {deleted_count} unavailable audiobooks.")
-    print(f"Encountered {error_count} errors during processing.")
+    print("\nPruning complete. Summary:")
+    print(f"Total audiobooks checked: {total_count}")
+    print(f"Available audiobooks: {available_count}")
+    print(f"Unavailable audiobooks deleted: {deleted_count}")
+    print(f"Audiobooks skipped (no thumbnail): {skipped_count}")
+    print(f"Errors encountered: {error_count}")
