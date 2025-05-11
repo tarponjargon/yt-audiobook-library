@@ -3,7 +3,7 @@ from flask.cli import with_appcontext
 from flask_app.modules.youtube_crawler import crawl_youtube
 from flask_app.models import Category, Author, Audiobook, db, audiobook_categories
 import random
-from sqlalchemy import func
+from sqlalchemy import func, text
 from curl_cffi import requests
 import logging
 
@@ -72,9 +72,9 @@ def dedupe_books():
         try:
             # First, delete the associations in the audiobook_categories table
             for audiobook_id in ids_to_delete:
-                # Execute raw SQL to delete from the association table
+                # Execute raw SQL to delete from the association table using SQLAlchemy text()
                 db.session.execute(
-                    f"DELETE FROM audiobook_categories WHERE audiobook_id = {audiobook_id}"
+                    text(f"DELETE FROM audiobook_categories WHERE audiobook_id = {audiobook_id}")
                 )
             
             # Then delete the duplicate audiobook records
@@ -142,9 +142,9 @@ def prune_books():
                     author_name = audiobook.author.name if audiobook.author else "No author"
                     category_names = [cat.name for cat in audiobook.categories]
                     
-                    # Delete from the association table first
+                    # Delete from the association table first using SQLAlchemy text()
                     db.session.execute(
-                        f"DELETE FROM audiobook_categories WHERE audiobook_id = {audiobook.id}"
+                        text(f"DELETE FROM audiobook_categories WHERE audiobook_id = {audiobook.id}")
                     )
                     
                     # Delete the audiobook record
