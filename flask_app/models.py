@@ -3,6 +3,9 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, date, timezone
 from flask_app.modules.extensions import db
 
+# Disable SQLAlchemy modification tracking globally for better performance
+db.session.configure(autoflush=False)
+
 # Association table for the many-to-many relationship between Audiobooks and Categories
 audiobook_categories = db.Table('audiobook_categories',
     db.Column('audiobook_id', db.Integer, db.ForeignKey('audiobooks.id'), primary_key=True),
