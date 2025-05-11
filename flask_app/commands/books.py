@@ -197,3 +197,29 @@ def prune_books():
     print(f"Unavailable audiobooks deleted: {deleted_count}")
     print(f"Audiobooks skipped (no thumbnail): {skipped_count}")
     print(f"Errors encountered: {error_count}")
+
+
+@current_app.cli.command("set_category_sort_order")
+@with_appcontext
+def set_category_sort_order():
+    """
+    Set default sort_order values for all categories.
+    This is useful after adding the sort_order column to existing categories.
+    """
+    print("Setting default sort_order values for categories...")
+    
+    # Get all categories
+    categories = Category.query.order_by(Category.name).all()
+    total_count = len(categories)
+    
+    print(f"Found {total_count} categories to update")
+    
+    # Set sort_order based on alphabetical order of names
+    for i, category in enumerate(categories):
+        category.sort_order = i * 10  # Use increments of 10 to allow for later insertions
+        print(f"Setting sort_order={i * 10} for category '{category.name}'")
+    
+    # Commit all changes
+    db.session.commit()
+    
+    print(f"Successfully updated sort_order for {total_count} categories")

@@ -25,7 +25,7 @@ class Category(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), unique=True, nullable=False, index=True)
-    sort_order = db.Column(db.Integer, nullable=False, default=0)
+    sort_order = db.Column(db.Integer, nullable=True)
 
     # Relationship back to Audiobooks (optional, but good practice)
     audiobooks = db.relationship(
