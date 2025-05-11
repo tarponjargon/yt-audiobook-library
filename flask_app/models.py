@@ -37,7 +37,7 @@ class Category(db.Model):
     
     # Set default ordering by sort_order
     __mapper_args__ = {
-        "order_by": sort_order
+        "order_by": [sort_order]
     }
 
     def __repr__(self):
