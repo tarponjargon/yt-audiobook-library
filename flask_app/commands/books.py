@@ -82,20 +82,19 @@ def dedupe_books():
         print(f"  Keeping ID: {ids[0]}, Deleting IDs: {ids_to_delete}")
 
         try:
-            # First, clear the categories for each audiobook to be deleted
+            # Process each audiobook to delete individually
             for audiobook_id in ids_to_delete:
                 audiobook = Audiobook.query.get(audiobook_id)
                 if audiobook:
-                    # Clear the categories relationship which will handle the association table properly
+                    # Clear the categories relationship
                     audiobook.categories = []
-
-            # Then delete the duplicate audiobook records
-            Audiobook.query.filter(Audiobook.id.in_(ids_to_delete)).delete(
-                synchronize_session=False
-            )
-
-            # Commit after each group to avoid large transactions
-            db.session.commit()
+                    # Commit this change to ensure the association is removed
+                    db.session.commit()
+                    
+                    # Now delete the audiobook
+                    db.session.delete(audiobook)
+                    db.session.commit()
+                    print(f"  Successfully deleted audiobook ID {audiobook_id}")
 
         except Exception as e:
             db.session.rollback()
