@@ -53,7 +53,7 @@ function Layout() {
             </form>
           </div>
           
-          <nav className="mt-4 relative">
+          <nav className="mt-4 relative group">
             {loading ? (
               <div className="flex justify-center py-2">
                 <Spinner />
@@ -61,7 +61,7 @@ function Layout() {
             ) : (
               <div className="relative">
                 <button 
-                  className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-1 rounded-full shadow-md z-10 hover:bg-opacity-100"
+                  className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-1 rounded-full shadow-md z-10 hover:bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                   onClick={() => {
                     const container = document.getElementById('categories-carousel');
                     container.scrollBy({ left: -200, behavior: 'smooth' });
@@ -94,7 +94,7 @@ function Layout() {
                 </div>
                 
                 <button 
-                  className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-1 rounded-full shadow-md z-10 hover:bg-opacity-100"
+                  className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-1 rounded-full shadow-md z-10 hover:bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                   onClick={() => {
                     const container = document.getElementById('categories-carousel');
                     container.scrollBy({ left: 200, behavior: 'smooth' });
