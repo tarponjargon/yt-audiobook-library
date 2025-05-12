@@ -53,18 +53,18 @@ function Layout() {
             </form>
           </div>
           
-          <nav className="mt-4 overflow-x-auto">
+          <nav className="mt-4">
             {loading ? (
               <div className="flex justify-center py-2">
                 <Spinner />
               </div>
             ) : (
-              <ul className="flex space-x-6 pb-2">
+              <ul className="flex flex-wrap gap-4 pb-2">
                 {categories.map(category => (
                   <li key={category.id}>
                     <Link 
                       to={`/category/${category.id}`}
-                      className="whitespace-nowrap text-gray-700 hover:text-blue-600 hover:underline"
+                      className="text-gray-700 hover:text-blue-600 hover:underline"
                     >
                       {category.name}
                     </Link>
