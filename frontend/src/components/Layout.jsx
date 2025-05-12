@@ -29,9 +29,9 @@ function Layout() {
         <div className="container py-4">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <Link to="/" className="text-2xl font-bold text-blue-600">
-              YTAudioBookLib
+              YTAudiobookLib
             </Link>
-            
+
             <form onSubmit={handleSearch} className="w-full md:w-1/3">
               <div className="relative">
                 <input
@@ -41,7 +41,7 @@ function Layout() {
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
-                <button 
+                <button
                   type="submit"
                   className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-blue-600"
                 >
@@ -52,7 +52,7 @@ function Layout() {
               </div>
             </form>
           </div>
-          
+
           <nav className="mt-4 relative group">
             {loading ? (
               <div className="flex justify-center py-2">
@@ -60,7 +60,7 @@ function Layout() {
               </div>
             ) : (
               <div className="relative">
-                <button 
+                <button
                   className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-1 rounded-full shadow-md z-10 hover:bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                   onClick={() => {
                     const container = document.getElementById('categories-carousel');
@@ -71,19 +71,19 @@ function Layout() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                   </svg>
                 </button>
-                
-                <div 
+
+                <div
                   id="categories-carousel"
                   className="overflow-x-auto scrollbar-hide flex space-x-6 pb-2 px-6 scroll-smooth"
-                  style={{ 
-                    msOverflowStyle: 'none', 
+                  style={{
+                    msOverflowStyle: 'none',
                     scrollbarWidth: 'none',
                     WebkitOverflowScrolling: 'touch'
                   }}
                 >
                   {categories.map(category => (
                     <div key={category.id} className="flex-shrink-0">
-                      <Link 
+                      <Link
                         to={`/category/${category.id}`}
                         className="whitespace-nowrap text-gray-700 hover:text-blue-600 hover:underline"
                       >
@@ -92,8 +92,8 @@ function Layout() {
                     </div>
                   ))}
                 </div>
-                
-                <button 
+
+                <button
                   className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-1 rounded-full shadow-md z-10 hover:bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                   onClick={() => {
                     const container = document.getElementById('categories-carousel');
@@ -109,14 +109,14 @@ function Layout() {
           </nav>
         </div>
       </header>
-      
+
       <main className="flex-grow container py-8">
         <Outlet />
       </main>
-      
+
       <footer className="bg-gray-100 py-6">
         <div className="container text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} YTAudioBookLib</p>
+          <p>&copy; {new Date().getFullYear()} YTAudiobookLib</p>
         </div>
       </footer>
     </div>
