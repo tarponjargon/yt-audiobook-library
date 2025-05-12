@@ -20,13 +20,13 @@ function HomePage() {
   const lastAudiobookElementRef = useCallback(node => {
     if (loading || loadingMore) return
     if (observer.current) observer.current.disconnect()
-    
+
     observer.current = new IntersectionObserver(entries => {
       if (entries[0].isIntersecting && pagination.hasNext) {
         loadMoreAudiobooks()
       }
     })
-    
+
     if (node) observer.current.observe(node)
   }, [loading, loadingMore, pagination.hasNext])
 
@@ -35,14 +35,14 @@ function HomePage() {
     const loadInitialData = async () => {
       try {
         setLoading(true)
-        
+
         // Fetch both the audiobooks and the total count
         try {
           const [audiobooksData, countData] = await Promise.all([
             fetchAllAudiobooks(1),
             fetchAudiobookCount()
           ])
-          
+
           setAudiobooks(audiobooksData.audiobooks)
           setTotalBooks(countData?.count || 0)
           setPagination({
@@ -58,19 +58,19 @@ function HomePage() {
         setLoading(false)
       }
     }
-    
+
     loadInitialData()
   }, [])
-  
+
   // Function to load more audiobooks when scrolling
   const loadMoreAudiobooks = async () => {
     if (!pagination.hasNext || loadingMore) return
-    
+
     try {
       setLoadingMore(true)
       const nextPage = pagination.page + 1
       const data = await fetchAllAudiobooks(nextPage)
-      
+
       setAudiobooks(prev => [...prev, ...data.audiobooks])
       setPagination({
         page: data.pagination.page,
@@ -88,15 +88,15 @@ function HomePage() {
   return (
     <div>
       <section className="mb-10">
-        <h1 className="text-3xl font-bold mb-2">Welcome to YTAudioBookLib</h1>
+        <h1 className="text-3xl font-bold mb-2">Welcome to YTAudiobookLib</h1>
         <p className="text-gray-600 mb-2">
-          YTAudioBookLib helps you find audiobooks more easily. This web application collects audiobook information from YouTube and organizes it in a clean, searchable interface.
+          YTAudiobookLib helps you find audiobooks more easily. This web application collects audiobook information from YouTube and organizes it in a clean, searchable interface.
         </p>
         <p className="text-gray-600 font-semibold mb-6">
           Our library currently contains {totalBooks.toLocaleString()} audiobooks and growing!
         </p>
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 mb-6">
-          <h2 className="text-xl font-semibold mb-2">With YTAudioBookLib, you can:</h2>
+          <h2 className="text-xl font-semibold mb-2">With YTAudiobookLib, you can:</h2>
           <ul className="list-disc pl-5 space-y-1">
             <li>Browse audiobooks by category</li>
             <li>Search for specific titles or topics</li>
@@ -116,17 +116,17 @@ function HomePage() {
           </div>
         ) : (
           <>
-            <AudiobookGrid 
-              audiobooks={audiobooks} 
+            <AudiobookGrid
+              audiobooks={audiobooks}
               lastAudiobookRef={lastAudiobookElementRef}
             />
-            
+
             {loadingMore && (
               <div className="flex justify-center py-4">
                 <Spinner />
               </div>
             )}
-            
+
             {!pagination.hasNext && audiobooks.length > 0 && (
               <p className="text-center text-gray-500 mt-8 mb-4">
                 You've reached the end of the list
