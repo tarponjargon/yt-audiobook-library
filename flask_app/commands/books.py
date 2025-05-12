@@ -6,6 +6,16 @@ import random
 from sqlalchemy import func, text
 from curl_cffi import requests
 import logging
+import click
+
+
+@current_app.cli.command("add_author")
+@click.argument("author_name")
+@with_appcontext
+def add_author(author_name):
+    """Crawl YouTube for audiobooks by a specific author."""
+    print(f"Crawling YouTube for author: {author_name}")
+    crawl_youtube(f'intitle:"audiobook" {author_name}', 3)
 
 
 @current_app.cli.command("add_books_by_author")
