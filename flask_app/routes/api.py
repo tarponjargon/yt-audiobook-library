@@ -9,7 +9,7 @@ api = Blueprint("api", __name__, url_prefix="/api")
 @api.route("/categories", methods=["GET"])
 def get_categories():
     """Get all categories."""
-    categories = Category.query.all()
+    categories = Category.query.order_by(Category.sort_order).all()
     return jsonify({
         "categories": [category.to_dict() for category in categories],
         "total": len(categories)
