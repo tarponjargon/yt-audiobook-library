@@ -53,24 +53,58 @@ function Layout() {
             </form>
           </div>
           
-          <nav className="mt-4">
+          <nav className="mt-4 relative">
             {loading ? (
               <div className="flex justify-center py-2">
                 <Spinner />
               </div>
             ) : (
-              <ul className="flex flex-wrap gap-4 pb-2">
-                {categories.map(category => (
-                  <li key={category.id}>
-                    <Link 
-                      to={`/category/${category.id}`}
-                      className="text-gray-700 hover:text-blue-600 hover:underline"
-                    >
-                      {category.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <div className="relative">
+                <button 
+                  className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-1 rounded-full shadow-md z-10 hover:bg-opacity-100"
+                  onClick={() => {
+                    const container = document.getElementById('categories-carousel');
+                    container.scrollBy({ left: -200, behavior: 'smooth' });
+                  }}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+                
+                <div 
+                  id="categories-carousel"
+                  className="overflow-x-auto scrollbar-hide flex space-x-6 pb-2 px-6 scroll-smooth"
+                  style={{ 
+                    msOverflowStyle: 'none', 
+                    scrollbarWidth: 'none',
+                    WebkitOverflowScrolling: 'touch'
+                  }}
+                >
+                  {categories.map(category => (
+                    <div key={category.id} className="flex-shrink-0">
+                      <Link 
+                        to={`/category/${category.id}`}
+                        className="whitespace-nowrap text-gray-700 hover:text-blue-600 hover:underline"
+                      >
+                        {category.name}
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+                
+                <button 
+                  className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-1 rounded-full shadow-md z-10 hover:bg-opacity-100"
+                  onClick={() => {
+                    const container = document.getElementById('categories-carousel');
+                    container.scrollBy({ left: 200, behavior: 'smooth' });
+                  }}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
             )}
           </nav>
         </div>
