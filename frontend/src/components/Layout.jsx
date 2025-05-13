@@ -1,10 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Outlet, Link, useNavigate } from 'react-router-dom'
 import { useStore } from '../store'
 import Spinner from './Spinner'
 import { toast } from 'react-hot-toast'
 
 function Layout() {
+  const [isSticky, setIsSticky] = useState(false)
+  const headerRef = useRef(null)
   const [searchQuery, setSearchQuery] = useState('')
   const navigate = useNavigate()
   const { categories, fetchCategories, loading } = useStore()
@@ -16,6 +18,28 @@ function Layout() {
     })
   }, [fetchCategories])
 
+  // Handle sticky header on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      // Only apply sticky behavior on desktop
+      if (window.innerWidth >= 768) {
+        if (headerRef.current) {
+          setIsSticky(window.scrollY > 10)
+        }
+      } else {
+        setIsSticky(false)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    // Check initial state
+    handleScroll()
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
   const handleSearch = (e) => {
     e.preventDefault()
     if (searchQuery.trim()) {
@@ -23,9 +47,32 @@ function Layout() {
     }
   }
 
+  // Define the animation style
+  const slideDownAnimation = `
+    @keyframes slideDown {
+      from {
+        transform: translateY(-100%);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+    .animate-slideDown {
+      animation: slideDown 0.3s ease-in-out;
+    }
+  `;
+
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-white shadow-md">
+      <style>{slideDownAnimation}</style>
+      <header 
+        ref={headerRef}
+        className={`bg-white shadow-md ${
+          isSticky 
+            ? 'md:fixed md:top-0 md:left-0 md:right-0 md:z-50 md:animate-slideDown' 
+            : ''
+        }`}
+      >
         <div className="container py-4">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <Link to="/" className="text-2xl font-bold text-blue-600">
@@ -110,6 +157,7 @@ function Layout() {
         </div>
       </header>
 
+      {isSticky && <div className="md:h-[132px]"></div>}
       <main className="flex-grow container py-8">
         <Outlet />
       </main>
