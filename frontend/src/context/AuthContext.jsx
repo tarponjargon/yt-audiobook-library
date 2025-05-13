@@ -25,9 +25,9 @@ export function AuthProvider({ children }) {
     checkAuthStatus();
   }, []);
 
-  const login = async (username, password) => {
+  const login = async (email, password) => {
     try {
-      const response = await api.post('/api/auth/login', { username, password });
+      const response = await api.post('/api/auth/login', { email, password });
       setUser(response.data.user);
       toast.success('Login successful');
       return response.data;
@@ -37,9 +37,9 @@ export function AuthProvider({ children }) {
     }
   };
 
-  const register = async (username, email, password) => {
+  const register = async (email, password) => {
     try {
-      const response = await api.post('/api/auth/register', { username, email, password });
+      const response = await api.post('/api/auth/register', { email, password });
       setUser(response.data.user);
       toast.success('Registration successful');
       return response.data;
