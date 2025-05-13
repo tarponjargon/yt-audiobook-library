@@ -10,6 +10,8 @@ const api = axios.create({
   },
 })
 
+export default api;
+
 // Add response interceptor to handle errors globally
 api.interceptors.response.use(
   response => response.data,
