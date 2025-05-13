@@ -34,7 +34,21 @@ function AudiobookModal({ audiobookId, onClose }) {
     if (audiobookId) {
       loadAudiobookDetail()
     }
-  }, [audiobookId])
+
+    // Add event listener for ESC key
+    const handleEscKey = (event) => {
+      if (event.key === 'Escape') {
+        onClose()
+      }
+    }
+    
+    window.addEventListener('keydown', handleEscKey)
+    
+    // Clean up event listener
+    return () => {
+      window.removeEventListener('keydown', handleEscKey)
+    }
+  }, [audiobookId, onClose])
 
   // Handle click outside to close
   const handleBackdropClick = (e) => {
