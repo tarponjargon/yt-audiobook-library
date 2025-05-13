@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom'
 
 function AudiobookCard({ audiobook }) {
   return (
-    <Link to={`/audiobook/${audiobook.id}`} className="block" target="_blank" rel="noopener noreferrer">
+    <Link to={`/audiobook/${audiobook.id}`} className="block" rel="noopener noreferrer">
       <div className="card h-full flex flex-col">
         <div className="relative pb-[56.25%]">
-          <img 
-            src={audiobook.thumbnail || '/placeholder-book.jpg'} 
+          <img
+            src={audiobook.thumbnail || '/placeholder-book.jpg'}
             alt={audiobook.title}
             className="absolute inset-0 w-full h-full object-cover"
           />
