@@ -4,10 +4,10 @@ import Spinner from './Spinner'
 
 function formatDuration(seconds) {
   if (!seconds) return 'Unknown'
-  
+
   const hours = Math.floor(seconds / 3600)
   const minutes = Math.floor((seconds % 3600) / 60)
-  
+
   if (hours > 0) {
     return `${hours} hr ${minutes} min`
   }
@@ -44,7 +44,7 @@ function AudiobookModal({ audiobookId, onClose }) {
   }
 
   return (
-    <div 
+    <div
       className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
       onClick={handleBackdropClick}
     >
@@ -57,7 +57,7 @@ function AudiobookModal({ audiobookId, onClose }) {
           <div className="p-6">
             <div className="flex justify-between items-start mb-4">
               <h2 className="text-2xl font-bold">{audiobook.title}</h2>
-              <button 
+              <button
                 onClick={onClose}
                 className="text-gray-500 hover:text-gray-700"
               >
@@ -66,19 +66,19 @@ function AudiobookModal({ audiobookId, onClose }) {
                 </svg>
               </button>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="md:col-span-1">
-                <img 
-                  src={audiobook.thumbnail || '/placeholder-book.jpg'} 
+                <img
+                  src={audiobook.thumbnail || '/placeholder-book.jpg'}
                   alt={audiobook.title}
                   className="w-full rounded-lg shadow-md"
                 />
-                
+
                 {audiobook.youtube_url && (
-                  <a 
-                    href={audiobook.youtube_url} 
-                    target="_blank" 
+                  <a
+                    href={audiobook.youtube_url}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 btn btn-primary w-full flex items-center justify-center"
                   >
@@ -90,7 +90,7 @@ function AudiobookModal({ audiobookId, onClose }) {
                   </a>
                 )}
               </div>
-              
+
               <div className="md:col-span-2">
                 {audiobook.author && (
                   <div className="mb-4">
@@ -98,14 +98,14 @@ function AudiobookModal({ audiobookId, onClose }) {
                     <p>{audiobook.author}</p>
                   </div>
                 )}
-                
+
                 {audiobook.description && (
                   <div className="mb-4">
                     <h3 className="text-lg font-semibold">Description</h3>
                     <p className="text-gray-700">{audiobook.description}</p>
                   </div>
                 )}
-                
+
                 <div className="grid grid-cols-2 gap-4">
                   {audiobook.duration_seconds && (
                     <div>
@@ -113,7 +113,7 @@ function AudiobookModal({ audiobookId, onClose }) {
                       <p>{formatDuration(audiobook.duration_seconds)}</p>
                     </div>
                   )}
-                  
+
                   {audiobook.language && (
                     <div>
                       <h3 className="text-lg font-semibold">Language</h3>
@@ -121,17 +121,14 @@ function AudiobookModal({ audiobookId, onClose }) {
                     </div>
                   )}
                 </div>
-                
+
                 {audiobook.categories && audiobook.categories.length > 0 && (
-                  <div className="mt-4">
-                    <h3 className="text-lg font-semibold mb-2">Categories</h3>
-                    <div className="flex flex-wrap gap-2">
+                  <div className="mb-4">
+                    <span className="font-semibold">Categories:</span>
+                    <div className="flex flex-wrap gap-2 mt-1">
                       {audiobook.categories.map(category => (
-                        <span 
-                          key={category.id} 
-                          className="px-3 py-1 bg-gray-100 rounded-full text-sm"
-                        >
-                          {category.name}
+                        <span key={category} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">
+                          {category}
                         </span>
                       ))}
                     </div>
