@@ -15,7 +15,7 @@ def register_extensions(app):
     Args:
       app (app): The Flask application
     """
-    from .modules.extensions import db
+    from .modules.extensions import db, login_manager, bcrypt
     from flask_cors import CORS
 
     db_user = os.getenv("DB_USER")
@@ -33,6 +33,18 @@ def register_extensions(app):
     db.init_app(app)
     # Then initialize Migrate
     Migrate(app, db)
+    
+    # Initialize login manager
+    login_manager.init_app(app)
+    login_manager.login_view = 'auth.login'
+    
+    @login_manager.user_loader
+    def load_user(user_id):
+        from flask_app.models import User
+        return User.query.get(int(user_id))
+    
+    # Initialize bcrypt
+    bcrypt.init_app(app)
 
     # Enable CORS for all routes
     CORS(app)
@@ -54,9 +66,13 @@ def create_app():
         # Register blueprints
         from flask_app.routes.views import views
         from flask_app.routes.api import api
+        from flask_app.routes.auth import auth
+        from flask_app.routes.favorites import favorites
 
         app.register_blueprint(views)
         app.register_blueprint(api)
+        app.register_blueprint(auth)
+        app.register_blueprint(favorites)
 
         # Import commands here so they register with the app context
         from .commands import books

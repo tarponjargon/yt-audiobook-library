@@ -1,8 +1,9 @@
 # models.py (New File)
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, date, timezone
-from flask_app.modules.extensions import db
+from flask_app.modules.extensions import db, bcrypt
 import logging
+from flask_login import UserMixin
 
 # Disable SQLAlchemy modification tracking globally for better performance
 db.session.configure(autoflush=False)
@@ -17,6 +18,13 @@ logging.getLogger('sqlalchemy.orm').setLevel(logging.WARNING)
 audiobook_categories = db.Table('audiobook_categories',
     db.Column('audiobook_id', db.Integer, db.ForeignKey('audiobooks.id'), primary_key=True),
     db.Column('category_id', db.Integer, db.ForeignKey('categories.id'), primary_key=True)
+)
+
+# Association table for the many-to-many relationship between Users and Audiobooks (favorites)
+user_favorites = db.Table('user_favorites',
+    db.Column('user_id', db.Integer, db.ForeignKey('users.id'), primary_key=True),
+    db.Column('audiobook_id', db.Integer, db.ForeignKey('audiobooks.id'), primary_key=True),
+    db.Column('created_at', db.DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
 )
 
 class Category(db.Model):
@@ -174,4 +182,40 @@ class YoutubeSearchState(db.Model):
             'key': self.key,
             'value': self.value,
             'timestamp': self.timestamp.isoformat() if self.timestamp else None,
+        }
+
+
+class User(db.Model, UserMixin):
+    """Represents a user of the application."""
+    __tablename__ = 'users'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(80), unique=True, nullable=False, index=True)
+    email = db.Column(db.String(120), unique=True, nullable=False, index=True)
+    password_hash = db.Column(db.String(128), nullable=False)
+    created_at = db.Column(db.DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    
+    # Relationship with favorites
+    favorites = db.relationship(
+        'Audiobook', 
+        secondary=user_favorites, 
+        lazy='dynamic',
+        backref=db.backref('favorited_by', lazy='dynamic')
+    )
+    
+    def set_password(self, password):
+        self.password_hash = bcrypt.generate_password_hash(password).decode('utf-8')
+        
+    def check_password(self, password):
+        return bcrypt.check_password_hash(self.password_hash, password)
+    
+    def __repr__(self):
+        return f'<User {self.username}>'
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'username': self.username,
+            'email': self.email,
+            'created_at': self.created_at.isoformat() if self.created_at else None
         }
