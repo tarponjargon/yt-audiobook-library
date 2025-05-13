@@ -88,6 +88,13 @@ function AudiobookModal({ audiobookId, onClose }) {
                   alt={audiobook.title}
                   className="w-full rounded-lg shadow-md"
                 />
+                
+                {audiobook.duration_seconds && (
+                  <div className="mt-3 text-center text-gray-700">
+                    <span className="font-medium">Duration: </span>
+                    {formatDuration(audiobook.duration_seconds)}
+                  </div>
+                )}
 
                 {audiobook.youtube_url && (
                   <a
@@ -96,9 +103,9 @@ function AudiobookModal({ audiobookId, onClose }) {
                     rel="noopener noreferrer"
                     className="mt-4 btn btn-primary w-full flex items-center justify-center"
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                      <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
-                      <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd" />
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     Listen on YouTube
                   </a>
@@ -121,13 +128,6 @@ function AudiobookModal({ audiobookId, onClose }) {
                 )}
 
                 <div className="grid grid-cols-2 gap-4">
-                  {audiobook.duration_seconds && (
-                    <div>
-                      <h3 className="text-lg font-semibold">Duration</h3>
-                      <p>{formatDuration(audiobook.duration_seconds)}</p>
-                    </div>
-                  )}
-
                   {audiobook.language && (
                     <div>
                       <h3 className="text-lg font-semibold">Language</h3>
