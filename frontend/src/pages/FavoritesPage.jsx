@@ -33,7 +33,7 @@ function FavoritesPage() {
     return (
       <div className="container mx-auto py-12 text-center">
         <h1 className="text-2xl font-bold mb-4">Please Login</h1>
-        <p className="mb-4">You need to be logged in to view your favorites.</p>
+        <p className="mb-4">You need to be logged in with your email to view your favorites.</p>
       </div>
     );
   }

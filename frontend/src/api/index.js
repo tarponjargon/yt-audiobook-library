@@ -21,6 +21,23 @@ api.interceptors.response.use(
   }
 )
 
+// Auth functions
+export const loginUser = async (email, password) => {
+  return api.post('/auth/login', { email, password })
+}
+
+export const registerUser = async (email, password) => {
+  return api.post('/auth/register', { email, password })
+}
+
+export const getCurrentUser = async () => {
+  return api.get('/auth/me')
+}
+
+export const logoutUser = async () => {
+  return api.post('/auth/logout')
+}
+
 // API functions
 export const fetchCategories = async () => {
   return api.get('/categories')
