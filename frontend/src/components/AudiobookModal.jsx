@@ -41,9 +41,9 @@ function AudiobookModal({ audiobookId, onClose }) {
         onClose()
       }
     }
-    
+
     window.addEventListener('keydown', handleEscKey)
-    
+
     // Clean up event listener
     return () => {
       window.removeEventListener('keydown', handleEscKey)
@@ -88,28 +88,23 @@ function AudiobookModal({ audiobookId, onClose }) {
                   alt={audiobook.title}
                   className="w-full rounded-lg shadow-md"
                 />
-                
-                {audiobook.duration_seconds && (
-                  <div className="mt-3 text-center text-gray-700">
-                    <span className="font-medium">Duration: </span>
-                    {formatDuration(audiobook.duration_seconds)}
-                  </div>
+
+                {audiobook.duration && (
+                  <p className="text-gray-700 mt-4 mb-4">
+                    <span className="font-semibold">Duration:</span> {formatDuration(audiobook.duration)}
+                  </p>
                 )}
 
-                {audiobook.youtube_url && (
+                <div className="mt-6">
                   <a
-                    href={audiobook.youtube_url}
+                    href={`https://www.youtube.com/watch?v=${audiobook.video_id}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-4 btn btn-primary w-full flex items-center justify-center"
+                    className="btn btn-primary"
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
                     Listen on YouTube
                   </a>
-                )}
+                </div>
               </div>
 
               <div className="md:col-span-2">
