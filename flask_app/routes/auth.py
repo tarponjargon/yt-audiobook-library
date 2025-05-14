@@ -38,7 +38,9 @@ def login():
     if not data.get('email') or not data.get('password'):
         return jsonify({"error": "Email and password are required"}), 400
     
-    user = User.query.filter_by(email=data.get('email')).first()
+    # Check if username was provided instead of email
+    identifier = data.get('email')
+    user = User.query.filter_by(email=identifier).first()
     
     if user and user.check_password(data.get('password')):
         login_user(user)
