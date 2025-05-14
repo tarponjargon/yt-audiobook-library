@@ -62,6 +62,30 @@ function Layout() {
     .animate-slideDown {
       animation: slideDown 0.3s ease-in-out;
     }
+    
+    /* Dropdown menu styles */
+    .dropdown-container .dropdown-menu {
+      display: none;
+      transition: visibility 0.2s, opacity 0.2s;
+    }
+    
+    .dropdown-container:hover .dropdown-menu {
+      display: block;
+    }
+    
+    .dropdown-menu:hover {
+      display: block;
+    }
+    
+    /* Add a pseudo-element to create a hover bridge */
+    .dropdown-container:after {
+      content: "";
+      position: absolute;
+      height: 20px;
+      width: 100%;
+      bottom: -10px;
+      left: 0;
+    }
   `;
 
   return (
@@ -104,14 +128,14 @@ function Layout() {
 
               {/* Auth links */}
               {isAuthenticated ? (
-                <div className="relative group">
+                <div className="relative dropdown-container">
                   <button className="flex items-center space-x-1">
                     <span>{user.email}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
-                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10 hidden group-hover:block">
+                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10 dropdown-menu">
                     <Link to="/favorites" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                       My Favorites
                     </Link>
