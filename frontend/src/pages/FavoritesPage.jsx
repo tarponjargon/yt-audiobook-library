@@ -9,14 +9,14 @@ function FavoritesPage() {
   const [favorites, setFavorites] = useState([]);
   const [loading, setLoading] = useState(true);
   const { isAuthenticated } = useAuth();
-  
+
   useEffect(() => {
     const fetchFavorites = async () => {
       if (!isAuthenticated) return;
-      
+
       try {
         setLoading(true);
-        const response = await api.get('/api/favorites');
+        const response = await api.get('/favorites');
         setFavorites(response.data.audiobooks);
       } catch (error) {
         console.error('Error fetching favorites:', error);
@@ -25,10 +25,10 @@ function FavoritesPage() {
         setLoading(false);
       }
     };
-    
+
     fetchFavorites();
   }, [isAuthenticated]);
-  
+
   if (!isAuthenticated) {
     return (
       <div className="container mx-auto py-12 text-center">
@@ -37,7 +37,7 @@ function FavoritesPage() {
       </div>
     );
   }
-  
+
   if (loading) {
     return (
       <div className="flex justify-center items-center py-20">
@@ -45,7 +45,7 @@ function FavoritesPage() {
       </div>
     );
   }
-  
+
   return (
     <div className="container mx-auto py-8">
       <h1 className="text-3xl font-bold mb-8">My Favorites</h1>
