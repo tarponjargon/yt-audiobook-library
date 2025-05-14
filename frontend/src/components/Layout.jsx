@@ -36,7 +36,7 @@ function Layout() {
     window.addEventListener('scroll', handleScroll)
     // Check initial state
     handleScroll()
-    
+
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
@@ -67,11 +67,11 @@ function Layout() {
   return (
     <div className="min-h-screen flex flex-col">
       <style>{slideDownAnimation}</style>
-      <header 
+      <header
         ref={headerRef}
         className={`bg-white shadow-md ${
-          isSticky 
-            ? 'md:fixed md:top-0 md:left-0 md:right-0 md:z-50 md:animate-slideDown' 
+          isSticky
+            ? 'md:fixed md:top-0 md:left-0 md:right-0 md:z-50 md:animate-slideDown'
             : ''
         }`}
       >
@@ -101,12 +101,12 @@ function Layout() {
                   </button>
                 </div>
               </form>
-              
+
               {/* Auth links */}
               {isAuthenticated ? (
                 <div className="relative group">
                   <button className="flex items-center space-x-1">
-                    <span>{user.username}</span>
+                    <span>{user.email}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
@@ -115,8 +115,8 @@ function Layout() {
                     <Link to="/favorites" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                       My Favorites
                     </Link>
-                    <button 
-                      onClick={logout} 
+                    <button
+                      onClick={logout}
                       className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Logout
