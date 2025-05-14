@@ -10,8 +10,6 @@ const api = axios.create({
   },
 })
 
-export default api;
-
 // Add response interceptor to handle errors globally
 api.interceptors.response.use(
   response => response.data,
@@ -20,6 +18,8 @@ api.interceptors.response.use(
     return Promise.reject(error)
   }
 )
+
+export default api;
 
 // Auth functions
 export const loginUser = async (email, password) => {
