@@ -79,3 +79,20 @@ export const fetchAudiobookCount = async () => {
     return { count: 0 } // Return a default value if the API call fails
   }
 }
+
+// Favorites functions
+export const fetchFavorites = async () => {
+  return api.get('/favorites')
+}
+
+export const addFavorite = async (audiobookId) => {
+  return api.post(`/favorites/${audiobookId}`)
+}
+
+export const removeFavorite = async (audiobookId) => {
+  return api.delete(`/favorites/${audiobookId}`)
+}
+
+export const checkFavorite = async (audiobookId) => {
+  return api.get(`/favorites/check/${audiobookId}`)
+}
