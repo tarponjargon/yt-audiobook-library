@@ -17,7 +17,8 @@ function FavoritesPage() {
       try {
         setLoading(true);
         const response = await api.get('/favorites/');
-        setFavorites(response.data.audiobooks);
+        // Make sure we're handling the response data structure correctly
+        setFavorites(response.data.favorites || response.data.audiobooks || response.data || []);
       } catch (error) {
         console.error('Error fetching favorites:', error);
         toast.error('Failed to load favorites');
