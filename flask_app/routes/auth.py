@@ -8,8 +8,17 @@ auth = Blueprint("auth", __name__, url_prefix="/api/auth")
 def register():
     data = request.get_json()
     
+    # Validate required fields
+    if not data.get('email') or not data.get('password'):
+        return jsonify({"error": "Email and password are required"}), 400
+    
+    # Generate username from email if not provided
+    username = data.get('username')
+    if not username:
+        username = data.get('email').split('@')[0]
+    
     # Check if user already exists
-    if User.query.filter_by(username=data.get('username')).first():
+    if User.query.filter_by(username=username).first():
         return jsonify({"error": "Username already exists"}), 400
     
     if User.query.filter_by(email=data.get('email')).first():
@@ -17,7 +26,7 @@ def register():
     
     # Create new user
     user = User(
-        username=data.get('username'),
+        username=username,
         email=data.get('email')
     )
     user.set_password(data.get('password'))
@@ -34,7 +43,12 @@ def register():
 def login():
     data = request.get_json()
     
-    user = User.query.filter_by(username=data.get('username')).first()
+    # Try to find user by username or email
+    identifier = data.get('username') or data.get('email')
+    if not identifier:
+        return jsonify({"error": "Username or email is required"}), 400
+    
+    user = User.query.filter_by(username=identifier).first() or User.query.filter_by(email=identifier).first()
     
     if user and user.check_password(data.get('password')):
         login_user(user)
