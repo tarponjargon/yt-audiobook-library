@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import AudiobookModal from './AudiobookModal'
 import { useAuth } from '../context/AuthContext'
-import * as api from '../api'
+import api from '../api'
 import { toast } from 'react-hot-toast'
 
 function AudiobookCard({ audiobook }) {
@@ -18,8 +18,8 @@ function AudiobookCard({ audiobook }) {
       if (!isAuthenticated) return;
       
       try {
-        const response = await api.get(`/api/favorites/check/${audiobook.id}`);
-        setIsFavorite(response.data.is_favorite);
+        const response = await api.get(`/favorites/check/${audiobook.id}`);
+        setIsFavorite(response.is_favorite);
       } catch (error) {
         console.error('Error checking favorite status:', error);
       }
@@ -38,10 +38,10 @@ function AudiobookCard({ audiobook }) {
     
     try {
       if (isFavorite) {
-        await api.delete(`/api/favorites/${audiobook.id}`);
+        await api.delete(`/favorites/${audiobook.id}`);
         toast.success('Removed from favorites');
       } else {
-        await api.post(`/api/favorites/${audiobook.id}`);
+        await api.post(`/favorites/${audiobook.id}`);
         toast.success('Added to favorites');
       }
       setIsFavorite(!isFavorite);
