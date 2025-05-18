@@ -9,6 +9,17 @@ import logging
 import click
 
 
+@current_app.cli.command("add_books_full")
+@with_appcontext
+def add_books_full():
+    ctx = click.get_current_context()
+    ctx.invoke(add_books_by_author)
+    ctx.invoke(add_books_by_category)
+    ctx.invoke(add_books)
+    ctx.invoke(dedupe_books)
+    ctx.invoke(prune_books)
+
+
 @current_app.cli.command("add_author")
 @click.argument("author_name")
 @with_appcontext
@@ -36,6 +47,9 @@ def add_books_by_authors():
         print(f"Crawling YouTube for author: {author_name}")
         crawl_youtube(f'intitle:"audiobook" {author_name}', 3)
 
+    ctx = click.get_current_context()
+    ctx.invoke(dedupe_books)
+
 
 @current_app.cli.command("add_books_by_category")
 @with_appcontext
@@ -50,11 +64,16 @@ def add_books_by_category():
         category_name = category_name.replace(" and ", " ")
         crawl_youtube(f'intitle:"audiobook" {category_name}')
 
+    ctx = click.get_current_context()
+    ctx.invoke(dedupe_books)
+
 
 @current_app.cli.command("add_books")
 @with_appcontext
 def update_books():
     crawl_youtube(f'intitle:"audiobook"')
+    ctx = click.get_current_context()
+    ctx.invoke(dedupe_books)
 
 
 @current_app.cli.command("dedupe_books")
@@ -217,19 +236,21 @@ def set_category_sort_order():
     This is useful after adding the sort_order column to existing categories.
     """
     print("Setting default sort_order values for categories...")
-    
+
     # Get all categories
     categories = Category.query.order_by(Category.name).all()
     total_count = len(categories)
-    
+
     print(f"Found {total_count} categories to update")
-    
+
     # Set sort_order based on alphabetical order of names
     for i, category in enumerate(categories):
-        category.sort_order = i * 10  # Use increments of 10 to allow for later insertions
+        category.sort_order = (
+            i * 10
+        )  # Use increments of 10 to allow for later insertions
         print(f"Setting sort_order={i * 10} for category '{category.name}'")
-    
+
     # Commit all changes
     db.session.commit()
-    
+
     print(f"Successfully updated sort_order for {total_count} categories")
