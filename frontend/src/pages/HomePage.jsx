@@ -88,15 +88,15 @@ function HomePage() {
   return (
     <div>
       <section className="mb-10">
-        <h1 className="text-3xl font-bold mb-2">Welcome to YTAudiobookLib</h1>
+        <h1 className="text-3xl font-bold mb-2">Welcome to YT-Audiobooks</h1>
         <p className="text-gray-600 mb-2">
-          YTAudiobookLib helps you find audiobooks more easily. This web application collects audiobook information from YouTube and organizes it in a clean, searchable interface.
+          YT-Audiobooks helps you find audiobooks more easily. This web application collects audiobook information from YouTube and organizes it in a clean, searchable interface.
         </p>
         <p className="text-gray-600 font-semibold mb-6">
           Our library currently contains {totalBooks.toLocaleString()} audiobooks and growing!
         </p>
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 mb-6">
-          <h2 className="text-xl font-semibold mb-2">With YTAudiobookLib, you can:</h2>
+          <h2 className="text-xl font-semibold mb-2">With YT-Audiobooks, you can:</h2>
           <ul className="list-disc pl-5 space-y-1">
             <li>Browse audiobooks by category</li>
             <li>Search for specific titles or topics</li>

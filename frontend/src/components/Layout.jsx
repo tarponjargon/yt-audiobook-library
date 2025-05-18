@@ -62,21 +62,21 @@ function Layout() {
     .animate-slideDown {
       animation: slideDown 0.3s ease-in-out;
     }
-    
+
     /* Dropdown menu styles */
     .dropdown-container .dropdown-menu {
       display: none;
       transition: visibility 0.2s, opacity 0.2s;
     }
-    
+
     .dropdown-container:hover .dropdown-menu {
       display: block;
     }
-    
+
     .dropdown-menu:hover {
       display: block;
     }
-    
+
     /* Add a pseudo-element to create a hover bridge */
     .dropdown-container:after {
       content: "";
@@ -102,7 +102,7 @@ function Layout() {
         <div className="container py-4">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <Link to="/" className="text-2xl font-bold text-blue-600">
-              YTAudiobookLib
+              YT-Audiobooks
             </Link>
 
             <div className="flex items-center gap-4">
@@ -220,7 +220,7 @@ function Layout() {
 
       <footer className="bg-gray-100 py-6">
         <div className="container text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} YTAudiobookLib</p>
+          <p>&copy; {new Date().getFullYear()} YT-Audiobooks</p>
         </div>
       </footer>
     </div>
