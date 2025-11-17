@@ -5,6 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Project Overview
 
 This is a YouTube audiobook library application consisting of:
+
 - **Backend**: Flask application that scrapes YouTube for audiobooks, enriches metadata using Google Books API and LLM, and stores in PostgreSQL
 - **Frontend**: React/Vite application with TailwindCSS for browsing and searching the audiobook library
 
@@ -153,6 +154,7 @@ frontend/src/
 ### Database Models
 
 **Core Entities:**
+
 - `Audiobook`: YouTube video data enriched with metadata (title, author, categories, thumbnail, duration)
 - `Author`: Audiobook authors (many-to-one with Audiobook)
 - `Category`: Audiobook categories (many-to-many with Audiobook via `audiobook_categories`)
@@ -160,17 +162,20 @@ frontend/src/
 - `user_favorites`: Many-to-many association between Users and Audiobooks
 
 **Supporting Tables:**
+
 - `SkippedVideo`: Videos skipped during processing (with reason)
 - `YoutubeSearchState`: Stores pagination tokens for YouTube searches
 
 ### Key Processing Flow
 
 1. **YouTube Crawling** (`youtube_crawler.py`):
+
    - Uses Playwright with stealth mode to search YouTube
    - Parses video title, thumbnail, duration, video ID
    - Checks if video already exists or was previously skipped
 
 2. **Metadata Enrichment** (`modules/llm/book.py` and `google_books.py`):
+
    - LLM guesses book title, author, language, and categories from YouTube metadata
    - Google Books API called to enrich with additional data
    - Results stored in database with relationships
@@ -183,6 +188,7 @@ frontend/src/
 ## Environment Variables
 
 Required in `.env`:
+
 - `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`: PostgreSQL connection
 - `SECRET_KEY`: Flask secret key
 - `GOOGLE_BOOKS_API_KEY`: Google Books API access
@@ -214,3 +220,123 @@ Initial data dump available at `init_data/ytbooks_dump.sql` and loaded automatic
 - The application handles deleted YouTube videos via the `prune_books` command
 - Deduplication is title+author based, keeping the first record found
 - Flask uses SQLAlchemy with lazy loading optimization and logging disabled for better performance
+
+# Development Guidelines
+
+This document contains critical information about working with this codebase. Follow these guidelines precisely.
+
+## Core Development Rules
+
+1. Code Quality
+
+   - Type hints required for all code
+   - Public APIs must have docstrings
+   - Functions must be focused and small
+   - Follow existing patterns exactly
+   - Line length: 120 chars maximum
+
+2. Testing Requirements
+
+   - Coverage: test edge cases and errors
+   - New features require tests
+   - Bug fixes require regression tests
+
+3. Code Style
+
+   - PEP 8 naming (snake_case for functions/variables)
+   - Class names in PascalCase
+   - Constants in UPPER_SNAKE_CASE
+   - Document with docstrings
+   - Use f-strings for formatting
+
+4. Code quality
+
+   - You will follow the style of existing code
+   - Choose to write code of better quality
+   - Location of Python `import` statement should always be at the top of the file
+     - Unless there is an issue with circular dependency
+   - New Python functions should have signatures, even if signatures are missing for existing functions
+
+5. Language
+
+   - When writing documentation like README.md, use simple, plain, direct language and avoid corporate "braggy" or marketing words like "features" and "achievements" and "reliability" and "key".
+   - do not use utf8 icons
+
+6. Where to Put Tests and Exploratory Scripts
+
+- Exploration/test scripts → tests/exploration/
+- Test data (JSON) → tests/data/
+- Unit tests → tests/ (root of tests)
+
+## Development Philosophy
+
+- **Simplicity**: Write simple, straightforward code
+- **Readability**: Make code easy to understand
+- **Performance**: Consider performance without sacrificing readability
+- **Maintainability**: Write code that's easy to update
+- **Testability**: Ensure code is testable
+- **Reusability**: Create reusable components and functions
+- **Less Code = Less Debt**: Minimize code footprint
+- **No Fallbacks**: Minimize try/except and never write fallbacks.
+
+## Coding Best Practices
+
+- **Early Returns**: Use to avoid nested conditions
+- **Descriptive Names**: Use clear variable/function names (prefix handlers with "handle")
+- **Constants Over Functions**: Use constants where possible
+- **Functional Style**: Prefer functional, immutable approaches when not verbose
+- **Minimal Changes**: Only modify code related to the task at hand
+- **Function Ordering**: Define composing functions before their components
+- **TODO Comments**: Mark issues in existing code with "TODO:" prefix
+- **Simplicity**: Prioritize simplicity and readability over clever solutions
+- **Build Iteratively** Start with minimal functionality and verify it works before adding complexity
+- **Run Tests**: Test your code frequently with realistic inputs and validate outputs
+- **Build Test Environments**: Create testing environments for components that are difficult to validate directly
+- **Functional Code**: Use functional and stateless approaches where they improve clarity
+- **Clean logic**: Keep core logic clean and push implementation details to the edges
+- **File Organzation**: Balance file organization with simplicity - use an appropriate number of files for the project scale
+
+## Code Formatting
+
+1. Ruff
+   - Critical issues:
+     - Line length (120 chars)
+     - Import sorting (I001)
+     - Unused imports
+   - Line wrapping:
+     - Strings: use parentheses
+     - Function calls: multi-line with proper indent
+     - Imports: split into multiple lines
+
+## Error Resolution
+
+1. CI Failures
+
+   - Fix order:
+     1. Formatting
+     2. Type errors
+     3. Linting
+   - Type errors:
+     - Get full line context
+     - Check Optional types
+     - Add type narrowing
+     - Verify function signatures
+
+2. Common Issues
+
+   - Line length:
+     - Break strings with parentheses
+     - Multi-line function calls
+     - Split imports
+   - Types:
+     - Add None checks
+     - Narrow string types
+     - Match existing patterns
+
+3. Best Practices
+   - Keep changes minimal
+   - Follow existing patterns
+   - Document public APIs
+   - Test thoroughly
+
+\

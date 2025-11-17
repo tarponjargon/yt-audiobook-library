@@ -1,40 +1,68 @@
 import requests
 import os
-import click
+import time
+from typing import Optional, Dict, Any
 from rapidfuzz import fuzz, process as fuzz_process
 
 
-def get_book_info(book_title, author=None):
+def get_book_info(book_title: str, author: Optional[str] = None) -> Optional[Dict[str, Any]]:
     """
     Queries the Google Books API to find book details based on the book title.
-    (Added better error handling and validation)
+    Uses exponential backoff for rate limiting and transient errors.
+
+    Args:
+        book_title: The title of the book to search for
+        author: Optional author name to refine the search
+
+    Returns:
+        Dictionary with book info (title, author, description, thumbnail, rating) or None if not found
     """
     BOOKS_API_URL = os.getenv("BOOKS_API_URL")
+    MAX_RETRIES = 5
+    BASE_DELAY = 1.0
 
     query = f'intitle:"{book_title}"'
     if author:
         query += f' inauthor:"{author}"'
     params = {
-        "q": query,  # More specific title search
+        "q": query,
         "key": os.getenv("GOOGLE_BOOKS_API_KEY"),
-        "maxResults": 5,  # Limit results
-        "printType": "books",  # Search only for books
+        "maxResults": 5,
+        "printType": "books",
     }
 
-    try:
-        response = requests.get(BOOKS_API_URL, params=params)
-        response.raise_for_status()  # Check for HTTP errors
-    except requests.exceptions.RequestException as e:
-        print(f"\tError querying Google Books API for '{book_title}': {e}")
-        exit(1)
-    except requests.exceptions.HTTPError as e:
-        print(f"\tHTTP error querying Google Books API for '{book_title}': {e}")
-        exit(1)
-    except requests.exceptions.Timeout as e:
-        print(f"\tTimeout error querying Google Books API for '{book_title}': {e}")
-        exit(1)
+    data = None
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.get(BOOKS_API_URL, params=params, timeout=10)
+            response.raise_for_status()
+            data = response.json()
+            break
+        except requests.exceptions.HTTPError as e:
+            if response.status_code == 429 or response.status_code >= 500:
+                if attempt < MAX_RETRIES - 1:
+                    delay = BASE_DELAY * (2 ** attempt)
+                    print(f"\tRate limited or server error (HTTP {response.status_code}), retrying in {delay}s...")
+                    time.sleep(delay)
+                    continue
+            print(f"\tHTTP error querying Google Books API for '{book_title}': {e}")
+            return None
+        except requests.exceptions.Timeout as e:
+            if attempt < MAX_RETRIES - 1:
+                delay = BASE_DELAY * (2 ** attempt)
+                print(f"\tTimeout error, retrying in {delay}s...")
+                time.sleep(delay)
+                continue
+            print(f"\tTimeout error querying Google Books API for '{book_title}': {e}")
+            return None
+        except requests.exceptions.RequestException as e:
+            print(f"\tError querying Google Books API for '{book_title}': {e}")
+            return None
 
-    data = response.json()
+    if data is None:
+        print(f"\tFailed to get response from Google Books API after {MAX_RETRIES} attempts")
+        return None
+
     items = data.get("items")
 
     if not items:
