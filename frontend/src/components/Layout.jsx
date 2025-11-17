@@ -139,6 +139,9 @@ function Layout() {
                     <Link to="/favorites" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                       My Favorites
                     </Link>
+                    <Link to="/my-books" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                      My Books
+                    </Link>
                     <button
                       onClick={logout}
                       className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"

@@ -68,11 +68,13 @@ def create_app():
         from flask_app.routes.api import api
         from flask_app.routes.auth import auth
         from flask_app.routes.favorites import favorites
+        from flask_app.routes.user_books import user_books
 
         app.register_blueprint(views)
         app.register_blueprint(api)
         app.register_blueprint(auth)
         app.register_blueprint(favorites)
+        app.register_blueprint(user_books)
 
         # Import commands here so they register with the app context
         from .commands import books

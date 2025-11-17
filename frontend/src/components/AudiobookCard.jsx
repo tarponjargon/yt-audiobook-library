@@ -7,16 +7,17 @@ import { toast } from 'react-hot-toast'
 function AudiobookCard({ audiobook }) {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [isFavorite, setIsFavorite] = useState(false)
+  const [inMyBooks, setInMyBooks] = useState(false)
   const { isAuthenticated } = useAuth()
-  
+
   const openModal = () => setIsModalOpen(true)
   const closeModal = () => setIsModalOpen(false)
-  
+
   useEffect(() => {
     // Check if audiobook is in favorites
     const checkFavorite = async () => {
       if (!isAuthenticated) return;
-      
+
       try {
         const response = await api.get(`/favorites/check/${audiobook.id}`);
         setIsFavorite(response.is_favorite);
@@ -24,18 +25,31 @@ function AudiobookCard({ audiobook }) {
         console.error('Error checking favorite status:', error);
       }
     };
-    
+
+    // Check if audiobook is in My Books
+    const checkMyBooks = async () => {
+      if (!isAuthenticated) return;
+
+      try {
+        const response = await api.get(`/user-books/check/${audiobook.id}`);
+        setInMyBooks(response.in_library);
+      } catch (error) {
+        console.error('Error checking My Books status:', error);
+      }
+    };
+
     checkFavorite();
+    checkMyBooks();
   }, [audiobook.id, isAuthenticated]);
   
   const toggleFavorite = async (e) => {
-    e.stopPropagation(); // Prevent opening the modal
-    
+    e.stopPropagation();
+
     if (!isAuthenticated) {
       toast.info('Please login to add favorites');
       return;
     }
-    
+
     try {
       if (isFavorite) {
         await api.delete(`/favorites/${audiobook.id}`);
@@ -48,6 +62,28 @@ function AudiobookCard({ audiobook }) {
     } catch (error) {
       console.error('Error toggling favorite:', error);
       toast.error('Failed to update favorites');
+    }
+  };
+
+  const addToMyBooks = async (e) => {
+    e.stopPropagation();
+
+    if (!isAuthenticated) {
+      toast.info('Please login to add books to your library');
+      return;
+    }
+
+    if (inMyBooks) {
+      return;
+    }
+
+    try {
+      await api.post(`/user-books/${audiobook.id}`);
+      toast.success('Added to My Books');
+      setInMyBooks(true);
+    } catch (error) {
+      console.error('Error adding to My Books:', error);
+      toast.error('Failed to add to My Books');
     }
   };
 
@@ -106,6 +142,19 @@ function AudiobookCard({ audiobook }) {
               <p className="text-gray-600 text-sm mt-auto">
                 By {audiobook.author}
               </p>
+            )}
+            {isAuthenticated && (
+              <button
+                onClick={addToMyBooks}
+                disabled={inMyBooks}
+                className={`mt-2 w-full py-2 px-4 rounded text-sm font-medium transition-colors ${
+                  inMyBooks
+                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                    : 'bg-blue-500 text-white hover:bg-blue-600'
+                }`}
+              >
+                {inMyBooks ? 'Added' : 'Add to My Books'}
+              </button>
             )}
           </div>
         </div>

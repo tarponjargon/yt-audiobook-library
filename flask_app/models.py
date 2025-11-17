@@ -221,3 +221,43 @@ class User(db.Model, UserMixin):
             'email': self.email,
             'created_at': self.created_at.isoformat() if self.created_at else None
         }
+
+
+class UserBook(db.Model):
+    """Represents a book added to a user's library for MP3 download."""
+    __tablename__ = 'user_books'
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False, index=True)
+    audiobook_id = db.Column(db.Integer, db.ForeignKey('audiobooks.id'), nullable=False, index=True)
+    created_at = db.Column(db.DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    status = db.Column(
+        db.String(20),
+        nullable=False,
+        default='pending',
+        index=True
+    )
+    mp3_file_path = db.Column(db.String(512), nullable=True)
+
+    # Relationships
+    user = db.relationship('User', backref=db.backref('user_books', lazy='dynamic'))
+    audiobook = db.relationship('Audiobook', backref=db.backref('user_books', lazy='dynamic'))
+
+    # Unique constraint: one user can only add same audiobook once
+    __table_args__ = (
+        db.UniqueConstraint('user_id', 'audiobook_id', name='unique_user_audiobook'),
+    )
+
+    def __repr__(self):
+        return f'<UserBook user_id={self.user_id} audiobook_id={self.audiobook_id} status={self.status}>'
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'user_id': self.user_id,
+            'audiobook_id': self.audiobook_id,
+            'audiobook': self.audiobook.to_dict() if self.audiobook else None,
+            'created_at': self.created_at.isoformat() if self.created_at else None,
+            'status': self.status,
+            'mp3_file_path': self.mp3_file_path
+        }

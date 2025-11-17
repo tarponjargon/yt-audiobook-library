@@ -8,6 +8,7 @@ import NotFoundPage from './pages/NotFoundPage'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import FavoritesPage from './pages/FavoritesPage'
+import MyBooksPage from './pages/MyBooksPage'
 import { AuthProvider } from './context/AuthContext'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="login" element={<LoginPage />} />
           <Route path="register" element={<RegisterPage />} />
           <Route path="favorites" element={<FavoritesPage />} />
+          <Route path="my-books" element={<MyBooksPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
