@@ -102,4 +102,5 @@ def get_book_info(book_title, author=None):
         "author": final_authors[0] if final_authors else None,
         "description": full_description,
         "thumbnail": book_thumbnail_url,
+        "rating": volume_info.get("averageRating"),
     }

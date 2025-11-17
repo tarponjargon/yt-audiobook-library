@@ -180,6 +180,7 @@ def process_book_data(book):
         book["author"] = book_info.get("author")
         book["title"] = book_info.get("title")
         book["description"] = book_info.get("description")
+        book["rating"] = book_info.get("rating")
         if not book["thumbnail"]:
             book["thumbnail"] = book_info["thumbnail"]
 

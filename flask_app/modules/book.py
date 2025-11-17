@@ -37,6 +37,7 @@ def store_book_info(book_data):
             thumbnail=book_data.get("thumbnail"),
             # author=book_data.get("author"), # Author is now handled via relationship
             duration=book_data.get("duration"),
+            rating=book_data.get("rating"),
             # timestamp is handled by the model default
         )
 

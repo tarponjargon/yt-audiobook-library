@@ -130,6 +130,9 @@ class Audiobook(db.Model):
     duration = db.Column(
         db.Integer, nullable=True
     )  # Duration in seconds (if available from YT)
+    rating = db.Column(
+        db.Float, nullable=True
+    )  # Rating (e.g., 0.0 to 5.0)
     # Use timezone.utc for compatibility
     timestamp = db.Column(
         db.DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)
@@ -150,6 +153,7 @@ class Audiobook(db.Model):
             "author": self.author.name if self.author else None, # Access name via relationship
             "categories": [category.name for category in self.categories], # List of category names
             "duration": self.duration,
+            "rating": self.rating,
             "timestamp": (
                 self.timestamp.isoformat()
                 if isinstance(self.timestamp, datetime)

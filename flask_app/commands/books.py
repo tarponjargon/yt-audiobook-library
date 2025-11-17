@@ -31,7 +31,7 @@ def add_author(author_name):
 
 @current_app.cli.command("add_books_by_author")
 @with_appcontext
-def add_books_by_authors():
+def add_books_by_author():
 
     # Get all authors from the database
     authors = Author.query.with_entities(Author.name).all()
