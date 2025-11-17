@@ -21,15 +21,15 @@ def get_category_audiobooks(category_id):
     # Get pagination parameters
     page = request.args.get("page", 1, type=int)
     per_page = request.args.get("per_page", 10, type=int)
-    
+
     # Limit per_page to reasonable values
     per_page = min(max(per_page, 1), 50)
-    
+
     # Get the category
     category = Category.query.get_or_404(category_id)
-    
-    # Get paginated audiobooks for this category
-    audiobooks_query = category.audiobooks
+
+    # Get paginated audiobooks for this category, sorted by rating (DESC, nulls last)
+    audiobooks_query = category.audiobooks.order_by(Audiobook.rating.desc().nulls_last())
     total = audiobooks_query.count()
     audiobooks_paginated = audiobooks_query.paginate(page=page, per_page=per_page, error_out=False)
     
