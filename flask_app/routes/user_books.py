@@ -32,6 +32,11 @@ def add_user_book(audiobook_id: int):
     if existing:
         return jsonify({"error": "Book already in your library"}), 400
 
+    # Check if user already has 5 books
+    user_books_count = UserBook.query.filter_by(user_id=current_user.id).count()
+    if user_books_count >= 5:
+        return jsonify({"error": "You have reached the maximum of 5 books. Please delete at least 1 book."}), 400
+
     user_book = UserBook(
         user_id=current_user.id,
         audiobook_id=audiobook_id,

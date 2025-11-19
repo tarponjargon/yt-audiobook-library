@@ -88,7 +88,8 @@ function AudiobookCard({ audiobook }) {
       navigate('/my-books');
     } catch (error) {
       console.error('Error adding to My Books:', error);
-      toast.error('Failed to add to My Books');
+      const errorMessage = error.response?.data?.error || 'Failed to add to My Books';
+      toast.error(errorMessage);
     }
   };
 
