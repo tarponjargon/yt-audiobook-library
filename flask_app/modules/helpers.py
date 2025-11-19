@@ -1,6 +1,9 @@
 import unicodedata
 import html
 import re
+from typing import Optional
+from itsdangerous import URLSafeSerializer
+from flask import current_app
 
 
 def string_to_ascii(input_string):
@@ -51,3 +54,35 @@ def trim_and_reduce_whitespace(input_string):
     trimmed = reduced_whitespace.strip()
 
     return trimmed
+
+
+def encode_user_id(user_id: int) -> str:
+    """
+    Encode a user ID into a URL-safe token.
+
+    Args:
+        user_id: The user ID to encode
+
+    Returns:
+        URL-safe encoded token string
+    """
+    serializer = URLSafeSerializer(current_app.config['SECRET_KEY'])
+    return serializer.dumps({'user_id': user_id})
+
+
+def decode_user_id(token: str) -> Optional[int]:
+    """
+    Decode a URL-safe token to get the user ID.
+
+    Args:
+        token: The encoded token string
+
+    Returns:
+        User ID if valid, None if invalid or expired
+    """
+    try:
+        serializer = URLSafeSerializer(current_app.config['SECRET_KEY'])
+        data = serializer.loads(token)
+        return data.get('user_id')
+    except Exception:
+        return None

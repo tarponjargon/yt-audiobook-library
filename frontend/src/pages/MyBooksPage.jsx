@@ -9,17 +9,21 @@ function MyBooksPage() {
   const [books, setBooks] = useState([])
   const [loading, setLoading] = useState(true)
   const [deleteConfirm, setDeleteConfirm] = useState(null)
-  const { isAuthenticated } = useAuth()
+  const [rssUrl, setRssUrl] = useState('')
+  const { isAuthenticated, loading: authLoading } = useAuth()
   const navigate = useNavigate()
 
   useEffect(() => {
+    if (authLoading) return
+
     if (!isAuthenticated) {
       navigate('/login')
       return
     }
 
     fetchMyBooks()
-  }, [isAuthenticated, navigate])
+    fetchRssUrl()
+  }, [isAuthenticated, authLoading, navigate])
 
   // Separate effect for auto-refresh polling
   useEffect(() => {
@@ -47,6 +51,22 @@ function MyBooksPage() {
     } finally {
       setLoading(false)
     }
+  }
+
+  const fetchRssUrl = async () => {
+    try {
+      const data = await api.get('/user-books/rss-url')
+      console.log('RSS URL response:', data)
+      const baseUrl = window.location.origin.replace(':3001', ':5001')
+      setRssUrl(`${baseUrl}/rss-feed/${data.token}`)
+    } catch (error) {
+      console.error('Error fetching RSS URL:', error)
+    }
+  }
+
+  const copyRssUrl = () => {
+    navigator.clipboard.writeText(rssUrl)
+    toast.success('RSS feed URL copied to clipboard')
   }
 
   const handleDelete = async (bookId) => {
@@ -78,7 +98,7 @@ function MyBooksPage() {
     })
   }
 
-  if (loading) {
+  if (authLoading || loading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
         <Spinner />
@@ -89,6 +109,29 @@ function MyBooksPage() {
   return (
     <div className="max-w-6xl mx-auto">
       <h1 className="text-3xl font-bold mb-6">My Books</h1>
+
+      {rssUrl && (
+        <div className="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
+          <h2 className="text-lg font-semibold mb-2 text-blue-900">Podcast Feed</h2>
+          <p className="text-sm text-blue-700 mb-3">
+            Add this URL to your podcast app to listen to your books:
+          </p>
+          <div className="flex items-center gap-2">
+            <input
+              type="text"
+              readOnly
+              value={rssUrl}
+              className="flex-1 px-3 py-2 bg-white border border-blue-300 rounded text-sm font-mono"
+            />
+            <button
+              onClick={copyRssUrl}
+              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 whitespace-nowrap"
+            >
+              Copy URL
+            </button>
+          </div>
+        </div>
+      )}
 
       {books.length === 0 ? (
         <div className="text-center py-12">

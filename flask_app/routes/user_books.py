@@ -2,6 +2,7 @@ from flask import Blueprint, jsonify, request
 from flask_login import login_required, current_user
 from flask_app.models import UserBook, Audiobook, db
 from flask_app.modules.mp3_downloader import download_audiobook_mp3
+from flask_app.modules.helpers import encode_user_id
 import os
 
 user_books = Blueprint("user_books", __name__, url_prefix="/api/user-books")
@@ -85,3 +86,12 @@ def check_user_book(audiobook_id: int):
     ).first() is not None
 
     return jsonify({"in_library": exists})
+
+
+@user_books.route("/rss-url", methods=["GET"])
+@login_required
+def get_rss_url():
+    """Get the RSS feed token for the current user's library."""
+    token = encode_user_id(current_user.id)
+
+    return jsonify({"token": token})
