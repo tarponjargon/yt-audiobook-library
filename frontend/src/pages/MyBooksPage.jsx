@@ -56,17 +56,33 @@ function MyBooksPage() {
   const fetchRssUrl = async () => {
     try {
       const data = await api.get('/user-books/rss-url')
-      console.log('RSS URL response:', data)
-      const baseUrl = window.location.origin.replace(':3001', ':5001')
-      setRssUrl(`${baseUrl}/rss-feed/${data.token}`)
+      setRssUrl(`http://ytbooks.com:5001/rss-feed/${data.token}`)
     } catch (error) {
       console.error('Error fetching RSS URL:', error)
     }
   }
 
   const copyRssUrl = () => {
-    navigator.clipboard.writeText(rssUrl)
-    toast.success('RSS feed URL copied to clipboard')
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(rssUrl)
+      toast.success('RSS feed URL copied to clipboard')
+    } else {
+      // Fallback for non-secure contexts
+      const textArea = document.createElement('textarea')
+      textArea.value = rssUrl
+      textArea.style.position = 'fixed'
+      textArea.style.left = '-999999px'
+      document.body.appendChild(textArea)
+      textArea.focus()
+      textArea.select()
+      try {
+        document.execCommand('copy')
+        toast.success('RSS feed URL copied to clipboard')
+      } catch (err) {
+        toast.error('Failed to copy URL. Please copy manually.')
+      }
+      document.body.removeChild(textArea)
+    }
   }
 
   const handleDelete = async (bookId) => {
