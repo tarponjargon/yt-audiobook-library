@@ -21,6 +21,21 @@ function MyBooksPage() {
     fetchMyBooks()
   }, [isAuthenticated, navigate])
 
+  // Separate effect for auto-refresh polling
+  useEffect(() => {
+    const hasDownloading = books.some(book => book.status === 'downloading' || book.status === 'pending')
+
+    if (!hasDownloading) {
+      return
+    }
+
+    const interval = setInterval(() => {
+      fetchMyBooks()
+    }, 5000) // Refresh every 5 seconds if there are downloading books
+
+    return () => clearInterval(interval)
+  }, [books])
+
   const fetchMyBooks = async () => {
     try {
       setLoading(true)
@@ -126,14 +141,23 @@ function MyBooksPage() {
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
-                      book.status === 'completed' ? 'bg-green-100 text-green-800' :
-                      book.status === 'downloading' ? 'bg-yellow-100 text-yellow-800' :
-                      book.status === 'failed' ? 'bg-red-100 text-red-800' :
-                      'bg-gray-100 text-gray-800'
-                    }`}>
-                      {book.status}
-                    </span>
+                    <div className="flex items-center space-x-2">
+                      <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
+                        book.status === 'completed' ? 'bg-green-100 text-green-800' :
+                        book.status === 'downloading' ? 'bg-yellow-100 text-yellow-800' :
+                        book.status === 'failed' ? 'bg-red-100 text-red-800' :
+                        'bg-gray-100 text-gray-800'
+                      }`}>
+                        {book.status}
+                      </span>
+                      {(book.status === 'downloading' || book.status === 'pending') && (
+                        <div className="flex space-x-1">
+                          <div className="w-2 h-2 bg-yellow-500 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
+                          <div className="w-2 h-2 bg-yellow-500 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
+                          <div className="w-2 h-2 bg-yellow-500 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+                        </div>
+                      )}
+                    </div>
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                     {deleteConfirm === book.id ? (

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import AudiobookModal from './AudiobookModal'
 import { useAuth } from '../context/AuthContext'
 import api from '../api'
@@ -9,6 +10,7 @@ function AudiobookCard({ audiobook }) {
   const [isFavorite, setIsFavorite] = useState(false)
   const [inMyBooks, setInMyBooks] = useState(false)
   const { isAuthenticated } = useAuth()
+  const navigate = useNavigate()
 
   const openModal = () => setIsModalOpen(true)
   const closeModal = () => setIsModalOpen(false)
@@ -81,6 +83,9 @@ function AudiobookCard({ audiobook }) {
       await api.post(`/user-books/${audiobook.id}`);
       toast.success('Added to My Books');
       setInMyBooks(true);
+
+      // Redirect to My Books page using React Router
+      navigate('/my-books');
     } catch (error) {
       console.error('Error adding to My Books:', error);
       toast.error('Failed to add to My Books');

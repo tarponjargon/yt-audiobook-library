@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict l7hbL9zyLrTvQj3KkRuNtnfe2Fsrp5fLQ0WC9ROPBOIir52hZMZbVCxuyAvJ0In
+\restrict PufZkewiYHxxIwcTmx8S5Czdu0BWLQBthkde1t7GsFLPx35fEf6rfYECFofaBgi
 
 -- Dumped from database version 15.14
 -- Dumped by pg_dump version 15.14
@@ -944,7 +944,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 14587	9-9D9XJvy7E	49048	Through Fairy Halls of My Bookhouse	Through Fairy Halls of My Bookhouse - audio book Olive Beaupre MILLER (1883 - 1968) Full of delightful fairy tales, charming ...	https://i.ytimg.com/vi/9-9D9XJvy7E/hqdefault.jpg	2025-11-17 00:40:48.542596+00	2785	\N
 14588	0AA_9pRhbHs	26138	In the Nursery of My Bookhouse	Full of delightful nursery rhymes, charming poems and engaging stories, folk and fairy tales, this is the first volume of the "My ...	https://i.ytimg.com/vi/0AA_9pRhbHs/hqdefault.jpg	2025-11-17 00:40:52.065996+00	4011	\N
 14589	96INkcIWYOI	18528	From the Tower Window	From the Tower Window of My Bookhouse Audiobook Olive Beaupre MILLER From the Tower Window of My Bookhouse Olive ...	https://i.ytimg.com/vi/96INkcIWYOI/hqdefault.jpg	2025-11-17 00:40:55.309823+00	2785	\N
-14590	JlXeKo9Cmqc	22847	The Literary Sense	“The Literary Sense” is a 1903 collection of short stories for adults by Edith Nesbit (1858 – 1924). Nesbit was an English poet and author who published more than 60 children's books under the name E. Nesbit. She was also a political activist and co-founded the Fabian Society, which had a significant influence on the Labour Party and British politics in general. Other notable works by this author include: “The Prophet's Mantle” (1885), “Something Wrong” (1886), and “The Marden Mystery” (1896). Contents include: “The Unfaithful Lover”, “Rounding off a Scene”, “the Obvious”, “The Lie Absolute”, “The Girl with the Guitar”, “The Man with the Boots”, “The Second Best”, “A Holiday”, “The Force of Habit”. “The Brute”. “Dick, Tom and Harry”, “Miss Eden's Baby”. “The Lover, the Girl, and the Onlooker”, “The Duel”, “Cinderella”, “With an E”, “Under the New Moon”, etc. Many vintage books such as this are becoming increasingly scarce and expensive. It is with this in mind that we are republishing this volume now in an affordable, modern, high-quality edition complete with a specially-commissioned new biography of the author.\n\nCategories: Fiction	https://i.ytimg.com/vi/JlXeKo9Cmqc/hqdefault.jpg	2025-11-17 00:40:59.260783+00	744	\N
+14590	Jpb5IHjmGnA	22847	The Literary Sense	“The Literary Sense” is a 1903 collection of short stories for adults by Edith Nesbit (1858 – 1924). Nesbit was an English poet and author who published more than 60 children's books under the name E. Nesbit. She was also a political activist and co-founded the Fabian Society, which had a significant influence on the Labour Party and British politics in general. Other notable works by this author include: “The Prophet's Mantle” (1885), “Something Wrong” (1886), and “The Marden Mystery” (1896). Contents include: “The Unfaithful Lover”, “Rounding off a Scene”, “the Obvious”, “The Lie Absolute”, “The Girl with the Guitar”, “The Man with the Boots”, “The Second Best”, “A Holiday”, “The Force of Habit”. “The Brute”. “Dick, Tom and Harry”, “Miss Eden's Baby”. “The Lover, the Girl, and the Onlooker”, “The Duel”, “Cinderella”, “With an E”, “Under the New Moon”, etc. Many vintage books such as this are becoming increasingly scarce and expensive. It is with this in mind that we are republishing this volume now in an affordable, modern, high-quality edition complete with a specially-commissioned new biography of the author.\n\nCategories: Fiction	https://i.ytimg.com/vi/JlXeKo9Cmqc/hqdefault.jpg	2025-11-17 00:40:59.260783+00	744	\N
 \.
 
 
@@ -43992,6 +43992,7 @@ COPY public.skipped_videos (id, video_id, reason, "timestamp") FROM stdin;
 --
 
 COPY public.user_books (id, user_id, audiobook_id, created_at, status, mp3_file_path) FROM stdin;
+7	3	14590	2025-11-19 00:28:58.707377+00	completed	/app/flask_app/modules/../static/audiobooks/20251119_002858_The_Literary_Sense_E._Nesbit.mp3
 \.
 
 
@@ -44057,7 +44058,7 @@ SELECT pg_catalog.setval('public.skipped_videos_id_seq', 39095, true);
 -- Name: user_books_id_seq; Type: SEQUENCE SET; Schema: public; Owner: root
 --
 
-SELECT pg_catalog.setval('public.user_books_id_seq', 5, true);
+SELECT pg_catalog.setval('public.user_books_id_seq', 7, true);
 
 
 --
@@ -44292,5 +44293,5 @@ ALTER TABLE ONLY public.user_favorites
 -- PostgreSQL database dump complete
 --
 
-\unrestrict l7hbL9zyLrTvQj3KkRuNtnfe2Fsrp5fLQ0WC9ROPBOIir52hZMZbVCxuyAvJ0In
+\unrestrict PufZkewiYHxxIwcTmx8S5Czdu0BWLQBthkde1t7GsFLPx35fEf6rfYECFofaBgi
 
