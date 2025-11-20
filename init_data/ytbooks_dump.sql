@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict PufZkewiYHxxIwcTmx8S5Czdu0BWLQBthkde1t7GsFLPx35fEf6rfYECFofaBgi
+\restrict MjeM0mhU4z9jcZ3O8hi4lNeljeuSQ5EparegYkQewxkiXvXAHwpLSjJTMujmlyk
 
 -- Dumped from database version 15.14
 -- Dumped by pg_dump version 15.14
@@ -940,10 +940,10 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 14583	HHQCO7F3_9o	41527	The Pharaoh and the Priest: An Historical Novel of Ancient Egypt	In "The Pharaoh and the Priest," Boles≈Çaw Prus masterfully weaves a tale set in ancient Egypt, juxtaposing the lives of a powerful Pharaoh and a cunning priest as they navigate the intricacies of faith, power, and loyalty. Prus employs a rich, descriptive literary style that immerses the reader in the historical context of the time, while exploring themes of political intrigue and spiritual struggles. His acute attention to detail and character development invites comparisons to other literary works of realism, highlighting the complexities of human relationships against a backdrop of cultural heritage and tradition. Boles≈Çaw Prus, a prominent figure in Polish literature and a leading light of the positivist movement, was deeply influenced by his own experiences and the socio-political climate of 19th-century Poland. His extensive travels and keen observations of social dynamics provided him with fertile ground for the exploration of moral dilemmas and the quest for truth, which are reflected vividly in "The Pharaoh and the Priest." Prus'Äôs background as a journalist and social commentator further enriches the narrative, allowing for layers of insight into the human condition. For readers seeking a profound exploration of the dichotomy between the sacred and the secular, "The Pharaoh and the Priest" is an essential read. Its intricate plot and multifaceted characters offer both entertainment and a thoughtful examination of the moral complexities of power and belief. Prus's historical analysis resonates, inviting readers to reflect on contemporary issues through the lens of ancient wisdom.\n\nCategories: Fiction	https://i.ytimg.com/vi/HHQCO7F3_9o/hqdefault.jpg	2025-11-17 00:40:31.837158+00	4010	\N
 14584	OLosnTawO5E	26139	In the Nursery of My Bookhouse	In the Nursery of My Bookhouse VARIOUS ( - ) and Olive Beaupre MILLER (1883 - 1968) Full of delightful nursery rhymes, ...	https://i.ytimg.com/vi/OLosnTawO5E/hqdefault.jpg	2025-11-17 00:40:37.321908+00	4011	\N
 14585	DUmza7HN_yE	26146	In the Nursery of My Bookhouse	Audiobook.	https://i.ytimg.com/vi/DUmza7HN_yE/hqdefault.jpg	2025-11-17 00:40:40.148619+00	2785	\N
-14586	zIX19ZVB6MY	26211	In the Nursery of My Bookhouse	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. In the Nursery of My ...	https://i.ytimg.com/vi/zIX19ZVB6MY/hqdefault.jpg	2025-11-17 00:40:43.989275+00	4011	\N
-14587	9-9D9XJvy7E	49048	Through Fairy Halls of My Bookhouse	Through Fairy Halls of My Bookhouse - audio book Olive Beaupre MILLER (1883 - 1968) Full of delightful fairy tales, charming ...	https://i.ytimg.com/vi/9-9D9XJvy7E/hqdefault.jpg	2025-11-17 00:40:48.542596+00	2785	\N
-14588	0AA_9pRhbHs	26138	In the Nursery of My Bookhouse	Full of delightful nursery rhymes, charming poems and engaging stories, folk and fairy tales, this is the first volume of the "My ...	https://i.ytimg.com/vi/0AA_9pRhbHs/hqdefault.jpg	2025-11-17 00:40:52.065996+00	4011	\N
-14589	96INkcIWYOI	18528	From the Tower Window	From the Tower Window of My Bookhouse Audiobook Olive Beaupre MILLER From the Tower Window of My Bookhouse Olive ...	https://i.ytimg.com/vi/96INkcIWYOI/hqdefault.jpg	2025-11-17 00:40:55.309823+00	2785	\N
+14588	lHpa62eTUTg	26138	MacGruber	Full of delightful nursery rhymes, charming poems and engaging stories, folk and fairy tales, this is the first volume of the "My ...	https://i.ytimg.com/vi/0AA_9pRhbHs/hqdefault.jpg	2025-11-17 00:40:52.065996+00	4011	\N
+14587	lNzWTBc-qi0	49048	Trump	Through Fairy Halls of My Bookhouse - audio book Olive Beaupre MILLER (1883 - 1968) Full of delightful fairy tales, charming ...	https://i.ytimg.com/vi/9-9D9XJvy7E/hqdefault.jpg	2025-11-17 00:40:48.542596+00	2785	\N
+14589	m9KbmRTgigQ	18528	The Sword	From the Tower Window of My Bookhouse Audiobook Olive Beaupre MILLER From the Tower Window of My Bookhouse Olive ...	https://i.ytimg.com/vi/96INkcIWYOI/hqdefault.jpg	2025-11-17 00:40:55.309823+00	2785	\N
+14586	5uLqJxQgJfQ	26211	Freya	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. In the Nursery of My ...	https://i.ytimg.com/vi/zIX19ZVB6MY/hqdefault.jpg	2025-11-17 00:40:43.989275+00	4011	\N
 14590	Jpb5IHjmGnA	22847	The Literary Sense	“The Literary Sense” is a 1903 collection of short stories for adults by Edith Nesbit (1858 – 1924). Nesbit was an English poet and author who published more than 60 children's books under the name E. Nesbit. She was also a political activist and co-founded the Fabian Society, which had a significant influence on the Labour Party and British politics in general. Other notable works by this author include: “The Prophet's Mantle” (1885), “Something Wrong” (1886), and “The Marden Mystery” (1896). Contents include: “The Unfaithful Lover”, “Rounding off a Scene”, “the Obvious”, “The Lie Absolute”, “The Girl with the Guitar”, “The Man with the Boots”, “The Second Best”, “A Holiday”, “The Force of Habit”. “The Brute”. “Dick, Tom and Harry”, “Miss Eden's Baby”. “The Lover, the Girl, and the Onlooker”, “The Duel”, “Cinderella”, “With an E”, “Under the New Moon”, etc. Many vintage books such as this are becoming increasingly scarce and expensive. It is with this in mind that we are republishing this volume now in an affordable, modern, high-quality edition complete with a specially-commissioned new biography of the author.\n\nCategories: Fiction	https://i.ytimg.com/vi/JlXeKo9Cmqc/hqdefault.jpg	2025-11-17 00:40:59.260783+00	744	\N
 \.
 
@@ -43992,7 +43992,11 @@ COPY public.skipped_videos (id, video_id, reason, "timestamp") FROM stdin;
 --
 
 COPY public.user_books (id, user_id, audiobook_id, created_at, status, mp3_file_path) FROM stdin;
-7	3	14590	2025-11-19 00:28:58.707377+00	completed	/app/flask_app/modules/../static/audiobooks/20251119_002858_The_Literary_Sense_E._Nesbit.mp3
+14	3	14590	2025-11-19 01:34:41.088723+00	completed	/app/flask_app/modules/../static/audiobooks/20251119_013441_The_Literary_Sense_E._Nesbit.mp3
+15	3	14587	2025-11-19 01:34:52.783215+00	completed	/app/flask_app/modules/../static/audiobooks/20251119_013452_Trump_Olive_Beaupre_Miller.mp3
+16	3	14588	2025-11-19 01:35:17.607536+00	completed	/app/flask_app/modules/../static/audiobooks/20251119_013517_MacGruber_Olive_Beaupre_MILLER.mp3
+17	3	14589	2025-11-19 01:35:31.505861+00	completed	/app/flask_app/modules/../static/audiobooks/20251119_013531_The_Sword_Olive_Beaupre_Miller.mp3
+18	3	14586	2025-11-19 01:36:20.422876+00	completed	/app/flask_app/modules/../static/audiobooks/20251119_013620_Freya_Olive_Beaupre_MILLER.mp3
 \.
 
 
@@ -44058,7 +44062,7 @@ SELECT pg_catalog.setval('public.skipped_videos_id_seq', 39095, true);
 -- Name: user_books_id_seq; Type: SEQUENCE SET; Schema: public; Owner: root
 --
 
-SELECT pg_catalog.setval('public.user_books_id_seq', 7, true);
+SELECT pg_catalog.setval('public.user_books_id_seq', 18, true);
 
 
 --
@@ -44293,5 +44297,5 @@ ALTER TABLE ONLY public.user_favorites
 -- PostgreSQL database dump complete
 --
 
-\unrestrict PufZkewiYHxxIwcTmx8S5Czdu0BWLQBthkde1t7GsFLPx35fEf6rfYECFofaBgi
+\unrestrict MjeM0mhU4z9jcZ3O8hi4lNeljeuSQ5EparegYkQewxkiXvXAHwpLSjJTMujmlyk
 

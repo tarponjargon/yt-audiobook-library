@@ -47,7 +47,7 @@ def register_extensions(app):
     bcrypt.init_app(app)
 
     # Enable CORS for all routes
-    CORS(app, supports_credentials=True, origins=['http://ytbooks.com:3001', 'http://localhost:3001'])
+    CORS(app, supports_credentials=True, origins=['http://ytbooks.com', 'http://localhost:3001', 'http://localhost'])
 
 
 def create_app():
