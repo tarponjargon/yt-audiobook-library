@@ -8,5 +8,11 @@ export default defineConfig({
     port: 3000,
     host: true,
     allowedHosts: ['ytbooks.com', 'localhost'],
+    proxy: {
+      '/rss-feed': {
+        target: 'http://flask-app:5000',
+        changeOrigin: true,
+      },
+    },
   },
 });

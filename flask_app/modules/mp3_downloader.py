@@ -99,7 +99,7 @@ def _download_worker(user_book_id: int) -> None:
                 '--ffmpeg-location', '/usr/bin/ffmpeg',
                 '-o', output_path.replace('.mp3', '.%(ext)s'),
                 youtube_url
-            ], capture_output=False, text=True, timeout=3600)
+            ], capture_output=False, text=True, timeout=14400)
 
             print(f"[MP3 Download] yt-dlp exit code: {result.returncode}")
             if result.stdout:

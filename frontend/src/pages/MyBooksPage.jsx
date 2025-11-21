@@ -56,32 +56,51 @@ function MyBooksPage() {
   const fetchRssUrl = async () => {
     try {
       const data = await api.get('/user-books/rss-url')
-      setRssUrl(`http://ytbooks.com:5001/rss-feed/${data.token}`)
+      setRssUrl(`http://ytbooks.com/rss-feed/${data.token}`)
     } catch (error) {
       console.error('Error fetching RSS URL:', error)
     }
   }
 
-  const copyRssUrl = () => {
+  const copyRssUrl = (e) => {
+    if (e) {
+      e.preventDefault()
+      e.stopPropagation()
+    }
+
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(rssUrl)
-      toast.success('RSS feed URL copied to clipboard')
+        .then(() => toast.success('RSS feed URL copied to clipboard'))
+        .catch(() => {
+          // Fallback if clipboard fails
+          fallbackCopy()
+        })
     } else {
-      // Fallback for non-secure contexts
+      fallbackCopy()
+    }
+  }
+
+  const fallbackCopy = () => {
+    try {
       const textArea = document.createElement('textarea')
       textArea.value = rssUrl
       textArea.style.position = 'fixed'
       textArea.style.left = '-999999px'
+      textArea.style.top = '0'
       document.body.appendChild(textArea)
       textArea.focus()
       textArea.select()
-      try {
-        document.execCommand('copy')
+
+      const successful = document.execCommand('copy')
+      document.body.removeChild(textArea)
+
+      if (successful) {
         toast.success('RSS feed URL copied to clipboard')
-      } catch (err) {
+      } else {
         toast.error('Failed to copy URL. Please copy manually.')
       }
-      document.body.removeChild(textArea)
+    } catch (err) {
+      toast.error('Failed to copy URL. Please copy manually.')
     }
   }
 
