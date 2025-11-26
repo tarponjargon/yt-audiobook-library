@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 5m5kqbPa7x8krLGW9E4bwaaFXAw4BKJA0ZbZJkr7UpJzHEttbzRX0AxwNrzVWF1
+\restrict OlG8WCuMRrdZ9H5nhIcl1aNzuZQDwCGrJekilyJHxRiIP5iBa71hBleEKVsgWkN
 
 -- Dumped from database version 15.14
 -- Dumped by pg_dump version 15.14
@@ -5609,6 +5609,1511 @@ COPY public.audiobook_categories (audiobook_id, category_id) FROM stdin;
 18348	39
 18348	40
 18349	40
+18350	28
+18350	29
+18351	28
+18351	31
+18351	37
+18352	28
+18353	28
+18354	27
+18355	31
+18355	28
+18356	29
+18356	33
+18358	40
+18359	36
+18360	29
+18360	31
+18361	36
+18362	27
+18363	31
+18364	28
+18365	31
+18365	28
+18366	27
+18367	29
+18367	33
+18368	29
+18368	35
+18369	36
+18370	27
+18371	27
+18372	28
+18372	29
+18373	29
+18374	29
+18374	36
+18375	29
+18375	36
+18376	29
+18376	36
+18377	40
+18378	27
+18379	27
+18380	29
+18380	33
+18381	29
+18381	33
+18382	27
+18383	31
+18383	28
+18384	29
+18384	27
+18385	29
+18385	39
+18386	29
+18387	29
+18388	28
+18389	29
+18390	27
+18391	29
+18391	39
+18392	28
+18392	29
+18393	29
+18393	39
+18394	28
+18395	31
+18396	31
+18397	29
+18398	28
+18399	34
+18399	29
+18400	28
+18401	40
+18401	29
+18402	29
+18402	27
+18403	29
+18404	29
+18404	27
+18405	36
+18405	29
+18406	31
+18407	29
+18407	39
+18408	28
+18409	28
+18409	31
+18410	29
+18411	28
+18412	29
+18413	31
+18413	29
+18414	29
+18415	40
+18415	29
+18416	39
+18417	28
+18418	39
+18419	39
+18420	28
+18420	32
+18421	39
+18422	29
+18423	29
+18423	40
+18424	28
+18425	29
+18425	40
+18426	39
+18426	29
+18427	39
+18428	39
+18429	39
+18430	39
+18431	39
+18432	39
+18433	28
+18433	29
+18434	39
+18435	28
+18436	39
+18437	29
+18437	40
+18438	28
+18439	28
+18440	39
+18441	39
+18442	29
+18442	27
+18443	27
+18444	28
+18444	35
+18445	39
+18446	36
+18447	28
+18448	39
+18449	29
+18450	28
+18451	29
+18452	39
+18453	28
+18453	29
+18454	31
+18454	28
+18455	28
+18456	30
+18457	30
+18458	28
+18458	31
+18459	30
+18459	29
+18460	29
+18461	31
+18461	28
+18462	31
+18463	31
+18464	31
+18464	28
+18465	31
+18466	31
+18467	28
+18468	29
+18469	27
+18470	31
+18470	28
+18471	29
+18471	40
+18472	29
+18473	29
+18474	29
+18475	29
+18476	28
+18476	37
+18477	29
+18478	29
+18479	29
+18480	28
+18480	35
+18481	37
+18482	28
+18482	29
+18483	35
+18484	29
+18484	27
+18485	28
+18486	35
+18488	35
+18489	35
+18490	28
+18491	29
+18492	29
+18493	27
+18494	29
+18494	27
+18495	29
+18495	27
+18496	29
+18497	29
+18497	40
+18498	29
+18499	29
+18500	29
+18501	29
+18502	29
+18503	27
+18503	28
+18503	29
+18504	27
+18505	28
+18505	32
+18506	27
+18507	28
+18507	27
+18508	27
+18509	28
+18509	29
+18510	27
+18510	31
+18511	27
+18512	27
+18513	28
+18513	29
+18513	27
+18514	29
+18514	27
+18515	28
+18515	29
+18515	27
+18516	27
+18517	29
+18517	27
+18518	27
+18519	29
+18519	27
+18520	39
+18521	39
+18521	29
+18522	29
+18522	36
+18523	28
+18523	29
+18524	27
+18525	39
+18525	29
+18526	27
+18527	28
+18527	29
+18529	27
+18530	29
+18531	29
+18531	27
+18532	28
+18532	29
+18533	29
+18533	27
+18534	28
+18534	29
+18535	27
+18536	27
+18537	27
+18538	28
+18538	29
+18539	27
+18539	28
+18539	29
+18540	28
+18540	29
+18541	35
+18541	28
+18541	29
+18542	27
+18542	28
+18543	28
+18543	29
+18544	27
+18544	28
+18545	27
+18546	28
+18546	29
+18547	28
+18547	27
+18549	29
+18549	40
+18550	28
+18551	28
+18552	31
+18553	28
+18554	31
+18554	28
+18555	31
+18555	29
+18556	28
+18557	28
+18558	28
+18558	29
+18559	29
+18559	40
+18560	29
+18562	28
+18563	28
+18564	31
+18565	31
+18566	28
+18567	31
+18568	31
+18569	28
+18570	29
+18571	28
+18573	31
+18575	29
+18575	40
+18576	28
+18577	28
+18577	35
+18578	28
+18578	35
+18580	28
+18580	35
+18581	28
+18582	28
+18583	28
+18583	35
+18584	28
+18585	28
+18586	28
+18587	28
+18588	28
+18589	34
+18589	29
+18590	28
+18591	28
+18592	28
+18593	29
+18594	28
+18595	29
+18596	28
+18597	35
+18598	28
+18599	35
+18600	35
+18601	29
+18602	37
+18603	37
+18604	39
+18604	29
+18605	29
+18606	27
+18607	39
+18608	28
+18609	27
+18610	31
+18611	31
+18612	31
+18613	29
+18614	31
+18615	31
+18616	31
+18617	31
+18618	28
+18618	32
+18619	31
+18620	31
+18620	28
+18621	31
+18622	31
+18623	31
+18623	28
+18624	35
+18625	35
+18626	39
+18627	39
+18628	39
+18629	39
+18630	39
+18631	39
+18632	39
+18633	39
+18634	40
+18635	28
+18636	29
+18636	40
+18637	29
+18637	40
+18638	39
+18639	29
+18639	33
+18640	27
+18640	29
+18641	29
+18642	28
+18643	29
+18644	28
+18645	39
+18645	29
+18646	28
+18647	28
+18648	29
+18648	28
+18649	28
+18650	29
+18651	29
+18651	27
+18652	28
+18652	29
+18653	29
+18653	27
+18654	28
+18655	35
+18656	29
+18656	28
+18657	29
+18657	40
+18658	29
+18658	33
+18659	29
+18660	28
+18661	35
+18662	35
+18663	40
+18663	29
+18664	29
+18665	27
+18666	27
+18667	28
+18668	27
+18669	31
+18669	28
+18670	28
+18671	28
+18672	39
+18673	28
+18673	29
+18674	31
+18674	28
+18675	28
+18676	28
+18677	28
+18679	28
+18680	27
+18681	31
+18681	28
+18682	29
+18683	28
+18684	28
+18685	28
+18686	28
+18687	38
+18688	28
+18689	28
+18689	38
+18690	38
+18691	27
+18692	27
+18693	28
+18694	27
+18695	28
+18695	29
+18696	29
+18697	28
+18698	28
+18699	31
+18699	28
+18700	28
+18701	29
+18702	28
+18703	28
+18704	27
+18705	28
+18705	27
+18706	27
+18707	28
+18708	31
+18708	28
+18709	28
+18710	28
+18710	27
+18711	27
+18712	28
+18712	27
+18713	29
+18714	28
+18715	27
+18716	40
+18716	29
+18716	27
+18717	29
+18717	27
+18718	40
+18718	29
+18719	40
+18720	40
+18721	40
+18721	29
+18722	40
+18723	40
+18723	27
+18724	40
+18725	40
+18725	29
+18725	27
+18726	40
+18727	40
+18728	27
+18729	40
+18730	40
+18731	40
+18732	40
+18733	40
+18734	40
+18735	40
+18736	40
+18737	29
+18737	27
+18738	40
+18738	29
+18739	29
+18739	40
+18740	27
+18741	29
+18742	29
+18742	40
+18743	28
+18744	29
+18744	27
+18745	27
+18745	40
+18745	28
+18746	29
+18747	29
+18747	40
+18749	28
+18750	39
+18751	39
+18752	36
+18752	37
+18752	29
+18754	28
+18755	28
+18755	29
+18755	36
+18756	29
+18757	28
+18758	28
+18759	29
+18760	27
+18761	28
+18762	28
+18763	29
+18764	34
+18765	28
+18766	28
+18766	29
+18766	37
+18767	28
+18768	28
+18769	28
+18770	35
+18771	27
+18772	27
+18772	31
+18773	27
+18774	27
+18775	27
+18776	27
+18777	27
+18778	27
+18779	27
+18780	27
+18781	27
+18782	27
+18783	27
+18784	27
+18785	27
+18785	29
+18786	31
+18787	31
+18788	31
+18789	31
+18790	31
+18791	31
+18792	31
+18793	31
+18794	31
+18795	31
+18796	31
+18797	31
+18798	31
+18799	31
+18800	31
+18801	31
+18802	31
+18803	31
+18804	31
+18805	31
+18806	31
+18807	31
+18808	31
+18809	31
+18810	31
+18811	31
+18812	31
+18813	31
+18813	28
+18814	28
+18815	31
+18815	28
+18816	31
+18817	31
+18818	31
+18819	31
+18820	31
+18821	31
+18822	31
+18823	31
+18824	31
+18825	31
+18826	31
+18827	31
+18828	31
+18829	31
+18830	31
+18831	35
+18833	28
+18834	36
+18834	29
+18835	29
+18835	36
+18836	36
+18837	36
+18838	36
+18838	29
+18839	36
+18839	29
+18840	36
+18841	36
+18841	29
+18842	36
+18843	36
+18844	36
+18844	29
+18845	36
+18845	29
+18846	36
+18847	36
+18847	29
+18848	36
+18848	29
+18849	36
+18850	27
+18850	36
+18851	36
+18851	29
+18852	36
+18852	29
+18853	36
+18853	29
+18854	36
+18854	29
+18855	36
+18856	27
+18856	36
+18857	27
+18857	36
+18858	27
+18858	36
+18859	27
+18859	36
+18860	36
+18860	29
+18861	36
+18861	29
+18862	36
+18863	36
+18863	29
+18864	36
+18864	29
+18865	28
+18866	31
+18867	31
+18867	28
+18868	28
+18869	28
+18870	35
+18871	37
+18872	28
+18873	28
+18874	37
+18875	28
+18876	31
+18876	28
+18877	31
+18877	28
+18878	31
+18878	29
+18879	31
+18880	31
+18880	29
+18881	28
+18881	31
+18882	31
+18883	31
+18883	28
+18884	31
+18884	28
+18885	31
+18885	28
+18886	31
+18886	28
+18887	28
+18888	28
+18888	31
+18889	27
+18889	31
+18890	31
+18890	28
+18890	29
+18891	27
+18891	31
+18891	28
+18892	28
+18892	31
+18893	28
+18894	31
+18894	29
+18895	27
+18896	31
+18896	28
+18896	29
+18897	27
+18897	31
+18898	27
+18898	31
+18899	31
+18899	28
+18900	27
+18901	31
+18901	28
+18902	27
+18903	28
+18904	27
+18905	27
+18906	28
+18907	28
+18908	28
+18908	40
+18909	28
+18910	40
+18910	28
+18911	28
+18912	28
+18913	40
+18913	39
+18914	28
+18915	28
+18916	28
+18917	28
+18918	28
+18918	29
+18919	28
+18920	31
+18920	28
+18921	28
+18922	28
+18923	28
+18924	28
+18925	28
+18926	27
+18926	40
+18927	28
+18928	28
+18929	28
+18930	28
+18931	28
+18932	28
+18934	28
+18935	28
+18936	28
+18937	28
+18938	28
+18939	29
+18940	40
+18940	29
+18941	29
+18942	40
+18942	29
+18943	40
+18943	29
+18944	29
+18944	40
+18945	28
+18945	29
+18946	27
+18946	28
+18947	39
+18948	28
+18948	29
+18949	28
+18949	29
+18950	28
+18950	29
+18951	36
+18952	27
+18952	28
+18952	29
+18953	27
+18954	27
+18954	28
+18955	29
+18955	27
+18956	28
+18956	29
+18957	28
+18957	29
+18958	40
+18959	29
+18959	40
+18960	29
+18960	40
+18961	40
+18961	29
+18962	28
+18962	29
+18963	28
+18963	29
+18964	39
+18965	29
+18966	29
+18967	29
+18967	40
+18968	29
+18969	29
+18969	40
+18970	40
+18971	40
+18972	29
+18973	29
+18974	39
+18975	39
+18976	29
+18977	29
+18977	40
+18978	29
+18979	39
+18980	29
+18981	29
+18982	29
+18983	29
+18983	27
+18984	29
+18985	29
+18986	39
+18987	29
+18988	29
+18989	39
+18990	39
+18991	39
+18991	29
+18992	39
+18993	29
+18993	40
+18994	39
+18994	29
+18995	39
+18996	29
+18996	39
+18997	39
+18998	40
+18999	40
+19000	40
+19001	40
+19002	40
+19003	29
+19004	39
+19004	29
+19005	29
+19006	39
+19007	30
+19008	39
+19009	39
+19009	30
+19009	29
+19010	30
+19011	37
+19013	39
+19014	28
+19014	29
+19015	29
+19016	29
+19016	40
+19017	35
+19018	35
+19019	28
+19019	35
+19020	29
+19021	35
+19022	28
+19022	35
+19023	28
+19023	35
+19024	35
+19025	35
+19026	28
+19027	28
+19028	28
+19028	35
+19029	28
+19030	29
+19030	40
+19031	34
+19032	27
+19032	28
+19032	29
+19033	27
+19034	28
+19035	28
+19036	31
+19036	29
+19037	29
+19037	31
+19038	28
+19039	28
+19040	29
+19040	36
+19041	28
+19042	28
+19043	31
+19044	31
+19044	28
+19045	28
+19046	28
+19047	29
+19048	28
+19049	35
+19050	27
+19050	28
+19051	27
+19052	28
+19053	28
+19054	27
+19055	28
+19057	28
+19058	28
+19059	28
+19060	27
+19060	28
+19061	28
+19061	29
+19061	40
+19062	28
+19063	27
+19064	28
+19065	28
+19066	27
+19067	28
+19068	27
+19069	28
+19070	28
+19071	28
+19072	28
+19072	38
+19073	28
+19073	38
+19074	27
+19075	28
+19076	28
+19077	28
+19079	28
+19079	32
+19080	29
+19080	40
+19081	29
+19081	40
+19082	40
+19082	29
+19083	37
+19084	29
+19085	29
+19086	29
+19087	29
+19088	28
+19089	29
+19090	36
+19091	28
+19091	29
+19091	38
+19092	28
+19092	35
+19093	31
+19094	29
+19095	29
+19095	39
+19096	29
+19097	29
+19097	36
+19099	29
+19099	36
+19100	35
+19101	35
+19102	35
+19103	35
+19104	35
+19105	28
+19106	35
+19107	35
+19108	35
+19109	35
+19110	29
+19111	28
+19112	35
+19113	28
+19113	35
+19114	29
+19115	28
+19115	35
+19116	28
+19117	35
+19118	35
+19119	35
+19120	28
+19121	28
+19122	35
+19123	35
+19124	35
+19125	35
+19126	28
+19126	35
+19127	28
+19127	35
+19128	29
+19129	35
+19130	35
+19131	35
+19132	28
+19133	33
+19134	28
+19135	31
+19136	31
+19137	28
+19138	28
+19140	28
+19141	28
+19142	31
+19142	28
+19143	28
+19143	31
+19144	31
+19144	28
+19145	31
+19145	28
+19146	31
+19147	31
+19148	29
+19150	31
+19151	28
+19152	37
+19153	28
+19154	31
+19154	28
+19155	27
+19156	29
+19156	36
+19157	28
+19158	28
+19158	36
+19159	28
+19162	28
+19163	31
+19163	28
+19164	28
+19165	28
+19166	31
+19167	31
+19167	28
+19168	31
+19169	37
+19169	31
+19170	31
+19170	28
+19171	40
+19172	29
+19173	31
+19173	29
+19174	28
+19175	29
+19176	36
+19177	27
+19178	28
+19178	35
+19179	36
+19179	29
+19180	28
+19181	27
+19182	28
+19183	28
+19184	28
+19185	28
+19186	29
+19186	40
+19187	28
+19188	27
+19188	28
+19189	29
+19189	40
+19190	31
+19190	28
+19191	28
+19191	29
+19191	31
+19192	28
+19193	27
+19194	29
+19194	40
+19195	29
+19195	34
+19196	31
+19196	28
+19197	28
+19198	27
+19199	27
+19200	27
+19200	28
+19201	29
+19201	36
+19202	29
+19202	39
+19203	29
+19204	39
+19204	37
+19205	28
+19205	29
+19206	34
+19207	28
+19208	31
+19209	35
+19210	28
+19211	28
+19211	35
+19212	28
+19213	28
+19214	29
+19215	28
+19216	28
+19216	32
+19217	29
+19218	31
+19219	31
+19220	31
+19221	31
+19221	28
+19222	28
+19223	31
+19224	28
+19225	31
+19225	28
+19226	29
+19227	28
+19228	31
+19228	28
+19229	31
+19230	28
+19230	37
+19231	31
+19232	28
+19233	28
+19234	28
+19235	31
+19235	28
+19236	31
+19237	29
+19238	28
+19239	28
+19240	36
+19240	28
+19241	36
+19242	28
+19243	36
+19244	39
+19245	35
+19246	27
+19247	31
+19248	28
+19249	37
+19250	28
+19251	28
+19252	37
+19253	37
+19254	28
+19255	37
+19256	37
+19257	36
+19257	28
+19258	36
+19259	36
+19259	28
+19260	29
+19260	39
+19261	36
+19261	28
+19262	29
+19263	36
+19263	29
+19264	29
+19264	33
+19265	29
+19265	33
+19266	29
+19267	35
+19268	35
+19269	35
+19270	31
+19270	28
+19271	28
+19272	29
+19272	33
+19273	35
+19274	35
+19275	29
+19275	33
+19276	29
+19276	33
+19276	27
+19277	35
+19278	35
+19279	35
+19280	29
+19281	35
+19281	29
+19282	35
+19283	35
+19284	35
+19285	35
+19286	29
+19286	33
+19287	35
+19288	35
+19289	35
+19290	35
+19291	35
+19292	35
+19293	29
+19293	33
+19294	37
+19295	36
+19295	37
+19296	29
+19297	29
+19298	29
+19299	29
+19300	29
+19301	29
+19301	33
+19302	29
+19302	33
+19303	29
+19303	33
+19304	29
+19304	33
+19305	29
+19306	29
+19306	33
+19307	29
+19307	33
+19308	29
+19309	29
+19310	29
+19310	40
+19311	33
+19311	29
+19312	29
+19312	33
+19313	29
+19313	40
+19314	29
+19315	28
+19316	29
+19316	33
+19317	28
+19318	27
+19318	36
+19319	29
+19319	31
+19320	28
+19321	34
+19322	29
+19323	35
+19324	28
+19324	35
+19325	35
+19326	34
+19326	36
+19327	29
+19327	36
+19328	29
+19329	34
+19330	35
+19331	29
+19332	40
+19333	28
+19334	37
+19335	40
+19335	29
+19336	40
+19336	29
+19337	31
+19337	28
+19338	29
+19339	29
+19340	29
+19340	40
+19341	40
+19342	31
+19342	28
+19343	28
+19344	35
+19345	28
+19346	28
+19346	29
+19347	28
+19348	28
+19349	28
+19349	35
+19350	35
+19351	28
+19351	31
+19352	35
+19353	28
+19353	35
+19354	31
+19354	28
+19355	28
+19356	28
+19357	35
+19358	28
+19359	28
+19360	28
+19361	35
+19362	28
+19362	35
+19364	28
+19365	31
+19366	39
+19367	28
+19368	28
+19369	40
+19369	39
+19370	28
+19372	28
+19373	28
+19374	28
+19375	28
+19376	28
+19378	28
+19379	28
+19381	28
+19382	28
+19383	28
+19384	28
+19385	28
+19386	40
+19386	39
+19387	28
+19388	28
+19389	28
+19390	28
+19391	28
+19392	28
+19393	30
+19394	28
+19395	40
+19395	29
+19396	37
+19398	28
+19399	28
+19400	28
+19401	29
+19402	28
+19403	28
+19403	31
+19404	28
+19405	37
+19406	31
+19406	28
+19407	30
+19408	35
+19409	28
+19410	28
+19410	27
+19411	27
+19412	28
+19412	29
+19412	40
+19413	28
+19414	29
+19415	29
+19415	33
+19416	29
+19416	33
+19417	29
+19418	29
+19418	40
+19419	39
+19419	40
+19420	29
+19420	40
+19421	29
+19422	40
+19422	28
+19423	29
+19423	40
+19424	29
+19425	39
+19426	28
+19427	29
+19427	36
+19428	29
+19428	36
+19429	29
+19429	36
+19430	36
+19430	29
+19431	39
+19432	27
+19432	29
+19433	29
+19433	36
+19434	29
+19435	36
+19435	29
+19436	39
+19437	28
+19437	29
+19438	30
+19439	28
+19440	31
+19441	37
+19442	37
+19443	37
+19444	37
+19445	37
+19446	37
+19447	37
+19448	37
+19449	40
+19449	29
+19450	28
+19451	37
+19452	29
+19453	29
+19454	28
+19455	29
+19456	37
+19457	37
+19458	28
+19459	37
+19460	29
+19460	36
+19461	37
+19462	37
+19463	28
+19464	29
+19464	39
+19465	29
+19465	39
+19466	40
+19467	39
+19468	39
+19468	29
+19469	29
+19470	28
+19471	29
+19471	40
+19472	29
+19472	40
+19473	39
+19474	28
+19475	28
+19476	27
+19476	28
+19476	29
+19477	35
+19478	28
+19478	29
+19479	39
+19480	35
+19481	35
+19482	35
+19483	35
+19484	28
+19485	35
+19486	28
+19487	35
+19488	28
+19489	35
+19490	35
+19491	35
+19492	28
+19492	35
+19493	35
+19494	28
+19494	35
+19496	35
+19497	28
+19497	29
+19499	35
+19500	35
 \.
 
 
@@ -6680,6 +8185,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 15368	WCgXuISYL5w	25259	The Chief Legatee	\n\nCategories: Detective and mystery stories, American	https://i.ytimg.com/vi/WCgXuISYL5w/hqdefault.jpg	2025-11-21 01:35:09.523696+00	1407	\N
 15391	RI0fOqqWqR0	31816	The Rayner-Slade Amalgamation	"Queer " he repeated as he marched up and down. "Perhaps he's not --" The quiet opening of a door close by made him lift his eyes from the carpet. In the dim light he saw a man looking out upon him -- a man of an unusually thick crop of hair and with a huge beard. He stared at Allerdyke half angrily, half sulkily; then he closed his door as quietly as he had opened it. And Allerdyke, turning back to his cousin's room, mechanically laid his hand on the knob and screwed it round. The door was open. Allerdyke drew a sharp breath as he crossed the threshold. He had stayed in that hotel often, and he knew where the switch of the electric light should be. He lifted a hand, found the switch, and turned the light on. And as it flooded the room, he pulled himself up to a tense rigidity. There, sitting fully dressed in an easy chair, against which his head was thrown back, was his cousin -- unmistakably dead.\n\nCategories: Fiction	https://i.ytimg.com/vi/RI0fOqqWqR0/hqdefault.jpg	2025-11-21 01:39:24.22329+00	46	\N
 15392	DEhCV7jnvV4	34551	Dark Hollow	A fascinated tale by Green âe" it is full of horror and spine-chilling suspense. It will make the reader's blood run cold. Brilliant!\n\nCategories: Fiction	https://i.ytimg.com/vi/DEhCV7jnvV4/hqdefault.jpg	2025-11-21 01:39:30.039311+00	1407	\N
+18995	6cgZ3T87qzk	14935	Memoirs of a Revolutionist Vol. 2		https://i.ytimg.com/vi/6cgZ3T87qzk/hqdefault.jpg	2025-11-22 00:05:21.364912+00	4626	\N
 15369	dQonwy85KSs	42236	At the Time Appointed	In 'At the Time Appointed', A. Maynard Barbour crafts a narrative infused with suspense and drama that commands the reader's attention through its intricate plot and complex characterization. The novel's distinct literary style emerges from a tapestry of poignant dialogues and evocative descriptions, positioning it within the cultural dynamics and prevailing themes of early 20th-century fiction. Barbour's prose eloquently articulates the existential considerations and moral dilemmas of the period, while contributing a timeless element to the canon of detective and mystery literature. A. Maynard Barbour's personal journey as an author, mired in the richness of historical sensibilities, resonates through the pages of 'At the Time Appointed'. The precision with which Barbour navigates the interplay between destiny and choice reflects a deep awareness of the human condition and its manifestations in literature. As an author deeply connected with the intricacies of plot creation, Barbour's work remains a testament to his capacity to weave an engaging tale that both entertains and provokes thought. Readers in search of a classic whodunit that transcends the mere mechanics of mystery-solving will find 'At the Time Appointed' an enriching experience. Barbour's adept storytelling invites enthusiasts of historical and mystery fiction to delve into an era rich with intrigue and elevate their appreciation for literature that bridges the gap between past and present. This carefully reproduced edition by DigiCat Publishing ensures that new generations can experience Barbour's masterful legacy, thus sustaining the passion for classical world literature.\n\nCategories: Fiction	https://i.ytimg.com/vi/dQonwy85KSs/hqdefault.jpg	2025-11-21 01:35:13.818062+00	4126	\N
 15370	5b6vUDbzisc	38917	Lost Man's Lane	In "Lost Man's Lane," Anna Katharine Green intricately weaves a tale of mystery and suspense that showcases her masterful command of the detective fiction genre. Set against the atmospheric backdrop of late 19th-century America, the narrative unfolds with an enigmatic disappearance and a string of perplexing clues that challenge conventional police work. Green's sophisticated prose style balances rich descriptions with an emphasis on psychological depth, drawing readers into the labyrinthine motives of her characters while reflecting the era's burgeoning interest in criminal psychology. The novel represents a pivotal moment in detective literature, influencing future writers with its meticulous attention to detail and methodical approach to unraveling the mystery. Anna Katharine Green, often hailed as the 'mother of American detective fiction,' paved the way for the genre with her groundbreaking narratives and strong female protagonists. Her extensive background in literature and law, coupled with her own experiences of loss, permeate the themes of justice and societal expectations throughout her work. Her keen insight into character psychology allows her to create multifaceted figures that resonate with readers and contribute to her enduring legacy. "Lost Man's Lane" is a must-read for fans of cleverly constructed whodunits and those intrigued by the evolution of detective fiction. Green's ability to blend suspense with social commentary ensures a captivating journey through moral dilemmas and the human condition. Readers are invited to immerse themselves in this enthralling narrative, where every page turn may uncover new truths.\n\nCategories: Fiction	https://i.ytimg.com/vi/5b6vUDbzisc/hqdefault.jpg	2025-11-21 01:35:18.308161+00	1407	\N
 15371	g8K2bv-9-ZY	28418	His to Possess: A Halloween Romance	Time passes, but passion—and vengeance—endure The erotic memories are not Olivia’s own, yet they shake her to her core. And she knows what it is to be shaken: years ago, a deranged stalker drove her into a life of isolation and distrust. But enigmatic Lucian Wilde will breach all Olivia’s defenses, down to her bare skin and very soul. Lucian believes he and Olivia host the spirits of two lovers brutally murdered decades before. He, too, is consumed by waking dreams of wild encounters with a woman he’s never met, inhabiting heated flesh not his own. It’s intoxicating, maddening, frightening. When he and Olivia meet, the sensual compulsion is irresistible. She is Marissa, he is Damien—and their desires won’t be denied. But the person who murdered Marissa and Damien is still out for blood. To entice the killer, Olivia and Lucian must give in to passion and possession…and pray that history won’t be repeated.\n\nCategories: Fiction	https://i.ytimg.com/vi/g8K2bv-9-ZY/hqdefault.jpg	2025-11-21 01:35:25.175751+00	4127	\N
@@ -7039,6 +8545,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 15760	Ae-nJAgosU8	22098	Petticoat Government	Petticoat Government, Volume 2 Frances Milton Trollope(Audiobook) The further adventures of young Judith Maitland in the ...	https://i.ytimg.com/vi/Ae-nJAgosU8/hqdefault.jpg	2025-11-21 03:30:03.93376+00	4180	\N
 15761	RQX038IBRCI	22845	A Touch of the Sun and Other Stories	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. A Touch of the Sun and ...	https://i.ytimg.com/vi/RQX038IBRCI/hqdefault.jpg	2025-11-21 03:30:26.094823+00	2731	\N
 15762	_lZbl61JGHM	25198	The Spanish Love Deception: A Novel	The Spanish Love Deception: A Novel - Chap1 | Elena Armas | AUDIOBOOK Romance Summary: A NEW YORK TIMES ...	https://i.ytimg.com/vi/_lZbl61JGHM/hqdefault.jpg	2025-11-21 03:31:24.917359+00	693	\N
+19210	K_KEgiT2XEA	24149	Bec - - Demonata	Bec Audiobook - Darren Shan - Demonata.	https://i.ytimg.com/vi/K_KEgiT2XEA/hqdefault.jpg	2025-11-22 01:31:48.771212+00	2839	\N
 15763	cr6RqyHAt2w	27184	The Spanish Love Deception: A Novel	The Spanish Love Deception: A Novel - Chap2 | Elena Armas | AUDIOBOOK Romance Summary: A NEW YORK TIMES ...	https://i.ytimg.com/vi/cr6RqyHAt2w/hqdefault.jpg	2025-11-21 03:31:44.793331+00	693	\N
 15764	38De7iYqdlk	19302	The Spanish Love Deception	Visit list-read.com to read next part and more book. Thank! Buy best version audiobook: https://amzn.to/3ViLMKQ.	https://i.ytimg.com/vi/38De7iYqdlk/hqdefault.jpg	2025-11-21 03:32:05.558506+00	693	\N
 15765	Dc8otCN9fus	19321	The Spanish Love Deception	English Audiobook Summary of the book "The Spanish Love Deception" by Elena Armas #englishaudiobooks ...	https://i.ytimg.com/vi/Dc8otCN9fus/hqdefault.jpg	2025-11-21 03:32:46.483323+00	693	\N
@@ -7316,6 +8823,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 16032	fX2c0E6H_OM	25162	Her Bennyn	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Her Benny Silas HOCKING ...	https://i.ytimg.com/vi/fX2c0E6H_OM/hqdefault.jpg	2025-11-21 05:27:47.683047+00	3261	\N
 16033	f2_x6ybRl9w	23549	The Hand of Fu Manchu	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Hand of Fu-Manchu Sax ...	https://i.ytimg.com/vi/f2_x6ybRl9w/hqdefault.jpg	2025-11-21 05:28:31.11856+00	2567	\N
 16034	0gnyUTzuWxQ	15979	Ruth Fielding at Briarwood Hall	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Ruth Fielding at Briarwood ...	https://i.ytimg.com/vi/0gnyUTzuWxQ/hqdefault.jpg	2025-11-21 05:28:52.571476+00	4225	\N
+19211	w-ezb9g_df4	23324	Alan Dean Foster Spellsinger 7 Son of Spellsinger	Alan Dean Foster Spellsinger 7 Son of Spellsinger.	https://i.ytimg.com/vi/w-ezb9g_df4/hqdefault.jpg	2025-11-22 01:32:12.009774+00	1087	\N
 16036	vn8z3pz3k3U	31586	The Master of Ballantrae	The Master of Ballantrae Robert Louis STEVENSON Audiobook Chapter Time Dedication & Preface 00:00:00 Chapter 01 ...	https://i.ytimg.com/vi/vn8z3pz3k3U/hqdefault.jpg	2025-11-21 05:29:33.671305+00	196	\N
 16037	JSoGniLhCao	39376	Bengal Station 2 Xenopath	Sci fi Audiobooks Eric Brown Bengal Station 2 Xenopath.	https://i.ytimg.com/vi/JSoGniLhCao/hqdefault.jpg	2025-11-21 05:29:58.144923+00	2330	\N
 16038	QuGmAEDUVsc	40139	Bengal Station 3 Cosmopath	Sci fi Audiobooks Eric Brown Bengal Station 3 Cosmopath.	https://i.ytimg.com/vi/QuGmAEDUVsc/hqdefault.jpg	2025-11-21 05:30:20.970628+00	2330	\N
@@ -7370,6 +8878,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 17094	WLkhR5BYHF8	20313	Ecce Homo: Nietzsche's Autobiography	\n\nCategories: Ethics	https://i.ytimg.com/vi/WLkhR5BYHF8/hqdefault.jpg	2025-11-21 09:13:05.158846+00	1690	4
 17095	csO0H7DK2dQ	37221	The $30,000 Bequest and Other Stories	The $30,000 Bequest and Other Stories is a collection of thirty comic short stories by the American humorist and writer Mark Twain. The stories contained span the course of his career, from "Advice to Young Girls" in 1865 to the titular tale in 1904.\n\nCategories: Fiction	https://i.ytimg.com/vi/csO0H7DK2dQ/hqdefault.jpg	2025-11-21 09:13:09.363165+00	201	\N
 17096	tt0GQ7SCBz0	30176	The Quiet Woman	After a Chernobyl-like accident at a fast breeder reactor on the north coast of France, Britain is shrouded in radioactive fall-out. When her best friend is murdered, a young writer is forced to make sense of the deadly world she now occupies.\n\nCategories: Fiction	https://i.ytimg.com/vi/tt0GQ7SCBz0/hqdefault.jpg	2025-11-21 09:13:13.186814+00	2763	\N
+19364	wJHdg9tgRec	31426	Startide Rising	Part One of Startide Rising.	https://i.ytimg.com/vi/wJHdg9tgRec/hqdefault.jpg	2025-11-22 02:34:43.505486+00	1883	\N
 16085	zmB2u5QDXkw	75037	THE WRECKER	THE WRECKER by Robert Louis Stevenson ABOUT THE BOOK: The Wrecker (1892) is a novel written by Robert Louis ...	https://i.ytimg.com/vi/zmB2u5QDXkw/hqdefault.jpg	2025-11-21 05:48:39.597318+00	196	\N
 16086	MpKdeMkK6_M	21308	The Story of a Lie	Discover our playlists: https://www.youtube.com/view_all_playlists?nv=1.	https://i.ytimg.com/vi/MpKdeMkK6_M/hqdefault.jpg	2025-11-21 05:49:03.596314+00	196	\N
 16087	J5u2RqVc9Gg	92200	New Arabian Nights	"New Arabian Nights" by Robert Louis Stevenson is a collection of short stories that were first published between 1877 and 1880.	https://i.ytimg.com/vi/J5u2RqVc9Gg/hqdefault.jpg	2025-11-21 05:49:23.337519+00	196	\N
@@ -9543,6 +11052,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 18284	SOdArZwOUlI	36195	THE WIND	The Wind by Dorothy Scarborough ~ Read in English by Availle ~ Full Audiobook ~ After her mother's death, Letty is forced to ...	https://i.ytimg.com/vi/SOdArZwOUlI/hqdefault.jpg	2025-11-21 16:23:24.012995+00	1404	\N
 18285	lmR3oKoSWuY	19208	Captain Salt in Oz	Title : [Captain Salt in Oz] - by Ruth Plumly Thompson ♡ Topics : librivox, audiobooks ♡ Summary : A voyage on the famous ...	https://i.ytimg.com/vi/lmR3oKoSWuY/hqdefault.jpg	2025-11-21 16:23:44.525461+00	4554	\N
 18286	VBXLB53OgMY	20431	Quit Your Worrying	Audiobooks @booksonmymind Audiobook : Quit Your Worrying Author : George Wharton James Genre : Self Help, Philosophy ...	https://i.ytimg.com/vi/VBXLB53OgMY/hqdefault.jpg	2025-11-21 16:24:06.082629+00	2768	\N
+18379	py2B2CQwhR8	33722	OUR MUTUAL FRIEND	OUR MUTUAL FRIEND by Charles Dickens ABOUT THE BOOK: Our Mutual Friend, written in the years 1864-1865, is the last ...	https://i.ytimg.com/vi/py2B2CQwhR8/hqdefault.jpg	2025-11-21 20:00:57.688538+00	177	\N
 18287	2b6cdeGGQdM	16992	Industrial Automation A Guide For Controls Engineers	Industrial Automation: A Guide for Controls Engineers – Audiobook By Hamed Adefuwa | Duration: 4h 44m Check out my books ...	https://i.ytimg.com/vi/2b6cdeGGQdM/hqdefault.jpg	2025-11-21 16:24:36.139916+00	3465	\N
 18288	Y9hAInwFva4	33039	If She Wakes	Donation Appreciated : https://ko-fi.com/fmpod Paypal: paypal.com/paypalme/sorakaa.	https://i.ytimg.com/vi/Y9hAInwFva4/hqdefault.jpg	2025-11-21 16:25:08.571866+00	960	\N
 18289	Vgyw1q8XzD0	24528	Broadland	Broadland_ British Detective Tanner Murder by David Blake | Audiobook Mystery, Thriller & Suspense A CHILLING NORFOLK ...	https://i.ytimg.com/vi/Vgyw1q8XzD0/hqdefault.jpg	2025-11-21 16:25:29.197739+00	4555	\N
@@ -9574,6 +11084,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 18315	VOJgm59k_Ig	20576	Smugglers' Reef	Smugglers' Reef - audiobook Harold L. GOODWIN (1914 - 1990) Seventh entry in the Rick Brant Science Mystery Adventure ...	https://i.ytimg.com/vi/VOJgm59k_Ig/hqdefault.jpg	2025-11-21 16:35:49.265702+00	2795	\N
 18316	C3s77A7wtEw	29446	The Dead Secret	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Dead Secret Wilkie ...	https://i.ytimg.com/vi/C3s77A7wtEw/hqdefault.jpg	2025-11-21 16:36:11.017884+00	213	\N
 18317	mJ8SsZEPXzs	42653	The Old Wives' Tale	The Old Wives' Tale - FULL AUDIOBOOK 1/2 Arnold Bennett (1867 - 1931) Two very different sisters, their stories of youth and ...	https://i.ytimg.com/vi/mJ8SsZEPXzs/hqdefault.jpg	2025-11-21 16:36:34.444217+00	1264	\N
+18871	1nU_nVuEW1Y	20173	Romance s - Barbarian's Mine	Romance audiobooks - Barbarian's Mine by Ruby Dixon.	https://i.ytimg.com/vi/1nU_nVuEW1Y/hqdefault.jpg	2025-11-21 23:17:19.999459+00	3461	\N
 18318	PrASLVy7tC8	25192	The Haunted Hotel, A Mystery Of Modern Venice	The Haunted Hotel, A Mystery Of Modern Venice (Audiobook Full Book) - By Wilkie Collins #fullaudiobook #audiobook ...	https://i.ytimg.com/vi/PrASLVy7tC8/hqdefault.jpg	2025-11-21 16:36:54.729452+00	213	\N
 18319	WnK2vSNBFjs	21988	Quintus Oakes A Detective Story	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Quintus Oakes: A ...	https://i.ytimg.com/vi/WnK2vSNBFjs/hqdefault.jpg	2025-11-21 16:37:17.167234+00	3967	\N
 18320	zaSNwh9sI3g	18001	Dead Men Whistling	A Garda sergeant is found beheaded with an Irish tin whistle sticking out of his neck. He was due to give evidence at a major ...	https://i.ytimg.com/vi/zaSNwh9sI3g/hqdefault.jpg	2025-11-21 16:37:36.699592+00	1761	\N
@@ -9606,6 +11117,1151 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 18347	BTmZPD32Tzo	21031	Alexander The Great	Audiobooks @audiobookcaboodle Audiobook : Alexander The Great - Full Audiobook Author : Jacob Abbott Genre : Non-fiction, ...	https://i.ytimg.com/vi/BTmZPD32Tzo/hqdefault.jpg	2025-11-21 16:47:48.724478+00	301	\N
 18348	3C2T792pAKg	18414	Mary Queen of Scots	Mary Queen of Scots Jacob Abbott (1803 - 1879) Mary Queen of Scots by Jacob Abbott is a historical biography that explores the ...	https://i.ytimg.com/vi/3C2T792pAKg/hqdefault.jpg	2025-11-21 16:48:08.63752+00	301	\N
 18349	a0iY2B1XdGM	21388	Alexander the Great	Get the Book: https://amzn.to/3VbzYL0 Alexander was a born warrior and king with fierce ambition who grasped the thrilling ...	https://i.ytimg.com/vi/a0iY2B1XdGM/hqdefault.jpg	2025-11-21 16:48:28.136843+00	301	\N
+18902	xnh_1A4yBbw	20368	Monsieur Lecoq Part 2	Audiobook.	https://i.ytimg.com/vi/xnh_1A4yBbw/hqdefault.jpg	2025-11-21 23:31:36.341581+00	2373	\N
+18350	i86ZxdMtYa4	33869	THE PINK FAIRY BOOK	The Pink Fairy Book by Andrew Lang (1844 - 1912) full free audiobook ▻Subscribe for more audiobooks!: https://goo.gl/QpFTih ...	https://i.ytimg.com/vi/i86ZxdMtYa4/hqdefault.jpg	2025-11-21 19:49:44.109257+00	1116	\N
+18351	IkyZdA-nN90	17537	DUST AND SHADOW - A Forgotten Lands Novel	A Dystopian Romance Adventure (Full Audiobook) Written by Lindsey Pogue Narrated by Andrew Gibson and Aven Shore All ...	https://i.ytimg.com/vi/IkyZdA-nN90/hqdefault.jpg	2025-11-21 19:50:05.466891+00	657	\N
+18352	MvmELZ01fVE	29922	The Orange Yellow Diamond	The Orange Yellow Diamond (Audiobook Full Book) - By J. S. Fletcher #fullaudiobook #audiobook #timelessaudiobooks ...	https://i.ytimg.com/vi/MvmELZ01fVE/hqdefault.jpg	2025-11-21 19:50:29.707628+00	46	\N
+18353	i0-53Fb5ndo	21858	Boogiepop and Others	Translation by: Andrew Cunningham. Cover Art: Kouji Ogata. Read by: Holly & Ectro. - Will remove licensed novels on request.	https://i.ytimg.com/vi/i0-53Fb5ndo/hqdefault.jpg	2025-11-21 19:50:50.615116+00	4564	\N
+18354	-SbCiH0Dd28	39096	Ulysses	Librivox recording of Ulysses, by James Joyce. Read by Librivox volunteers. Still considered one of the most radical works of ...	https://i.ytimg.com/vi/-SbCiH0Dd28/hqdefault.jpg	2025-11-21 19:51:12.860903+00	1430	\N
+18355	XQNRGYiFjx4	22800	Unabridged Complete Version The Case of Charles Dexter Ward	[Unabridged Complete Version] The Case of Charles Dexter Ward, Horror Audiobook, by H. P. Lovecraft. Become a ...	https://i.ytimg.com/vi/XQNRGYiFjx4/hqdefault.jpg	2025-11-21 19:52:09.248925+00	4565	\N
+18356	FgZ3mvvhuy8	24283	The Origin of Species	Explore the groundbreaking work that forever changed our understanding of life on Earth with Charles Darwin's On the Origin of ...	https://i.ytimg.com/vi/FgZ3mvvhuy8/hqdefault.jpg	2025-11-21 19:52:28.590019+00	3190	\N
+18357	EIdwDkDhmU8	39969	Hard Times	Discover our playlists: https://www.youtube.com/view_all_playlists?nv=1.	https://i.ytimg.com/vi/EIdwDkDhmU8/hqdefault.jpg	2025-11-21 19:52:50.003704+00	177	\N
+18358	1ABgP0H_t_I	18001	The Red Door	One of the best historical series being written today.” —Washington Post Book World The accolades keep pouring in for Charles ...	https://i.ytimg.com/vi/1ABgP0H_t_I/hqdefault.jpg	2025-11-21 19:53:10.164644+00	884	\N
+18359	gKJnFkYIMTM	16469	Following Christ	Audiobook Description ~ You cannot have Christ if you will not serve Him. If you take Christ, you must take Him in all His qualities.	https://i.ytimg.com/vi/gKJnFkYIMTM/hqdefault.jpg	2025-11-21 19:53:29.809121+00	4566	\N
+18360	VfnVxfgIOro	34865	New Lands	FREE AUDIOBOOK - Fort was a pioneer in the study of paranormal and unexplained phenomena, and “New Lands” is considered ...	https://i.ytimg.com/vi/VfnVxfgIOro/hqdefault.jpg	2025-11-21 19:53:49.514112+00	4567	\N
+18361	XNw8RzATWxw	39938	Life in Christ, Vol 1	Audiobook Description ~ Original title: Miracles and Parables of Our Lord. Volume 1 Men who were led by the hand or groped ...	https://i.ytimg.com/vi/XNw8RzATWxw/hqdefault.jpg	2025-11-21 19:54:15.756032+00	4566	\N
+18362	5mz7sZxVAEA	54002	A Tale of Two Cities	Revolution and love in the shadow of the guillotine. "It was the best of times, it was the worst of times, it was the age of wisdom, ...	https://i.ytimg.com/vi/5mz7sZxVAEA/hqdefault.jpg	2025-11-21 19:54:35.09274+00	177	\N
+18363	croz1Qui6Bc	42054	Search the Dark	A missing woman. Two dead children. And a man who swears he remembers nothing… 🕯️❄️ In Search the Dark, Charles ...	https://i.ytimg.com/vi/croz1Qui6Bc/hqdefault.jpg	2025-11-21 19:54:58.270689+00	884	\N
+18364	_MNyBPmmans	55770	A Tale of Two Cities	Author's Project (Progression Fantasy): Read my novel, Emilia Transmigrated, free on Royal Road: ...	https://i.ytimg.com/vi/_MNyBPmmans/hqdefault.jpg	2025-11-21 19:55:18.820843+00	177	\N
+18365	JeGVg1vpcNM	41883	A Fearsome Doubt	What if the greatest enemy isn't the killer you chase—but the fear inside your own mind? 🕯️⚖️ In A Fearsome Doubt, Charles ...	https://i.ytimg.com/vi/JeGVg1vpcNM/hqdefault.jpg	2025-11-21 19:55:38.603263+00	884	\N
+18366	o_Tt_YIWY0g	20740	Mugby Junction	A full unabridged audiobook of the classic short story collection, "Mugby Junction", by Charles Dickens & others - complete with ...	https://i.ytimg.com/vi/o_Tt_YIWY0g/hqdefault.jpg	2025-11-21 19:55:58.01121+00	4568	\N
+18367	Mk_y3BDJxos	36055	On the Origin of Species	On the Origin of Species, published on 24 November 1859, is a work of scientific literature by Charles Darwin that is considered to ...	https://i.ytimg.com/vi/Mk_y3BDJxos/hqdefault.jpg	2025-11-21 19:56:22.187827+00	3190	\N
+18368	JH4IehqspbU	43170	LO!	Lo! Welcome to the worlds of Charles Fort, chronicler of the odd, the weird, the strange, the unexpected, and the inexplicable.	https://i.ytimg.com/vi/JH4IehqspbU/hqdefault.jpg	2025-11-21 19:56:42.121239+00	4567	\N
+18369	5CTW4yvjGX4	17977	Jesus Christ Heals	Jesus Christ Heals. By Charles Fillmore. Full Audiobook "Jesus Christ Heals" is a book written by Charles Fillmore, the co-founder ...	https://i.ytimg.com/vi/5CTW4yvjGX4/hqdefault.jpg	2025-11-21 19:57:01.505697+00	4569	\N
+18370	yzfv_oM2vgE	14469	The Holly-Tree Inn	A full unabridged audiobook of the classic short story collection, "The Holly-Tree Inn", by Charles Dickens (& others) - complete ...	https://i.ytimg.com/vi/yzfv_oM2vgE/hqdefault.jpg	2025-11-21 19:57:21.082961+00	177	\N
+18371	qcji5QUEXcY	32808	Oliver Twist	Oliver Twist is a classic novel by Charles Dickens, first published in novel form in 1838. The story follows the orphan Oliver Twist ...	https://i.ytimg.com/vi/qcji5QUEXcY/hqdefault.jpg	2025-11-21 19:58:00.838964+00	177	\N
+18372	Ad0CktUmCMY	21587	South of No North	South of No North is a collection of short stories by Charles Bukowski. #charlesbukowski #audiobook #shortstory.	https://i.ytimg.com/vi/Ad0CktUmCMY/hqdefault.jpg	2025-11-21 19:58:41.287427+00	4570	\N
+18373	kTnvPxyECS8	24789	The Master Key System	This is a book that will not only make you "feel" good, but also "think" good. In "The Master Key System," presented as a series of ...	https://i.ytimg.com/vi/kTnvPxyECS8/hqdefault.jpg	2025-11-21 19:59:00.78616+00	4571	\N
+18374	aOnmugNMThI	40572	Flowers from a Puritan's Garden	Audiobook Description ~ Step into the rich and vibrant garden of Puritan wisdom with Charles Spurgeon, one of the most beloved ...	https://i.ytimg.com/vi/aOnmugNMThI/hqdefault.jpg	2025-11-21 19:59:20.486918+00	1546	\N
+18375	JPOjvQyJGHU	16690	The Twelve Powers of Man	The Twelve Powers of Man. By Charles Fillmore. Full Audiobook This audiobook is only for reference and accessibility purposes.	https://i.ytimg.com/vi/JPOjvQyJGHU/hqdefault.jpg	2025-11-21 19:59:40.270206+00	4569	\N
+18376	XcL1ctWsKhU	40519	Mysteries of Genesis (1/2)	Mysteries of Genesis. By Charles Fillmore. Full Audiobook "Mysteries of Genesis" is a book written by Charles Fillmore, the ...	https://i.ytimg.com/vi/XcL1ctWsKhU/hqdefault.jpg	2025-11-21 19:59:59.914387+00	4569	\N
+18377	dkzIh_AeuSY	18000	The Red Door	One of the best historical series being written today.” —Washington Post Book World The accolades keep pouring in for Charles ...	https://i.ytimg.com/vi/dkzIh_AeuSY/hqdefault.jpg	2025-11-21 20:00:19.089946+00	884	\N
+18378	JjPmmKpS_nw	16147	The Heroes	The Heroes. By Charles Kingsley. Full Audiobook "The Heroes" is a book by Charles Kingsley that tells the stories of the heroes of ...	https://i.ytimg.com/vi/JjPmmKpS_nw/hqdefault.jpg	2025-11-21 20:00:38.485308+00	3485	\N
+18903	qqNIx54kwUA	19790	Monsieur Lecoq	Audiobook.	https://i.ytimg.com/vi/qqNIx54kwUA/hqdefault.jpg	2025-11-21 23:31:57.392873+00	2373	\N
+18380	RJhvrgRHOz4	51876	The Book of the Damned	The Book of the Damned Charles Fort Father of the PARANORMAL Audiobook. The Book of the Damned was the first published ...	https://i.ytimg.com/vi/RJhvrgRHOz4/hqdefault.jpg	2025-11-21 20:01:24.142654+00	4567	\N
+18381	nAtAIDjonn0	37315	The Descent of Man	The Descent Of Man. By Charles Darwin. Full Audiobook "The Descent of Man" is a book written by Charles Darwin, first ...	https://i.ytimg.com/vi/nAtAIDjonn0/hqdefault.jpg	2025-11-21 20:01:43.508151+00	3190	\N
+18382	P7upmGpqKoY	25544	The Water Babies	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/P7upmGpqKoY/hqdefault.jpg	2025-11-21 20:02:02.967749+00	3485	\N
+18383	XmQD36iuhLw	16967	The X-Files: Whirlwind	The truth is out there... and it's killing people in the most horrific way imaginable. When mutilated bodies start appearing across ...	https://i.ytimg.com/vi/XmQD36iuhLw/hqdefault.jpg	2025-11-21 20:02:22.53748+00	4572	\N
+18384	xkd3iXt02a8	22072	The Origin of Species	Listen on Spotify (Part - 1): ...	https://i.ytimg.com/vi/xkd3iXt02a8/hqdefault.jpg	2025-11-21 20:02:41.843188+00	3190	\N
+18385	2sFydqlnEIU	23947	Pointed Roofs Pilgrimage	Pointed Roofs - Pilgrimage Audiobook Dorothy RICHARDSON Chapter Time Chapter 01 00:00:00 Chapter 02 00:20:33 Chapter ...	https://i.ytimg.com/vi/2sFydqlnEIU/hqdefault.jpg	2025-11-21 20:03:05.423443+00	2235	\N
+18386	C9L4rDrv30g	21382	Pointed Roofs - Pilgrimage	Pointed Roofs - Pilgrimage Audiobook Dorothy RICHARDSON Chapter Time Chapter 01 00:00:00 Chapter 02 00:20:33 Chapter ...	https://i.ytimg.com/vi/C9L4rDrv30g/hqdefault.jpg	2025-11-21 20:03:25.461573+00	2235	\N
+18387	mfTzYpMvDyI	19664	Backwater Pilgrimage, Vol 2	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Backwater (Pilgrimage, Vol.	https://i.ytimg.com/vi/mfTzYpMvDyI/hqdefault.jpg	2025-11-21 20:03:46.602356+00	2235	\N
+18388	E1T7bs2H58U	26441	Pointed Roofs	"Pointed Roofs" by Dorothy Richardson is an extraordinary tale that delivers a vivid portrayal of an English woman living in ...	https://i.ytimg.com/vi/E1T7bs2H58U/hqdefault.jpg	2025-11-21 20:04:06.042484+00	2235	\N
+18389	-xAv0RaQCcw	26427	Pointed Roofs	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Pointed Roofs Dorothy ...	https://i.ytimg.com/vi/-xAv0RaQCcw/hqdefault.jpg	2025-11-21 20:04:27.55617+00	2235	\N
+18390	imWkaGwPXoQ	22664	Mrs. Dalloway	Virginia Woolf's "Mrs. Dalloway" is a groundbreaking modernist novel published in 1925, renowned for its innovative ...	https://i.ytimg.com/vi/imWkaGwPXoQ/hqdefault.jpg	2025-11-21 20:04:46.920654+00	319	\N
+18391	suHx9tAQKeI	39183	Pointed Roofs (Pilgrimage 1)	Dorothy Richardson was a 20th century British writer who often worked in "stream of consciousness". After she finished school she ...	https://i.ytimg.com/vi/suHx9tAQKeI/hqdefault.jpg	2025-11-21 20:05:08.295874+00	2235	\N
+18392	qqEJFIHmqiM	22220	Pointed Roofs	Pointed Roofs. By Dorothy M. Richardson FULL Audiobook "Pointed Roofs" is the first work in Dorothy Richardson's series of 13 ...	https://i.ytimg.com/vi/qqEJFIHmqiM/hqdefault.jpg	2025-11-21 20:05:28.044733+00	4573	\N
+18393	rJxQQdKSu34	21376	Pointed Roofs - Pilgrimage Volume 1	Pointed Roofs - Pilgrimage Volume 1 - audiobook Dorothy RICHARDSON (1873 - 1957) "Pointed Roofs" is the first volume of ...	https://i.ytimg.com/vi/rJxQQdKSu34/hqdefault.jpg	2025-11-21 20:05:49.555408+00	2235	\N
+18394	EhwvD6RMPMA	20349	Backwater	Backwater. By Dorothy M. Richardson FULL Audiobook "Backwater" is the second book in the thirteen-volume novel series ...	https://i.ytimg.com/vi/EhwvD6RMPMA/hqdefault.jpg	2025-11-21 20:06:09.085407+00	4573	\N
+18395	TParJxgxDFk	28838	The Tunnel		https://i.ytimg.com/vi/TParJxgxDFk/hqdefault.jpg	2025-11-21 20:06:29.198939+00	4573	\N
+18396	OMnXRpjymXY	25084	Whose Body?	Whose Body ? audiobook Dorothy L. SAYERS (1893 - 1957) ...	https://i.ytimg.com/vi/OMnXRpjymXY/hqdefault.jpg	2025-11-21 20:07:10.926074+00	4574	\N
+18397	H_4b_ay1v7k	22906	A Journal of Impressions in Belgium	... literary context when reviewing the first volumes of Dorothy Richardson's novel sequence Pilgrimage, in The Egoist, April 1918.	https://i.ytimg.com/vi/H_4b_ay1v7k/hqdefault.jpg	2025-11-21 20:07:32.198023+00	2656	\N
+18398	9xaAEes1tOk	25603	The Tale of Terror A Study of the Gothic Romance	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Tale of Terror: A Study ...	https://i.ytimg.com/vi/9xaAEes1tOk/hqdefault.jpg	2025-11-21 20:07:56.166586+00	2985	\N
+18399	Ujhm1LA5DOk	28071	The Getting of Wisdom	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Getting of Wisdom ...	https://i.ytimg.com/vi/Ujhm1LA5DOk/hqdefault.jpg	2025-11-21 20:08:17.765783+00	2236	\N
+18400	1JgJ-UiJ4p0	39706	Desperate Remedies	Desperate Remedies Audiobook by Thomas Hardy. Free full length audio book. ▻ Subscribe to our channel: ...	https://i.ytimg.com/vi/1JgJ-UiJ4p0/hqdefault.jpg	2025-11-21 20:08:38.63006+00	916	\N
+18401	Y0JaJ0BYP-E	29739	THE WOMEN OF THE AMERICAN REVOLUTION Vol. 1	THE WOMEN OF THE AMERICAN REVOLUTION Vol. 1 by Elizabeth F. Ellet - FULL AudioBook | Greatest AudioBooks ...	https://i.ytimg.com/vi/Y0JaJ0BYP-E/hqdefault.jpg	2025-11-21 20:08:58.907339+00	4575	\N
+18402	bG5y6ZKDP7M	22536	TREMENDOUS TRIFLES	Tremendous Trifles by G. K. Chesterton (1874 - 1936) full free audiobook ▻Subscribe for more audiobooks!: https://goo.gl/QpFTih ...	https://i.ytimg.com/vi/bG5y6ZKDP7M/hqdefault.jpg	2025-11-21 20:09:19.642751+00	309	\N
+18403	a9ImqStQGi0	27547	Anne Severn and the Fieldings	... when reviewing the first volumes of Dorothy Richardson's novel sequence Pilgrimage (1915–67), in The Egoist, April 1918. may ...	https://i.ytimg.com/vi/a9ImqStQGi0/hqdefault.jpg	2025-11-21 20:09:41.23663+00	4576	\N
+18404	P1NjEG9pZhM	16212	Two Sides of a Question	... literary context, when reviewing the first volumes of Dorothy Richardson's novel sequence Pilgrimage (1915–67), in The Egoist, ...	https://i.ytimg.com/vi/P1NjEG9pZhM/hqdefault.jpg	2025-11-21 20:10:03.014626+00	2656	\N
+18405	hBOjWeYvoqw	26307	The Wisdom of Father Brown	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Wisdom of Father ...	https://i.ytimg.com/vi/hBOjWeYvoqw/hqdefault.jpg	2025-11-21 20:10:23.52701+00	309	\N
+18406	2Hf0mAz90Is	24891	Whose Body?	Whose Body? By Dorothy L. SAYERS (1893 - 1957) Whose Body? is the first of Dorothy Sayers's famous Lord Peter Wimsey ...	https://i.ytimg.com/vi/2Hf0mAz90Is/hqdefault.jpg	2025-11-21 20:10:43.187063+00	4577	\N
+18407	K7J6pl0vEcc	20759	The Bent Twig	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Bent Twig Dorothy ...	https://i.ytimg.com/vi/K7J6pl0vEcc/hqdefault.jpg	2025-11-21 20:11:08.3357+00	2161	\N
+18408	wq_Gv080SP4	44578	His Grace of Osmond	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. His Grace of Osmonde ...	https://i.ytimg.com/vi/wq_Gv080SP4/hqdefault.jpg	2025-11-21 20:11:30.270713+00	184	\N
+18409	UvRzW5o2CPA	24042	The Dark Road	The Dark Road: Further Adventures of Chéri-Bibi by Gaston Leroux. Read in English by afinevoice. One of a series of exciting ...	https://i.ytimg.com/vi/UvRzW5o2CPA/hqdefault.jpg	2025-11-21 20:12:12.296889+00	194	\N
+18410	4Xwg--fNL3w	41090	Wild Wales Part 2/2	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Wild Wales George ...	https://i.ytimg.com/vi/4Xwg--fNL3w/hqdefault.jpg	2025-11-21 20:12:32.308717+00	805	\N
+18411	siu0pd1f16Q	26127	Eight Cousins	https://youtube.com/@LookAudioBook Audible Summer Promo: https://amzn.to/2B8RhYz http://bit.ly/Get3Audiobooks ...	https://i.ytimg.com/vi/siu0pd1f16Q/hqdefault.jpg	2025-11-21 20:12:52.116394+00	180	\N
+18412	crBvzkJMtec	21235	The Clevedon Case	The Clevedon Case by Nancy Oakley; John Oakley. Read in English by Steven Seitel. Quoting from a "teaser" on the flyleaf: The ...	https://i.ytimg.com/vi/crBvzkJMtec/hqdefault.jpg	2025-11-21 20:13:12.369131+00	4578	\N
+18413	XE55DY9FYo4	25197	THE DAFFODIL MYSTERY	THE DAFFODIL MYSTERY by Edgar Wallace - FULL AudioBook | Greatest AudioBooks Richard Horatio Edgar Wallace (April 1, ...	https://i.ytimg.com/vi/XE55DY9FYo4/hqdefault.jpg	2025-11-21 20:13:38.466769+00	823	\N
+18414	VNdRSQm-Trg	31157	The Egoist	https://youtu.be/P2C45BGpf8s?si=HpYRmb_b6hhJNQ2O https://youtu.be/TlSjCZ27AEg?si=MngDkIpnl2Eo30E9 MAKE A ...	https://i.ytimg.com/vi/VNdRSQm-Trg/hqdefault.jpg	2025-11-21 20:14:00.531606+00	1635	\N
+18415	tHOe0I3lezQ	24131	The Diary of Samuel Pepys 1662	The Diary of Samuel Pepys 1662 - audiobook Samuel PEPYS (1633 - 1703) Samuel Pepys was the first Secretary to the Admiralty ...	https://i.ytimg.com/vi/tHOe0I3lezQ/hqdefault.jpg	2025-11-21 20:14:21.912916+00	3753	\N
+18416	G8H2FCRbD3Y	26025	Mark Twain: A Biography	Until recently, this work has been considered the "go-to" bio of Mark Twain. Albert Bigelow Paine (July 10, 1861 – April 9, 1937) ...	https://i.ytimg.com/vi/G8H2FCRbD3Y/hqdefault.jpg	2025-11-21 20:14:48.247115+00	795	\N
+18417	B0nzsJ8JMq0	21821	The Lucky Piece		https://i.ytimg.com/vi/B0nzsJ8JMq0/hqdefault.jpg	2025-11-21 20:15:08.246465+00	795	\N
+18418	3qrcS7XUdjk	36155	Life and Lillian Gish	Life and Lillian Gish - Albert Bigelow Paine 0:00:00 - 00 - Epigraph 0:02:41 - 01 - Prologue 0:04:11 - 02 - A Girl Child, Born with a ...	https://i.ytimg.com/vi/3qrcS7XUdjk/hqdefault.jpg	2025-11-21 20:15:30.012343+00	795	\N
+18419	pEl4ZyvuUgs	25957	Mark Twain: A Biography	Until recently, this work has been considered the "go-to" bio of Mark Twain. Albert Bigelow Paine (July 10, 1861 – April 9, 1937) ...	https://i.ytimg.com/vi/pEl4ZyvuUgs/hqdefault.jpg	2025-11-21 20:15:50.603586+00	795	\N
+18420	Eb8mq2c5VHY	21819	The Lucky Piece	While riding a stage back to the city late in the summer, a youngster had no money to spend, and so gives his lucky piece as ...	https://i.ytimg.com/vi/Eb8mq2c5VHY/hqdefault.jpg	2025-11-21 20:16:10.480109+00	795	\N
+18421	zGYOAjmASLo	25047	Mark Twain: A Biography	Until recently, this work has been considered the "go-to" bio of Mark Twain. Albert Bigelow Paine (July 10, 1861 – April 9, 1937) ...	https://i.ytimg.com/vi/zGYOAjmASLo/hqdefault.jpg	2025-11-21 20:16:30.22426+00	795	\N
+18422	SfpQ_funbOg	24811	Moments With Mark Twain	Moments With Mark Twain - Mark Twain; Albert Bigelow Paine 0:00:00 - 01 - Forward and Chapter 1 from “Sketches New and Old” ...	https://i.ytimg.com/vi/SfpQ_funbOg/hqdefault.jpg	2025-11-21 20:16:52.479457+00	4579	\N
+18423	sT9OKTwX3c4	42201	Captain Bill McDonald, Texas Ranger	Captain Bill McDonald, Texas Ranger A Story of Frontier Reform - Albert Bigelow Paine - Part 1 0:00:00 - 00 - Forward: A letter ...	https://i.ytimg.com/vi/sT9OKTwX3c4/hqdefault.jpg	2025-11-21 20:17:12.066842+00	795	\N
+18424	LydQ8KiMh40	21834	The Lucky Piece A Story of the North Woods	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Lucky Piece: A Story ...	https://i.ytimg.com/vi/LydQ8KiMh40/hqdefault.jpg	2025-11-21 20:17:33.851112+00	795	\N
+18425	BTlI7RcB6bA	18675	Anti Imperialist Writings	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/BTlI7RcB6bA/hqdefault.jpg	2025-11-21 20:17:53.514953+00	201	\N
+18426	IkHEeiiSlXQ	55984	South! The Story of Shackleton's Last Expedition 1914-1917	South! The Story of Shackleton's Last Expedition 1914-1917 audiobook Ernest SHACKLETON (1874 - 1922) Shackleton's most ...	https://i.ytimg.com/vi/IkHEeiiSlXQ/hqdefault.jpg	2025-11-21 20:18:15.513339+00	4580	\N
+18427	ypS0NpoxEU4	31880	The Boy's Life of Mark Twain	The Boys Life of Mark Twain by Albert Bigelow Paine - FULL AudioBook ▻For Ebook Offers Please Visit our Homepage ...	https://i.ytimg.com/vi/ypS0NpoxEU4/hqdefault.jpg	2025-11-21 20:18:36.719539+00	795	\N
+18428	5qKdSnd7qHo	34617	Life and Lillian Gish	Life and Lillian Gish by Albert Bigelow Paine. Early biography of silent era film star Lillian Gish. Features a comprehensive look at ...	https://i.ytimg.com/vi/5qKdSnd7qHo/hqdefault.jpg	2025-11-21 20:18:56.217883+00	795	\N
+18429	bpQ8ZuwNOE0	31892	The Boyhood of Mark Twain	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Boys Life of Mark ...	https://i.ytimg.com/vi/bpQ8ZuwNOE0/hqdefault.jpg	2025-11-21 20:19:18.695992+00	795	\N
+18430	7bFtkz9GjKs	31245	The Boyhood of Mark Twain	The Boys Life of Mark Twain by Albert Bigelow Paine audiobook. Albert Bigelow Paine was Samuel Langhorne Clemens' (Mark ...	https://i.ytimg.com/vi/7bFtkz9GjKs/hqdefault.jpg	2025-11-21 20:19:38.78398+00	795	\N
+18431	VVJpjMJvzXs	31885	THE BOYS LIFE OF MARK TWAIN	The Boys Life of Mark Twain by Albert Bigelow Paine (1861 - 1937) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/VVJpjMJvzXs/hqdefault.jpg	2025-11-21 20:19:59.370816+00	795	\N
+18432	O6VN2Nvwv1w	31900	Boys' Life of Mark Twain	Boys Life of Mark Twain. By Albert Bigelow Paine FULL Audiobook "The Boys' Life of Mark Twain" by Albert Bigelow Paine is a ...	https://i.ytimg.com/vi/O6VN2Nvwv1w/hqdefault.jpg	2025-11-21 20:20:21.64052+00	795	\N
+18433	J2WLJW702sU	21820	The Lucky Piece: A Story of the North Woods	The Lucky Piece: A Story of the North Woods - audiobook Albert Bigelow PAINE (1861 - 1937) While riding a stage back to the city ...	https://i.ytimg.com/vi/J2WLJW702sU/hqdefault.jpg	2025-11-21 20:20:42.969635+00	795	\N
+18434	net-PyY_j-U	31885	The Boy's Life of Mark Twain	The Boys Life of Mark Twain audiobook Albert Bigelow PAINE (1861 - 1937) / Albert Bigelow Paine was Samuel Langhorne ...	https://i.ytimg.com/vi/net-PyY_j-U/hqdefault.jpg	2025-11-21 20:21:06.243323+00	795	\N
+18435	bKcApv9w-vw	16498	Miss Cayley's Adventures 01~06	Audiobook.	https://i.ytimg.com/vi/bKcApv9w-vw/hqdefault.jpg	2025-11-21 20:21:29.749336+00	166	\N
+18436	MwIFjIK8p9c	42548	Autobiography of Mark Twain (Volume 1)	Part 2: https://www.youtube.com/watch?v=NzxivCATA14 0:00:00 - INTRODUCTION BY ALBERT BIGELOW PAINE PREFACE BY ...	https://i.ytimg.com/vi/MwIFjIK8p9c/hqdefault.jpg	2025-11-21 20:21:49.518607+00	201	\N
+18437	7wbdeQvia7M	22099	In Kent with Charles Dickens	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. In Kent with Charles ...	https://i.ytimg.com/vi/7wbdeQvia7M/hqdefault.jpg	2025-11-21 20:22:10.111826+00	2787	\N
+18438	pKcW6vJ0lBI	15690	Miss Cayleys Adventures	Audiobook.	https://i.ytimg.com/vi/pKcW6vJ0lBI/hqdefault.jpg	2025-11-21 20:22:29.65956+00	166	\N
+18439	i76Cy4VWvgw	31137	The Valley of Silent Men	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Valley of Silent Men ...	https://i.ytimg.com/vi/i76Cy4VWvgw/hqdefault.jpg	2025-11-21 20:22:50.881046+00	937	\N
+18440	dRINGOR2kr4	15856	The Life Story of a Russian Exile	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Life-Story of a Russian ...	https://i.ytimg.com/vi/dRINGOR2kr4/hqdefault.jpg	2025-11-21 20:23:12.718155+00	2784	\N
+18441	ZtPY1rqKusQ	37438	Chapters from my Autobiography	Subscribe for more free audiobooks, don't forget bell icon. Chapters from my Autobiography Audiobook by Mark Twain.	https://i.ytimg.com/vi/ZtPY1rqKusQ/hqdefault.jpg	2025-11-21 20:23:33.216868+00	201	\N
+18442	v6STQfMzjGo	17508	SKETCHES NEW AND OLD	SKETCHES NEW AND OLD by Mark Twain ABOUT THE BOOK: Sketches New and Old is a collection of short stories by Mark ...	https://i.ytimg.com/vi/v6STQfMzjGo/hqdefault.jpg	2025-11-21 20:23:57.066112+00	201	\N
+18443	8QwjY1JlKwA	24164	The American Claimant	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The American Claimant ...	https://i.ytimg.com/vi/8QwjY1JlKwA/hqdefault.jpg	2025-11-21 20:24:17.541837+00	201	\N
+18444	WigIRWu1qvs	27944	The Girl from Hollywood	The Girl From Hollywood by Edgar Rice Burroughs. Read in English by Joseph DeNoia. The countryside outside of Los Angeles ...	https://i.ytimg.com/vi/WigIRWu1qvs/hqdefault.jpg	2025-11-21 20:24:37.115599+00	169	\N
+18445	G3u_AuUw3uY	35586	Marguerite de Valois Part 2/2	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Marguerite de Valois ...	https://i.ytimg.com/vi/G3u_AuUw3uY/hqdefault.jpg	2025-11-21 20:24:58.930073+00	935	\N
+18446	ZGjuIIC-s7Q	29574	The Harbor of Doubt	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Harbor of Doubt Frank ...	https://i.ytimg.com/vi/ZGjuIIC-s7Q/hqdefault.jpg	2025-11-21 20:25:19.82026+00	2788	\N
+18447	rrT-E-TwukA	20197	In Exile and Other Stories	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. In Exile and Other Stories, ...	https://i.ytimg.com/vi/rrT-E-TwukA/hqdefault.jpg	2025-11-21 20:25:41.253497+00	2731	\N
+18448	xj9zIUaGUsA	22200	A Texas Cowboy		https://i.ytimg.com/vi/xj9zIUaGUsA/hqdefault.jpg	2025-11-21 20:26:00.750998+00	2789	\N
+18449	BBz9_wLS57w	19719	HIDDEN FOES	Order books easily home to your mailbox: https://amzn.to/2Y4YrVQ If you do order a book by using the link above, you will help the ...	https://i.ytimg.com/vi/BBz9_wLS57w/hqdefault.jpg	2025-11-21 20:26:20.418018+00	2786	\N
+18450	sWoK1f83dTs	18141	With Links of Steel	With Links of Steel | Nicholas Carter | Full Audiobook Nick Carter is a fictional detective who first appeared in 1886 in dime store ...	https://i.ytimg.com/vi/sWoK1f83dTs/hqdefault.jpg	2025-11-21 20:26:41.169668+00	2786	\N
+18451	Ch7GbtOb2tU	19027	Snarled Identities	Snarled Identities by Nicholas Carter. Read in English by John; tommack; David Angelo; Paul Harvey; Tim Jones; Chris Brown; ...	https://i.ytimg.com/vi/Ch7GbtOb2tU/hqdefault.jpg	2025-11-21 20:27:02.128286+00	2786	\N
+18452	NoN02jym9OI	38104	Chapters from my Autobiography	"“...if I should talk to a stenographer two hours a day for a hundred years, I should still never be able to set down a tenth part of the ...	https://i.ytimg.com/vi/NoN02jym9OI/hqdefault.jpg	2025-11-21 20:27:21.835898+00	201	\N
+18453	78Kt876_W24	20488	GIRLS IN BOOKLAND	"Girls in Bookland" by Hildegarde Hawthorne is a collection of stories that celebrate the power of literature and imagination.	https://i.ytimg.com/vi/78Kt876_W24/hqdefault.jpg	2025-11-21 20:27:45.193724+00	4581	\N
+18454	mNEJowMkcKI	17932	Short Ghost Stories and Horror Stories	00:00:00 01 - Perdita by Hildegarde Hawthorne 00:18:21 02 - Pichon and Sons, Of The Croix Rousse by Joseph Sheridan Le ...	https://i.ytimg.com/vi/mNEJowMkcKI/hqdefault.jpg	2025-11-21 20:28:07.932265+00	2311	\N
+18455	qrRd7aLq_tY	24721	The Hermit and the Wild Woman, and other Stories	Support through Patreon - https://patreon.com/LibriVoxAudiobooks Merchandise - https://my-store-2993814.creator-spring.com/ ...	https://i.ytimg.com/vi/qrRd7aLq_tY/hqdefault.jpg	2025-11-21 20:28:28.040731+00	2176	\N
+18456	taZ8bXIoN3g	29220	The Hard Thing About Hard Things Must-Know Business Lessons from Ben Horowitz!	The Hard Truth About Success: Lessons from Ben Horowitz Building a business isn't just about having a great idea—it's about ...	https://i.ytimg.com/vi/taZ8bXIoN3g/hqdefault.jpg	2025-11-21 20:29:02.389107+00	492	\N
+18457	zNMGiG3HzF8	30082	The Hard Thing About Hard Things	Discover the raw truth behind running a business in this full audiobook of The Hard Thing About Hard Things by Ben Horowitz.	https://i.ytimg.com/vi/zNMGiG3HzF8/hqdefault.jpg	2025-11-21 20:29:21.797116+00	492	\N
+18458	Q7-otuogQi4	27830	Cold 007 James Bond	audiobook #jamesbond #johngardner You're Watching: Cold | 007 James Bond By John Gardner [FULL AUDIOBOOK] James ...	https://i.ytimg.com/vi/Q7-otuogQi4/hqdefault.jpg	2025-11-21 20:29:43.920003+00	1804	\N
+18459	53NqOuUfQSk	31016	Originals: How Non-Conformists Move the World	Using surprising studies and stories spanning business, politics, sports, and entertainment, Grant explores how to recognize a ...	https://i.ytimg.com/vi/53NqOuUfQSk/hqdefault.jpg	2025-11-21 20:30:29.516934+00	242	\N
+18460	HSHdCwLq3Dc	20565	Atomic Habits	The path starts from Habtis: 1) Atomic Habits by James Clear FULL Audiobook NO ADS 2) Money: Master the game.	https://i.ytimg.com/vi/HSHdCwLq3Dc/hqdefault.jpg	2025-11-21 20:31:33.701106+00	77	\N
+18461	Su_7tuXm030	29292	The Gray Mask	Refusing to believe his former fiancé is mixed up in a vicious plot involving kidnapping, a man turns to the famed Miss Silver for ...	https://i.ytimg.com/vi/Su_7tuXm030/hqdefault.jpg	2025-11-21 20:31:58.928989+00	1433	\N
+18462	tl--bC9pGIA	26008	Mrs. Jeffries and the Missing Alibi	A DEADLY CRIME WITHOUT AN ALIBI In Mrs. Jeffries and the Missing Alibi by Emily Brightwell, Victorian London is shaken when ...	https://i.ytimg.com/vi/tl--bC9pGIA/hqdefault.jpg	2025-11-21 20:32:18.788101+00	4582	\N
+18463	oV-vIg1-JBk	32271	Mrs Jeffries and the Three Wise Women	Mrs. Jeffries and Inspector Witherspoon solve a holiday homicide in this mystery in the New York Times bestselling Victorian ...	https://i.ytimg.com/vi/oV-vIg1-JBk/hqdefault.jpg	2025-11-21 20:32:38.226059+00	4582	\N
+18464	4CNAN4-2XRQ	22840	The Inspector and Mrs. Jeffries	It all begins here. The Inspector and Mrs. Jeffries by Emily Brightwell introduces readers to one of the most beloved cozy mystery ...	https://i.ytimg.com/vi/4CNAN4-2XRQ/hqdefault.jpg	2025-11-21 20:32:57.994064+00	4582	\N
+18465	B4EbMKjVtnU	34394	Callander Square	Murders just don't happen in fashionable areas like Callander Square–but these two have. The police are totally baffled. Pretty ...	https://i.ytimg.com/vi/B4EbMKjVtnU/hqdefault.jpg	2025-11-21 20:33:17.833184+00	4583	\N
+18466	IvDgy4ru8Nk	20802	Mrs. Pargeters Pound of Flesh	Murder, mystery, and a touch of dark humor… In Mrs. Pargeter's Pound of Flesh by Simon Brett, the beloved amateur detective ...	https://i.ytimg.com/vi/IvDgy4ru8Nk/hqdefault.jpg	2025-11-21 20:33:57.816161+00	3808	\N
+18467	ngY8zYX2g34	38496	Poor Miss Finch		https://i.ytimg.com/vi/ngY8zYX2g34/hqdefault.jpg	2025-11-21 20:34:18.50135+00	213	\N
+18468	zZZQ85BvRWg	25855	Miss Billy's Decision	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/zZZQ85BvRWg/hqdefault.jpg	2025-11-21 20:34:42.795054+00	1463	\N
+18469	XtCx1SACn4o	33985	Bleak House	Title : [Bleak House] by Charles Dickens 3/3 ♡ Topics : librivox, audiobooks, dickens, novel, London, society, england, 19th ...	https://i.ytimg.com/vi/XtCx1SACn4o/hqdefault.jpg	2025-11-21 20:35:04.347291+00	177	\N
+18470	x1RrhBm2XWY	26355	The Circular Staircase	The Circular Staircase - FULL AUDIOBOOK Mary Roberts Rinehart (1876 - 1958) Mary Roberts Rinehart (1876-1958) was a ...	https://i.ytimg.com/vi/x1RrhBm2XWY/hqdefault.jpg	2025-11-21 20:35:24.132914+00	1460	\N
+18471	4DXHKa1fbhM	18368	A CRUISE IN AN OPIUM CLIPPER	A Cruise in an Opium Clipper by Lindsay Anderson (1841 - 1895) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/4DXHKa1fbhM/hqdefault.jpg	2025-11-21 20:35:59.409613+00	1648	\N
+18472	bqlVvd-5QcM	16223	A Cruise in an Opium Clipper	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. A Cruise in an Opium ...	https://i.ytimg.com/vi/bqlVvd-5QcM/hqdefault.jpg	2025-11-21 20:36:19.714656+00	1786	\N
+18473	STqFNZlkXKc	22056	Among Typhoons And Pirate Craft	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Among Typhoons And ...	https://i.ytimg.com/vi/STqFNZlkXKc/hqdefault.jpg	2025-11-21 20:36:41.269879+00	1786	\N
+18474	ZmxQbJ-Q_m0	22058	AMONG TYPHOONS AND PIRATE CRAFT	Among Typhoons And Pirate Craft by Lindsay Anderson (1841 - 1895) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/ZmxQbJ-Q_m0/hqdefault.jpg	2025-11-21 20:37:02.285662+00	1648	\N
+18475	Tf3ifdo_8Tg	22062	Among Typhoons And Pirate Craft	Among Typhoons And Pirate Craft Lindsay Anderson (1841 - 1895) Among Typhoons and Pirate Craft by Lindsay Anderson is an ...	https://i.ytimg.com/vi/Tf3ifdo_8Tg/hqdefault.jpg	2025-11-21 20:37:22.606796+00	1648	\N
+18476	A5mb9gqh3iY	19238	The Present	A hidden past. A forbidden romance. A gift that could change everything. In The Present, Johanna Lindsey weaves a captivating ...	https://i.ytimg.com/vi/A5mb9gqh3iY/hqdefault.jpg	2025-11-21 20:38:23.188501+00	692	\N
+18477	qOx8PDYvuzI	18371	A Cruise in an Opium Clipper	A Cruise in an Opium Clipper Lindsay Anderson (1841 - 1895) A Cruise in an Opium Clipper by Lindsay Anderson is an ...	https://i.ytimg.com/vi/qOx8PDYvuzI/hqdefault.jpg	2025-11-21 20:38:43.706014+00	1648	\N
+18478	vfgwApDnWzA	22059	Among Typhoons and Pirate Craft		https://i.ytimg.com/vi/vfgwApDnWzA/hqdefault.jpg	2025-11-21 20:39:03.569217+00	1648	\N
+18479	M2YV8REWKt0	22057	Among Typhoons And Pirate Craft		https://i.ytimg.com/vi/M2YV8REWKt0/hqdefault.jpg	2025-11-21 20:39:24.176927+00	1648	\N
+18480	90hLehiXM8g	40069	A Voyage to Arcturus	A Voyage to Arcturus (novel) by David Lindsay A stunning achievement in speculative fiction, A Voyage to Arcturus has inspired, ...	https://i.ytimg.com/vi/90hLehiXM8g/hqdefault.jpg	2025-11-21 20:39:43.995746+00	168	\N
+18481	625OT7iZBAQ	40187	Wildfire In His Arms	Wildfire In His Arms by Johanna Lindsey Royalty Romance Audiobook Royalty Romance Audiobooks : https://bit.ly/3QF1NZg ...	https://i.ytimg.com/vi/625OT7iZBAQ/hqdefault.jpg	2025-11-21 20:40:05.671957+00	692	\N
+18482	jzUsIXLzeW8	40632	A Voyage to Arcturus	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. A Voyage to Arcturus ...	https://i.ytimg.com/vi/jzUsIXLzeW8/hqdefault.jpg	2025-11-21 20:40:30.333249+00	168	\N
+18483	OfTuYYJ5fwo	25742	Poul Anderson 2000 Genesis	Poul Anderson 2000 Genesis Weiner.	https://i.ytimg.com/vi/OfTuYYJ5fwo/hqdefault.jpg	2025-11-21 20:40:52.890386+00	1788	\N
+18484	P6ZoOBrgmVg	36413	After London, or Wild England	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. After London, or Wild ...	https://i.ytimg.com/vi/P6ZoOBrgmVg/hqdefault.jpg	2025-11-21 20:41:14.446654+00	1522	\N
+18485	lgqJ32mmMy8	17867	THE GHOST PIRATES	The Ghost Pirates by William Hope Hodgson (1877 - 1918) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/lgqJ32mmMy8/hqdefault.jpg	2025-11-21 20:41:34.143899+00	209	\N
+18486	h99qVSyoyW0	18751	Rebels of the Red Planet	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Rebels of the Red Planet ...	https://i.ytimg.com/vi/h99qVSyoyW0/hqdefault.jpg	2025-11-21 20:41:55.650022+00	1005	\N
+18487	b6HtnZbLS1Y	28214	Legacy	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Legacy, James H.	https://i.ytimg.com/vi/b6HtnZbLS1Y/hqdefault.jpg	2025-11-21 20:42:17.523439+00	2803	\N
+18488	CSrD3FpqCFE	27572	The Galaxy Primes	They were four of the greatest minds in the Universe: the Galaxy Primes, two men and two women aboard the experimental ...	https://i.ytimg.com/vi/CSrD3FpqCFE/hqdefault.jpg	2025-11-21 20:42:40.995819+00	156	\N
+18489	p7aECECjbes	27788	Poul Anderson 1987 AwardWinning Science Fiction Teti	Poul Anderson 1987 AwardWinning Science Fiction Teti.	https://i.ytimg.com/vi/p7aECECjbes/hqdefault.jpg	2025-11-21 20:43:03.261759+00	1788	\N
+18490	WkMwxshMwqA	39758	Treasure Bound	For Treasure Bound Audiobook by Harry Collingwood. Free full length audio book. ▻ Subscribe to our channel: ...	https://i.ytimg.com/vi/WkMwxshMwqA/hqdefault.jpg	2025-11-21 20:43:27.044459+00	1658	\N
+18491	Wc_THBLcaqA	30704	Roughing It	Thanks for watching. If you liked this video, make sure to like and subscribe! Thank you! http://bit.ly/3TTLWqR ...	https://i.ytimg.com/vi/Wc_THBLcaqA/hqdefault.jpg	2025-11-21 20:44:12.12262+00	201	\N
+18492	VZMY8rlj3aI	36071	The Innocents Abroad	The Innocents Abroad by Mark TWAIN (1835 - 1910) Genre(s): Travel Fiction Read by: John Greenman in English Parts: Part 2 ...	https://i.ytimg.com/vi/VZMY8rlj3aI/hqdefault.jpg	2025-11-21 20:44:32.493233+00	201	\N
+18493	JU6JJJukZ7A	29520	THE GILDED AGE	THE GILDED AGE by Mark Twain - FULL AudioBook PART 1 of 2 https://GreatestAudioBooks.co S H O P great books ...	https://i.ytimg.com/vi/JU6JJJukZ7A/hqdefault.jpg	2025-11-21 20:44:52.058691+00	201	\N
+18494	QL7Um8pYKGE	36904	Life on the Mississippi	Life on the Mississippi by Mark TWAIN (1835 - 1910) Genre(s): Nature, Modern (19th C) Read by: John Greenman in English ...	https://i.ytimg.com/vi/QL7Um8pYKGE/hqdefault.jpg	2025-11-21 20:45:11.733054+00	201	\N
+18495	P59b8STBV3U	37855	Mark Twain Autobiography	Mark Twain Autobiography. https://en.wikipedia.org/wiki/Autobiography_of_Mark_Twain.	https://i.ytimg.com/vi/P59b8STBV3U/hqdefault.jpg	2025-11-21 20:45:35.649901+00	201	\N
+18496	2idiX0_RLqU	36102	Roughing It	Roughing It by Mark TWAIN (1835 - 1910) Genre(s): Travel & Geography, Memoirs Read by: John Greenman in English Parts: ...	https://i.ytimg.com/vi/2idiX0_RLqU/hqdefault.jpg	2025-11-21 20:45:56.883741+00	201	\N
+18497	AB0Gw-M3km8	35866	The Gilded Age: A Tale of Today	BOOKS - https://amzn.to/3lQFUfn KINDLE STORE - https://amzn.to/3IDO57A DEALS: 30 DAYS FREE AUDIBLE ...	https://i.ytimg.com/vi/AB0Gw-M3km8/hqdefault.jpg	2025-11-21 20:46:16.6741+00	2096	\N
+18498	fveog0GejeU	31551	Following The Equator	BOOKS - https://amzn.to/3lQFUfn KINDLE STORE - https://amzn.to/3IDO57A DEALS: 30 DAYS FREE AUDIBLE ...	https://i.ytimg.com/vi/fveog0GejeU/hqdefault.jpg	2025-11-21 20:46:36.7113+00	201	\N
+18499	HUe0ONsuw6g	26512	Letters from Hawaii	Mark Twain's Letters from Hawaii by Mark Twain (1835 - 1910) Genre(s): Essays & Short Works, Travel & Geography Read by: ...	https://i.ytimg.com/vi/HUe0ONsuw6g/hqdefault.jpg	2025-11-21 20:46:58.10542+00	201	\N
+18500	a2o4kPsGPDM	34549	The Innocents Abroad	The Innocents Abroad by Mark TWAIN (1835 - 1910) Genre(s): Travel Fiction Read by: John Greenman in English Parts: Part 1 ...	https://i.ytimg.com/vi/a2o4kPsGPDM/hqdefault.jpg	2025-11-21 20:47:19.17788+00	201	\N
+18501	qSV29xIY8pg	28901	Roughing It	BOOKS - https://amzn.to/3lQFUfn KINDLE STORE - https://amzn.to/3IDO57A DEALS: 30 DAYS FREE AUDIBLE ...	https://i.ytimg.com/vi/qSV29xIY8pg/hqdefault.jpg	2025-11-21 20:47:39.778399+00	201	\N
+18502	eJ0mYEgQvy0	60105	The Letters of Mark Twain, Complete	The Letters of Mark Twain, Complete by Mark TWAIN (1835 - 1910) by Letters full Audiobooks he Letters of Mark Twain, Complete ...	https://i.ytimg.com/vi/eJ0mYEgQvy0/hqdefault.jpg	2025-11-21 20:48:05.412622+00	201	\N
+18503	VKNGnXA1ix8	41419	The Adventures of Huckleberry Finn	Adventures of Huckleberry Finn is a novel by Mark Twain, first published in the United Kingdom in December 1884 and in the ...	https://i.ytimg.com/vi/VKNGnXA1ix8/hqdefault.jpg	2025-11-21 20:48:25.230756+00	201	\N
+18504	0elqhhSLsM8	42603	A Connecticut Yankee in King Arthur's Court	A Connecticut Yankee in King Arthur's Court by Mark Twain - FULL AudioBook ▻For Ebook Offers Please Visit our Homepage ...	https://i.ytimg.com/vi/0elqhhSLsM8/hqdefault.jpg	2025-11-21 20:48:46.545669+00	201	\N
+18505	gadpq9NTH5I	27244	The Adventures of Tom Sawyer	"The Adventures of Tom Sawyer" is the most famous young adult novel by American writer Mark Twain. Tom Sawyer lives in St.	https://i.ytimg.com/vi/gadpq9NTH5I/hqdefault.jpg	2025-11-21 20:49:06.908036+00	201	\N
+18506	U5CVbF3LHF4	21417	The Prince and the Pauper	Step into Mark Twain's timeless classic The Prince and the Pauper in this full-length narrated journey. Follow the lives of two ...	https://i.ytimg.com/vi/U5CVbF3LHF4/hqdefault.jpg	2025-11-21 20:49:26.554543+00	201	\N
+18507	F2aoSlykTbQ	17488	Short Stories of Mark Twain	A Complaint about Correspondents, Dated in San Francisco Punch, Brothers, Punch. A Helpless Situation. The Recent Great ...	https://i.ytimg.com/vi/F2aoSlykTbQ/hqdefault.jpg	2025-11-21 20:49:48.103477+00	201	\N
+18508	m-6LiITDQ80	28827	The Adventures of Tom Sawyer	THE ADVENTURES OF TOM SAWYER by Mark Twain - Dramatic Reading - FULL AudioBook | Greatest AudioBooks V2 ...	https://i.ytimg.com/vi/m-6LiITDQ80/hqdefault.jpg	2025-11-21 20:50:09.24835+00	201	\N
+18509	AzgRLb15Xlg	24181	The Adventures of Tom Sawyer	BOOKS - https://amzn.to/3lQFUfn KINDLE STORE - https://amzn.to/3IDO57A DEALS: 30 DAYS FREE AUDIBLE ...	https://i.ytimg.com/vi/AzgRLb15Xlg/hqdefault.jpg	2025-11-21 20:50:28.724424+00	201	\N
+18510	QHzxnioJgcE	19994	The Mysterious Stranger	The Mysterious Stranger by Mark Twain – Full Audiobook (English) with original illustrations. Mark Twain's final, unfinished novel ...	https://i.ytimg.com/vi/QHzxnioJgcE/hqdefault.jpg	2025-11-21 20:50:48.538757+00	201	\N
+18511	G2hgeAH4GuE	33181	The Innocents Abroad	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Innocents Abroad ...	https://i.ytimg.com/vi/G2hgeAH4GuE/hqdefault.jpg	2025-11-21 20:51:09.617394+00	201	\N
+18512	Mq5Uf9oRdh0	20091	A Connecticut Yankee in King Arthur's Court	A CONNECTICUT YANKEE IN KING ARTHUR'S COURT by Mark Twain ABOUT THE BOOK: A Connecticut Yankee in King ...	https://i.ytimg.com/vi/Mq5Uf9oRdh0/hqdefault.jpg	2025-11-21 20:51:33.205873+00	201	\N
+18513	T3OkMkbwdlc	46760	A Connecticut Yankee in King Arthur's Court	"A Connecticut Yankee in King Arthur's Court" is a satirical novel by Mark Twain, published in 1889. This time-travel adventure ...	https://i.ytimg.com/vi/T3OkMkbwdlc/hqdefault.jpg	2025-11-21 20:51:53.059045+00	201	\N
+18514	1Z4b9hxaldQ	42789	THE INNOCENTS ABROAD	Audiobook from classics collection / best-sellers. "The Innocents Abroad," written by Mark Twain, is a travelogue that chronicles ...	https://i.ytimg.com/vi/1Z4b9hxaldQ/hqdefault.jpg	2025-11-21 20:52:12.582829+00	201	\N
+18515	E4_wkukogXQ	31241	The Prince and the Pauper	The Prince and the Pauper is a novel by American author Mark Twain. It was first published in 1881 in Canada, before its 1882 ...	https://i.ytimg.com/vi/E4_wkukogXQ/hqdefault.jpg	2025-11-21 20:52:32.390304+00	201	\N
+18516	sbDBlCYsaQ4	16474	The Mysterious Stranger and Other Stories	LibriVox recording of The Mysterious Stranger and Other Stories, by Mark Twain. Read by Ted Delorme. Here's a Mark Twain ...	https://i.ytimg.com/vi/sbDBlCYsaQ4/hqdefault.jpg	2025-11-21 20:52:51.704692+00	201	\N
+18517	FGmjAR2YSgg	33181	The Innocents Abroad	The Innocents Abroad Part 1 by Mark Twain - FULL AudioBook ▻For Ebook Offers Please Visit our Homepage ...	https://i.ytimg.com/vi/FGmjAR2YSgg/hqdefault.jpg	2025-11-21 20:53:13.558107+00	201	\N
+18518	uR6b_Ov4Ago	40803	THE ADVENTURES OF HUCKELBERRY FINN	THE ADVENTURES OF HUCKELBERRY FINN by Mark Twain - FULL AudioBook | Greatest AudioBooks V6 - Mark TWAIN (1835 ...	https://i.ytimg.com/vi/uR6b_Ov4Ago/hqdefault.jpg	2025-11-21 20:53:34.885672+00	201	\N
+18519	VfUGq1ErCFI	28053	LIFE ON THE MISSISSIPPI	LIFE ON THE MISSISSIPPI by Mark Twain ABOUT THE BOOK: Life on the Mississippi (1883) is a memoir by Mark Twain of his ...	https://i.ytimg.com/vi/VfUGq1ErCFI/hqdefault.jpg	2025-11-21 20:53:54.228471+00	201	\N
+18520	UuvuqKAC-9I	38107	Chapters from my Autobiography	Chapters from my Autobiography audiobook Mark TWAIN (1835 - 1910) ...	https://i.ytimg.com/vi/UuvuqKAC-9I/hqdefault.jpg	2025-11-21 20:54:23.377879+00	201	\N
+18521	pXGDu11CLQo	28462	PERSONAL RECOLLECTIONS OF JOAN OF ARC	PERSONAL RECOLLECTIONS OF JOAN OF ARC by Mark Twain ABOUT THE BOOK: Personal Recollections of Joan of Arc, ...	https://i.ytimg.com/vi/pXGDu11CLQo/hqdefault.jpg	2025-11-21 20:54:44.322318+00	201	\N
+18522	d6S_EPzO3GU	30168	Christian Science	Christian Science by Mark Twain audiobook. Christian Science is a 1907 collection of essays Mark Twain wrote about Christian ...	https://i.ytimg.com/vi/d6S_EPzO3GU/hqdefault.jpg	2025-11-21 20:55:08.048825+00	201	\N
+18523	IbIeMTPcSfo	35888	Adventures of Huckleberry Finn	Young Huckleberry Finn returns to "civilized" life under Widow Douglas's care in St. Petersburg, Missouri. When his violent ...	https://i.ytimg.com/vi/IbIeMTPcSfo/hqdefault.jpg	2025-11-21 20:55:27.754807+00	201	\N
+18524	Z79yAscoFJY	41669	A Connecticut Yankee in King Arthur's Court	A Connecticut Yankee in King Arthur's Court by Mark Twain was published in 1889. It tells the story of a Connecticut man named ...	https://i.ytimg.com/vi/Z79yAscoFJY/hqdefault.jpg	2025-11-21 20:55:47.553521+00	201	\N
+18525	x_o6ih3ur0s	55174	Personal Recollections of Joan of Arc	Personal Recollections of Joan of Arc, Volumes 1 & 2 Mark TWAIN (1835 - 1910) ...	https://i.ytimg.com/vi/x_o6ih3ur0s/hqdefault.jpg	2025-11-21 20:56:09.780455+00	201	\N
+18526	6Z5N7rWAkRg	31243	THE PRINCE AND THE PAUPER	THE PRINCE AND THE PAUPER by Mark Twain, full audiobook English version, enhanced sound quality. The Prince and the ...	https://i.ytimg.com/vi/6Z5N7rWAkRg/hqdefault.jpg	2025-11-21 20:56:29.39621+00	201	\N
+18527	Wunah6R3fQE	34199	Brave New World	Aldous Leonard Huxley (26 July 1894 – 22 November 1963) was an English writer and philosopher. He wrote nearly fifty ...	https://i.ytimg.com/vi/Wunah6R3fQE/hqdefault.jpg	2025-11-21 20:56:52.083728+00	2750	\N
+18528	LGJltQhwEbY	18716	ISLAND	00:00 One 17:33 Two 30:34 Three 50:47 Four 01:12:17 Five 02:25:59 Six 03:18:07 Seven 04:12:21 Eight.	https://i.ytimg.com/vi/LGJltQhwEbY/hqdefault.jpg	2025-11-21 20:57:13.663377+00	1234	\N
+18529	TH-6aCoalFg	22049	CROME YELLOW	CROME YELLOW by Aldous Huxley - FULL AudioBook | GreatestAudioBooks - V1 - Crome Yellow, published in 1921 was Aldous ...	https://i.ytimg.com/vi/TH-6aCoalFg/hqdefault.jpg	2025-11-21 20:57:35.033937+00	1234	\N
+18530	BZjJzNR40UM	23244	What a piece of work is a man	These had been uploaded elsewhere, but the audio quality was pretty horrible. I spent some time cleaning them up and they're a ...	https://i.ytimg.com/vi/BZjJzNR40UM/hqdefault.jpg	2025-11-21 20:57:54.880343+00	1234	\N
+18531	s83GFF-jed4	71304	POINT COUNTER POINT	In a world of intellectual excess, moral ambiguity, and shifting alliances, Point Counter Point dissects the tangled lives of London's ...	https://i.ytimg.com/vi/s83GFF-jed4/hqdefault.jpg	2025-11-21 20:58:14.805318+00	4584	\N
+18532	IqjnuKWJeqM	28558	Brave New World		https://i.ytimg.com/vi/IqjnuKWJeqM/hqdefault.jpg	2025-11-21 20:58:35.2115+00	1234	\N
+18533	MiCcvAiHO88	18994	Mortal Coils	Mortal Coils by Aldous Huxley. Read in English by Kirsten Wever. Aldous Huxley is best known as a philosopher and novelist ...	https://i.ytimg.com/vi/MiCcvAiHO88/hqdefault.jpg	2025-11-21 20:58:55.162214+00	1234	\N
+18534	PJTJeyXRbB4	34199	Brave New World		https://i.ytimg.com/vi/PJTJeyXRbB4/hqdefault.jpg	2025-11-21 20:59:16.538863+00	1234	\N
+18535	WWyaQznzADY	35107	Antic Hay	Antic Hay - Full Audiobook (Aldous Huxley) | Audiobook Library Don't forget to like, comment and subscribe for more!	https://i.ytimg.com/vi/WWyaQznzADY/hqdefault.jpg	2025-11-21 20:59:38.585518+00	1234	\N
+18536	OHST-6abPa8	39470	Antic Hay	You can read the book here for free: https://standardebooks.org/ebooks/aldous-huxley/antic-hay Theodore Gumbril Junior is fed ...	https://i.ytimg.com/vi/OHST-6abPa8/hqdefault.jpg	2025-11-21 21:00:17.89811+00	1234	\N
+18537	GWVlpWNNtQI	35081	Antic Hay	Antic Hay - Aldous Huxley 0:00:00 - 01 - Chapter 1 0:27:18 - 02 - Chapter 2 0:57:40 - 03 - Chapter 3 1:27:46 - 04 - Chapter 4 ...	https://i.ytimg.com/vi/GWVlpWNNtQI/hqdefault.jpg	2025-11-21 21:00:39.395343+00	1234	\N
+18538	2fjPsIY73zo	21974	Crome Yellow	Welcome to our channel, where we bring the power of literature to your ears! Our mission is to provide you with high-quality ...	https://i.ytimg.com/vi/2fjPsIY73zo/hqdefault.jpg	2025-11-21 21:01:00.679555+00	1234	\N
+18539	Q9Hjk1AV1S4	22538	Crome Yellow	Crome Yellow. By Aldous Huxley FULL Audiobook Crome Yellow is a satirical novel by Aldous Huxley, published in 1921.	https://i.ytimg.com/vi/Q9Hjk1AV1S4/hqdefault.jpg	2025-11-21 21:01:21.190611+00	1234	\N
+18540	iRi6BYvl0qY	21147	Crome Yellow	Listen full - unabdridged & free audiobooks online. Subscribe for more ▻ http://bit.do/Audiobooks You can also find free book ...	https://i.ytimg.com/vi/iRi6BYvl0qY/hqdefault.jpg	2025-11-21 21:01:42.103698+00	1234	\N
+18541	NdQTmcAkSjI	19856	A Brave New World	audiobook #read aloud Aldous Huxley, an English author, wrote the dystopian social science fiction book Brave New World in ...	https://i.ytimg.com/vi/NdQTmcAkSjI/hqdefault.jpg	2025-11-21 21:02:01.607586+00	1234	\N
+18542	erilhE9qfFQ	23220	POINT COUNTER POINT	In the fractured brilliance of Aldous Huxley's Point Counter Point, relationships unravel in a dance of intellect, passion, and ...	https://i.ytimg.com/vi/erilhE9qfFQ/hqdefault.jpg	2025-11-21 21:02:24.92698+00	1234	\N
+18543	d4QcIWxhP-c	21999	Crome Yellow	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Crome Yellow Aldous ...	https://i.ytimg.com/vi/d4QcIWxhP-c/hqdefault.jpg	2025-11-21 21:02:46.427868+00	1234	\N
+18544	vT9qI_SPCsE	21874	Crome Yellow	Crome Yellow, published in 1921 was Aldous Huxley's first novel. In it he satirizes the fads and fashions of the time. It is the witty ...	https://i.ytimg.com/vi/vT9qI_SPCsE/hqdefault.jpg	2025-11-21 21:03:06.115788+00	1234	\N
+18545	A9AgXZFWvKI	21883	Crome Yellow	Crome Yellow, Aldous HUXLEY Audiobook Chapter Time Chapter 01 00:00:00 Chapter 02 00:07:03 Chapter 03 00:19:56 ...	https://i.ytimg.com/vi/A9AgXZFWvKI/hqdefault.jpg	2025-11-21 21:03:31.52752+00	1234	\N
+18546	y86l2_VayKI	26096	Brave New World	Brave new world Audiobook is best book to listen. Check this amazing Brave New World Audiobook by Aldous Huxley on this ...	https://i.ytimg.com/vi/y86l2_VayKI/hqdefault.jpg	2025-11-21 21:03:51.365581+00	1234	\N
+18547	gfYNFjGAmIE	24921	Crome Yellow	You can read the book here for free: https://standardebooks.org/ebooks/aldous-huxley/crome-yellow Denis, a young writer and ...	https://i.ytimg.com/vi/gfYNFjGAmIE/hqdefault.jpg	2025-11-21 21:04:10.978967+00	1234	\N
+18548	wMYpHd85UAU	32618	Iceberg	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/wMYpHd85UAU/hqdefault.jpg	2025-11-21 21:04:37.857925+00	432	\N
+18549	U_NL9N7gzTU	32889	Legacy of the Inca Kings [Part 2]	Legacy of the Inca Kings [Part 2] | Clive Cussler Audiobooks "Inca Gold" is the twelfth book in the Dirk Pitt adventure series by ...	https://i.ytimg.com/vi/U_NL9N7gzTU/hqdefault.jpg	2025-11-21 21:04:58.366834+00	432	\N
+18550	RQ4UH2DvuNU	39117	Vixen 03	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/RQ4UH2DvuNU/hqdefault.jpg	2025-11-21 21:05:17.835011+00	432	\N
+18551	15F4apr7LyU	35134	The Diamond Protocol	The Diamond Protocol [Part 1] | Clive Cussler Audiobooks "Shock Wave" is the thirteenth novel in the Dirk Pitt series by Clive ...	https://i.ytimg.com/vi/15F4apr7LyU/hqdefault.jpg	2025-11-21 21:05:38.010952+00	432	\N
+18552	oWyfuDTtD6k	32417	Frozen Betrayal	Frozen Betrayal | Clive Cussler Audiobooks Dirk Pitt Series ...	https://i.ytimg.com/vi/oWyfuDTtD6k/hqdefault.jpg	2025-11-21 21:05:59.61817+00	432	\N
+18553	Q_qz3BiMgK4	42234	Ocean's Wrath	Ocean's Wrath | Clive Cussler Audiobooks Dirk Pitt Series ...	https://i.ytimg.com/vi/Q_qz3BiMgK4/hqdefault.jpg	2025-11-21 21:06:20.815351+00	432	\N
+18554	OBaiymqQ2PA	27353	Pacific Death Vortex	Pacific Death Vortex | Clive Cussler Full Audiobook | Adventure, Mystery & Action Dive deep into the thrilling world of Clive ...	https://i.ytimg.com/vi/OBaiymqQ2PA/hqdefault.jpg	2025-11-21 21:06:40.564657+00	432	\N
+18555	dD8GMW-6ihw	25921	The Secret of Annex 3	Much too early on New Year's Day, a grumpy Inspector Morse is summoned to investigate a murder at the Haworth Hotel.	https://i.ytimg.com/vi/dD8GMW-6ihw/hqdefault.jpg	2025-11-21 21:07:00.488961+00	3800	\N
+18556	-Ct1rCq2cpo	32527	Nuclear Tide	Nuclear Tide [Part 2] | Clive Cussler Audiobooks "Dragon" is the tenth book in the Dirk Pitt adventure series by Clive Cussler.	https://i.ytimg.com/vi/-Ct1rCq2cpo/hqdefault.jpg	2025-11-21 21:07:21.129953+00	432	\N
+18557	J6XFtVajN3g	30012	The Mediterranean Caper	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/J6XFtVajN3g/hqdefault.jpg	2025-11-21 21:07:43.268583+00	432	\N
+18558	pwRGY_taJew	30009	Mediterranean Conspiracy	Mediterranean Conspiracy | Clive Cussler Audiobooks Dirk Pitt Series ...	https://i.ytimg.com/vi/pwRGY_taJew/hqdefault.jpg	2025-11-21 21:08:03.960482+00	432	\N
+18559	_mHi_sOzgqo	29087	Ancient Riches	Ancient Riches [Part 1] | Clive Cussler Audiobooks Charts of lost gold...breathtaking art and rarevolumes...maps of hidden oil ...	https://i.ytimg.com/vi/_mHi_sOzgqo/hqdefault.jpg	2025-11-21 21:08:25.974809+00	432	\N
+18560	2NjPCPSSrCE	23897	Raise the Titanic!	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/2NjPCPSSrCE/hqdefault.jpg	2025-11-21 21:08:47.365349+00	432	\N
+18561	kxiAXsKCAVQ	43008	Night Probe!	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/kxiAXsKCAVQ/hqdefault.jpg	2025-11-21 21:09:08.771143+00	432	\N
+18562	aa804kmCBtU	42847	Night Probe!	Audiobook: Night Probe! ✍️ Author: Clive Cussler Narrated by: [Narrator's Name if known] 🎙️ Full Audiobook | Unabridged ...	https://i.ytimg.com/vi/aa804kmCBtU/hqdefault.jpg	2025-11-21 21:09:28.249415+00	432	\N
+18563	m4uIwSViU2E	27485	Desert Inferno	Desert Inferno [Part 1] | Clive Cussler Audiobooks "Sahara" is the eleventh book in the Dirk Pitt adventure series by Clive ...	https://i.ytimg.com/vi/m4uIwSViU2E/hqdefault.jpg	2025-11-21 21:09:48.356938+00	432	\N
+18564	7lKUE6TDKAs	32113	Hard to Kill	In Hard to Kill, danger has never been more personal. When a deadly conspiracy surfaces, a fearless investigator finds herself in ...	https://i.ytimg.com/vi/7lKUE6TDKAs/hqdefault.jpg	2025-11-21 21:10:07.93816+00	16	\N
+18565	3QvfrjXmCv4	38912	Vixen 03 A Dirk Pitt Thriller	Description: In 1954, a U.S. military cargo plane carrying a deadly secret vanished without a trace. Nearly three decades later, that ...	https://i.ytimg.com/vi/3QvfrjXmCv4/hqdefault.jpg	2025-11-21 21:10:34.230009+00	432	\N
+18566	QkJAtGZ_84E	23024	Nuclear Tide	Nuclear Tide [Part 1] | Clive Cussler Audiobooks "Dragon" is the tenth book in the Dirk Pitt adventure series by Clive Cussler.	https://i.ytimg.com/vi/QkJAtGZ_84E/hqdefault.jpg	2025-11-21 21:11:15.427541+00	432	\N
+18567	n1eLyenEJ0A	32456	Iceberg	Title: Iceberg ✍️ Author: Clive Cussler 🎙️ Presented by: Truth Meets Fiction Genre: Action Thriller / Maritime Mystery When ...	https://i.ytimg.com/vi/n1eLyenEJ0A/hqdefault.jpg	2025-11-21 21:11:35.204658+00	432	\N
+18568	5uZ5Db4anak	67439	Shockwave	TruthMeetsFiction #truecrime #audiobook #murder #mystery #thriller.	https://i.ytimg.com/vi/5uZ5Db4anak/hqdefault.jpg	2025-11-21 21:11:56.696475+00	432	\N
+18569	dZEpw6OiYmA	29203	The Mediterranean Caper	The Mediterranean Caper by Clive Cussler Dirk Pitt 02 IJU AudioBook.	https://i.ytimg.com/vi/dZEpw6OiYmA/hqdefault.jpg	2025-11-21 21:12:18.497264+00	432	\N
+18570	binDrrKpm4g	24970	Operation Cyclops	Operation Cyclops [Part 1] | Clive Cussler Audiobooks Dirk Pitt Series ...	https://i.ytimg.com/vi/binDrrKpm4g/hqdefault.jpg	2025-11-21 21:12:38.056102+00	432	\N
+18571	18cQislYmnY	43008	Shadow Treaty	Shadow Treaty | Clive Cussler Audiobooks "Night Probe!" is the sixth book in the Dirk Pitt adventure series by Clive Cussler.	https://i.ytimg.com/vi/18cQislYmnY/hqdefault.jpg	2025-11-21 21:12:59.455747+00	432	\N
+18572	i1vf0nTBJHA	24932	Pacific Vortex!	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/i1vf0nTBJHA/hqdefault.jpg	2025-11-21 21:13:20.294979+00	4585	\N
+18573	iClHT2jdg4k	29140	The Ark Files - Archaeological Mystery / Thriller	Fans of Dan Brown, Clive Cussler, and Ernest Dempsey will devour this in hours! While THE ARK FILES has loads of conflict, ...	https://i.ytimg.com/vi/iClHT2jdg4k/hqdefault.jpg	2025-11-21 21:13:42.768458+00	4586	\N
+18574	nG8PdUOkxvg	22586	Deep Six	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/nG8PdUOkxvg/hqdefault.jpg	2025-11-21 21:14:03.699947+00	432	\N
+18575	lyJar03GUkw	27745	Ancient Riches	Ancient Riches [Part 2] | Clive Cussler Audiobooks Charts of lost gold...breathtaking art and rarevolumes...maps of hidden oil ...	https://i.ytimg.com/vi/lyJar03GUkw/hqdefault.jpg	2025-11-21 21:14:26.089018+00	432	\N
+18576	WIKP-gyJlIA	32678	The Diamond Protocol [Part 2]	The Diamond Protocol [Part 2] | Clive Cussler Audiobooks "Shock Wave" is the thirteenth novel in the Dirk Pitt series by Clive ...	https://i.ytimg.com/vi/WIKP-gyJlIA/hqdefault.jpg	2025-11-21 21:14:47.528469+00	432	\N
+18577	kYB0pFxVE8M	38908	Operation Doomsday	Operation Doomsday | Clive Cussler Audiobooks Dirk Pitt Series ...	https://i.ytimg.com/vi/kYB0pFxVE8M/hqdefault.jpg	2025-11-21 21:15:07.075401+00	432	\N
+18578	w04A2WSe7Co	24723	Pacific Death Vortex	Pacific Death Vortex | Clive Cussler Audiobooks Dirk Pitt Series ...	https://i.ytimg.com/vi/w04A2WSe7Co/hqdefault.jpg	2025-11-21 21:15:26.571375+00	432	\N
+18579	-RZfV0ePCb0	24549	Deep Six	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/-RZfV0ePCb0/hqdefault.jpg	2025-11-21 21:15:48.496787+00	432	\N
+18580	Dydbwc0Tsws	33057	Resurrection from the Deep	Resurrection from the Deep | Clive Cussler Audiobooks Dirk Pitt Series ...	https://i.ytimg.com/vi/Dydbwc0Tsws/hqdefault.jpg	2025-11-21 21:16:14.641976+00	432	\N
+18581	jokcEIxr0kA	75415	The Lone Ranger Rides	Read along @ https://www.gutenberg.org/files/40038/40038-h/40038-h.htm The Lone Ranger Rides, a wonderful western story in ...	https://i.ytimg.com/vi/jokcEIxr0kA/hqdefault.jpg	2025-11-21 21:16:37.232495+00	3500	\N
+18582	7bOtxkwSqxc	75411	The Lone Ranger Rides	The Lone Ranger Rides - Fran Striker 0:00:00 - 01 - The Basin 0:08:46 - 02 - The Gap 0:24:53 - 03 - The Cave 0:36:29 - 04 - Gray ...	https://i.ytimg.com/vi/7bOtxkwSqxc/hqdefault.jpg	2025-11-21 21:16:57.741157+00	3500	\N
+18583	cdLngSaNPrI	74400	The Lone Ranger Rides	The Lone Ranger RIdes is a novel that was published in 1941 and features the famous western hero known as the Lone Ranger.	https://i.ytimg.com/vi/cdLngSaNPrI/hqdefault.jpg	2025-11-21 21:17:17.208008+00	3500	\N
+18584	bsptYYtEwsw	75447	The Lone Ranger Rides	The Lone Ranger Rides by Fran Striker audiobook. Fans of the old radio shows and the TV series The Lone Ranger will ...	https://i.ytimg.com/vi/bsptYYtEwsw/hqdefault.jpg	2025-11-21 21:17:36.623189+00	3500	\N
+18585	-DpiPPWbyYE	75412	The Lone Ranger Rides	Support us on Patreon by becoming a member it helps us to sustain and provide more free audiobooks.	https://i.ytimg.com/vi/-DpiPPWbyYE/hqdefault.jpg	2025-11-21 21:17:56.613921+00	3500	\N
+18586	X7o7vD_WjjY	74507	The Lone Ranger Rides	The Lone Ranger Rides, by Fran Striker. Read by Roger Melin. Fans of the old radio shows and the TV series The Lone Ranger ...	https://i.ytimg.com/vi/X7o7vD_WjjY/hqdefault.jpg	2025-11-21 21:18:16.065798+00	3500	\N
+18587	v1qZi8qaAZI	75411	Lone Ranger Rides	Audiobook.	https://i.ytimg.com/vi/v1qZi8qaAZI/hqdefault.jpg	2025-11-21 21:18:36.00938+00	3500	\N
+18588	DkEDayL65oY	70152	The Lone Ranger Rides	The Lone Ranger Rides by Fran STRIKER (1903 - 1962) Genre(s): Westerns Read by: Roger Melin in English Parts: Part 2 ...	https://i.ytimg.com/vi/DkEDayL65oY/hqdefault.jpg	2025-11-21 21:18:57.197347+00	4587	\N
+18589	4Il5sXa3puo	20801	Trauma Default	Unlock your hidden potential and break free from unhealed trauma cycles with "Trauma Default," the transformative audiobook by ...	https://i.ytimg.com/vi/4Il5sXa3puo/hqdefault.jpg	2025-11-21 21:19:16.817389+00	4588	\N
+18590	XZ9pwYfnukk	75413	The Lone Ranger Rides	The Lone Ranger Rides Fran STRIKER (1903 - 1962) Fans of the old radio shows and the TV series The Lone Ranger will ...	https://i.ytimg.com/vi/XZ9pwYfnukk/hqdefault.jpg	2025-11-21 21:19:36.951759+00	3500	\N
+18591	N5ASjm5ucTQ	75412	The Lone Ranger Rides	The Lone Ranger Rides - audiobook Fran STRIKER (1903 - 1962) Fans of the old radio shows and the TV series The Lone ...	https://i.ytimg.com/vi/N5ASjm5ucTQ/hqdefault.jpg	2025-11-21 21:19:57.669848+00	4587	\N
+18592	EPlq4Tn7AUI	75413	The Lone Ranger Rides	The Lone Ranger Rides - audiobook Fran STRIKER (1903 - 1962) Fans of the old radio shows and the TV series The Lone ...	https://i.ytimg.com/vi/EPlq4Tn7AUI/hqdefault.jpg	2025-11-21 21:20:18.962281+00	4587	\N
+18593	-dCSdecLTxA	111710	LIGHTNIN'	Get your own copy of "LIGHTNIN'" - https://amzn.to/3wdPZTo Order books easily home to your mailbox - https://amzn.to/3ocFyNh ...	https://i.ytimg.com/vi/-dCSdecLTxA/hqdefault.jpg	2025-11-21 21:20:38.736741+00	2546	\N
+18594	lv9ASWh2QqQ	105717	The Lone Star Ranger	BOOKS - https://amzn.to/3lQFUfn KINDLE STORE - https://amzn.to/3IDO57A DEALS: 30 DAYS FREE AUDIBLE ...	https://i.ytimg.com/vi/lv9ASWh2QqQ/hqdefault.jpg	2025-11-21 21:21:01.6474+00	364	\N
+18595	fZUSCHmt0r8	34514	Genial Idiot		https://i.ytimg.com/vi/fZUSCHmt0r8/hqdefault.jpg	2025-11-21 21:21:24.379037+00	4589	\N
+18596	3KMpj69wQZc	23179	Preferred Risk	Audiobook: Preferred Risk by Frederick Pohl and Lester del Rey as Edson McCann. The Company insures you against everything ...	https://i.ytimg.com/vi/3KMpj69wQZc/hqdefault.jpg	2025-11-21 21:22:13.230686+00	2762	\N
+18597	T8HiseEUhE4	23179	Preferred Risk	Preferred Risk - Frederik Pohl; Lester del Rey 0:00:00 - 01 - I 0:30:51 - 02 - II 0:53:21 - 03 - III 1:28:26 - 04 - IV 1:43:58 - 05 - V ...	https://i.ytimg.com/vi/T8HiseEUhE4/hqdefault.jpg	2025-11-21 21:22:34.733453+00	4590	\N
+18598	qdElfjqmEhg	18100	Police Your Planet	Police Your Planet by Lester Del Rey. Read by Christian Alexander. Bruce Gordon looked at his ticket, grimaced at the ONE WAY ...	https://i.ytimg.com/vi/qdElfjqmEhg/hqdefault.jpg	2025-11-21 21:22:55.39638+00	4591	\N
+18599	nXmM-Qs9aM4	22958	Preferred Risk	Preferred Risk by Frederik Pohl; Lester del Rey. Read in English by Nick Bulka. The Company insures you against everything.	https://i.ytimg.com/vi/nXmM-Qs9aM4/hqdefault.jpg	2025-11-21 21:23:18.984938+00	4590	\N
+18600	d_BOs_Yqoig	17898	Police Your Planet	Police Your Planet (FULL AUDIOBOOK) Lester del Rey (1915 - 1993) Bruce Gordon looked at his ticket, grimaced at the ONE ...	https://i.ytimg.com/vi/d_BOs_Yqoig/hqdefault.jpg	2025-11-21 21:23:40.396246+00	4592	\N
+18601	FFBglCRnWco	18367	Police Your Planet	Police Your Planet - Lester Del Ray 0:00:00 - 01 One Way Ticket 0:16:22 - 02 Honest Izzy 0:36:47 - 03 The Graft Is Green 0:55:43 ...	https://i.ytimg.com/vi/FFBglCRnWco/hqdefault.jpg	2025-11-21 21:24:08.784896+00	4591	\N
+18602	ka-4ZGp-8ng	30747	A Billionaire Between the Sheets	A Billionaire Between the Sheets by Katie Lane Series: The Overnight Billionaires.	https://i.ytimg.com/vi/ka-4ZGp-8ng/hqdefault.jpg	2025-11-21 21:24:40.376669+00	4593	\N
+18603	QF1_Omxs7wI	18968	Full Length - Historical Western Romance	This is a full length clean historical western mail order bride romance by Emma Ashwood. You can read along on your Kindle, ...	https://i.ytimg.com/vi/QF1_Omxs7wI/hqdefault.jpg	2025-11-21 21:25:01.420113+00	4594	\N
+18604	0iYOnGXEpSQ	40383	The Memoirs of Jacques Casanova Vol. 1	The Memoirs of Jacques Casanova Vol. 1 Audiobook by Giacomo Casanova. Free full length audio book. ▻ Subscribe to our ...	https://i.ytimg.com/vi/0iYOnGXEpSQ/hqdefault.jpg	2025-11-21 21:25:43.336767+00	4595	\N
+18605	54v2XKMo6BE	26730	Pamela	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/54v2XKMo6BE/hqdefault.jpg	2025-11-21 21:26:04.52806+00	1251	\N
+18606	PkKKajZyNgU	26020	Jerusalem Delivered		https://i.ytimg.com/vi/PkKKajZyNgU/hqdefault.jpg	2025-11-21 21:26:24.158355+00	3657	\N
+18607	OzdPA9Z1FP0	26491	Memoirs of Jacques Casanova Vol 2	Audiobook.	https://i.ytimg.com/vi/OzdPA9Z1FP0/hqdefault.jpg	2025-11-21 21:26:49.677083+00	4595	\N
+18608	ug-OjW5aZK8	21331	Robin Hood	Robin Hood by J. WALKER MCSPADDEN - FULL AudioBook - Free AudioBooks Robin Hood is a heroic outlaw in English folklore ...	https://i.ytimg.com/vi/ug-OjW5aZK8/hqdefault.jpg	2025-11-21 21:27:11.881967+00	1657	\N
+18609	8C8z147ENUE	18211	Pamela - Volume 2		https://i.ytimg.com/vi/8C8z147ENUE/hqdefault.jpg	2025-11-21 21:27:31.684272+00	1251	\N
+18610	oSrfO_vrTuE	37056	Only If You're Lucky	Stacy Willingham - Only If You're Lucky | Audiobook Mystery, Thriller & Suspense A sharp and twisty exploration of female ...	https://i.ytimg.com/vi/oSrfO_vrTuE/hqdefault.jpg	2025-11-21 21:28:09.261987+00	1436	\N
+18611	inwwMYiA40o	37083	All the Dangerous Things	All the Dangerous Things by Stacy Willingham | Audiobook Mystery, Thriller & Suspense Following up her instant New York Times ...	https://i.ytimg.com/vi/inwwMYiA40o/hqdefault.jpg	2025-11-21 21:28:29.040865+00	1436	\N
+18612	WQ2w7wANPgA	34026	Forget Me Not	Stacy Willingham - Forget Me Not | Audiobook Mystery, Thriller & Suspense A pulse-pounding new Southern thriller from the ...	https://i.ytimg.com/vi/WQ2w7wANPgA/hqdefault.jpg	2025-11-21 21:28:49.462174+00	1436	\N
+18613	KQvymXWA9l0	35950	All The Dangerous Things	All The Dangerous Things by Stacy Willingham —————————————————— TELEGRAM ...	https://i.ytimg.com/vi/KQvymXWA9l0/hqdefault.jpg	2025-11-21 21:29:09.19852+00	1436	\N
+18614	butDV0uwyMw	37048	Only If You're Lucky	Audiobooks #AudiobooksMystery #AudiobooksThriller #AudiobooksSuspense.	https://i.ytimg.com/vi/butDV0uwyMw/hqdefault.jpg	2025-11-21 21:29:28.945322+00	1436	\N
+18615	qq-6WfF7Yl4	32403	We Are All Guilty	We Are All Guilty Here by Karin Slaughter (Part 1) unravels a haunting story of secrets, justice, and blurred moral lines. When a ...	https://i.ytimg.com/vi/qq-6WfF7Yl4/hqdefault.jpg	2025-11-21 21:30:31.539242+00	18	\N
+18616	ycDADEJQg_M	33137	Guess Again	For fans of Riley Sager, Anna Downes, Alex Finlay, Stacy Willingham, and Karin Slaughter. Ten years ago, 17-year-old high ...	https://i.ytimg.com/vi/ycDADEJQg_M/hqdefault.jpg	2025-11-21 21:30:53.192703+00	516	\N
+18617	GAVHAWNjStg	14410	Last Breath	Last Breath by Karin Slaughter is a gripping novella that delivers high-stakes suspense and emotional intensity. Attorney Charlie ...	https://i.ytimg.com/vi/GAVHAWNjStg/hqdefault.jpg	2025-11-21 21:31:33.370065+00	18	\N
+18618	rtZKauwg6U0	32477	That's Not My Name	She thought she had her life back. She was wrong. It was a mistake to trust him Shivering and bruised, a teen wakes up on the ...	https://i.ytimg.com/vi/rtZKauwg6U0/hqdefault.jpg	2025-11-21 21:31:53.590232+00	1123	\N
+18619	oyZ0jdL6EjQ	42655	A Flicker in the Dark	More Mystery, Horror, Thriller & Suspense Audiobooks: https://bit.ly/44BPVPJ ⭐Donate to Our Team Paypal ...	https://i.ytimg.com/vi/oyZ0jdL6EjQ/hqdefault.jpg	2025-11-21 21:32:34.855991+00	1436	\N
+18620	wTmwjAoplnc	33446	Guess Again	For fans of Riley Sager, Anna Downes, Alex Finlay, Stacy Willingham, and Karin Slaughter. Ten years ago, 17-year-old high ...	https://i.ytimg.com/vi/wTmwjAoplnc/hqdefault.jpg	2025-11-21 21:32:54.908266+00	516	\N
+18621	63qfDH-Aeoc	16829	When Cicadas Cry	Ideal for fans of mystery, suspense, and thrillers in the vein of Karin Slaughter's Pretty Girls and Stacy Willingham's A Flicker in the ...	https://i.ytimg.com/vi/63qfDH-Aeoc/hqdefault.jpg	2025-11-21 21:33:24.768147+00	958	\N
+18622	lN3TXtg1edY	18001	When Cicadas Cry	Ideal for fans of mystery, suspense, and thrillers in the vein of Karin Slaughter's Pretty Girls and Stacy Willingham's A Flicker in the ...	https://i.ytimg.com/vi/lN3TXtg1edY/hqdefault.jpg	2025-11-21 21:33:44.351906+00	958	\N
+18623	__CoRJch1Mc	40630	Clouds of Witness	Clouds of Witness by Dorothy L. Sayers. Read in English by Kirsten Wever. While Lord Peter Wimsey is on holiday in the wilds of ...	https://i.ytimg.com/vi/__CoRJch1Mc/hqdefault.jpg	2025-11-21 21:34:04.193787+00	402	\N
+18624	_GvPcBoUX0s	32978	Science Fiction & Fantasy - Aftershocks: The Palladium Wars, Book 1	If you love military sci-fi, political intrigue, and space warfare, this action-packed series by Marko Kloos (author of the bestselling ...	https://i.ytimg.com/vi/_GvPcBoUX0s/hqdefault.jpg	2025-11-21 21:34:28.156035+00	157	\N
+18625	x9Fp_AygD6E	14508	Ghost Squadron	Perfect for fans of Marko Kloos, Jack Campbell, and Richard Fox! Title: Ghost Squadron Author: Eric Thomson Genre: ...	https://i.ytimg.com/vi/x9Fp_AygD6E/hqdefault.jpg	2025-11-21 21:35:13.310747+00	4596	\N
+18626	KRD6jt-oe9I	91935	The Memoirs of Colonel John S. Mosby	The Memoirs of Colonel John S. Mosby - FULL AUDIOBOOK John S. Mosby (1833 - 1916) This is not a work of fiction! These are ...	https://i.ytimg.com/vi/KRD6jt-oe9I/hqdefault.jpg	2025-11-21 21:36:35.888504+00	1711	\N
+18627	C7Z9fem6MNg	93546	The Memoirs of Colonel John S. Mosby	The Memoirs of Colonel John S. Mosby - audiobook John S. MOSBY (1833 - 1916) This is not a work of fiction! These are the ...	https://i.ytimg.com/vi/C7Z9fem6MNg/hqdefault.jpg	2025-11-21 21:36:58.021258+00	1711	\N
+18628	Uzy8E0-Ysjs	93544	The Memoirs of Colonel John S Mosby	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Memoirs of Colonel ...	https://i.ytimg.com/vi/Uzy8E0-Ysjs/hqdefault.jpg	2025-11-21 21:37:19.40271+00	1711	\N
+18629	zE3_M3R-bg8	45554	The Memoirs of Colonel John S. Mosby (Part 1 of)	These are the memoirs of a legendary leader of Confederate partisans who bedeviled the Union army for years, almost within ...	https://i.ytimg.com/vi/zE3_M3R-bg8/hqdefault.jpg	2025-11-21 21:37:39.315532+00	4597	\N
+18630	_OoR8mq6Pmg	92315	The Memoirs of Colonel John S. Mosby	The Memoirs of Colonel John S. Mosby, by John S. Mosby. Read by Mark Smith. This is not a work of fiction! These are the actual ...	https://i.ytimg.com/vi/_OoR8mq6Pmg/hqdefault.jpg	2025-11-21 21:37:59.237422+00	1711	\N
+18631	UBFG_s0VUIk	93545	The Memoirs of Colonel John S. Mosby	The Memoirs of Colonel John S. Mosby - John S. Mosby 0:00:00 - 00 - Introduction by Charles Russell 0:16:52 - 01 - Early Life ...	https://i.ytimg.com/vi/UBFG_s0VUIk/hqdefault.jpg	2025-11-21 21:38:19.701959+00	1711	\N
+18632	XpxL3LL1VBE	43951	The Memoirs of Colonel John S. Mosby (Part 2 of)	This is not a work of fiction! These are the actual memoirs of a legendary leader of partisans who bedeviled the Union army for ...	https://i.ytimg.com/vi/XpxL3LL1VBE/hqdefault.jpg	2025-11-21 21:38:39.881242+00	4597	\N
+18633	2EGSaupsaTg	93618	The Memoirs of Colonel John S. Mosby	Don't forget to LIKE, SUBSCRIBE, and SHARE the magic with fellow book lovers! More information about this book is on our ...	https://i.ytimg.com/vi/2EGSaupsaTg/hqdefault.jpg	2025-11-21 21:38:59.471977+00	1711	\N
+18634	wOkE8TX_Q44	92745	Famous Adventures And Prison Escapes Of The Civil War	Famous Adventures And Prison Escapes Of The Civil War by Various. Read in English by David Wales. Seven narratives ...	https://i.ytimg.com/vi/wOkE8TX_Q44/hqdefault.jpg	2025-11-21 21:39:20.525481+00	749	\N
+18635	8frF8HZmTBQ	91205	Trail's End	Trail's End Audiobook George W. OGDEN Chapter Time The Unconquered Land 00:00:00 The Meat Hunter 00:17:43 First Blood ...	https://i.ytimg.com/vi/8frF8HZmTBQ/hqdefault.jpg	2025-11-21 21:40:22.66453+00	4538	\N
+18636	_Sgl16AOa8k	21111	A Confederate Girl's Diary	A Confederate Girl's Diary audiobook by Sarah Morgan Dawson (1842-1909) Sarah Morgan Dawson was a young woman of 20 ...	https://i.ytimg.com/vi/_Sgl16AOa8k/hqdefault.jpg	2025-11-21 21:40:44.427508+00	4091	\N
+18637	TJHLASm48e8	14736	A Confederate Girl's Diary - part 2	A Confederate Girl's Diary audiobook by Sarah Morgan Dawson (1842-1909) Sarah Morgan Dawson was a young woman of 20 ...	https://i.ytimg.com/vi/TJHLASm48e8/hqdefault.jpg	2025-11-21 21:41:04.608408+00	4091	\N
+18638	r0VrusqXb5M	32807	Personal Memoirs of U. S. Grant	Personal Memoirs of U. S. Grant audiobook by Ulysses S. Grant (1822-1885) In preparing these volumes for the public, I have ...	https://i.ytimg.com/vi/r0VrusqXb5M/hqdefault.jpg	2025-11-21 21:41:24.91375+00	2612	\N
+18639	sNiwIqNPk9E	92833	The Sexes in Science and History	The Sexes in Science and History Eliza Burt GAMBLE Audiobook Chapter Time Preface 00:00:00 Development of the Organism ...	https://i.ytimg.com/vi/sNiwIqNPk9E/hqdefault.jpg	2025-11-21 21:41:50.990342+00	3774	\N
+18640	_Pom_XF2fMc	90138	Fanny Hill: Memoirs of a Woman of Pleasure	Fanny Hill: Memoirs of a Woman of Pleasure - FULL AUDIOBOOK John Cleland (1709 - 1789) This book has been notorious ...	https://i.ytimg.com/vi/_Pom_XF2fMc/hqdefault.jpg	2025-11-21 21:42:32.903639+00	4598	\N
+18641	zR4TENHCcw8	17083	The Gamekeeper at Home	If you would like a hard copy you can buy the book using the link below :) UK Listeners: https://amzn.to/3FWvDVU US Listeners: ...	https://i.ytimg.com/vi/zR4TENHCcw8/hqdefault.jpg	2025-11-21 21:43:07.473027+00	2666	\N
+18642	En9HcDrd-nk	34893	The Dewy Morn	The Dewy Morn. By Richard Jefferies FULL Audiobook "The Dewy Morn" by Richard Jefferies is a novel that immerses readers in ...	https://i.ytimg.com/vi/En9HcDrd-nk/hqdefault.jpg	2025-11-21 21:43:27.01804+00	2666	\N
+18643	w-Uek2KPw3o	16883	The Gamekeeper at Home	The Gamekeeper at Home - FULL AUDIOBOOK Richard Jefferies (1848 - 1887) Richard Jefferies (1848 – 1887) was born and ...	https://i.ytimg.com/vi/w-Uek2KPw3o/hqdefault.jpg	2025-11-21 21:43:46.557929+00	2666	\N
+18644	3n_T20iciGo	36106	After London, or Wild England	After London, or Wild England Richard Jefferies (1848 - 1887) Full Audio Book read for you by Ruth Golding Jefferies' novel can ...	https://i.ytimg.com/vi/3n_T20iciGo/hqdefault.jpg	2025-11-21 21:44:07.288822+00	2666	\N
+18645	kEwpbs4Pl3o	17224	The Gamekeeper at Home	The Gamekeeper at Home by Richard JEFFERIES (1848 - 1887) Genre(s): *Non-fiction, Animals, Biography & Autobiography ...	https://i.ytimg.com/vi/kEwpbs4Pl3o/hqdefault.jpg	2025-11-21 21:44:28.534815+00	2666	\N
+18646	XXu3vJt6PBI	22561	Amaryllis at the Fair	Amaryllis at the Fair. By Richard Jefferies FULL Audiobook Amaryllis at the Fair by Richard Jefferies is a poignant portrayal of life ...	https://i.ytimg.com/vi/XXu3vJt6PBI/hqdefault.jpg	2025-11-21 21:44:48.020158+00	2666	\N
+18647	C5ScoHWNQw4	22969	After London		https://i.ytimg.com/vi/C5ScoHWNQw4/hqdefault.jpg	2025-11-21 21:45:07.384828+00	2666	\N
+18648	TV--6DW-upg	29798	After London	After London. By Richard Jefferies FULL Audiobook "After London; or, Wild England" by Richard Jefferies, first published in 1885, ...	https://i.ytimg.com/vi/TV--6DW-upg/hqdefault.jpg	2025-11-21 21:45:26.757348+00	2666	\N
+18649	pMacXldEk3g	15185	Greene Ferne Farm	Greene Ferne Farm. By Richard Jefferies FULL Audiobook "Greene Ferne Farm" by Richard Jefferies is a pastoral novel that ...	https://i.ytimg.com/vi/pMacXldEk3g/hqdefault.jpg	2025-11-21 21:45:46.186253+00	2666	\N
+18650	7C6wUcdQI0c	17223	THE GAMEKEEPER AT HOME	The Gamekeeper at Home by Richard Jefferies (1848 - 1887) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/7C6wUcdQI0c/hqdefault.jpg	2025-11-21 21:46:07.628172+00	2666	\N
+18651	cm09u0CEeCE	35847	After London, or Wild England	After London, or Wild England, by Richard Jefferies. Read by Ruth Golding. Jefferies' novel can be seen as an early example of ...	https://i.ytimg.com/vi/cm09u0CEeCE/hqdefault.jpg	2025-11-21 21:46:27.306933+00	2666	\N
+18652	ZcsuSvotoS4	36417	After London, or Wild England	Jefferies' novel can be seen as an early example of 'post-apocalyptic fiction.' After some sudden and unspecified catastrophe has ...	https://i.ytimg.com/vi/ZcsuSvotoS4/hqdefault.jpg	2025-11-21 21:46:46.886323+00	2666	\N
+18653	sIy--stWgz8	36415	After London, or Wild England	After London, or Wild England - Richard Jefferies 0:00:00 - 01 - Part I, Chapter 1: The Great Forest 0:23:07 - 02 - Part I, Chapter 2: ...	https://i.ytimg.com/vi/sIy--stWgz8/hqdefault.jpg	2025-11-21 21:47:07.593692+00	2666	\N
+18654	M1GRvgXV8vk	34372	After London	Enjoy Full, Uninterrupted AudioBooks on @alternalcreations. Please Like and Subscribe if you enjoy Our Content! We appreciate ...	https://i.ytimg.com/vi/M1GRvgXV8vk/hqdefault.jpg	2025-11-21 21:47:30.622339+00	2666	\N
+18655	I5V5KmSyv-I	35593	After London, or Wild England	by Richard Jefferies #apocalypse #audio #scifi.	https://i.ytimg.com/vi/I5V5KmSyv-I/hqdefault.jpg	2025-11-21 21:47:51.308944+00	2666	\N
+18656	gRpTkQlFZ6k	34215	Round about a Great Estate	Immerse yourself in the tranquil and nostalgic world of the English countryside with Richard Jefferies' "Round about a Great Estate ...	https://i.ytimg.com/vi/gRpTkQlFZ6k/hqdefault.jpg	2025-11-21 21:48:10.914661+00	2666	\N
+18657	_L6mqL-bDmE	16989	The Gamekeeper at Home	The Gamekeeper at Home, by Richard Jefferies. Read by Andy Minter. Richard Jefferies (1848 – 1887) was born and spent his ...	https://i.ytimg.com/vi/_L6mqL-bDmE/hqdefault.jpg	2025-11-21 21:48:31.885934+00	2666	\N
+18658	rhj-LSnptXI	36435	After London, or Wild England	After London, or Wild England. By Richard Jefferies FULL Audiobook "After London; Or, Wild England" by Richard Jefferies is a ...	https://i.ytimg.com/vi/rhj-LSnptXI/hqdefault.jpg	2025-11-21 21:48:51.514761+00	2666	\N
+18659	ifaT_naN6D4	17222	The Gamekeeper at Home	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Gamekeeper at Home ...	https://i.ytimg.com/vi/ifaT_naN6D4/hqdefault.jpg	2025-11-21 21:49:13.246855+00	1522	\N
+18660	-PJzJSF9X4k	29207	AFTER LONDON, OR WILD ENGLAND	AFTER LONDON, OR WILD ENGLAND by Richard Jefferies (P2of2) - FULL AudioBook | Greatest AudioBooks - After ...	https://i.ytimg.com/vi/-PJzJSF9X4k/hqdefault.jpg	2025-11-21 21:49:36.805612+00	2666	\N
+18661	pp62kQt7ljw	29927	AFTER LONDON OR WILD ENGLAND	After London" or "Wild England" is a pioneering work of speculative fiction written by Richard Jefferies, a renowned English ...	https://i.ytimg.com/vi/pp62kQt7ljw/hqdefault.jpg	2025-11-21 21:49:56.557358+00	2668	\N
+18662	H3Flr5WJmLE	35571	After London, or Wild England	After London, or Wild England (Full Audiobook) Richard Jefferies (1848 - 1887) Post-apocalyptic England countryside reverts to ...	https://i.ytimg.com/vi/H3Flr5WJmLE/hqdefault.jpg	2025-11-21 21:50:21.369616+00	2666	\N
+18663	iNMjloA5YHw	25262	Buccaneers and Pirates of Our Coasts	Buccaneers and Pirates of Our Coasts. Buccaneers is non-fiction, a highly readable history of how piracy began and spread ...	https://i.ytimg.com/vi/iNMjloA5YHw/hqdefault.jpg	2025-11-21 21:50:41.09799+00	2667	\N
+18664	YqNbUzIUe4s	25390	Dead Men's Money	Fletcher wrote several novels of rural life in imitation of Richard Jefferies, beginning with The Wonderful Wapentake (1894).	https://i.ytimg.com/vi/YqNbUzIUe4s/hqdefault.jpg	2025-11-21 21:51:03.079102+00	1397	\N
+18665	Qp9dny74XrI	26212	Nathaniel Hawthorne	This work is in the public domain We passionately create and share audiobooks for free. Don't forget to give it a thumbs up and ...	https://i.ytimg.com/vi/Qp9dny74XrI/hqdefault.jpg	2025-11-21 21:51:28.068537+00	3644	\N
+18666	qOrwcDCO83s	43195	Heart of man	Heart of man is an unchanged, high-quality reprint of the original edition of 1899. Hansebooks is editor of the literature on different ...	https://i.ytimg.com/vi/qOrwcDCO83s/hqdefault.jpg	2025-11-21 21:51:47.565908+00	4599	\N
+18667	SaJajQ6gqds	38535	The Children of the New Forest	The Children of the New Forest. By Captain Marryat. Full Audiobook Set against the backdrop of the English Civil War, Frederick ...	https://i.ytimg.com/vi/SaJajQ6gqds/hqdefault.jpg	2025-11-21 21:52:21.367614+00	3394	\N
+18668	qWZwvr1sXWs	42881	Mr. Midshipman Easy	Mr. Midshipman Easy - Frederick Marryat - Part 1 0:00:00 - Chapter 01 - 03 0:23:56 - Chapter 04 0:46:51 - Chapter 05 1:03:42 ...	https://i.ytimg.com/vi/qWZwvr1sXWs/hqdefault.jpg	2025-11-21 21:52:42.787214+00	755	\N
+18669	I_iLDfYFlJw	25951	The Phantom Ship	A Spine-Chilling Maritime Adventure of Ghostly Legends & Dark Curses! ✨ Set sail on the high seas with The Phantom Ship, ...	https://i.ytimg.com/vi/I_iLDfYFlJw/hqdefault.jpg	2025-11-21 21:53:02.451533+00	755	\N
+18670	Hw22--wMyQk	22473	Jacob Faithful		https://i.ytimg.com/vi/Hw22--wMyQk/hqdefault.jpg	2025-11-21 21:53:22.117513+00	755	\N
+18671	eh9eso4ee7Y	21112	Snarleyyow	Audiobook.	https://i.ytimg.com/vi/eh9eso4ee7Y/hqdefault.jpg	2025-11-21 21:53:42.700932+00	755	\N
+18672	eWISvg249ZQ	40885	Autobiography of a Seaman, Vol 1	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Autobiography of a ...	https://i.ytimg.com/vi/eWISvg249ZQ/hqdefault.jpg	2025-11-21 21:54:03.306301+00	2891	\N
+18673	YR3yZ4oMgGE	56452	Snarleyyow	Snarleyyow Frederick MARRYAT (1792 - 1848) This is a quite amusing nautical tale of the British Navy of the around the year ...	https://i.ytimg.com/vi/YR3yZ4oMgGE/hqdefault.jpg	2025-11-21 21:54:26.061138+00	2426	\N
+18674	cV-mVUQYApw	30174	Pirate, and The Three Cutters	Embark on a thrilling seafaring adventure with Captain Marryat's classic, "Pirate, and The Three Cutters". Discover the ruthless ...	https://i.ytimg.com/vi/cV-mVUQYApw/hqdefault.jpg	2025-11-21 21:54:46.230716+00	755	\N
+18675	MdA-9vZW3EQ	21128	Snarleyyow		https://i.ytimg.com/vi/MdA-9vZW3EQ/hqdefault.jpg	2025-11-21 21:55:05.991256+00	755	\N
+18676	TSrypggMa7c	34199	The Children of the New Forest	The Children of the New Forest Frederick MARRYAT Audiobook Chapter Time Chapter 1 00:00:00 Chapter 2 00:20:50 Chapter 3 ...	https://i.ytimg.com/vi/TSrypggMa7c/hqdefault.jpg	2025-11-21 21:55:26.735152+00	755	\N
+18677	vqCQUdz0qLE	37760	Jacob Faithful	Jacob Faithful - Frederick MARRYAT Audiobook Part 1 Chapter Time Chapter 1 00:00:00 Chapter 2 00:25:26 Chapter 3 00:51:15 ...	https://i.ytimg.com/vi/vqCQUdz0qLE/hqdefault.jpg	2025-11-21 21:55:47.167501+00	2426	\N
+18678	yiu68Ag1bhM	31185	Snarleyyow	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Snarleyyow Frederick ...	https://i.ytimg.com/vi/yiu68Ag1bhM/hqdefault.jpg	2025-11-21 21:56:08.453995+00	2426	\N
+18679	JmPWgSWhrO4	21177	The Children of the New Forest	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/JmPWgSWhrO4/hqdefault.jpg	2025-11-21 21:56:28.81117+00	755	\N
+18680	03eAKvBuSBI	31272	Jacob Faithful Part 1/2	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Jacob Faithful Frederick ...	https://i.ytimg.com/vi/03eAKvBuSBI/hqdefault.jpg	2025-11-21 21:56:49.791055+00	2426	\N
+18681	Kf8pi5m9u_8	25951	The Phantom Ship	Set sail on a thrilling adventure with The Phantom Ship by Frederick Marryat, a gripping nautical Gothic mystery that combines ...	https://i.ytimg.com/vi/Kf8pi5m9u_8/hqdefault.jpg	2025-11-21 21:57:09.684596+00	755	\N
+18682	sZH43G2gt-4	22182	The Naval Officer	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/sZH43G2gt-4/hqdefault.jpg	2025-11-21 21:57:32.303606+00	755	\N
+18683	1EgcBytrN4w	29546	Snarleyyow Part 2/2	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Snarleyyow Frederick ...	https://i.ytimg.com/vi/1EgcBytrN4w/hqdefault.jpg	2025-11-21 21:57:53.180952+00	2426	\N
+18684	oPhaxty9dXk	39384	The Children of the New Forest	The Children of the New Forest Frederick MARRYAT (1792 - 1848) ...	https://i.ytimg.com/vi/oPhaxty9dXk/hqdefault.jpg	2025-11-21 21:58:14.204429+00	2426	\N
+18685	5AggnpiW-mA	30284	The Pirate, and The Three Cutters	The Pirate, and The Three Cutters - Frederick Marryat 0:00:00 - 00 - Introduction 0:17:52 - 01 - The Bay of Biscay 0:31:44 - 02 ...	https://i.ytimg.com/vi/5AggnpiW-mA/hqdefault.jpg	2025-11-21 21:58:38.705361+00	755	\N
+18686	ALReVBTJ2L4	39410	The Children of the New Forest	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Children of the New ...	https://i.ytimg.com/vi/ALReVBTJ2L4/hqdefault.jpg	2025-11-21 21:58:59.23179+00	2426	\N
+18687	xgb2DNadF_Q	39385	The Children of the New Forest	The Children of the New Forest is a children's novel published in 1847 by Frederick Marryat. It is set in the time of the English Civil ...	https://i.ytimg.com/vi/xgb2DNadF_Q/hqdefault.jpg	2025-11-21 21:59:18.539507+00	755	\N
+18688	M8MXXUscbow	62621	Jacob Faithful	Jacob Faithful - audiobook Frederick MARRYAT (1792 - 1848) Rebelling against the career chosen for him by his wealthy family, ...	https://i.ytimg.com/vi/M8MXXUscbow/hqdefault.jpg	2025-11-21 21:59:40.102728+00	2426	\N
+18689	45otmvM2mXU	39384	The Children of the New Forest	The Children of the New Forest - Frederick Marryat 0:00:00 - Chapter 01 0:15:54 - Chapter 02 0:36:46 - Chapter 03 0:55:43 ...	https://i.ytimg.com/vi/45otmvM2mXU/hqdefault.jpg	2025-11-21 22:00:01.658215+00	755	\N
+18690	Yem2jRUekCM	39388	The Children of the New Forest	The Children of the New Forest is a children's novel published in 1847 by Frederick Marryat. It is set in the time of the English Civil ...	https://i.ytimg.com/vi/Yem2jRUekCM/hqdefault.jpg	2025-11-21 22:00:21.07401+00	755	\N
+18691	CUfhTsk-9RI	42149	Peter Simple	Peter Simple - Frederick Marryat - Part 1 0:00:00 - 01 - Chapter One 0:09:51 - 02 - Chapter Two 0:17:13 - 03 - Chapter Three ...	https://i.ytimg.com/vi/CUfhTsk-9RI/hqdefault.jpg	2025-11-21 22:00:41.976199+00	755	\N
+18692	pyHlBDIHK38	42723	Jacob Faithful	Jacob Faithful - Frederick Marryat - Part 1 0:00:00 - 01 - Chapter 1 0:25:26 - 02 - Chapter 2 0:51:15 - 03 - Chapter 3 1:08:05 - 04 ...	https://i.ytimg.com/vi/pyHlBDIHK38/hqdefault.jpg	2025-11-21 22:01:03.469434+00	755	\N
+18693	1Pbp3h6Po4k	24949	Jacob Faithful	Jacob Faithful - Frederick MARRYAT Audiobook Part 2 Chapter Time Chapter 28 00:00:00 Chapter 29 00:33:24 Chapter 30 ...	https://i.ytimg.com/vi/1Pbp3h6Po4k/hqdefault.jpg	2025-11-21 22:01:24.742677+00	755	\N
+18694	mdSOuGcDNy4	19959	Mr Midshipman Easy, Part 1	Audiobook.	https://i.ytimg.com/vi/mdSOuGcDNy4/hqdefault.jpg	2025-11-21 22:02:04.394523+00	755	\N
+18695	VOXF9Q2QQpo	18209	The Children of the New Forest	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/VOXF9Q2QQpo/hqdefault.jpg	2025-11-21 22:02:28.63287+00	755	\N
+18696	jUbYAl5nLO0	18374	The Naval Officer		https://i.ytimg.com/vi/jUbYAl5nLO0/hqdefault.jpg	2025-11-21 22:02:47.94619+00	755	\N
+18697	vpSmLN88cuQ	19889	Snarleyyow	Audiobook.	https://i.ytimg.com/vi/vpSmLN88cuQ/hqdefault.jpg	2025-11-21 22:03:08.616394+00	755	\N
+18698	X98OHvbAD8U	17773	Snarleyyow		https://i.ytimg.com/vi/X98OHvbAD8U/hqdefault.jpg	2025-11-21 22:03:27.864427+00	755	\N
+18699	mAvKSR6s2jo	26807	The Phantom Ship	A Spine-Chilling Maritime Adventure of Ghostly Legends & Dark Curses! ✨ Set sail on the high seas with The Phantom Ship, ...	https://i.ytimg.com/vi/mAvKSR6s2jo/hqdefault.jpg	2025-11-21 22:03:47.4771+00	755	\N
+18700	FpuO3DveTW8	21893	Snarleyyow		https://i.ytimg.com/vi/FpuO3DveTW8/hqdefault.jpg	2025-11-21 22:04:06.747061+00	755	\N
+18701	aR8u3qrOeqU	16400	The Naval Officer		https://i.ytimg.com/vi/aR8u3qrOeqU/hqdefault.jpg	2025-11-21 22:04:26.28249+00	755	\N
+18702	hkA1fmL-RHQ	39384	The Children of the New Forest	The Children of the New Forest Frederick MARRYAT (1792 - 1848) / The children of Colonel Beverley, a Cavalier officer killed at ...	https://i.ytimg.com/vi/hkA1fmL-RHQ/hqdefault.jpg	2025-11-21 22:04:49.238872+00	2426	\N
+18703	Do7yUIRUmxk	19733	Snarleyyow	Audiobook.	https://i.ytimg.com/vi/Do7yUIRUmxk/hqdefault.jpg	2025-11-21 22:05:09.946773+00	755	\N
+18704	f6hPOw8w8A4	19896	Jacob Faithful	Jacob Faithful - Frederick Marryat - Part 2 0:00:00 - 31 - Chapter 31 0:18:25 - 32 - Chapter 32 0:33:05 - 33 - Chapter 33 1:03:29 ...	https://i.ytimg.com/vi/f6hPOw8w8A4/hqdefault.jpg	2025-11-21 22:05:31.038859+00	755	\N
+18705	9yNuHJoseyU	15745	Mr. Midshipman Easy	Mr. Midshipman Easy - Frederick Marryat - Part 2 0:00:00 - Chapter 29 0:23:17 - Chapter 30 0:43:13 - Chapter 31 1:07:35 ...	https://i.ytimg.com/vi/9yNuHJoseyU/hqdefault.jpg	2025-11-21 22:05:52.466657+00	755	\N
+18706	7uRPKE6jA38	16175	Peter Simple	Peter Simple - Frederick Marryat - Part 2 0:00:00 - 49 - Chapter Forty Nine 0:19:28 - 50 - Chapter Fifty 0:38:41 - 51 - Chapter Fifty ...	https://i.ytimg.com/vi/7uRPKE6jA38/hqdefault.jpg	2025-11-21 22:06:13.65879+00	755	\N
+18707	S4Y-Q2_eq_0	17912	Jacob Faithful		https://i.ytimg.com/vi/S4Y-Q2_eq_0/hqdefault.jpg	2025-11-21 22:06:32.856941+00	755	\N
+18708	rrdmiELspZ8	34444	The Phantom Ship	The Phantom Ship - Part 1 of 2 - Horror Mystery - complete audiobook. Frederick Marryat #fullaudiobook #completeaudiobook ...	https://i.ytimg.com/vi/rrdmiELspZ8/hqdefault.jpg	2025-11-21 22:06:59.991053+00	755	\N
+18709	S_jBFxAOvc8	22242	Jacob Faithful		https://i.ytimg.com/vi/S_jBFxAOvc8/hqdefault.jpg	2025-11-21 22:07:19.207353+00	755	\N
+18710	ckN1IVqJqjI	18245	Mr Midshipman Easy, Part 3	Audiobook.	https://i.ytimg.com/vi/ckN1IVqJqjI/hqdefault.jpg	2025-11-21 22:07:38.767181+00	755	\N
+18711	qOIPsXmX_rc	20419	Mr Midshipman Easy, Part 2	Audiobook.	https://i.ytimg.com/vi/qOIPsXmX_rc/hqdefault.jpg	2025-11-21 22:08:18.45322+00	755	\N
+18712	qPAF1Ba01Ls	20702	Captains Courageous	Captains Courageous by Rudyard Kipling audiobook. Real men don't take guff from snotty kids. Neither does Disko Troop, ...	https://i.ytimg.com/vi/qPAF1Ba01Ls/hqdefault.jpg	2025-11-21 22:08:38.060843+00	1246	\N
+18713	KErthGyyrK4	42970	Sea Stories	Sea Stories - Various 0:00:00 - 00 - Yarns Of The Forecastle - Cyrus Townsend Brady 0:06:18 - 01 - Narrative Of The Mutiny On ...	https://i.ytimg.com/vi/KErthGyyrK4/hqdefault.jpg	2025-11-21 22:09:20.741007+00	4600	\N
+18714	DmlE3TlVFMc	31856	The Ghost Ship	The Ghost Ship (Audiobook Full Book) - By John C. Hutcheson #fullaudiobook #audiobook #audiobookfullbook ...	https://i.ytimg.com/vi/DmlE3TlVFMc/hqdefault.jpg	2025-11-21 22:09:59.510954+00	3690	\N
+18715	Yar6DD_lLag	31393	Sartor Resartus	Sartor Resartus. By Thomas Carlyle. Full Audiobook Sartor Resartus is a novel by Thomas Carlyle, first published as a serial in ...	https://i.ytimg.com/vi/Yar6DD_lLag/hqdefault.jpg	2025-11-21 22:10:21.790557+00	2357	\N
+18716	v4a_5W_HW1g	42399	THE FRENCH REVOLUTION	Full-length audiobook for free | Classics collection / best-sellers and more. Full text, easy to read. The French Revolution: A History ...	https://i.ytimg.com/vi/v4a_5W_HW1g/hqdefault.jpg	2025-11-21 22:10:41.415518+00	4601	\N
+18717	CxXaFhqTWHs	14879	Thomas Carlyle - Selected Writings	[PART 1 OF 2] In the first upload of the Selected Writings collection of Thomas Carlyle, we receive extracts from: Early Essays ...	https://i.ytimg.com/vi/CxXaFhqTWHs/hqdefault.jpg	2025-11-21 22:11:02.624828+00	2357	\N
+18718	wh3e_ThpJk8	33039	ON HEROES, HERO-WORSHIP, AND THE HEROIC IN HISTORY	Full-length/unabridged audiobook for free, with text. HQ recording. "On Heroes, Hero-Worship, and the Heroic in History" is a ...	https://i.ytimg.com/vi/wh3e_ThpJk8/hqdefault.jpg	2025-11-21 22:11:22.264985+00	2357	\N
+18719	EKlzt9daI34	26064	The French Revolution: A History. Volume 1: The Bastille (Version 2)	The French Revolution: A History. Volume 1: The Bastille (Version 2) by Thomas Carlyle (1795 - 1881) Genre(s): Early Modern ...	https://i.ytimg.com/vi/EKlzt9daI34/hqdefault.jpg	2025-11-21 22:11:42.211347+00	2357	\N
+18720	phitM5TIHto	40295	The French Revolution Volume 1 the Bastille	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The French Revolution ...	https://i.ytimg.com/vi/phitM5TIHto/hqdefault.jpg	2025-11-21 22:12:01.624534+00	2357	\N
+18721	8VZtPVLkitc	25720	On Heroes, Hero-Wiship, and the Heroic in History Part 1	... "On Heroes, Hero-Worship, and the Heroic in History" by Thomas Carlyle is a collection of lectures that examines the concept of ...	https://i.ytimg.com/vi/8VZtPVLkitc/hqdefault.jpg	2025-11-21 22:12:21.989011+00	2357	\N
+18722	9wjqMNOfVSw	14799	EARLY KINGS OF NORWAY	Early Kings of Norway by Thomas Carlyle (1795 - 1881) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/9wjqMNOfVSw/hqdefault.jpg	2025-11-21 22:12:42.584116+00	2357	\N
+18723	-pYebwRx-vE	43062	THE FRENCH REVOLUTION	Full-length audiobook for free | Classics collection / best-sellers and more. Full text, easy to read. The French Revolution: A History ...	https://i.ytimg.com/vi/-pYebwRx-vE/hqdefault.jpg	2025-11-21 22:13:02.191254+00	4601	\N
+18724	SriE2KEVWWU	14802	Early Kings of Norway	Early Kings of Norway Thomas Carlyle (1795 - 1881) "The Early Kings of Norway" by Thomas Carlyle is a concise historical ...	https://i.ytimg.com/vi/SriE2KEVWWU/hqdefault.jpg	2025-11-21 22:13:21.673528+00	2357	\N
+18725	ooHajOTbMI4	33057	THE FRENCH REVOLUTION	Full-length audiobook for free | Classics collection / best-sellers and more. Full text, easy to read. The French Revolution: A History ...	https://i.ytimg.com/vi/ooHajOTbMI4/hqdefault.jpg	2025-11-21 22:13:41.41411+00	4601	\N
+18726	5edFgWK70Yw	14803	Early Kings of Norway	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Early Kings of Norway ...	https://i.ytimg.com/vi/5edFgWK70Yw/hqdefault.jpg	2025-11-21 22:14:02.474708+00	2357	\N
+18727	MJ_hsU6w4OE	14797	Early Kings of Norway	Early Kings of Norway - Thomas Carlyle 0:00:00 - 01-Preface, Ch 1: Harald Haarfagr & Ch 2: Eric Blood-Axe & Brothers 0:21:21 ...	https://i.ytimg.com/vi/MJ_hsU6w4OE/hqdefault.jpg	2025-11-21 22:14:22.645851+00	2357	\N
+18728	d53WHywNhGA	27371	Sartor Resartus		https://i.ytimg.com/vi/d53WHywNhGA/hqdefault.jpg	2025-11-21 22:14:44.189504+00	2357	\N
+18729	O6FAiVP4bnQ	14812	Early Kings of Norway	Don't forget to LIKE, SUBSCRIBE, and SHARE the magic with fellow book lovers! More information about this book is on our ...	https://i.ytimg.com/vi/O6FAiVP4bnQ/hqdefault.jpg	2025-11-21 22:15:03.526472+00	2357	\N
+18730	0A_UGJHucAI	14508	Early Kings of Norway	"Early Kings of Norway" by Thomas Carlyle. "The Icelanders, in their long winter, had a great habit of writing; and were, and still ...	https://i.ytimg.com/vi/0A_UGJHucAI/hqdefault.jpg	2025-11-21 22:15:22.908761+00	2357	\N
+18731	DyB5z36VODk	40300	The French Revolution Volume 1 the Bastille	The French Revolution Volume 1 the Bastille - audiobook Thomas CARLYLE (1795 - 1881) The French Revolution: A History was ...	https://i.ytimg.com/vi/DyB5z36VODk/hqdefault.jpg	2025-11-21 22:15:44.798266+00	2601	\N
+18732	w-pWBNGqlRc	14797	Early Kings of Norway	Early Kings of Norway. By Thomas Carlyle FULL Audiobook "Early Kings of Norway" by Thomas Carlyle is a historical work that ...	https://i.ytimg.com/vi/w-pWBNGqlRc/hqdefault.jpg	2025-11-21 22:16:04.112308+00	2357	\N
+18733	ZDBMClctm0M	14749	Early Kings of Norway	Explore the fascinating world of Viking monarchs in Thomas Carlyle's "Early Kings of Norway". A compelling account of the ...	https://i.ytimg.com/vi/ZDBMClctm0M/hqdefault.jpg	2025-11-21 22:16:23.406453+00	2357	\N
+18734	KacWNrV_brE	14798	Early Kings of Norway	Thomas Carlyle (4 December 1795 – 5 February 1881) was a Scottish philosopher, satirical writer, essayist, translator, historian, ...	https://i.ytimg.com/vi/KacWNrV_brE/hqdefault.jpg	2025-11-21 22:16:42.582715+00	2357	\N
+18735	OcX1JEDGsfM	22196	Norse History Early Kings of Norway, Legendary Rulers of the Norse	[Norse History Audiobook] Early Kings of Norway, (Legendary Rulers of the Norse) by Thomas Carlyle.	https://i.ytimg.com/vi/OcX1JEDGsfM/hqdefault.jpg	2025-11-21 22:17:03.805121+00	3938	\N
+18736	a0M3LQUe6I0	40295	French Revolution Volume 1 the Bastille	French Revolution Volume 1 the Bastille. By Thomas Carlyle FULL Audiobook "The French Revolution: Volume I - The Bastille" by ...	https://i.ytimg.com/vi/a0M3LQUe6I0/hqdefault.jpg	2025-11-21 22:17:26.363537+00	2357	\N
+18737	5wN8mWq_jwk	22010	Thomas Carlyle - Selected Writings	[PART 2 OF 2] In the second upload of the Selected Writings collection of Thomas Carlyle, we receive extracts from: Chartism, ...	https://i.ytimg.com/vi/5wN8mWq_jwk/hqdefault.jpg	2025-11-21 22:17:47.917742+00	2357	\N
+18738	zEQ2ARnrjJg	75512	Critical, Historical, and Miscellaneous Essays; Vol. 2	Engage with Thomas Carlyle's profound insights in a collection that traverses history, criticism, and philosophy.	https://i.ytimg.com/vi/zEQ2ARnrjJg/hqdefault.jpg	2025-11-21 22:18:07.584307+00	2357	\N
+18739	s9J9Ea1UOQ8	42915	Sinister Street (1/3)	Cyril Connolly reported in Enemies of Promise "although I won the prize through heading my list with Thomas Carlyle's The ...	https://i.ytimg.com/vi/s9J9Ea1UOQ8/hqdefault.jpg	2025-11-21 22:18:48.779884+00	3939	\N
+18740	yVowVblAcrA	23679	Short Story Collection Vol. 079	"Indenture from Wilhelm Meister's Apprenticeship and Travels" by Johann Wolfgang von Goethe (translated by Thomas Carlyle): ...	https://i.ytimg.com/vi/yVowVblAcrA/hqdefault.jpg	2025-11-21 22:19:37.226986+00	356	\N
+18741	DsmN9kdkoDY	33014	The New Republic	... (Mrs. Sinclair), Thomas Huxley (Mr. Storks), William Money Hardinge (Mr. Leslie), Thomas Carlyle (Donald Gordon), and Walter ...	https://i.ytimg.com/vi/DsmN9kdkoDY/hqdefault.jpg	2025-11-21 22:19:57.718384+00	3941	\N
+18742	y-nYB6KxOMs	17157	VARIED TYPES	... Stevenson 01:52:52 09 - Thomas Carlyle 02:11:03 10 - Tolstoy and the Cult of Simplicity 02:36:56 11 - Savonarola 02:48:27 12 ...	https://i.ytimg.com/vi/y-nYB6KxOMs/hqdefault.jpg	2025-11-21 22:20:18.982976+00	309	\N
+18743	QUOHFnNtEFc	29551	Rainbow Valley	John Meredith is a widower with four young children: Gerald (Jerry), Faith, Una, and Thomas Carlyle (Carl). The children have not ...	https://i.ytimg.com/vi/QUOHFnNtEFc/hqdefault.jpg	2025-11-21 22:20:39.317142+00	103	\N
+18744	7SbWb3N5MXU	40076	Essays (1/3)	... Chaucer 05:24:50 Herald of Freedom 05:40:50 Wendell Phillips Before the Concord Lyceum 05:47:33 Thomas Carlyle and His ...	https://i.ytimg.com/vi/7SbWb3N5MXU/hqdefault.jpg	2025-11-21 22:20:59.02267+00	65	\N
+18745	PBiYOSeO-m0	30568	A Tale of Two Cities	Dickens crafted this historical novel at the height of his career, drawing inspiration from Thomas Carlyle's history of the French ...	https://i.ytimg.com/vi/PBiYOSeO-m0/hqdefault.jpg	2025-11-21 22:21:18.652498+00	177	\N
+18746	1Kr9XwxFaw8	17155	Varied Types	... of Satire 00:58:00 Francis 01:13:35 Rostand 01:26:49 Charles II 01:40:35 Stevenson 01:52:48 Thomas Carlyle 02:10:58 Tolstoy ...	https://i.ytimg.com/vi/1Kr9XwxFaw8/hqdefault.jpg	2025-11-21 22:22:00.475959+00	309	\N
+18747	ABMv4lthuJY	34550	The Posthumous Essays	He wrote the book in response to On Heroes, Hero-Worship, and the Heroic in History, by Thomas Carlyle (1840). His son, L.C. ...	https://i.ytimg.com/vi/ABMv4lthuJY/hqdefault.jpg	2025-11-21 22:22:21.61338+00	4381	\N
+18748	I9DlRLoXEOM	30298	Miss Ingalis	Support us on Patreon by becoming a member it helps us to sustain and provide more free audiobooks.	https://i.ytimg.com/vi/I9DlRLoXEOM/hqdefault.jpg	2025-11-21 22:23:04.938972+00	4497	\N
+18749	CL7AZR4z7Lw	29925	Miss Ingalis	Miss Ingalis by Anna Gertrude Hall. Read in English by Bellona Times. As the story begins, title character Grace Ingalis is a young ...	https://i.ytimg.com/vi/CL7AZR4z7Lw/hqdefault.jpg	2025-11-21 22:23:25.601743+00	4497	\N
+18750	diq38yMOzk4	30297	Miss Ingalis	Miss Ingalis - Gertrude Hall 0:00:00 - 01 - Chapter 1 0:18:06 - 02 - Chapter 2 0:30:46 - 03 - Chapter 3 0:50:51 - 04 - Chapter 4 ...	https://i.ytimg.com/vi/diq38yMOzk4/hqdefault.jpg	2025-11-21 22:23:47.024215+00	4497	\N
+18751	60jd6zyT8hg	30295	Miss Ingalis	Miss Ingalis Gertrude HALL Audiobook Chapter Time Chapter 1 00:00:00 Chapter 2 00:18:07 Chapter 3 00:30:47 Chapter 4 ...	https://i.ytimg.com/vi/60jd6zyT8hg/hqdefault.jpg	2025-11-21 22:24:08.718985+00	4497	\N
+18752	L8Xc_hQUj7c	24627	Stitched on My Heart	Stitched on My Heart is an award-winning Christian historical romance audiobook filled with faith, resilience, and frontier love.	https://i.ytimg.com/vi/L8Xc_hQUj7c/hqdefault.jpg	2025-11-21 22:24:28.424949+00	4602	\N
+18753	yW8dCKqSucs	30298	Miss Ingalis	https://youtu.be/P2C45BGpf8s?si=HpYRmb_b6hhJNQ2O https://youtu.be/TlSjCZ27AEg?si=MngDkIpnl2Eo30E9 MAKE A ...	https://i.ytimg.com/vi/yW8dCKqSucs/hqdefault.jpg	2025-11-21 22:24:50.886483+00	4497	\N
+18754	1xJsDyBBJEA	30299	Miss Ingalis	Miss Ingalis - audiobook Gertrude HALL ( - ) As the story begins, title character Grace Ingalis is a young woman with a ...	https://i.ytimg.com/vi/1xJsDyBBJEA/hqdefault.jpg	2025-11-21 22:25:13.056001+00	1385	\N
+18755	SCGqEDEs_mQ	19597	A Daughter Of The Vine	A Daughter Of The Vine Audiobook Gertrude ATHERTON A Daughter Of The Vine Gertrude ATHERTON (1857 - 1948) We are ...	https://i.ytimg.com/vi/SCGqEDEs_mQ/hqdefault.jpg	2025-11-21 22:25:35.124585+00	2658	\N
+18756	ZpQmiYIC9so	20851	CAPE COD STORIES	Cape Cod Stories by Joseph Crosby Lincoln (1870 - 1944) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/ZpQmiYIC9so/hqdefault.jpg	2025-11-21 22:26:41.502099+00	1706	\N
+18757	R5dj7Bi7-uk	15699	Bunny Brown and His Sister Sue	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Bunny Brown and His Sister ...	https://i.ytimg.com/vi/R5dj7Bi7-uk/hqdefault.jpg	2025-11-21 22:27:02.723768+00	3274	\N
+18758	LhHU9CrTMu4	19133	Deephaven	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Deephaven Sarah Orne ...	https://i.ytimg.com/vi/LhHU9CrTMu4/hqdefault.jpg	2025-11-21 22:27:26.717989+00	2452	\N
+18759	it1Eea2sJ-k	33219	Belinda Part 2/2	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Belinda Maria ...	https://i.ytimg.com/vi/it1Eea2sJ-k/hqdefault.jpg	2025-11-21 22:27:47.908244+00	4603	\N
+18760	zReD5jMWY4s	15647	Hamlet	Hamlet. By William Shakespeare. Full Audiobook Hamlet is a tragedy play written by William Shakespeare. The play is set in ...	https://i.ytimg.com/vi/zReD5jMWY4s/hqdefault.jpg	2025-11-21 22:28:47.899244+00	1130	\N
+18761	HXv4cM_9_sY	18356	The Girls of Gardenville	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Girls of Gardenville, ...	https://i.ytimg.com/vi/HXv4cM_9_sY/hqdefault.jpg	2025-11-21 22:29:28.998423+00	4604	\N
+18762	rJYHx1-mZus	39271	Leviathan Books III and IV	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Leviathan (Books III and ...	https://i.ytimg.com/vi/rJYHx1-mZus/hqdefault.jpg	2025-11-21 22:29:51.342439+00	2826	\N
+18763	cq6VNVycsmE	22952	REGIMENT OF WOMEN	Get your own copy of "REGIMENT OF WOMEN" - https://amzn.to/3fTZ25h Regiment of Women by Clemence Dane ~ Part 2 of 2 ...	https://i.ytimg.com/vi/cq6VNVycsmE/hqdefault.jpg	2025-11-21 22:30:11.013473+00	4605	\N
+18764	6HEh4gL67Iw	22523	How To Control YOUR DESTINY	YOU CAN control your DESTINY and find the PATH to happy, healthy, successful living. YOU CAN direct your mental and physical ...	https://i.ytimg.com/vi/6HEh4gL67Iw/hqdefault.jpg	2025-11-21 22:30:34.840557+00	4447	\N
+18765	5jMx4Arumv0	38591	The Macdermots of Ballycloran	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Macdermots of ...	https://i.ytimg.com/vi/5jMx4Arumv0/hqdefault.jpg	2025-11-21 22:30:54.678085+00	1787	\N
+18766	ljfMcWmIrGI	32730	Aspects Of Love - An Anthology	Aspects Of Love - An Anthology (AUDIOBOOK FULL BOOK) - By William Shakespeare, Walt Whitman et al. #audiobook ...	https://i.ytimg.com/vi/ljfMcWmIrGI/hqdefault.jpg	2025-11-21 22:31:34.598728+00	4606	\N
+18767	LVJyVfcRLLc	18221	The Intoxicated Ghost And Other Stories	The Intoxicated Ghost And Other Stories Arlo BATES audiobook The Intoxicated Ghost And Other Stories Arlo BATES (1850 ...	https://i.ytimg.com/vi/LVJyVfcRLLc/hqdefault.jpg	2025-11-21 22:31:55.221193+00	1791	\N
+18768	7mSdEllWNa4	35606	AYALA'S ANGEL	AYALA'S ANGEL by Anthony Trollope ABOUT THE BOOK: Ayala's Angel is a novel written by English author Anthony Trollope, ...	https://i.ytimg.com/vi/7mSdEllWNa4/hqdefault.jpg	2025-11-21 22:32:37.684061+00	800	\N
+18769	Lwctp-0Lftg	18408	The Wallflower's Revenge	A disillusioned duke. A bluestocking who refuses to be ignored. A pact that may just change both their lives forever. Lady Margaret ...	https://i.ytimg.com/vi/Lwctp-0Lftg/hqdefault.jpg	2025-11-21 22:33:01.279982+00	3614	\N
+18770	toFYYFjAtQQ	14488	River of Teeth	Sci fiction Audiobooks Sarah Gailey River of Teeth River of Teeth Series Book 1.	https://i.ytimg.com/vi/toFYYFjAtQQ/hqdefault.jpg	2025-11-21 22:34:07.453502+00	3615	\N
+18771	afsQLNxzsVI	39673	Les Miserables Vol 3	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Les Misérables Vol.	https://i.ytimg.com/vi/afsQLNxzsVI/hqdefault.jpg	2025-11-21 22:34:39.953576+00	401	\N
+18772	9ZrOIIxQH5Y	42851	Les Miserables	An ex-convict breaks parole and starts a new life as a righteous man, but is pursued by a police inspector. Along the way, the ...	https://i.ytimg.com/vi/9ZrOIIxQH5Y/hqdefault.jpg	2025-11-21 22:35:04.596077+00	401	\N
+18773	Ws5eHC3XXXo	39857	Les Miserables	Les Miserables by Victor Hugo Part 1/7 Full Playlist: ...	https://i.ytimg.com/vi/Ws5eHC3XXXo/hqdefault.jpg	2025-11-21 22:35:24.97858+00	401	\N
+18774	fHq0IuhGxWI	22964	Les Miserables	Les Misérables - FULL AUDIOBOOK 1/10 Victor Hugo (1802 - 1885) Translated by Isabel Florence Hapgood (1851 - 1928) This is ...	https://i.ytimg.com/vi/fHq0IuhGxWI/hqdefault.jpg	2025-11-21 22:35:45.922576+00	401	\N
+18775	IDSYUjQpRgA	27887	Les Miserables	Audiobook | Les Misérables - Victor Hugo | Volume 1, Part 1 Best Noise Cancelling Over-Ear Headphones: ...	https://i.ytimg.com/vi/IDSYUjQpRgA/hqdefault.jpg	2025-11-21 22:36:06.675124+00	401	\N
+18776	RSh50MCoy6g	23466	Les Miserables	Les Misérables - FULL AUDIOBOOK 2/10 Victor Hugo (1802 - 1885) Translated by Isabel Florence Hapgood (1851 - 1928) This is ...	https://i.ytimg.com/vi/RSh50MCoy6g/hqdefault.jpg	2025-11-21 22:36:27.869984+00	401	\N
+18777	iQhdf6An5tk	23063	Les Miserables	Les Misérables - FULL AUDIOBOOK 3/10 Victor Hugo (1802 - 1885) Translated by Isabel Florence Hapgood (1851 - 1928 An ...	https://i.ytimg.com/vi/iQhdf6An5tk/hqdefault.jpg	2025-11-21 22:36:52.691011+00	401	\N
+18778	tT4scjKXylI	23862	Les Miserables	Les Misérables - FULL AUDIOBOOK 9/10 Victor Hugo (1802 - 1885) Translated by Isabel Florence Hapgood (1851 - 1928) An ...	https://i.ytimg.com/vi/tT4scjKXylI/hqdefault.jpg	2025-11-21 22:37:14.236383+00	401	\N
+18779	WLv4v_PJ62A	35543	Les Miserables	Experience Les Misérables by Victor Hugo — now brought to life in a complete, unabridged Audiobook in English. This is part 3 of ...	https://i.ytimg.com/vi/WLv4v_PJ62A/hqdefault.jpg	2025-11-21 22:37:33.665739+00	401	\N
+18780	7B5owbtuShQ	35156	Les Miserables	Experience Les Misérables by Victor Hugo — now brought to life in a complete, unabridged Audiobook in English. This is part 1 of ...	https://i.ytimg.com/vi/7B5owbtuShQ/hqdefault.jpg	2025-11-21 22:37:56.86169+00	401	\N
+18781	ggaHwn2xogY	20776	Les Miserables	Audiobook | Les Misérables - Victor Hugo | Volume 1, Part 2 Best Noise Cancelling Over-Ear Headphones: ...	https://i.ytimg.com/vi/ggaHwn2xogY/hqdefault.jpg	2025-11-21 22:38:17.86804+00	401	\N
+18782	a8FVMZwg-Wk	35610	The Hunchback of Notre Dame	The Hunchback of Notre Dame - FULL AUDIOBOOK 2/2 Victor Hugo (1802 - 1885) Translated by Isabel Florence Hapgood (1851 ...	https://i.ytimg.com/vi/a8FVMZwg-Wk/hqdefault.jpg	2025-11-21 22:38:38.308097+00	401	\N
+18783	sGyDCaDGgm0	35851	Les Miserables	Experience Les Misérables by Victor Hugo — now brought to life in a complete, unabridged Audiobook in English. This is part 2 of ...	https://i.ytimg.com/vi/sGyDCaDGgm0/hqdefault.jpg	2025-11-21 22:38:58.493565+00	401	\N
+18784	LQjXFj72FJQ	17976	Les Miserables	Audiobook.	https://i.ytimg.com/vi/LQjXFj72FJQ/hqdefault.jpg	2025-11-21 22:39:19.717346+00	401	\N
+18785	0rVsNICoReI	42750	Les Miserables	Les Miserables. By Victor Hugo. Full Audiobook "Les Misérables" is a novel by Victor Hugo that was published in 1862. The story ...	https://i.ytimg.com/vi/0rVsNICoReI/hqdefault.jpg	2025-11-21 22:39:40.167762+00	401	\N
+18786	1dM4nZGixuo	33092	Ice Cold Malice	audiobook #audiobookMystery #audiobooktx.	https://i.ytimg.com/vi/1dM4nZGixuo/hqdefault.jpg	2025-11-21 22:40:03.635589+00	3818	\N
+18787	pUc8pgBMfCo	31548	Gravely Concerned	audiobook #audiobookMystery #audiobooktx.	https://i.ytimg.com/vi/pUc8pgBMfCo/hqdefault.jpg	2025-11-21 22:42:12.160336+00	3818	\N
+18788	kEOljpDf5NE	35249	A Mark Of Imperfection	audiobook #audiobookMystery #audiobooktx.	https://i.ytimg.com/vi/kEOljpDf5NE/hqdefault.jpg	2025-11-21 22:42:54.246591+00	3818	\N
+18789	38zf9YOAFBA	32829	The Engine House: A Black Beacons Murder	The Engine House_ A Black Beacons Murder by Rhys Dylan | Audiobook Mystery, Thriller & Suspense You can bury the bodies, ...	https://i.ytimg.com/vi/38zf9YOAFBA/hqdefault.jpg	2025-11-21 22:43:13.947655+00	3818	\N
+18790	4JNE2uTl65s	34145	A Mark Of Imperfection	A Mark Of Imperfection_ A DCI Evan Warlow by Rhys Dylan | Audiobook Mystery, Thriller & Suspense Know thine enemy ... Evan ...	https://i.ytimg.com/vi/4JNE2uTl65s/hqdefault.jpg	2025-11-21 22:43:33.944874+00	3818	\N
+18791	_jptdSQCYxs	25438	Storm Force	Storm Force by David Blake | Audiobook Mystery, Thriller & Suspense Storm Force is another addictive gripping crime thriller, the ...	https://i.ytimg.com/vi/_jptdSQCYxs/hqdefault.jpg	2025-11-21 22:43:53.388061+00	4555	\N
+18792	Hi8afy8p4vg	31523	A Matter of Evidence	audiobook #audiobookMystery #audiobooktx.	https://i.ytimg.com/vi/Hi8afy8p4vg/hqdefault.jpg	2025-11-21 22:44:57.295742+00	3818	\N
+18793	MMfOtkyAZa4	31543	One Less Snake	One Less Snake_ A DCI Evan Warlow Novel by Rhys Dylan | Audiobook Mystery, Thriller & Suspense Even sleepy, picturesque ...	https://i.ytimg.com/vi/MMfOtkyAZa4/hqdefault.jpg	2025-11-21 22:45:17.663894+00	3818	\N
+18794	iSkNsxOHK0g	32075	Suffer The Dead: A DCI Evan Warlow Novel	Suffer The Dead_ A DCI Evan Warlow Novel by Rhys Dylan | Audiobook Mystery, Thriller & Suspense Nothing bad ever happens ...	https://i.ytimg.com/vi/iSkNsxOHK0g/hqdefault.jpg	2025-11-21 22:45:37.30276+00	3818	\N
+18795	eg6iRJpekN0	31279	The Light Remains	(DI Evan Warlow #7) The Light Remains by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A lost girl. A haunting light.	https://i.ytimg.com/vi/eg6iRJpekN0/hqdefault.jpg	2025-11-21 22:45:56.799477+00	3818	\N
+18796	-2QHkO1OgVA	29590	No One Near	(DI Evan Warlow #6) No One Near by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A remote farm. A deadly secret.	https://i.ytimg.com/vi/-2QHkO1OgVA/hqdefault.jpg	2025-11-21 22:46:18.913349+00	3818	\N
+18797	OYionE2z9Ak	34072	A Mark of Imperfection	(DI Evan Warlow #2) A Mark of Imperfection by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A quiet village. A brutal ...	https://i.ytimg.com/vi/OYionE2z9Ak/hqdefault.jpg	2025-11-21 22:46:38.751951+00	3818	\N
+18798	hzFFnvv5OwM	31293	A Word With The Dead	A Word With The dead_ A DCI Evan Warlow Novel by Rhys Dylan | Audiobook Mystery, Thriller & Suspense A body in the hills.	https://i.ytimg.com/vi/hzFFnvv5OwM/hqdefault.jpg	2025-11-21 22:47:02.182371+00	3818	\N
+18799	vgcNp7K7siE	31751	The Bowman	(DCI Evan Warlow #11) The Bowman by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A missing girl. A silent forest.	https://i.ytimg.com/vi/vgcNp7K7siE/hqdefault.jpg	2025-11-21 22:47:23.679126+00	3818	\N
+18800	RVnPnYey-wE	30668	Gravely Concerned	Gravely Concerned_ A Black Beacons by Rhys Dylan | Audiobook Mystery, Thriller & Suspense In broad daylight, on a quiet rural ...	https://i.ytimg.com/vi/RVnPnYey-wE/hqdefault.jpg	2025-11-21 22:47:43.277655+00	3818	\N
+18801	vWucCVQI_cg	31888	Burnt Echo	Burnt Echo_ A DCI Evan Warlow Novel by Rhys Dylan | Audiobook Mystery, Thriller & Suspense In a deep, dark, hole… When the ...	https://i.ytimg.com/vi/vWucCVQI_cg/hqdefault.jpg	2025-11-21 22:48:02.998519+00	3818	\N
+18802	RyrMVBy0C0I	29460	DCI Evan Warlow No One Near	What can you do when there is No One Near... High in the Welsh hills, a honeymoon getaway takes a dark turn when a rotting ...	https://i.ytimg.com/vi/RyrMVBy0C0I/hqdefault.jpg	2025-11-21 22:48:22.525873+00	3818	\N
+18803	R8P8KyIz0d4	33801	DCI Evan Warlow Lines of Inquiry	One of our own.. . DCI Evan Warlow believes that murder is a cardinal sin. Even when the victim is a drug dealing, ...	https://i.ytimg.com/vi/R8P8KyIz0d4/hqdefault.jpg	2025-11-21 22:49:02.15719+00	3818	\N
+18804	0H64owUOpuQ	29807	Caution Death At Work	Caution Death At Work_ A Black Beacons by Rhys Dylan | Audiobook Mystery, Thriller & Suspense A dark past casts a deep ...	https://i.ytimg.com/vi/0H64owUOpuQ/hqdefault.jpg	2025-11-21 22:49:21.598793+00	3818	\N
+18805	UHejQGF7-yg	32030	Ice Cold Malice	Ice Cold Malice_ A Black Beacons by Rhys Dylan | Audiobook Mystery, Thriller & Suspense Revenge is a dish best served… ice ...	https://i.ytimg.com/vi/UHejQGF7-yg/hqdefault.jpg	2025-11-21 22:49:41.910583+00	3818	\N
+18806	Ykw72XvtfyM	31796	Burnt Echo	(DI Evan Warlow #3) Burnt Echo by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A fire in the night. A voice from the ...	https://i.ytimg.com/vi/Ykw72XvtfyM/hqdefault.jpg	2025-11-21 22:50:01.376983+00	3818	\N
+18807	hxAvuVlLmx0	30563	A Body of Water	(DI Evan Warlow #4) A Body of Water by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A lake of secrets. A missing ...	https://i.ytimg.com/vi/hxAvuVlLmx0/hqdefault.jpg	2025-11-21 22:50:20.835061+00	3818	\N
+18808	nBQ-Yia3tXA	30583	A Matter of Evidence	(DI Evan Warlow #8) A Matter of Evidence by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A body in the woods.	https://i.ytimg.com/vi/nBQ-Yia3tXA/hqdefault.jpg	2025-11-21 22:50:42.036999+00	3818	\N
+18809	klzTzU6rtfw	31996	Suffer The Dead	(DI Evan Warlow #1) Suffer The Dead by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “An ancient forest. A missing ...	https://i.ytimg.com/vi/klzTzU6rtfw/hqdefault.jpg	2025-11-21 22:51:02.400576+00	3818	\N
+18810	xaJlGRxzG0I	31553	One Less Snake	(DCI Evan Warlow #12) One Less Snake by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A body in the river. A village ...	https://i.ytimg.com/vi/xaJlGRxzG0I/hqdefault.jpg	2025-11-21 22:51:42.061791+00	3818	\N
+18811	rJGyTlyyND4	33061	The Last Throw	(DI Evan Warlow #9) The Last Throw by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A final game. A deadly wager.	https://i.ytimg.com/vi/rJGyTlyyND4/hqdefault.jpg	2025-11-21 22:52:44.309205+00	3818	\N
+18812	h_b2V4sLVsE	33714	Lines of Inquiry	(DI Evan Warlow #5) Lines of Inquiry by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A brutal crime. A web of lies.	https://i.ytimg.com/vi/h_b2V4sLVsE/hqdefault.jpg	2025-11-21 22:53:04.292968+00	3818	\N
+18813	yl1C-125tFg	30421	Dragons Breath	(DI Evan Warlow #10) Dragon's Breath by Rhys Dylan | Audiobook Mystery, Thriller & Suspense “A death in the mountains.	https://i.ytimg.com/vi/yl1C-125tFg/hqdefault.jpg	2025-11-21 22:53:26.13673+00	3818	\N
+18814	TLUGG0JGNzE	37447	Harvest for the Reaper		https://i.ytimg.com/vi/TLUGG0JGNzE/hqdefault.jpg	2025-11-21 22:54:28.010154+00	115	\N
+18815	bWZEuaPvqBI	36405	Troubled Blood	Troubled Blood by Robert Galbraith | Part 1 Audiobook | Cormoran Strike #5 | Crime & Detective Fiction Welcome to our ...	https://i.ytimg.com/vi/bWZEuaPvqBI/hqdefault.jpg	2025-11-21 22:55:09.878984+00	423	\N
+18816	p_9KQVWWZao	24161	Raisins and Almonds	Raisins and Almonds by Kerry Greenwood | Phryne Fisher Mystery Audiobook | Full Story Step into the glamorous and ...	https://i.ytimg.com/vi/p_9KQVWWZao/hqdefault.jpg	2025-11-21 22:55:34.184244+00	4607	\N
+18817	3qRiwSIOh9A	33382	Kill Your Darlings	In Kill Your Darlings by Jack Gatland, a gripping crime thriller unfolds where nothing is as it seems. As the detective digs deeper ...	https://i.ytimg.com/vi/3qRiwSIOh9A/hqdefault.jpg	2025-11-21 22:55:53.620775+00	571	\N
+18818	Z1EP5MFWvGo	39348	Let it Bleed	audiobook #audiobookMystery #audiobooktx.	https://i.ytimg.com/vi/Z1EP5MFWvGo/hqdefault.jpg	2025-11-21 22:56:15.553474+00	2225	\N
+18819	NVlbA7Cv1mg	22634	The Writer's Murder - s Full Length	Audiobook Mystery, Thriller & Suspense | The Writer's Murder - Audiobooks Full Length Rufus Tate, a famous author with a style of ...	https://i.ytimg.com/vi/NVlbA7Cv1mg/hqdefault.jpg	2025-11-21 22:56:58.239102+00	4608	\N
+18820	mcK4YAxPoOQ	22124	Murder at the Marina	Danger sails into Redwood Cove's marina. In Murder at the Marina, Kelly Jackson hopes for a peaceful coastal getaway — until a ...	https://i.ytimg.com/vi/mcK4YAxPoOQ/hqdefault.jpg	2025-11-21 22:57:39.072786+00	4609	\N
+18821	S4Abgj6WyTc	25143	Crime : Black December	Dive into a gripping detective thriller with Black December – the first book in the DCI Brendan Moran series by Scott Hunter.	https://i.ytimg.com/vi/S4Abgj6WyTc/hqdefault.jpg	2025-11-21 22:57:59.102866+00	3314	\N
+18822	koo1h3vQN90	27003	Gallery of the Dead [Part 1]	Gallery of the Dead [Part 1] by Chris Carter | Mystery, Thriller Audiobook | Full Story More Mystery, Thriller & Suspense ...	https://i.ytimg.com/vi/koo1h3vQN90/hqdefault.jpg	2025-11-21 22:58:21.819499+00	3082	\N
+18823	51D4KgEOmjY	39592	The Caller	The Caller by Chris Carter | Crime Thriller | Audiobook Get ready to dive into the dark, chilling world of The Caller by bestselling ...	https://i.ytimg.com/vi/51D4KgEOmjY/hqdefault.jpg	2025-11-21 22:58:41.491622+00	3082	\N
+18824	COdoloXwxKg	39087	The Caller	The Caller by Chris Carter | Mystery, Thriller Audiobook | Full Story More Mystery, Thriller & Suspense Audiobooks ...	https://i.ytimg.com/vi/COdoloXwxKg/hqdefault.jpg	2025-11-21 22:59:00.934122+00	3082	\N
+18825	uVzgUNOBbFg	40456	The Crucifix Killer	The Crucifix Killer (#1 Robert Hunter) by Chris Carter | Mystery, Thriller Audiobook | Full Story More Mystery, Thriller & Suspense ...	https://i.ytimg.com/vi/uVzgUNOBbFg/hqdefault.jpg	2025-11-21 22:59:20.866836+00	3082	\N
+18826	49z2LK4sRIA	40744	The Death Sculptor	The Death Sculptor (#4 Robert Hunter) by Chris Carter | Mystery, Thriller Audiobook | Full Story More Mystery, Thriller & Suspense ...	https://i.ytimg.com/vi/49z2LK4sRIA/hqdefault.jpg	2025-11-21 22:59:40.847832+00	3082	\N
+18827	G4UINigmqn8	38584	The Night Stalker	The Night Stalker (#3 Robert Hunter) by Chris Carter | Mystery, Thriller Audiobook | Full Story More Mystery, Thriller & Suspense ...	https://i.ytimg.com/vi/G4UINigmqn8/hqdefault.jpg	2025-11-21 23:00:00.281585+00	3082	\N
+18828	A52iLnIOplM	41602	One by One	One by One by Chris Carter | Crime Thriller Audiobook Step into the dark and gripping world of One by One by Chris Carter.	https://i.ytimg.com/vi/A52iLnIOplM/hqdefault.jpg	2025-11-21 23:00:19.787136+00	3082	\N
+18829	IKbIlkmrqT0	16574	Gallery of the Dead [Part 2]	Gallery of the Dead [Part 2] by Chris Carter | Mystery, Thriller Audiobook | Full Story More Mystery, Thriller & Suspense ...	https://i.ytimg.com/vi/IKbIlkmrqT0/hqdefault.jpg	2025-11-21 23:00:39.480548+00	3082	\N
+18830	PyzR45hgURY	38142	The Syndicater	The Syndicater by Runnyx | Full Audiobook | Crime Thriller Mystery Story Experience The Syndicater by Runnyx — a powerful ...	https://i.ytimg.com/vi/PyzR45hgURY/hqdefault.jpg	2025-11-21 23:01:02.670632+00	4610	\N
+18831	OdxrYad0rkQ	22206	Do Androids Dream of Electric Sheep	... Matthew Silas Sedgwick All female parts voiced by Makyla Meyer Roy Batty voiced by Chris Carter Prologue - 00:00:00 Chapter ...	https://i.ytimg.com/vi/OdxrYad0rkQ/hqdefault.jpg	2025-11-21 23:03:14.798556+00	1863	\N
+18832	9_G8TZZNRzU	33740	Noc Lisa		https://i.ytimg.com/vi/9_G8TZZNRzU/hqdefault.jpg	2025-11-21 23:03:37.390218+00	1543	\N
+18833	OlfDCKWd1ag	18951	Goblins	Based on Chris Carter's groundbreaking TV series! ABOUT THIS AUDIOBOOK: Title: Goblins (The X-Files, Book 1) Author: ...	https://i.ytimg.com/vi/OlfDCKWd1ag/hqdefault.jpg	2025-11-21 23:03:57.384202+00	4611	\N
+18834	uNVTB1Fszzc	54502	The Imitation of Christ	This classic, second only to the Bible for religious instruction and inspiration, has brought understanding and comfort to millions ...	https://i.ytimg.com/vi/uNVTB1Fszzc/hqdefault.jpg	2025-11-21 23:04:20.20823+00	2704	\N
+18835	MRRLsKdz5xw	83412	Imitation of Christ (with chapter time stamps)	The Imitation of Christ modified from a Librivox recording for a better listening experience. This modified version was made by the ...	https://i.ytimg.com/vi/MRRLsKdz5xw/hqdefault.jpg	2025-11-21 23:04:40.218609+00	2704	\N
+18836	vcENxCAc7mI	84059	The Imitation of Christ	christ #christianmessages #audiobooks #audiobooks #christianity #salvation #jesus More audiobooks like this here ...	https://i.ytimg.com/vi/vcENxCAc7mI/hqdefault.jpg	2025-11-21 23:04:59.985924+00	2704	\N
+18837	Qc0-PGO4YD4	84213	The Imitation of Christ	The Imitation of Christ by Thomas à KEMPIS (1380 - 1471), translated by Rev. William BENHAM (1831 - 1910) Genre(s): ...	https://i.ytimg.com/vi/Qc0-PGO4YD4/hqdefault.jpg	2025-11-21 23:05:20.543198+00	2704	\N
+18838	OlEJpaIDTHM	84240	THE IMITATION OF CHRIST	THE IMITATION OF CHIRST - FULL AudioBook by Thomas A. Kempis | Greatest AudioBooks - Thomas A. KEMPIS (1380 - 1471), ...	https://i.ytimg.com/vi/OlEJpaIDTHM/hqdefault.jpg	2025-11-21 23:05:43.855155+00	4612	\N
+18839	N242TG-cPLM	84209	The Imitation of Christ	The Imitation of Christ, written by Thomas à Kempis, is a seminal Christian devotional work first composed in Medieval Latin as De ...	https://i.ytimg.com/vi/N242TG-cPLM/hqdefault.jpg	2025-11-21 23:06:04.532379+00	2704	\N
+18840	jTQyf0yyOAM	84235	The Imitation of Christ	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Imitation of Christ ...	https://i.ytimg.com/vi/jTQyf0yyOAM/hqdefault.jpg	2025-11-21 23:06:24.812876+00	2704	\N
+18841	xFBxq7coq-8	84211	The Imitation of Christ	Thomas à Kempis, CRV (c. 1380 – 25 July 1471;[2] German: Thomas von Kempen; Dutch: Thomas van Kempen[3]) was a ...	https://i.ytimg.com/vi/xFBxq7coq-8/hqdefault.jpg	2025-11-21 23:06:44.735446+00	2704	\N
+18842	TWxGL4-MDIk	84230	THE IMITATION OF CHRIST	THE IMITATION OF CHRIST by Thomas A. Kempis - FULL AudioBook | Greatest AudioBooks- The Imitation of Christ (Latin: De ...	https://i.ytimg.com/vi/TWxGL4-MDIk/hqdefault.jpg	2025-11-21 23:07:05.658412+00	4612	\N
+18843	ZMUbaUG40Mw	84211	The Imitation Of Christ	ALL RELIGIOUS RELATED CONTENT FOUND ON stillshadows IS NOT NECESSARILY HELD IN PERSONAL SUBSCRIPTION, ...	https://i.ytimg.com/vi/ZMUbaUG40Mw/hqdefault.jpg	2025-11-21 23:07:27.471662+00	4613	\N
+18844	xSAbjhQgPRk	61317	The Imitation of Christ	Full-length/unabridged audiobook for free, with text. HQ recording. "The Imitation of Christ" is a classic Christian devotional book ...	https://i.ytimg.com/vi/xSAbjhQgPRk/hqdefault.jpg	2025-11-21 23:07:47.131646+00	2704	\N
+18845	zoxTSP1be6o	75529	De Imitatione Christi	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. De Imitatione Christi ...	https://i.ytimg.com/vi/zoxTSP1be6o/hqdefault.jpg	2025-11-21 23:08:07.46469+00	2704	\N
+18846	j-xuPA9ozYw	84211	The Imitation of Christ	The Imitation of Christ is widely considered one of the greatest manuals of devotion in Christianity. The life of Christ is presented ...	https://i.ytimg.com/vi/j-xuPA9ozYw/hqdefault.jpg	2025-11-21 23:08:27.197305+00	2704	\N
+18847	8EJhw7pLpNg	84132	The Imitation of Christ	Thomas à Kempis (1380 – 1471) was a German-Dutch canon regular of the late medieval period and the author of The Imitation of ...	https://i.ytimg.com/vi/8EJhw7pLpNg/hqdefault.jpg	2025-11-21 23:08:47.637488+00	2704	\N
+18848	EVPiVnutN88	84204	The Imitation of Christ	The Imitation of Christ is widely considered one of the greatest manuals of devotion in Christianity. The life of Christ is presented ...	https://i.ytimg.com/vi/EVPiVnutN88/hqdefault.jpg	2025-11-21 23:09:07.472489+00	2704	\N
+18849	KY96VW5WtEk	60500	The Imitation of Christ	The Imitation of Christ. By Thomas à Kempis. Full Audiobook "The Imitation of Christ" is a Christian devotional book written by ...	https://i.ytimg.com/vi/KY96VW5WtEk/hqdefault.jpg	2025-11-21 23:09:26.942435+00	2704	\N
+18850	S3vWH8drpC4	61305	THE Imitation of Christ	"The Imitation of Christ" is a classic Christian devotional book attributed to Thomas à Kempis, a German-Dutch medieval monk.	https://i.ytimg.com/vi/S3vWH8drpC4/hqdefault.jpg	2025-11-21 23:09:50.731804+00	2704	\N
+18851	mRi9leRSQuc	84438	The Imitation of Christ	The Imitation of Christ Thomas à Kempis (1380 - 1471) Translated by Rev. William Benham (1831 - 1910) Read by: David Barnes ...	https://i.ytimg.com/vi/mRi9leRSQuc/hqdefault.jpg	2025-11-21 23:10:12.349547+00	2704	\N
+18852	mKoPmyyFKVo	84210	The Imitation of Christ	Enjoy this full audiobook recording of 'The Imitation of Christ' by Thomas a Kempis. Immerse yourself in the timeless wisdom and ...	https://i.ytimg.com/vi/mKoPmyyFKVo/hqdefault.jpg	2025-11-21 23:10:32.41445+00	2704	\N
+18853	JnRVMv14rCE	83451	The Imitation of Christ	https://www.solgood.org - Check out our Streaming Service for our full collection of audiobooks, podcasts, short stories, & 10 hour ...	https://i.ytimg.com/vi/JnRVMv14rCE/hqdefault.jpg	2025-11-21 23:10:53.113347+00	2704	\N
+18854	l0ffoJV1yNQ	84211	The Imitation of Christ		https://i.ytimg.com/vi/l0ffoJV1yNQ/hqdefault.jpg	2025-11-21 23:11:14.870803+00	2704	\N
+18855	k96dcN-1y9E	84209	Imitation of Christ	Imitation of Christ. By Thomas à Kempis FULL Audiobook "The Imitation of Christ" by Thomas à Kempis is a revered devotional ...	https://i.ytimg.com/vi/k96dcN-1y9E/hqdefault.jpg	2025-11-21 23:11:34.369319+00	2704	\N
+18856	fgRjXSWKQb4	22720	The Imitation of Christ	The Imitation of Christ by Thomas à Kempis is a spiritual classic that should be treasured by all Christians. It contains invaluable ...	https://i.ytimg.com/vi/fgRjXSWKQb4/hqdefault.jpg	2025-11-21 23:11:54.225544+00	2704	\N
+18857	oYocnaGRPk8	20542	The Imitation of Christ	The Imitation of Christ by Thomas à Kempis is a spiritual classic that should be treasured by all Christians. It contains invaluable ...	https://i.ytimg.com/vi/oYocnaGRPk8/hqdefault.jpg	2025-11-21 23:12:14.841708+00	2704	\N
+18858	ipOsv8DJ8pM	83641	The Imitation of Christ	Written by Thomas à Kempis in the 15th century, "The Imitation of Christ" is a timeless classic that continues to inspire millions ...	https://i.ytimg.com/vi/ipOsv8DJ8pM/hqdefault.jpg	2025-11-21 23:12:35.450464+00	2704	\N
+18859	tV5ZkO8dD74	84428	Imitation of Christ	"Imitation of Christ" by Thomas à Kempis is a profound and timeless spiritual classic that provides valuable insights into Christian ...	https://i.ytimg.com/vi/tV5ZkO8dD74/hqdefault.jpg	2025-11-21 23:12:58.31647+00	2704	\N
+18860	6X-q4RDYd7M	50445	THE IMITATION OF CHRIST	ST THOMAS A KEMPIS - THE IMITATION OF CHRIST (AUDIOBOOK) 5 HOURS Contains parts 1,4 and 5 (not the complete ...	https://i.ytimg.com/vi/6X-q4RDYd7M/hqdefault.jpg	2025-11-21 23:13:18.876159+00	4614	\N
+18861	p7Vqj2Fwg4w	83553	The Imitation of Christ	The Imitation of Christ, by Thomas a Kempis, translated by Rev. William Benham. Read by David Barnes. The Imitation of Christ is ...	https://i.ytimg.com/vi/p7Vqj2Fwg4w/hqdefault.jpg	2025-11-21 23:13:42.282254+00	2704	\N
+18862	aY7rVR6_MDg	21043	Imitation of Christ	Imitation of Christ by Thomas Kempis (Book 1) The spiritual writer Thomas à Kempis (ca. 1380-1471) was a Roman Catholic monk ...	https://i.ytimg.com/vi/aY7rVR6_MDg/hqdefault.jpg	2025-11-21 23:14:03.473852+00	2704	\N
+18863	8iSpsgjOvtk	84820	Sermons to the Novices	Sermons to the Novices Regular. By Thomas à Kempis FULL Audiobook "Sermons to the Novices Regular" is a collection of ...	https://i.ytimg.com/vi/8iSpsgjOvtk/hqdefault.jpg	2025-11-21 23:14:23.507024+00	2704	\N
+18864	DvBytNzIGrw	20910	The Imitation of Christ Book 3	Book 3 of "The Imitation of Christ" delves into the theme of inner peace and spiritual fulfillment, guiding readers on a ...	https://i.ytimg.com/vi/DvBytNzIGrw/hqdefault.jpg	2025-11-21 23:14:45.91843+00	4613	\N
+18865	hnT2ET4osmk	26740	The Sacrifice	One lie can ignite a nation. One truth can destroy it. The Sacrifice by Joyce Carol Oates is a haunting and provocative novel ...	https://i.ytimg.com/vi/hnT2ET4osmk/hqdefault.jpg	2025-11-21 23:15:08.83775+00	1179	\N
+18866	dQX9Y7p7m8w	26233	The Cat Saw Murder	Suffice it to say that Joyce Carol Oates and I disagree about how to interpret The Cat Saw Murders and its place in crime fiction.	https://i.ytimg.com/vi/dQX9Y7p7m8w/hqdefault.jpg	2025-11-21 23:15:29.458588+00	4615	\N
+18867	qnDl_li0W_M	14931	A Fair Maiden	Listen to A Fair Maiden by Joyce Carol Oates, a gripping psychological thriller audiobook that delves into obsession, manipulation ...	https://i.ytimg.com/vi/qnDl_li0W_M/hqdefault.jpg	2025-11-21 23:15:49.11571+00	1179	\N
+18868	OMzrXH6nqgA	31578	Barbarian's Hope	In Barbarian's Hope, a heart-wrenching installment of Ruby Dixon's wildly popular Ice Planet Barbarians series, love, grief, and ...	https://i.ytimg.com/vi/OMzrXH6nqgA/hqdefault.jpg	2025-11-21 23:16:20.877905+00	3461	\N
+18869	b5I8-qPPYGE	23686	Barbarians Mate	In Barbarian's Mate by Ruby Dixon, Josie finds herself bonded to a stubborn blue barbarian on a frozen alien world.	https://i.ytimg.com/vi/b5I8-qPPYGE/hqdefault.jpg	2025-11-21 23:16:40.30364+00	3461	\N
+18870	oriRgpUvxOQ	21950	Barbarians Prize	In Barbarian's Prize by Ruby Dixon, Tiffany is haunted by her past, but on the frozen alien planet, she's pursued by the gentle, ...	https://i.ytimg.com/vi/oriRgpUvxOQ/hqdefault.jpg	2025-11-21 23:16:59.755286+00	3461	\N
+18872	qp6h7orDcQo	20837	Barbarian Lover	In Barbarian Lover by Ruby Dixon, Kira is haunted by secrets and determined to survive on her own—until she's claimed by ...	https://i.ytimg.com/vi/qp6h7orDcQo/hqdefault.jpg	2025-11-21 23:18:40.401748+00	3461	\N
+18873	lkwPaAAnRgc	23255	Barbarian Alien	Would you trust your heart to a stranger on a frozen alien world? In Barbarian Alien (Ice Planet Barbarians #2) by Ruby Dixon, Liz ...	https://i.ytimg.com/vi/lkwPaAAnRgc/hqdefault.jpg	2025-11-21 23:18:59.823964+00	3461	\N
+18874	mud3UYFDidI	19063	My Possessive Bully	romance #audiobook #audiobooks #audiolibrary #romancebooks #romanceclub Can a stubborn human woman and a ...	https://i.ytimg.com/vi/mud3UYFDidI/hqdefault.jpg	2025-11-21 23:19:21.747756+00	735	\N
+18875	vkywYjN7HVk	34645	Secret des Champdoce	This book was converted from its physical edition to the digital format by a community of volunteers. You may find it for free on the ...	https://i.ytimg.com/vi/vkywYjN7HVk/hqdefault.jpg	2025-11-21 23:22:00.225879+00	2373	\N
+18876	yRlBXKtBjl0	40090	The Mystery of Orcival	The Mystery of Orcival. By Émile Gaboriau FULL Audiobook "The Mystery of Orcival" is a detective novel by Émile Gaboriau, ...	https://i.ytimg.com/vi/yRlBXKtBjl0/hqdefault.jpg	2025-11-21 23:22:23.344787+00	2373	\N
+18877	RgyWNjcpSC8	39404	The Mystery of Orcival	The Mystery of Orcival. By Émile Gaboriau. Full Audiobook "The Mystery of Orcival" is a detective novel written by Émile Gaboriau ...	https://i.ytimg.com/vi/RgyWNjcpSC8/hqdefault.jpg	2025-11-21 23:22:45.037313+00	2373	\N
+18878	VnywXE18_Iw	35210	Monsieur Lecoq, v. 1	"Monsieur Lecoq, v. 1" by Emile Gaboriau introduces readers to Monsieur Lecoq, an ingenious detective known for his astute ...	https://i.ytimg.com/vi/VnywXE18_Iw/hqdefault.jpg	2025-11-21 23:23:06.16677+00	2373	\N
+18879	922wtYXNaFk	15950	A Thousand Francs Reward; and Military Sketches	A Thousand Francs Reward, revolves around a crime and the ensuing investigation. Given Gaboriau's expertise in detective ...	https://i.ytimg.com/vi/922wtYXNaFk/hqdefault.jpg	2025-11-21 23:23:25.655534+00	2373	\N
+18880	lKhxGvhp-VU	40943	Other People's Money	Other People's Money. By Émile Gaboriau. Full Audiobook "Other People's Money" is a classic mystery novel written by Émile ...	https://i.ytimg.com/vi/lKhxGvhp-VU/hqdefault.jpg	2025-11-21 23:23:47.239959+00	2373	\N
+18881	-EfJR22aBoE	42452	Baron Trigault's Vengeance	A sequel to The Count's Millions. The partially unsolved mystery of "The Count's Millions" keeps Marguerite de Chalusse from ...	https://i.ytimg.com/vi/-EfJR22aBoE/hqdefault.jpg	2025-11-21 23:24:07.065738+00	2373	\N
+18882	qqkOGdTtLsQ	41518	The Mystery of Orcival	The Mystery of Orcival Émile Gaboriau (1832 - 1873) Full Audio Book read for you by Celine Major The Mystery of Orcival is a ...	https://i.ytimg.com/vi/qqkOGdTtLsQ/hqdefault.jpg	2025-11-21 23:24:26.606986+00	2373	\N
+18883	5SICobVbT1A	42994	The Lerouge Case (1/2)	The Lerouge Case. By Émile Gaboriau FULL Audiobook "The Lerouge Case" is a novel written by Émile Gaboriau, a French writer ...	https://i.ytimg.com/vi/5SICobVbT1A/hqdefault.jpg	2025-11-21 23:24:49.203429+00	2373	\N
+18884	lASIIFFxtfM	41468	File No. 113 (1/2)	File No. 113. By Émile Gaboriau. Full Audiobook "File No. 113" is a detective novel by Émile Gaboriau, published in 1867.	https://i.ytimg.com/vi/lASIIFFxtfM/hqdefault.jpg	2025-11-21 23:25:09.115297+00	2373	\N
+18885	TjepA06yt1c	42291	File No. 113 (1/2)	File No. 113. By Émile Gaboriau FULL Audiobook "File No. 113" is a detective novel by Émile Gaboriau, first published in 1867.	https://i.ytimg.com/vi/TjepA06yt1c/hqdefault.jpg	2025-11-21 23:25:28.962631+00	2373	\N
+18886	0PThZxqMmCk	42713	The Slaves of Paris (1/2)	The Slaves of Paris. By Émile Gaboriau. Full Audiobook "The Slaves of Paris" is a detective novel written by Émile Gaboriau.	https://i.ytimg.com/vi/0PThZxqMmCk/hqdefault.jpg	2025-11-21 23:25:48.84953+00	2373	\N
+18887	BayIDtE6omM	41483	The Slaves of Paris (1/2)	The Slaves of Paris. By Émile Gaboriau FULL Audiobook "The Slaves of Paris" is a novel by Émile Gaboriau, a French writer and ...	https://i.ytimg.com/vi/BayIDtE6omM/hqdefault.jpg	2025-11-21 23:26:08.657879+00	2373	\N
+18888	uo9mffnLSGU	42231	The Count's Millions	The Count's Millions. By Émile Gaboriau. Full Audiobook The book, "The Count's Millions," written by Émile Gaboriau, revolves ...	https://i.ytimg.com/vi/uo9mffnLSGU/hqdefault.jpg	2025-11-21 23:26:31.37673+00	2373	\N
+18889	0TXxi1RGamc	41239	The Clique of Gold (1/2)	The Clique of Gold. By Émile Gaboriau. Full Audiobook Émile Gaboriau's 1867 novel "The Clique of Gold" is a classic detective ...	https://i.ytimg.com/vi/0TXxi1RGamc/hqdefault.jpg	2025-11-21 23:26:53.252154+00	2373	\N
+18890	t3PAP0kejD8	42585	Monsieur Lecoq	Monsieur Lecoq. By Émile Gaboriau FULL Audiobook Monsieur Lecoq is a novel written by Émile Gaboriau, a French detective ...	https://i.ytimg.com/vi/t3PAP0kejD8/hqdefault.jpg	2025-11-21 23:27:14.608732+00	2373	\N
+18891	BhWmIzWh59g	43125	Monsieur Lecoq	Monsieur Lecoq. By Émile Gaboriau. Full Audiobook Monsieur Lecoq is a novel by Émile Gaboriau, a French detective fiction ...	https://i.ytimg.com/vi/BhWmIzWh59g/hqdefault.jpg	2025-11-21 23:27:35.970802+00	2373	\N
+18892	aqNsmx-mPrA	42415	The Count's Millions	The Count's Millions. By Émile Gaboriau. Full Audiobook The book, "The Count's Millions," written by Émile Gaboriau, revolves ...	https://i.ytimg.com/vi/aqNsmx-mPrA/hqdefault.jpg	2025-11-21 23:27:55.404958+00	2373	\N
+18893	hQZQEHGfBFc	32078	The Slaves of Paris (2/2)	The Slaves of Paris. By Émile Gaboriau FULL Audiobook "The Slaves of Paris" is a novel by Émile Gaboriau, a French writer and ...	https://i.ytimg.com/vi/hQZQEHGfBFc/hqdefault.jpg	2025-11-21 23:28:14.832599+00	2373	\N
+18894	Vaj8VxmLNFg	40458	Le Crime d'Orcival	Le Crime d'Orcival - Émile Gaboriau 0:00:00 - 01 - Chapitre 1 0:18:22 - 02 - Chapitre 2 0:32:46 - 03 - Chapitre 3 0:55:52 - 04 ...	https://i.ytimg.com/vi/Vaj8VxmLNFg/hqdefault.jpg	2025-11-21 23:28:36.910361+00	2373	\N
+18895	yhm92eJVnyM	20567	Monsieur Lecoq	Audiobook.	https://i.ytimg.com/vi/yhm92eJVnyM/hqdefault.jpg	2025-11-21 23:28:57.733851+00	2373	\N
+18896	SPly_snuEiQ	43039	Monsieur Lecoq	Monsieur Lecoq. By Émile Gaboriau. Full Audiobook Monsieur Lecoq is a novel by Émile Gaboriau, a French detective fiction ...	https://i.ytimg.com/vi/SPly_snuEiQ/hqdefault.jpg	2025-11-21 23:29:19.806971+00	2373	\N
+18897	Rh-PwjHhNIY	21000	The Clique of Gold	The Clique of Gold. By Émile Gaboriau. Full Audiobook Émile Gaboriau's 1867 novel "The Clique of Gold" is a classic detective ...	https://i.ytimg.com/vi/Rh-PwjHhNIY/hqdefault.jpg	2025-11-21 23:29:46.03536+00	2373	\N
+18898	ydyc0frl-2Q	42264	Monsieur Lecoq	Monsieur Lecoq. By Émile Gaboriau FULL Audiobook Monsieur Lecoq is a novel written by Émile Gaboriau, a French detective ...	https://i.ytimg.com/vi/ydyc0frl-2Q/hqdefault.jpg	2025-11-21 23:30:07.86567+00	2373	\N
+18899	qWW0hkfDPfg	29330	The Slaves of Paris (2/2)	The Slaves of Paris. By Émile Gaboriau. Full Audiobook "The Slaves of Paris" is a detective novel written by Émile Gaboriau.	https://i.ytimg.com/vi/qWW0hkfDPfg/hqdefault.jpg	2025-11-21 23:30:27.695145+00	2373	\N
+18900	rigMAQsKqwU	14644	Monsieur Lecoq	Audiobook.	https://i.ytimg.com/vi/rigMAQsKqwU/hqdefault.jpg	2025-11-21 23:30:48.908773+00	2373	\N
+18901	L5IuA2Mey3A	42239	The Lerouge Case (1/2)	The Lerouge Case. By Émile Gaboriau. Full Audiobook "The Lerouge Case" is a novel by Émile Gaboriau, first published in 1863.	https://i.ytimg.com/vi/L5IuA2Mey3A/hqdefault.jpg	2025-11-21 23:31:13.935124+00	2373	\N
+18904	59AtZpmYg-k	23747	Monsieur Lecoq Part 2: The Honor of the Name - Part 2	More books here: https://www.youtube.com/channel/UCcGXgUJ7fsY3plXLZltbOnw?sub_confirmation=1 Émile Gaboriau (1832 ...	https://i.ytimg.com/vi/59AtZpmYg-k/hqdefault.jpg	2025-11-21 23:32:26.241858+00	2373	\N
+18905	pNWYqM_GlWc	20522	Monsieur Lecoq	Audiobook.	https://i.ytimg.com/vi/pNWYqM_GlWc/hqdefault.jpg	2025-11-21 23:32:47.174533+00	2373	\N
+18906	vz_erhYOl9E	61924	Scaramouche	Scaramouche audiobook Rafael SABATINI (1875 - 1950), translated by UNKNOWN ...	https://i.ytimg.com/vi/vz_erhYOl9E/hqdefault.jpg	2025-11-21 23:33:12.865815+00	1876	\N
+18907	cjsQf42XgS8	42995	The Sea Hawk	The Sea Hawk. By Rafael Sabatini FULL Audiobook Here's a detailed summary of "The Sea Hawk" by Rafael Sabatini: Set ...	https://i.ytimg.com/vi/cjsQf42XgS8/hqdefault.jpg	2025-11-21 23:33:32.45751+00	1876	\N
+18908	5EqwXSnast0	43931	Captain Blood	The fast-paced historical fiction of Rafael Sabatini is often compared with that of Robert Louis Stevenson and Alexandre Dumas.	https://i.ytimg.com/vi/5EqwXSnast0/hqdefault.jpg	2025-11-21 23:33:53.185876+00	1876	\N
+18909	ZifJXN7q6kY	42237	Scaramouche	Scaramouche. By Rafael Sabatini FULL Audiobook Here's a detailed summary of "Scaramouche" by Rafael Sabatini: Overview: ...	https://i.ytimg.com/vi/ZifJXN7q6kY/hqdefault.jpg	2025-11-21 23:34:12.726047+00	1876	\N
+18910	QeCUkuJOSSs	42336	Bellarion the Fortunate (1/2)	Bellarion the Fortunate. By Rafael Sabatini. Full Audiobook In Rafael Sabatini's captivating historical novel, "Bellarion the ...	https://i.ytimg.com/vi/QeCUkuJOSSs/hqdefault.jpg	2025-11-21 23:34:33.296607+00	1876	\N
+18911	0SQkNm15WuY	29308	Bardelys the Magnificent	Immerse yourself in the thrilling adventure of Bardelys the Magnificent! Follow the daring pursuits of Sieur Marcel de Saint-Pol, ...	https://i.ytimg.com/vi/0SQkNm15WuY/hqdefault.jpg	2025-11-21 23:34:52.936527+00	1876	\N
+18912	aoAUR-fH5Yw	18419	Odiseea capitanului Blood	odiseea #capitan #blood #rafaelsabatini #sabatini #carti #cartiromana #lecturiaudio #lecturi #teatru #teatruonline #teatruaudio ...	https://i.ytimg.com/vi/aoAUR-fH5Yw/hqdefault.jpg	2025-11-21 23:35:35.16501+00	1876	\N
+18913	EjZSBrW4vmQ	41782	The Life of Cesare Borgia	Most people consider Cesare Borgia one of history's villans -- there are foul rumors that fly around the man's history, dispicable ...	https://i.ytimg.com/vi/EjZSBrW4vmQ/hqdefault.jpg	2025-11-21 23:35:54.686685+00	1876	\N
+18914	lAw48ExcMLY	29308	Bardelys the Magnificent	Bardelys the Magnificent - Rafael Sabatini 0:00:00 - 01 - CHAPTER I. THE WAGER 0:24:58 - 02 - CHAPTER II. THE KING'S ...	https://i.ytimg.com/vi/lAw48ExcMLY/hqdefault.jpg	2025-11-21 23:36:17.157219+00	1876	\N
+18915	1_v-kl9CNBc	40763	The Sea Hawk	The Sea Hawk by Raphael Sabatini – Audiobook Step into the world of high seas, pirates, and adventure with The Sea Hawk, ...	https://i.ytimg.com/vi/1_v-kl9CNBc/hqdefault.jpg	2025-11-21 23:36:36.671075+00	4616	\N
+18916	Pr3fnyV-RBI	33378	The Shame of Motley	The Shame of Motley - Rafael Sabatini 0:00:00 - 01 - Flower of the Quince, The Cardinal of Valencia 0:17:52 - 02 - The Liveries of ...	https://i.ytimg.com/vi/Pr3fnyV-RBI/hqdefault.jpg	2025-11-21 23:36:58.174106+00	1876	\N
+18917	eYsVc2qXtRI	23955	The Tavern Knight	The Tavern Knight by Rafael Sabatini. Follow the exploits of Sir Crispin Galliard, also known as The Tavern Knight, in his defence ...	https://i.ytimg.com/vi/eYsVc2qXtRI/hqdefault.jpg	2025-11-21 23:37:17.62778+00	1876	\N
+18918	0WfeoMKlU30	30261	The lion's skin	"The man that once did sell the lion's skin while the beast lived, was killed with hunting him. Remember that!" His back to the wall, ...	https://i.ytimg.com/vi/0WfeoMKlU30/hqdefault.jpg	2025-11-21 23:37:38.709986+00	1876	\N
+18919	zMw0VtwMtPQ	24602	The Tavern Knight	The Tavern Knight - Rafael Sabatini 0:00:00 - 01 - On the March 0:17:11 - 02 - Arcades Ambo 0:29:33 - 03 - The Letter 0:35:10 ...	https://i.ytimg.com/vi/zMw0VtwMtPQ/hqdefault.jpg	2025-11-21 23:38:00.602746+00	1876	\N
+18920	50BpdeEDg58	33379	The Shame of Motley	Enjoy The Shame of Motley by Rafael Sabatini, a thrilling romantic swashbuckler set in 15th-century Italy. Follow Lazzaro ...	https://i.ytimg.com/vi/50BpdeEDg58/hqdefault.jpg	2025-11-21 23:38:21.092924+00	1876	\N
+18921	y0wD5qH-SzA	34137	The Snare	The Snare - Rafael Sabatini 0:00:00 - 01 - The Affair At Tavora 0:49:16 - 02 - The Ultimatum 1:32:53 - 03 - Lady O'Moy 1:56:43 ...	https://i.ytimg.com/vi/y0wD5qH-SzA/hqdefault.jpg	2025-11-21 23:39:07.796712+00	1876	\N
+18922	puJJjQP3MyY	41658	Captain Blood	Captain Blood. By Rafael Sabatini. Full Audiobook In Rafael Sabatini's captivating novel, "Captain Blood," we embark on a ...	https://i.ytimg.com/vi/puJJjQP3MyY/hqdefault.jpg	2025-11-21 23:39:28.134684+00	1876	\N
+18923	A5Rzr4EaKKs	24607	The Tavern Knight	The Tavern Knight Rafael Sabatini (1875 - 1950) "The Tavern Knight" by Rafael Sabatini is a historical adventure novel set in the ...	https://i.ytimg.com/vi/A5Rzr4EaKKs/hqdefault.jpg	2025-11-21 23:39:47.807033+00	1876	\N
+18924	csKmgKyGIpo	26426	The Sea Hawk	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Sea Hawk Rafael ...	https://i.ytimg.com/vi/csKmgKyGIpo/hqdefault.jpg	2025-11-21 23:40:09.986555+00	1876	\N
+18925	aMyAd9y6BIA	41053	Captain Blood	Captain Blood: His Odyssey is an adventure novel by Rafael Sabatini, originally published in 1922. Sabatini was a proponent of ...	https://i.ytimg.com/vi/aMyAd9y6BIA/hqdefault.jpg	2025-11-21 23:40:29.558295+00	1876	\N
+18926	DQMpK-CMTOs	33804	Scaramouche	Delve into the intriguing world of the French Revolution in Rafael Sabatini's classic, "Scaramouche". Follow André-Louis Moreau, ...	https://i.ytimg.com/vi/DQMpK-CMTOs/hqdefault.jpg	2025-11-21 23:40:49.158611+00	1876	\N
+18927	CbY6ZnejLy8	40377	The Sea Hawk	The Sea Hawk Audiobook by Rafael Sabatini. Free full length audio book. ▻ Subscribe to our channel: ...	https://i.ytimg.com/vi/CbY6ZnejLy8/hqdefault.jpg	2025-11-21 23:41:09.098771+00	1876	\N
+18928	hkGztyT_pUQ	24602	The Tavern Knight	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Tavern Knight Rafael ...	https://i.ytimg.com/vi/hkGztyT_pUQ/hqdefault.jpg	2025-11-21 23:41:32.496049+00	1876	\N
+18929	_Owq0ss_vs8	38335	The Lion's Skin	The Lion's Skin by Rafael Sabatini. Read in English by Carol Pelster. Justin Caryll was an unwilling hero: an unwilling plotter of ...	https://i.ytimg.com/vi/_Owq0ss_vs8/hqdefault.jpg	2025-11-21 23:41:53.135012+00	1876	\N
+18930	9fY4vnvkM3I	28201	Scaramouche	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Scaramouche Rafael ...	https://i.ytimg.com/vi/9fY4vnvkM3I/hqdefault.jpg	2025-11-21 23:42:12.634223+00	1876	\N
+18931	aKW4I_cbMaI	37255	The Sea Hawk	In this audiobook, you'll be transported to a world beyond your imagination. Rafael Sabatini's captivating story comes to life with ...	https://i.ytimg.com/vi/aKW4I_cbMaI/hqdefault.jpg	2025-11-21 23:42:32.311166+00	1876	\N
+18932	ieR855wv63Q	42909	Captain Blood	Captain Blood - Rafael Sabatini - Part 1 0:00:00 - 01 - The Messenger 0:23:06 - 02 - Kirke's Dragoons 0:46:04 - 03 - Lord Chief ...	https://i.ytimg.com/vi/ieR855wv63Q/hqdefault.jpg	2025-11-21 23:42:53.930914+00	1876	\N
+18933	P7kl9RBcczg	39955	Captain Blood (Dover Literature: Adventure)	During the tumultuous reign of James II, Englishman Peter Blood, a gentleman-physician barely escapes the gallows after his ...	https://i.ytimg.com/vi/P7kl9RBcczg/hqdefault.jpg	2025-11-21 23:43:13.6663+00	1876	\N
+18934	yWXgLch128I	41747	Scaramouche	Scaramouche. By Rafael Sabatini FULL Audiobook Here's a detailed summary of "Scaramouche" by Rafael Sabatini: Overview: ...	https://i.ytimg.com/vi/yWXgLch128I/hqdefault.jpg	2025-11-21 23:43:33.25264+00	1876	\N
+18935	zn_1odDgbdM	14744	Captain Blood	Full Audiobooks: https://bit.ly/audiobooklisten Welcome to Full Length Audiobooks, where you can enjoy complete audiobooks ...	https://i.ytimg.com/vi/zn_1odDgbdM/hqdefault.jpg	2025-11-21 23:43:53.001623+00	1876	\N
+18936	zRJrHwS8KhU	43928	Captain Blood	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Captain Blood Rafael ...	https://i.ytimg.com/vi/zRJrHwS8KhU/hqdefault.jpg	2025-11-21 23:44:14.19956+00	1876	\N
+18937	F4r9Kl8SbFw	42929	Captain Blood	Captain Blood. By Rafael Sabatini FULL Audiobook Captain Blood: His Odyssey by Rafael Sabatini, published in 1922, is a ...	https://i.ytimg.com/vi/F4r9Kl8SbFw/hqdefault.jpg	2025-11-21 23:44:37.010104+00	1876	\N
+18938	6fTq1WmJCjE	26313	The Sea Hawk	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Sea Hawk Rafael ...	https://i.ytimg.com/vi/6fTq1WmJCjE/hqdefault.jpg	2025-11-21 23:44:59.124965+00	1876	\N
+18939	AQM8n6mjlAU	30681	Untrodden Peaks and Unfrequented Valleys	Untrodden Peaks and Unfrequented Valleys - Amelia B. Edwards 0:00:00 - 01 - Ch. I: Monte Generoso To Venice, pt. 1 0:08:41 ...	https://i.ytimg.com/vi/AQM8n6mjlAU/hqdefault.jpg	2025-11-21 23:45:24.137986+00	798	\N
+18940	bgR-hg01swQ	29835	Untrodden Peaks and Unfrequented Valleys	Amelia B. Edwards wrote this historical travelogue in in 1873. The book describes her travels through a relatively un-visited area ...	https://i.ytimg.com/vi/bgR-hg01swQ/hqdefault.jpg	2025-11-21 23:45:44.111126+00	798	\N
+18941	tehA1plx_Ws	30683	UNTRODDEN PEAKS AND UNFREQUENTED VALLEYS	Untrodden Peaks and Unfrequented Valleys by Amelia Ann Blanford Edwards (1831 - 1892) full free audiobook ▻Subscribe for ...	https://i.ytimg.com/vi/tehA1plx_Ws/hqdefault.jpg	2025-11-21 23:46:07.500341+00	2118	\N
+18942	669HYbW9d7M	32529	A Thousand Miles up the Nile Part 1/2	A Thousand Miles up the Nile Amelia Ann Blanford EDWARDS (1831 - 1892) Amelia B. Edwards wrote this historical, ...	https://i.ytimg.com/vi/669HYbW9d7M/hqdefault.jpg	2025-11-21 23:46:31.878748+00	2118	\N
+18943	LX6TtBNvEFw	28939	A Thousand Miles up the Nile Part 2/2	A Thousand Miles up the Nile Amelia Ann Blanford EDWARDS (1831 - 1892) Amelia B. Edwards wrote this historical, ...	https://i.ytimg.com/vi/LX6TtBNvEFw/hqdefault.jpg	2025-11-21 23:46:52.265637+00	2118	\N
+18944	FPNPalrwcCc	24151	Manual of Egyptian Archaeology in Egypt	... and Guide to the Study of Antiquities in Egypt by Gaston Maspero translated by Amelia B. Edwards. Read by Timothy Ferguson.	https://i.ytimg.com/vi/FPNPalrwcCc/hqdefault.jpg	2025-11-21 23:47:12.62566+00	4021	\N
+18945	xKE2m4Fi610	34649	Tales from Shakespeare	Tales from Shakespeare. By Charles Lamb, Mary Lamb. Full Audiobook Tales from Shakespeare is a children's book written by ...	https://i.ytimg.com/vi/xKE2m4Fi610/hqdefault.jpg	2025-11-21 23:47:39.795075+00	2203	\N
+18946	gf9YotK4HHM	37678	Tales From Shakespeare	PREFACE 00:00:11 THE TEMPEST 00:05:16 A MIDSUMMER NIGHT'S DREAM 00:31:56 WINTER'S TALE 00:58:42 MUCH ADO ...	https://i.ytimg.com/vi/gf9YotK4HHM/hqdefault.jpg	2025-11-21 23:48:00.629556+00	2205	\N
+18947	SS13n221VQA	36920	Charles Lamb (A Memoir)	Charles Lamb was born in London in 1775. He studied at Christ's Hospital where he formed a lifelong friendship with Samuel ...	https://i.ytimg.com/vi/SS13n221VQA/hqdefault.jpg	2025-11-21 23:48:20.119274+00	4617	\N
+18948	u_3sytRaO6o	30602	Tales from Shakespeare	These Tales are meant to be submitted to the young reader as an introduction to the study of Shakespeare, for which purpose his ...	https://i.ytimg.com/vi/u_3sytRaO6o/hqdefault.jpg	2025-11-21 23:48:39.754723+00	4618	\N
+18949	Gmr2T8R5-JY	32142	Tales from Shakespeare	In Tales from Shakespeare, Charles and Mary Lamb bring William Shakespeare's timeless plays to life through elegant and ...	https://i.ytimg.com/vi/Gmr2T8R5-JY/hqdefault.jpg	2025-11-21 23:48:59.378885+00	4123	\N
+18950	oL0U1WSPCwM	30624	Tales from Shakespeare	Tales from Shakespeare by Charles Lamb (1775 - 1834) and Mary Lamb (1764 - 1847) Check out Best Selling Books on Amazon: ...	https://i.ytimg.com/vi/oL0U1WSPCwM/hqdefault.jpg	2025-11-21 23:49:19.089677+00	4123	\N
+18951	fEt_TEzf4Z0	39194	Parables From Nature	https://www.solgood.org - Check out our Streaming Service for our full collection of audiobooks, podcasts, short stories, & 10 hour ...	https://i.ytimg.com/vi/fEt_TEzf4Z0/hqdefault.jpg	2025-11-21 23:49:39.626612+00	4619	\N
+18952	uGfeDiP_7GU	35491	TALES FROM SHAKESPEARE	"Tales from Shakespeare" is a classic collection of retellings of William Shakespeare's plays written by the siblings Charles Lamb ...	https://i.ytimg.com/vi/uGfeDiP_7GU/hqdefault.jpg	2025-11-21 23:49:59.626434+00	2204	\N
+18953	4J5hCl0ze_A	34671	TALES FROM SHAKESPEARE	Full-length audiobook for free | Classics collection / best-sellers and more. Full text, easy to read. Tales from Shakespeare, a ...	https://i.ytimg.com/vi/4J5hCl0ze_A/hqdefault.jpg	2025-11-21 23:50:19.533917+00	2204	\N
+18954	JNnLuYU5i50	30602	TALES FROM SHAKESPEARE	Tales from Shakespeare by Mary Lamb (1764 - 1847) full free audiobook ▻Subscribe for more audiobooks!: https://goo.gl/QpFTih ...	https://i.ytimg.com/vi/JNnLuYU5i50/hqdefault.jpg	2025-11-21 23:50:39.193999+00	4620	\N
+18955	-Cnj4zmbwY0	37124	THE LAST ESSAYS OF ELIA	... Essays of Elia by Charles Lamb (1775 - 1834) full free audiobook ▻Subscribe for more audiobooks!: https://goo.gl/QpFTih ▻All ...	https://i.ytimg.com/vi/-Cnj4zmbwY0/hqdefault.jpg	2025-11-21 23:51:02.945457+00	2202	\N
+18956	z2llfgGMS0E	30602	Tales from Shakespeare		https://i.ytimg.com/vi/z2llfgGMS0E/hqdefault.jpg	2025-11-21 23:51:23.862333+00	115	\N
+18957	ZF1xieA_ZpE	30126	Tales from Shakespeare	Tales from Shakespeare by Charles and Mary Lamb. Read by Karen Savage. The following Tales are meant to be submitted to ...	https://i.ytimg.com/vi/ZF1xieA_ZpE/hqdefault.jpg	2025-11-21 23:51:43.554351+00	4123	\N
+18958	iqOFqxYW33s	16670	Famous Men of the Middle Ages	Famous Men of the Middle Ages by John H. Haaren audiobook. “THE study of history, like the study of a landscape, should begin ...	https://i.ytimg.com/vi/iqOFqxYW33s/hqdefault.jpg	2025-11-21 23:52:08.061789+00	4621	\N
+18959	yhRnXCnrG14	28423	Celebrated Crimes	Celebrated Crimes, Vol 3 Mary Stuart FULL Audiobook.	https://i.ytimg.com/vi/yhRnXCnrG14/hqdefault.jpg	2025-11-21 23:52:28.270633+00	4622	\N
+18960	O4QcSykRNM0	16874	Rights Of Man	A book in 2 Parts, published in 1791 and 1792. Part First denounces Edmund Burke's defense of monarchy and his attacks ...	https://i.ytimg.com/vi/O4QcSykRNM0/hqdefault.jpg	2025-11-21 23:52:53.638142+00	2123	\N
+18961	diVer9j2e5c	16830	FAMOUS MEN OF THE MIDDLE AGES	Famous Men of the Middle Ages by John Henry Haaren (1855 - 1916) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/diVer9j2e5c/hqdefault.jpg	2025-11-21 23:53:14.03641+00	1619	\N
+18962	R3po6CpMl7w	27047	Three Men in a Boat	Three Men in a Boat Audiobook by Jerome K. Jerome. Free full length audio book. ▻ Subscribe to our channel: ...	https://i.ytimg.com/vi/R3po6CpMl7w/hqdefault.jpg	2025-11-21 23:53:34.684324+00	2432	\N
+18963	TS4DICuHsF4	18520	The Wonder Book for Girls and Boys		https://i.ytimg.com/vi/TS4DICuHsF4/hqdefault.jpg	2025-11-21 23:53:54.701045+00	179	\N
+18964	xVnlASlArgU	21437	NELLIE BLY | AROUND THE WORLD IN 72 DAYS	""Around the World in Seventy-Two Days" is an 1890 book by journalist Elizabeth Jane Cochrane, writing under her pseudonym, ...	https://i.ytimg.com/vi/xVnlASlArgU/hqdefault.jpg	2025-11-21 23:54:18.179698+00	4623	\N
+18965	PgqATl2iYgM	21940	Around the World in Seventy Two Days	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Around the World in ...	https://i.ytimg.com/vi/PgqATl2iYgM/hqdefault.jpg	2025-11-21 23:54:38.961673+00	4624	\N
+18966	1382Spvk7uM	21942	AROUND THE WORLD IN SEVENTY-TWO DAYS	Around the World in Seventy-Two Days by Nellie Bly (1864 - 1922) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/1382Spvk7uM/hqdefault.jpg	2025-11-21 23:55:00.477521+00	2048	\N
+18967	jNjTaHI1nWg	21946	Around the World in Seventy Two Days	This is a true account by American woman journalist who, in 1889, set out to see whether she could beat the fictional journey in ...	https://i.ytimg.com/vi/jNjTaHI1nWg/hqdefault.jpg	2025-11-21 23:55:20.600354+00	2048	\N
+18968	LNXREmjnvQQ	21787	Around the World in Seventy-Two Days	Around the World in Seventy-Two Days by Nellie Bly audiobook. This is a true account by American woman journalist who, ...	https://i.ytimg.com/vi/LNXREmjnvQQ/hqdefault.jpg	2025-11-21 23:55:40.330244+00	2048	\N
+18969	cF17Q4mI8os	21436	Around the World in Seventy-Two Days	Around the World in Seventy-Two Days by Nellie Bly. Read by Mary Reagan. This is a true account by an American woman ...	https://i.ytimg.com/vi/cF17Q4mI8os/hqdefault.jpg	2025-11-21 23:56:01.911001+00	2048	\N
+18970	king6GKiyNU	20394	The Philistines Their History and Civilization	"The Philistines Their History and Civilization" by R.A.S. Macalister uncovers the mysteries of this ancient Mediterranean people, ...	https://i.ytimg.com/vi/king6GKiyNU/hqdefault.jpg	2025-11-21 23:56:32.086713+00	3184	\N
+18971	B1JNEDhntGg	19058	The Philistines, Their History and Civilization	By R. A. S. Macalister. Full Audiobook "The Philistines, Their History and Civilization" is a book written by R. A. S. Macalister that ...	https://i.ytimg.com/vi/B1JNEDhntGg/hqdefault.jpg	2025-11-21 23:56:51.772907+00	4625	\N
+18972	k-6oi_uyi9Y	21672	The Conquest of Bread	In this work, Kropotkin points out what he considers to be the defects of the economic systems of feudalism and capitalism, and ...	https://i.ytimg.com/vi/k-6oi_uyi9Y/hqdefault.jpg	2025-11-21 23:57:22.212506+00	4626	\N
+18973	Il0tHR-Ll1o	29532	Mutual Aid: A Factor of Evolution	Our inaugural title in this series is "A Radical Audiobook: Mutual Aid - A Factor of Evolution by Peter Kropotkin." Initially published ...	https://i.ytimg.com/vi/Il0tHR-Ll1o/hqdefault.jpg	2025-11-21 23:57:42.980237+00	4626	\N
+18974	mxBAgQX3k4I	27104	Memoirs of a Revolutionist		https://i.ytimg.com/vi/mxBAgQX3k4I/hqdefault.jpg	2025-11-21 23:58:02.450249+00	4626	\N
+18975	PaWjRCX5EpM	27124	Memoirs of a Revolutionist, Vol 1	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Memoirs of a Revolutionist ...	https://i.ytimg.com/vi/PaWjRCX5EpM/hqdefault.jpg	2025-11-21 23:58:24.441041+00	1533	\N
+18976	MyKfKvh5nrM	30112	For The New Intellectual	Can be found in the A.R.K. drive promotion at https://www.whatonearthishappening.com/ark.	https://i.ytimg.com/vi/MyKfKvh5nrM/hqdefault.jpg	2025-11-21 23:58:44.919213+00	2971	\N
+18977	4Rwr6WQF02c	26335	The Conquest of Bread	The Conquest of Bread. By Peter Kropotkin. Full Audiobook In his seminal work, "The Conquest of Bread," Peter Kropotkin, ...	https://i.ytimg.com/vi/4Rwr6WQF02c/hqdefault.jpg	2025-11-21 23:59:04.709801+00	4626	\N
+18978	RoOv02QkWms	24378	The Conquest of Bread	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Conquest of Bread ...	https://i.ytimg.com/vi/RoOv02QkWms/hqdefault.jpg	2025-11-21 23:59:28.235889+00	1533	\N
+18979	26IKMbr1xx4	27103	MEMOIRS OF A REVOLUTIONIST, VOL. 1	Memoirs of a Revolutionist, Vol. 1 by Peter Kropotkin (1842 - 1921) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/26IKMbr1xx4/hqdefault.jpg	2025-11-21 23:59:48.907306+00	4626	\N
+18980	bJ9-cIhmPOw	26207	The Conquest of Bread	The Conquest of Bread. By Peter Kropotkin FULL Audiobook "The Conquest of Bread" by Peter Kropotkin is a seminal work in ...	https://i.ytimg.com/vi/bJ9-cIhmPOw/hqdefault.jpg	2025-11-22 00:00:08.807406+00	4626	\N
+18981	o3yjc6vkiIc	34105	MUTUAL AID: A FACTOR OF EVOLUTION	Mutual Aid: A Factor of Evolution by Peter Kropotkin (1842 - 1921) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/o3yjc6vkiIc/hqdefault.jpg	2025-11-22 00:00:30.46344+00	4626	\N
+18982	8HE2Jhi9QrA	29661	The Conquest of Bread		https://i.ytimg.com/vi/8HE2Jhi9QrA/hqdefault.jpg	2025-11-22 00:00:52.491321+00	4627	\N
+18983	owgDm-rlzNY	24372	The Conquest of Bread	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/owgDm-rlzNY/hqdefault.jpg	2025-11-22 00:01:14.663869+00	4626	\N
+18984	Yc1mab_0OL4	24371	The Conquest of Bread	The Conquest of bread - Peter Kropotkin 0:00:00 - 00 - Preface 0:14:27 - 01 - Our riches 0:34:12 - 02 - Well-being for all 0:55:18 ...	https://i.ytimg.com/vi/Yc1mab_0OL4/hqdefault.jpg	2025-11-22 00:01:36.112915+00	4626	\N
+18985	5xGzNECF5Yg	24373	THE CONQUEST OF BREAD	The Conquest of Bread by Peter Kropotkin (1842 - 1921) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/5xGzNECF5Yg/hqdefault.jpg	2025-11-22 00:01:57.422724+00	4626	\N
+18986	1DTi0hBhIWQ	15530	Memoirs of a Revolutionist, Volume 1, Part 1	Audiobook.	https://i.ytimg.com/vi/1DTi0hBhIWQ/hqdefault.jpg	2025-11-22 00:02:17.108414+00	4626	\N
+18987	gm723P7RGBE	18365	Mutual Aid	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/gm723P7RGBE/hqdefault.jpg	2025-11-22 00:02:37.780018+00	4626	\N
+18988	REvScH6ruX8	33812	Mutual Aid	Mutual Aid. By Peter Kropotkin FULL Audiobook Here's a detailed summary of "Mutual Aid: A Factor of Evolution" by Peter ...	https://i.ytimg.com/vi/REvScH6ruX8/hqdefault.jpg	2025-11-22 00:02:57.465269+00	4626	\N
+18989	Xi6S4IfnDMU	32983	Memoirs of a Revolutionist, Vol 2	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Memoirs of a Revolutionist ...	https://i.ytimg.com/vi/Xi6S4IfnDMU/hqdefault.jpg	2025-11-22 00:03:18.251171+00	1533	\N
+18990	zs4oSH-naB4	18051	Memoirs of a Revolutionist Volume 2 part1	Audiobook.	https://i.ytimg.com/vi/zs4oSH-naB4/hqdefault.jpg	2025-11-22 00:03:38.036955+00	4626	\N
+18991	EO9mQFJNfKA	27100	Memoirs of a Revolutionist, Vol. 1	Memoirs of a Revolutionist, Vol. 1. By Peter Kropotkin FULL Audiobook "Memoirs of a Revolutionist, Vol. 1" by Peter Kropotkin is ...	https://i.ytimg.com/vi/EO9mQFJNfKA/hqdefault.jpg	2025-11-22 00:04:00.364611+00	4626	\N
+18992	nXWyvABKtwc	18051	Memoirs of a Revolutionist Vol. 2		https://i.ytimg.com/vi/nXWyvABKtwc/hqdefault.jpg	2025-11-22 00:04:19.975664+00	4626	\N
+18993	qCxKoRafTBY	21693	Conquest of Bread (version 2)	Conquest of Bread (version 2). By Peter Kropotkin FULL Audiobook "The Conquest of Bread" by Peter Kropotkin is a seminal work ...	https://i.ytimg.com/vi/qCxKoRafTBY/hqdefault.jpg	2025-11-22 00:04:39.642285+00	4626	\N
+18994	HQS1os2roRE	32984	MEMOIRS OF A REVOLUTIONIST, VOL. 2	Memoirs of a Revolutionist, Vol. 2 by Peter Kropotkin (1842 - 1921) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/HQS1os2roRE/hqdefault.jpg	2025-11-22 00:05:01.786952+00	4626	\N
+18996	tQ3uSPueNcs	32982	Memoirs of a Revolutionist, Vol. 2	Memoirs of a Revolutionist, Vol. 2. By Peter Kropotkin FULL Audiobook "Memoirs of a Revolutionist, Vol. 2" by Peter Kropotkin is ...	https://i.ytimg.com/vi/tQ3uSPueNcs/hqdefault.jpg	2025-11-22 00:05:45.387844+00	4626	\N
+18997	ecNcgvjTr1c	14935	Memoirs of a Revolutionist Volume 2 part2	Audiobook.	https://i.ytimg.com/vi/ecNcgvjTr1c/hqdefault.jpg	2025-11-22 00:06:04.932196+00	4626	\N
+18998	6P2ovGQHdgs	35470	The Bolshevik Myth	... on the Tverskaya 01:48:25 X: A Visit to Peter Kropotkin 01:56:04 XI: Bolshevik Activities 02:06:30 XII: Sights and Views 02:19:00 ...	https://i.ytimg.com/vi/6P2ovGQHdgs/hqdefault.jpg	2025-11-22 00:06:25.941629+00	1645	\N
+18999	W5Cenp1AYdE	32678	My Disillusionment in Russia	... The British Labour Mission, Maria Spiridonova Peter Kropotkin, Kharkov, Poltava Kiev, Bolshevism, Soviet Union 1917-1936, ...	https://i.ytimg.com/vi/W5Cenp1AYdE/hqdefault.jpg	2025-11-22 00:06:47.514902+00	4628	\N
+19000	pgdrWs82Mw0	34249	England, Canada and the Great War	England, Canada and the Great War - Louis-Georges Desjardins 0:00:00 - 00 - Preface 0:09:31 - 01 - Introduction and Chapter I.	https://i.ytimg.com/vi/pgdrWs82Mw0/hqdefault.jpg	2025-11-22 00:07:12.575271+00	3231	\N
+19001	3PWQTZitswo	34565	England, Canada and the Great War	"England, Canada and the Great War" is a historical masterpiece penned by Louis-Georges Desjardins. The book offers a ...	https://i.ytimg.com/vi/3PWQTZitswo/hqdefault.jpg	2025-11-22 00:07:32.228979+00	3231	\N
+19002	x6bkyNsATgU	34250	ENGLAND, CANADA AND THE GREAT WAR	England, Canada and the Great War by Louis-Georges Desjardins (1849 - 1928) full free audiobook ▻Subscribe for more ...	https://i.ytimg.com/vi/x6bkyNsATgU/hqdefault.jpg	2025-11-22 00:07:51.745012+00	3231	\N
+19003	SmKpBeU7WgE	37195	The Mountains of California	The Mountains of California audiobook John MUIR (1838 - 1914) ...	https://i.ytimg.com/vi/SmKpBeU7WgE/hqdefault.jpg	2025-11-22 00:08:13.169324+00	4629	\N
+19004	YDCXFuT5Nb8	37769	Life in the Clearings Versus the Bush	Life in the Clearings Versus the Bush by Susanna MOODIE (1803 - 1885) Genre(s): Modern (19th C) Read by: Cori SamuelEsther ...	https://i.ytimg.com/vi/YDCXFuT5Nb8/hqdefault.jpg	2025-11-22 00:08:33.091632+00	1051	\N
+19005	wiR87XjIXBM	30139	Roughing It in the Bush	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Roughing It in the Bush, ...	https://i.ytimg.com/vi/wiR87XjIXBM/hqdefault.jpg	2025-11-22 00:08:54.314611+00	1051	\N
+19006	3Xksqxhfi4I	35795	CAPTAINS OF INDUSTRY	Captains of Industry by James Parton (1822 - 1891) full free audiobook ▻Subscribe for more audiobooks!: https://goo.gl/QpFTih ...	https://i.ytimg.com/vi/3Xksqxhfi4I/hqdefault.jpg	2025-11-22 00:09:25.419342+00	1443	\N
+19007	-_azSIkc2so	35793	Captains of Industry	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Captains of Industry ...	https://i.ytimg.com/vi/-_azSIkc2so/hqdefault.jpg	2025-11-22 00:09:46.583206+00	1443	\N
+19008	Dnco7HzSuIk	44550	The Life of James Madison	The Life of James Madison Author: Gaillard Hunt Read By: Dan Leonard Written in 1902 by the editor of Madison's papers, Hunt's ...	https://i.ytimg.com/vi/Dnco7HzSuIk/hqdefault.jpg	2025-11-22 00:10:27.133179+00	1846	\N
+19009	Af4KU0GCjQU	25541	The Life and Ventures of the Original John Jacob Astor	The Life and Ventures of the Original John Jacob Astor by Elizabeth Louisa GEBHARD (1859 - 1924) Genre(s): *Non-fiction, ...	https://i.ytimg.com/vi/Af4KU0GCjQU/hqdefault.jpg	2025-11-22 00:10:47.154216+00	4630	\N
+19010	NW_bS2qI0V4	23290	Captains of Industry	Audiobook.	https://i.ytimg.com/vi/NW_bS2qI0V4/hqdefault.jpg	2025-11-22 00:11:07.861398+00	1443	\N
+19011	Jeg1iBr6eDw	42261	It Happened One Autumn	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/Jeg1iBr6eDw/hqdefault.jpg	2025-11-22 00:11:31.620444+00	411	\N
+19012	6KBzkFyEI6Y	38912	THE WINGS OF THE DOVE	THE WINGS OF THE DOVE by Henry James ABOUT THE BOOK: The Wings of the Dove is a 1902 novel by Henry James.	https://i.ytimg.com/vi/6KBzkFyEI6Y/hqdefault.jpg	2025-11-22 00:11:51.41912+00	1121	\N
+19013	Xnq85Hl1j8s	37178	The Autobiography of an Ex-Colored Man	More videos ▻ Subtitles available. The Autobiography of an Ex-Colored Man by James . Subtitles available. The Autobiography ...	https://i.ytimg.com/vi/Xnq85Hl1j8s/hqdefault.jpg	2025-11-22 00:12:21.680266+00	4631	\N
+19014	7r38JKNGx-s	25067	Half of a Yellow Sun	Half of a Yellow Sun by Chimamanda Ngozi Adichie audiobook |Part 4 audiobook.	https://i.ytimg.com/vi/7r38JKNGx-s/hqdefault.jpg	2025-11-22 00:13:03.913997+00	1185	\N
+19015	mp-jOFXX0BU	22969	The Man-Eaters of Tsavo	J.H. Patterson's African adventures. Among them, his hunt for the two man-eaters. This book was the basis for the 1996 film The ...	https://i.ytimg.com/vi/mp-jOFXX0BU/hqdefault.jpg	2025-11-22 00:14:00.442996+00	2782	\N
+19016	iCcQr7vSNnY	16838	My India	This colorfully-written collection contains classic tales about the human beings who lived in the poignant rural world of the Indian ...	https://i.ytimg.com/vi/iCcQr7vSNnY/hqdefault.jpg	2025-11-22 00:14:19.712638+00	2231	\N
+19017	9mjGbJmtJAs	29314	To Your Scattered Bodies Go	To Your Scattered Bodies Go is the Hugo Award-winning beginning to the story of Riverworld, Philip José Farmer's unequaled ...	https://i.ytimg.com/vi/9mjGbJmtJAs/hqdefault.jpg	2025-11-22 00:14:57.635612+00	655	\N
+19018	jGplwJ34cWM	21638	The Green Odyssey	"The Green Odyssey" was Philip Jos Farmer's first book-length publication, originally released in 1957.	https://i.ytimg.com/vi/jGplwJ34cWM/hqdefault.jpg	2025-11-22 00:15:17.162831+00	655	\N
+19019	eRCYBhjGyog	21914	The Green Odyssey	Alan Green is a space traveler stranded on a barbaric planet who has been taken slave and made a consort to an insipid and ...	https://i.ytimg.com/vi/eRCYBhjGyog/hqdefault.jpg	2025-11-22 00:15:36.886595+00	655	\N
+19020	1eowYFXGP4w	21995	The Green Odyssey	Give someone (or yourself) the gift of an Audible membership, and help support our channel: https://amzn.to/2WXlKzy The Green ...	https://i.ytimg.com/vi/1eowYFXGP4w/hqdefault.jpg	2025-11-22 00:15:56.561601+00	655	\N
+19021	Rqr3q-2MtrI	24755	A Princess of Mars	Transported to the mysterious red planet of Barsoom, Confederate veteran John Carter finds himself thrust into a world of savage ...	https://i.ytimg.com/vi/Rqr3q-2MtrI/hqdefault.jpg	2025-11-22 00:16:16.206319+00	169	\N
+19022	IxPHRp1x_bw	21984	The Green Odyssey	The Green Odyssey by Philip Jose Farmer Chillbook, Narrated by Mark Nelson - Full Audiobook with relaxing Chillwave music.	https://i.ytimg.com/vi/IxPHRp1x_bw/hqdefault.jpg	2025-11-22 00:16:35.763198+00	655	\N
+19023	zcUO0OaMQCs	22024	The Green Odyssey	The Green Odyssey by Philip Jose Farmer audiobook. Alan Green is a space traveler stranded on a barbaric planet who has been ...	https://i.ytimg.com/vi/zcUO0OaMQCs/hqdefault.jpg	2025-11-22 00:16:55.478048+00	655	\N
+19024	B3-uCCCvWZs	21994	Green Odyssey	Embark on a unique space odyssey of survival, romp, and adventure in Philip José Farmer's visionary classic, "Green Odyssey".	https://i.ytimg.com/vi/B3-uCCCvWZs/hqdefault.jpg	2025-11-22 00:17:19.287356+00	655	\N
+19025	HxVzaGQn4u4	22016	Green Odyssey	Green Odyssey. By Philip José Farmer FULL Audiobook Here's a detailed summary of "The Green Odyssey" by Philip José ...	https://i.ytimg.com/vi/HxVzaGQn4u4/hqdefault.jpg	2025-11-22 00:17:39.756846+00	655	\N
+19026	BsIe5uGmkJ0	21996	The Green Odyssey	Get 1st Audiobook + full access to the Plus Catalog for Free when you try Audible for 30 days: https://amzn.to/3AEKtfY.	https://i.ytimg.com/vi/BsIe5uGmkJ0/hqdefault.jpg	2025-11-22 00:17:59.403164+00	655	\N
+19027	KY4AHQ6pDNM	23698	The Green Odyssey	The Green Odyssey Audiobook by Philip Jose Farmer. Free full length audio book. ▻ Subscribe to our channel: ...	https://i.ytimg.com/vi/KY4AHQ6pDNM/hqdefault.jpg	2025-11-22 00:18:19.498811+00	655	\N
+19028	AbkhBLjZiSA	20758	The Sword of Rhiannon	Leigh Brackett The Sword of Rhiannon.	https://i.ytimg.com/vi/AbkhBLjZiSA/hqdefault.jpg	2025-11-22 00:19:29.16531+00	4632	\N
+19029	BcuB5qkYEdA	25874	Jungle Tales of Tarzan	According to Tarzan Alive, Philip José Farmer's study of the ape man's life and career, the incidents of this book occurred from ...	https://i.ytimg.com/vi/BcuB5qkYEdA/hqdefault.jpg	2025-11-22 00:19:49.588472+00	169	\N
+19030	HflztFibVwA	25112	Over the Top	Over the Top, by Arthur Empey. Read by Mark F. Smith. Arthur Guy Empey was an American who responded to the sinking of the ...	https://i.ytimg.com/vi/HflztFibVwA/hqdefault.jpg	2025-11-22 00:20:10.033328+00	4633	\N
+19031	gX6B21A53yc	23254	How to Be Black	Humor Audiobooks Baratunde Thurston - How to Be Black.	https://i.ytimg.com/vi/gX6B21A53yc/hqdefault.jpg	2025-11-22 00:20:33.488749+00	2642	\N
+19032	Y4y0F8ljZf8	19275	The Jungle Book	The Jungle Book by Rudyard Kipling Read by Phil Chenevert Edited by BrainReadsAudio LibriVox.	https://i.ytimg.com/vi/Y4y0F8ljZf8/hqdefault.jpg	2025-11-22 00:20:54.930675+00	1246	\N
+19033	IRvLQnMwZpM	32244	At the Back of the North Wind	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/IRvLQnMwZpM/hqdefault.jpg	2025-11-22 00:21:14.641002+00	4634	\N
+19034	0bL-8jRJoVw	14609	Tales of a Security Guard	Ignore the tapping on the window. Don't leave the guardhouse after 3 AM. If you hear your shift partner calling out for help - run.	https://i.ytimg.com/vi/0bL-8jRJoVw/hqdefault.jpg	2025-11-22 00:21:45.408185+00	3290	\N
+19035	Tc96XZClkaE	24869	Camp Firwood	If the counselors of Camp Firwood send you into the woods, you're as good as dead. When the rebellious teenager Kevin gets ...	https://i.ytimg.com/vi/Tc96XZClkaE/hqdefault.jpg	2025-11-22 00:22:04.728164+00	3290	\N
+19036	UzrM1TBpMmA	28601	They Came From The Ocean	Exploring the bottom of the ocean is scary. It's worse when something down there is stalking you. Off the coast of New Zealand, ...	https://i.ytimg.com/vi/UzrM1TBpMmA/hqdefault.jpg	2025-11-22 00:22:24.451161+00	3290	\N
+19037	XnB0OHScn-o	27520	Suicide Town	You can visit the town, but you won't be leaving. Dean is a bestselling writer who struggles with writer's block ever since the ...	https://i.ytimg.com/vi/XnB0OHScn-o/hqdefault.jpg	2025-11-22 00:22:45.675166+00	3290	\N
+19038	VE1xFSewdOM	24651	It Came With The Crash	They thought the plane crash was the worst that could happen to them. They were dead wrong. Stranded in the middle of the ...	https://i.ytimg.com/vi/VE1xFSewdOM/hqdefault.jpg	2025-11-22 00:23:05.298607+00	3290	\N
+19039	_mllvbZpruU	22153	The Grayson Legacy	There's something lurking in the Grayson mansion. Alex and Blaire are freelance journalists and former romantic partners.	https://i.ytimg.com/vi/_mllvbZpruU/hqdefault.jpg	2025-11-22 00:23:24.656196+00	3290	\N
+19040	OTKVxSp3p3A	36417	The Gathering	It was supposed to be a relaxing vacation in a small town. Now, they're on the run from religious fanatics. When five friends are ...	https://i.ytimg.com/vi/OTKVxSp3p3A/hqdefault.jpg	2025-11-22 00:23:44.663869+00	3290	\N
+19041	O1tFKlNvcMw	25206	It Lives in the Woods	Something lurks in the darkness of the trees... A group of friends goes on a hike in search of an ancient spring deep inside the ...	https://i.ytimg.com/vi/O1tFKlNvcMw/hqdefault.jpg	2025-11-22 00:24:04.270245+00	3290	\N
+19042	b6_YHi1_YBA	22498	Apartment 401	There's something wrong with Apartment 401... When the newlywed couple Brad and Julia decide to move into their new home, ...	https://i.ytimg.com/vi/b6_YHi1_YBA/hqdefault.jpg	2025-11-22 00:24:23.927115+00	3290	\N
+19043	RV4iq7HXIi8	18413	Feel Free To Scream	My first kill was an accident. The rest were not. It all started when I killed my sister's rapist. I knew from that moment that my calling ...	https://i.ytimg.com/vi/RV4iq7HXIi8/hqdefault.jpg	2025-11-22 00:24:43.548064+00	3290	\N
+19044	1fY63VO3dcY	19194	The Keeper	His predecessor vanished without a trace - and he may be next. Jeremy takes a job as keeper of a lighthouse reputed to be ...	https://i.ytimg.com/vi/1fY63VO3dcY/hqdefault.jpg	2025-11-22 00:25:03.130591+00	3290	\N
+19045	gLq50kQN-1E	18451	Camp Firwood	If the counselors of Camp Firwood send you into the woods, you're as good as dead. When the rebellious teenager Kevin gets ...	https://i.ytimg.com/vi/gLq50kQN-1E/hqdefault.jpg	2025-11-22 00:25:22.666428+00	3290	\N
+19046	N0LS1QWp6AU	20088	The Thing in the Woods	The Thing In The Woods (Audiobook Full Book) - By Margery Williams #fullaudiobook #audiobookfullbook #timelessaudiobooks ...	https://i.ytimg.com/vi/N0LS1QWp6AU/hqdefault.jpg	2025-11-22 00:25:50.945205+00	4635	\N
+19047	XpR3faLAUZc	17855	The American Book of the Dead	This is an audiobook version of the 30th anniversary edition of this book by E.J. Gold, narrated by Microsoft's neural Christopher ...	https://i.ytimg.com/vi/XpR3faLAUZc/hqdefault.jpg	2025-11-22 00:26:30.296524+00	4636	\N
+19048	PIiDChOrRXM	20096	Creatures of the Abyss	Orejas de ellos, "the things that listen", whispered the superstitious fishermen when the strange occurrences began off the ...	https://i.ytimg.com/vi/PIiDChOrRXM/hqdefault.jpg	2025-11-22 00:26:55.030462+00	176	\N
+19049	O7Z1M-DzjxI	33502	Lighthouse Keeper	Title: Lighthouse Keeper - Full Mythological Fantasy Audiobook - Unabridged Written by: R. Kyle Hannah Read by: Rick McVey ...	https://i.ytimg.com/vi/O7Z1M-DzjxI/hqdefault.jpg	2025-11-22 00:27:15.342402+00	139	\N
+19050	2ttMAQqGEbc	35565	The Sea-Wolf	The Sea-Wolf" by Jack London is a gripping and timeless adventure novel that takes readers on a thrilling journey into the ...	https://i.ytimg.com/vi/2ttMAQqGEbc/hqdefault.jpg	2025-11-22 00:27:34.691027+00	68	\N
+19051	vTZl7FCUPog	26607	The Golden Fleece & Heroes before Achilles	This is another tale from the author of "The Children of Odin" Pádraic Colum and if you like the book, you'll probably enjoy this ...	https://i.ytimg.com/vi/vTZl7FCUPog/hqdefault.jpg	2025-11-22 00:28:16.872021+00	748	\N
+19052	qxLmT-Q4o08	23018	The Children of Odin (Norse Mythology)	The Children of Odin (Norse Mythology Audiobook) by Pádraic Colum.	https://i.ytimg.com/vi/qxLmT-Q4o08/hqdefault.jpg	2025-11-22 00:28:36.783214+00	748	\N
+19053	sau8vzE0QOA	22500	The Children of Odin		https://i.ytimg.com/vi/sau8vzE0QOA/hqdefault.jpg	2025-11-22 00:28:56.96876+00	748	\N
+19054	Mbk5pFuN2Ww	26630	The Golden Fleece and the Heroes Who Lived Before Achilles	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Golden Fleece and ...	https://i.ytimg.com/vi/Mbk5pFuN2Ww/hqdefault.jpg	2025-11-22 00:29:18.769527+00	748	\N
+19055	-1L-CTY5SA8	21411	The King of Ireland's Son	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The King of Ireland's Son, ...	https://i.ytimg.com/vi/-1L-CTY5SA8/hqdefault.jpg	2025-11-22 00:29:38.507189+00	748	\N
+19056	ROyCf6mrwgA	23126	The Children of Odin	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Children of Odin, ...	https://i.ytimg.com/vi/ROyCf6mrwgA/hqdefault.jpg	2025-11-22 00:29:58.944964+00	748	\N
+19057	u6e_dK0UElk	21369	King of Ireland's Son	In "King of Ireland's Son", master storyteller Pádraic Colum sweeps you into a mesmerizing world of ancient Celtic myths and ...	https://i.ytimg.com/vi/u6e_dK0UElk/hqdefault.jpg	2025-11-22 00:30:18.637361+00	748	\N
+19058	C4W34n16JmM	23018	The Children of Odin	Navigation: Chapter 1 - 00:00:00 Chapter 2 - 00:14:31 Chapter 3 - 00:35:27 Chapter 4 - 00:45:52 Chapter 5 - 01:01:35 Chapter 6 ...	https://i.ytimg.com/vi/C4W34n16JmM/hqdefault.jpg	2025-11-22 00:30:38.620397+00	748	\N
+19059	7BcEHN7cAbE	26015	The Golden Fleece and the Heroes Who Lived Before Achilles	The Golden Fleece and the Heroes Who Lived Before Achilles - FULL AUDIOBOOK Pádraic Colum (1881 - 1972) This is Irish ...	https://i.ytimg.com/vi/7BcEHN7cAbE/hqdefault.jpg	2025-11-22 00:30:58.94852+00	748	\N
+19060	StVvZS4D670	18321	The Adventures of Odysseus and the Tale of Troy	The Adventures of Odysseus and the Tale of Troy - FULL AUDIOBOOK Pádraic Colum (1881 - 1972) Also known as "The ...	https://i.ytimg.com/vi/StVvZS4D670/hqdefault.jpg	2025-11-22 00:31:18.931943+00	748	\N
+19061	2ZobPRTv5IU	16108	The Voyagers: Being Legends and Romances of Atlantic Discovery	In this 1926 Newbery Honor Book, Pádraic Colum gathers several little-known folk lore tales of exploration on the Atlantic Ocean ...	https://i.ytimg.com/vi/2ZobPRTv5IU/hqdefault.jpg	2025-11-22 00:31:38.849556+00	748	\N
+19062	90DhN2kkErI	23018	The Children of Odin	The Children of Odin - Padraic Colum 0:00:00 - 01 - Part 1, Chapters 1 and 2 0:14:31 - 02 - Part 1, Chapter 3 0:35:27 - 03 - Part 1, ...	https://i.ytimg.com/vi/90DhN2kkErI/hqdefault.jpg	2025-11-22 00:31:58.706442+00	748	\N
+19063	3Onm9JukN7M	21778	THE CHILDREN OF ODIN	Full-length audiobook for free | Classics collection / best-sellers and more. Full text, easy to read. The Children of Odin is a ...	https://i.ytimg.com/vi/3Onm9JukN7M/hqdefault.jpg	2025-11-22 00:32:18.404763+00	748	\N
+19064	atbtSYSq1EY	22937	The Children of Odin	Master storyteller Padraic Colum's rich, musical voice captures all the magic and majesty of the Norse sagas in his retellings of the ...	https://i.ytimg.com/vi/atbtSYSq1EY/hqdefault.jpg	2025-11-22 00:32:38.270446+00	748	\N
+19065	tOVeoJMNll8	22562	The Children of Odin	The Children of Odin by Padraic Colum. Read by Elizabeth Klett. Master storyteller Padraic Colum's rich, musical voice captures ...	https://i.ytimg.com/vi/tOVeoJMNll8/hqdefault.jpg	2025-11-22 00:32:57.953391+00	748	\N
+19066	oalWyYxbP_o	19201	The Adventures of Odysseus and the Tale of Troy	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Adventures of ...	https://i.ytimg.com/vi/oalWyYxbP_o/hqdefault.jpg	2025-11-22 00:33:19.126296+00	748	\N
+19067	Mf-7xH3WNNw	22621	The Children of Odin	This is a full length audio recording/book of The Children of Odin by Pádraic Colum. Master storyteller Padraic Colum's rich, ...	https://i.ytimg.com/vi/Mf-7xH3WNNw/hqdefault.jpg	2025-11-22 00:33:38.664038+00	748	\N
+19068	c3dEZkN8OrU	26608	The Golden Fleece and the Heroes Who Lived Before Achilles	... The Golden Fleece and the Heroes Who Lived Before Achilles Pádraic COLUM (1881 - 1972) - audiobook This is Irish folklorist ...	https://i.ytimg.com/vi/c3dEZkN8OrU/hqdefault.jpg	2025-11-22 00:34:00.230384+00	748	\N
+19069	wsAkM6VtdG4	24674	The Children of Odin	Audiobook: The Children of Odin by Pádraic Colum 🎙️Recording by: Elizabeth Klett Ambience: No Ambiance For the ...	https://i.ytimg.com/vi/wsAkM6VtdG4/hqdefault.jpg	2025-11-22 00:34:24.097183+00	748	\N
+19070	lKjkAUcHisI	23023	The Children of Odin	The Children of Odin by Padraic Colum audiobook. Master storyteller Padraic Colum's rich, musical voice captures all the magic ...	https://i.ytimg.com/vi/lKjkAUcHisI/hqdefault.jpg	2025-11-22 00:34:43.952427+00	748	\N
+19071	dH-x_dUDtDc	23039	Children of Odin	Children of Odin. By Pádraic Colum FULL Audiobook "The Children of Odin: The Book of Northern Myths" by Padraic Colum is a ...	https://i.ytimg.com/vi/dH-x_dUDtDc/hqdefault.jpg	2025-11-22 00:35:03.785381+00	748	\N
+19072	TIfPBRljEFI	25089	The Children of Odin (Norse Mythology)	The Children of Odin (Norse Mythology Audiobook) by Pádraic Colum.	https://i.ytimg.com/vi/TIfPBRljEFI/hqdefault.jpg	2025-11-22 00:35:24.436096+00	748	\N
+19073	4WdNePU_3GQ	23020	Children of Odin	... Myths" was written by Padraic Colum and originally published in 1920. This audiobook was provided courtesy of Librivox.org.	https://i.ytimg.com/vi/4WdNePU_3GQ/hqdefault.jpg	2025-11-22 00:36:06.110872+00	748	\N
+19074	7CyIwnVFQjo	19204	Adventures of Odysseus and the Tale of Troy	Audiobook.	https://i.ytimg.com/vi/7CyIwnVFQjo/hqdefault.jpg	2025-11-22 00:36:29.575448+00	748	\N
+19075	vqDTiFVnO8E	21411	King of Ireland's Son	Audiobook.	https://i.ytimg.com/vi/vqDTiFVnO8E/hqdefault.jpg	2025-11-22 00:36:48.939797+00	748	\N
+19076	u7jiMLndS-k	20826	The Exploits of Juve	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Exploits of Juve Marcel ...	https://i.ytimg.com/vi/u7jiMLndS-k/hqdefault.jpg	2025-11-22 00:37:28.684909+00	4637	\N
+19077	me9MYhdmKFM	23018	The Children of Odin Norse Mythology Thor, Loki, Asgard, Valhalla	The Children of Odin, Audiobook by Pádraic Colum. Master storyteller Padraic Colum's rich, musical voice captures all the magic ...	https://i.ytimg.com/vi/me9MYhdmKFM/hqdefault.jpg	2025-11-22 00:37:52.363141+00	748	\N
+19078	U7xQkQQV09U	24721	Argonautica	Purchase a copy of this book from Amazon here: https://amzn.to/3lUsuPX Interested in more audiobooks? Sign up for a free 30 ...	https://i.ytimg.com/vi/U7xQkQQV09U/hqdefault.jpg	2025-11-22 00:39:16.746833+00	4638	\N
+19079	EwLJXBrc5UU	26957	Aristotle and Dante Discover the Secrets of the Universe		https://i.ytimg.com/vi/EwLJXBrc5UU/hqdefault.jpg	2025-11-22 00:39:39.92919+00	4639	\N
+19080	M4efp5-o8V4	42580	Life in Mexico	Life in Mexico - Frances Calderón de la Barca - Part 1 0:00:00 - 00 - Introduction and Preface 0:15:14 - 01 - Glossary 0:21:25 - 02 ...	https://i.ytimg.com/vi/M4efp5-o8V4/hqdefault.jpg	2025-11-22 00:40:13.063079+00	4640	\N
+19081	Fsp1erSgQus	42942	Life in Mexico	Life in Mexico - Frances Calderón de la Barca - Part 2 0:00:00 - 28 - Letter the Twenty-Seventh 0:27:37 - 29 - Letter the Twenty- ...	https://i.ytimg.com/vi/Fsp1erSgQus/hqdefault.jpg	2025-11-22 00:40:56.599745+00	4640	\N
+19082	mJvgX2M0bT4	36124	Life In Mexico	Life In Mexico by Frances CALDERÓN DE LA BARCA (1804 - 1882) Genre(s): *Non-fiction, History Read by: Kehinde in English ...	https://i.ytimg.com/vi/mJvgX2M0bT4/hqdefault.jpg	2025-11-22 00:41:39.998316+00	4640	\N
+19083	0j1rDQycZSs	25580	Philothea A Grecian Romance	Set in the ancient land of Greece, the narrative is brimming with romance and unique twists and turns. With a very realistic ...	https://i.ytimg.com/vi/0j1rDQycZSs/hqdefault.jpg	2025-11-22 00:42:10.311424+00	1449	\N
+19084	gEQE5moYqqU	33999	THE FREEDMEN'S BOOK	The Freedmen's Book by Lydia Maria Child (1802 - 1880) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/gEQE5moYqqU/hqdefault.jpg	2025-11-22 00:42:32.093777+00	1449	\N
+19085	GkFiA2yfNCQ	33997	The Freedmen's Book	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Freedmen's Book ...	https://i.ytimg.com/vi/GkFiA2yfNCQ/hqdefault.jpg	2025-11-22 00:42:52.514732+00	1449	\N
+19086	WeqMo6P2RPc	16889	Freedmen's Book 01~27	Audiobook.	https://i.ytimg.com/vi/WeqMo6P2RPc/hqdefault.jpg	2025-11-22 00:43:12.331571+00	1449	\N
+19087	jrpekSMeHTI	17110	Freedmen's Book 28~60	Audiobook.	https://i.ytimg.com/vi/jrpekSMeHTI/hqdefault.jpg	2025-11-22 00:43:31.925012+00	1449	\N
+19088	WUFcNIfj3Qw	17515	What Katy Did	What Katy Did (Audiobook Full Book) - By Susan Coolidge #fullaudiobook #audiobook #timelessaudiobooks #audiobookfullbook ...	https://i.ytimg.com/vi/WUFcNIfj3Qw/hqdefault.jpg	2025-11-22 00:44:13.46462+00	2862	\N
+19089	XRY8W2tuCCY	26099	Highacres	Highacres (Audiobook Full Book) - By Jane D. Abbott #timelessaudiobooks #audiobook #fullaudiobook #audiobookfullbook ...	https://i.ytimg.com/vi/XRY8W2tuCCY/hqdefault.jpg	2025-11-22 00:44:36.847943+00	4641	\N
+19090	LeNYgx6XMMg	24586	The Heart's Kingdom	The Heart's Kingdom Maria Thompson DAVIESS Audiobook Chapter Time Chapter 1 00:00:00 Chapter 2 00:21:49 Chapter 3 ...	https://i.ytimg.com/vi/LeNYgx6XMMg/hqdefault.jpg	2025-11-22 00:44:58.245152+00	2902	\N
+19091	68htHZYbTzE	32145	Good Cheer Stories Every Child Should Know	Good Cheer Stories Every Child Should Know by Asa Don Dickinson. Read in English by kyegrayson; Taysha Lynn; Crystal ...	https://i.ytimg.com/vi/68htHZYbTzE/hqdefault.jpg	2025-11-22 00:45:18.666975+00	2903	\N
+19092	XKqd5fcFhmQ	24281	Chronicles of Avonlea	Chronicles of Avonlea Lucy Maud MONTGOMERY audiobook Chronicles of Avonlea (Dramatic Reading) Lucy Maud ...	https://i.ytimg.com/vi/XKqd5fcFhmQ/hqdefault.jpg	2025-11-22 00:45:43.406162+00	103	\N
+19093	kWlzAC0gtO8	35268	Identity	The #1 New York Times-bestselling author's terrifying next thriller about one man's ice-cold malice, and one woman's fight to ...	https://i.ytimg.com/vi/kWlzAC0gtO8/hqdefault.jpg	2025-11-22 00:46:23.880059+00	30	\N
+19094	2D3kx9W20B0	29382	Aequanimitas and Other Addresses	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Aequanimitas and Other ...	https://i.ytimg.com/vi/2D3kx9W20B0/hqdefault.jpg	2025-11-22 00:47:02.597232+00	1015	\N
+19095	9i4LU_iqA30	15241	In Our Convent Days	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. In Our Convent Days, ...	https://i.ytimg.com/vi/9i4LU_iqA30/hqdefault.jpg	2025-11-22 00:47:32.114196+00	4642	\N
+19096	_u_4svYNDX8	18562	Edgar Cayce on Atlantis	Get the MOST POWERFUL Spiritual Affirmations Track to REWRITE your reality: https://www.tinyurl.com/infinitefrequency33 Get ...	https://i.ytimg.com/vi/_u_4svYNDX8/hqdefault.jpg	2025-11-22 00:48:00.602721+00	4643	\N
+19097	ShvPMDIiHp4	28515	Awakening Your Psychic Powers	The First Condition: Understanding the Spiritual Imprisonment of Humanity on Earth: ...	https://i.ytimg.com/vi/ShvPMDIiHp4/hqdefault.jpg	2025-11-22 00:48:21.187906+00	4644	\N
+19098	-Z13EvDMkW4	28515	Awakening Your Psychic Powers		https://i.ytimg.com/vi/-Z13EvDMkW4/hqdefault.jpg	2025-11-22 00:49:02.69349+00	4643	\N
+19099	Ksnj_hMuHks	31535	THE ART OF DREAMING	The Art of Dreaming Carlos Castaneda.	https://i.ytimg.com/vi/Ksnj_hMuHks/hqdefault.jpg	2025-11-22 00:49:49.715357+00	2464	\N
+19100	Ya4SxOODdJU	17947	Danger In Deep Space	Danger In Deep Space (Audiobook Full Book) - By Carey Rockwell #timelessaudiobooks #audiobook #fullaudiobook ...	https://i.ytimg.com/vi/Ya4SxOODdJU/hqdefault.jpg	2025-11-22 00:50:22.189813+00	1036	\N
+19101	7cCmhm2Z2tg	20581	On the Trail of the Space Pirates	On the Trail of the Space Pirates audiobook Carey ROCKWELL On the Trail of the Space Pirates Carey ROCKWELL ( - ) Tom ...	https://i.ytimg.com/vi/7cCmhm2Z2tg/hqdefault.jpg	2025-11-22 00:50:42.893151+00	1853	\N
+19102	rGjSiEnWA38	22184	Stand by for Mars	You can read the book here for free: https://standardebooks.org/ebooks/carey-rockwell/stand-by-for-mars Inspired by Robert A.	https://i.ytimg.com/vi/rGjSiEnWA38/hqdefault.jpg	2025-11-22 00:51:03.437782+00	1036	\N
+19103	8zlShh84gEM	22385	Stand by for Mars!	Stand by for Mars!. By Carey Rockwell FULL Audiobook Stand by for Mars! is a science fiction novel written by Carey Rockwell.	https://i.ytimg.com/vi/8zlShh84gEM/hqdefault.jpg	2025-11-22 00:51:24.243392+00	1036	\N
+19104	BhdwEeR2Adk	17924	Danger in Deep Space	Support us on Patreon by becoming a member it helps us to sustain and provide more free audiobooks.	https://i.ytimg.com/vi/BhdwEeR2Adk/hqdefault.jpg	2025-11-22 00:51:45.163173+00	1036	\N
+19105	I931weWrnK4	20085	On the Trail of the Space Pirates	On the Trail of the Space Pirates by Carey Rockwell. Tom Corbett is the main character in a series of Tom Corbett — Space Cadet ...	https://i.ytimg.com/vi/I931weWrnK4/hqdefault.jpg	2025-11-22 00:52:04.786532+00	1036	\N
+19106	SHmdupvNdME	32568	Tales of Space and Time	Discover our playlists: https://www.youtube.com/view_all_playlists?nv=1.	https://i.ytimg.com/vi/SHmdupvNdME/hqdefault.jpg	2025-11-22 00:52:26.062682+00	147	\N
+19107	lA2YxR9GXnw	20580	On the Trail of the Space Pirates	On the Trail of the Space Pirates - audiobook Carey ROCKWELL ( - ) Tom Corbett is the main character in a series of Tom Corbett ...	https://i.ytimg.com/vi/lA2YxR9GXnw/hqdefault.jpg	2025-11-22 00:52:47.891373+00	1853	\N
+19108	me4yvjyuIcY	17927	Danger in Deep Space	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/me4yvjyuIcY/hqdefault.jpg	2025-11-22 00:53:08.116524+00	1036	\N
+19109	V1NwK9fXriI	18189	Treachery in Outer Space	Treachery in Outer Space (FULL AUDIOBOOK) Carey Rockwell The sixth book in the Grosset "Dunlap" Tom Corbett - Space ...	https://i.ytimg.com/vi/V1NwK9fXriI/hqdefault.jpg	2025-11-22 00:53:28.924711+00	1036	\N
+19110	TFmKwPMZUHI	18295	Stand by for Mars	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/TFmKwPMZUHI/hqdefault.jpg	2025-11-22 00:53:49.760634+00	1036	\N
+19111	2fmpIJRojCg	18400	Treachery in Outer Space	Treachery in Outer Space by Carey Rockwell. Read in English by Rich Brown. The sixth book in the Grosset & Dunlap "Tom ...	https://i.ytimg.com/vi/2fmpIJRojCg/hqdefault.jpg	2025-11-22 00:54:10.562603+00	1036	\N
+19112	V8IHtoMfnCU	20644	On the Trail of the Space Pirates	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. On the Trail of the Space ...	https://i.ytimg.com/vi/V8IHtoMfnCU/hqdefault.jpg	2025-11-22 00:54:31.801536+00	1853	\N
+19113	m8fIfMidYc0	17701	Sabotage in Space	Sabotage in Space by Carey Rockwell. Read in English by KirksVoice. This book is part of the on-going adventures of Tom ...	https://i.ytimg.com/vi/m8fIfMidYc0/hqdefault.jpg	2025-11-22 00:54:53.156638+00	1036	\N
+19114	kKdLFw1oAz4	18409	Stand by for Mars	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Stand by for Mars, Carey ...	https://i.ytimg.com/vi/kKdLFw1oAz4/hqdefault.jpg	2025-11-22 00:55:13.70963+00	1853	\N
+19115	-wXB3i1y9yc	20582	On the Trail of Space Pirates		https://i.ytimg.com/vi/-wXB3i1y9yc/hqdefault.jpg	2025-11-22 00:55:34.180445+00	1036	\N
+19116	Sd1r03Peawg	19925	On the Trail of the Space Pirates	On the Trail of the Space Pirates (FULL AUDIOBOOK) Carey Rockwell -- Tom Corbett is the main character in a series of Tom ...	https://i.ytimg.com/vi/Sd1r03Peawg/hqdefault.jpg	2025-11-22 00:55:53.814505+00	1036	\N
+19117	EA7ev9bIfyk	17487	Danger in Deep Space	Danger in Deep Space (Dramatic Reading) Carey Rockwell Full Audio Book The year is 2353. Tom Corbett is a cadet with the ...	https://i.ytimg.com/vi/EA7ev9bIfyk/hqdefault.jpg	2025-11-22 00:56:13.68084+00	1036	\N
+19118	RMQ5OxTVuM4	17923	Danger in Deep Space	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Danger in Deep Space ...	https://i.ytimg.com/vi/RMQ5OxTVuM4/hqdefault.jpg	2025-11-22 00:56:35.02833+00	1853	\N
+19119	jvmNlfKzPcY	17922	Danger in Deep Space	Danger in Deep Space Audiobook Carey ROCKWELL CHAPTER Time Chapter 1 00:00:00 Chapter 2 00:15:55 Chapter 3 ...	https://i.ytimg.com/vi/jvmNlfKzPcY/hqdefault.jpg	2025-11-22 00:57:00.230668+00	1853	\N
+19120	q0h5eDsj-Yo	19913	The Revolt on Venus	The Revolt on Venus by Carey Rockwell. Space Cadets Tom Corbett, Roger Manning and Astro head to Venus for a ...	https://i.ytimg.com/vi/q0h5eDsj-Yo/hqdefault.jpg	2025-11-22 00:57:19.720378+00	1036	\N
+19121	7-UCnAH3C-4	17531	Sabotage in Space	Sabotage in Space (FULL AUDIOBOOK) Carey Rockwell~This book is part of the on-going adventures of Tom Corbett in the ...	https://i.ytimg.com/vi/7-UCnAH3C-4/hqdefault.jpg	2025-11-22 00:57:40.689377+00	1036	\N
+19122	TTbwcwex158	17863	Sabotage in Space	Support us on Patreon by becoming a member it helps us to sustain and provide more free audiobooks.	https://i.ytimg.com/vi/TTbwcwex158/hqdefault.jpg	2025-11-22 00:58:00.991361+00	1036	\N
+19123	zoAldPQVwkU	18762	Treachery in Outer Space	LibriVox recording of Treachery in Outer Space by Carey Rockwell. Read in English by Rich Brown The sixth book in the Grosset ...	https://i.ytimg.com/vi/zoAldPQVwkU/hqdefault.jpg	2025-11-22 00:58:20.927955+00	1036	\N
+19124	vfNEsSG_R-U	20579	On the Trail of the Space Pirates	On the Trail of the Space Pirates - Carey Rockwell 0:00:00 - 01 - Chapter 1 0:22:50 - 02 - Chapter 2 0:41:33 - 03 - Chapter 3 ...	https://i.ytimg.com/vi/vfNEsSG_R-U/hqdefault.jpg	2025-11-22 00:58:42.233996+00	1036	\N
+19125	dv0n39zSBFo	17924	Danger in Deep Space	In the year 2353, Tom Corbett is a cadet training for the Solar Guard at the Space Academy. When sent on a high-stakes mission ...	https://i.ytimg.com/vi/dv0n39zSBFo/hqdefault.jpg	2025-11-22 00:59:03.565489+00	1036	\N
+19126	bwFBupdS0DI	17714	Stand by for Mars!		https://i.ytimg.com/vi/bwFBupdS0DI/hqdefault.jpg	2025-11-22 00:59:24.048578+00	1036	\N
+19127	4G4gAnIsMqs	18676	Treachery in Outer Space	Treachery in Outer Space - Carey Rockwell 0:00:00 - 01 - Chapter 1 0:18:57 - 02 - Chapter 2 0:33:20 - 03 - Chapter 3 0:48:48 - 04 ...	https://i.ytimg.com/vi/4G4gAnIsMqs/hqdefault.jpg	2025-11-22 00:59:45.379462+00	1036	\N
+19128	uAfsoSr4NSM	18293	Stand by for Mars!	Audiobook.	https://i.ytimg.com/vi/uAfsoSr4NSM/hqdefault.jpg	2025-11-22 01:00:04.90114+00	1036	\N
+19129	V9G9OSCa5gs	20579	On the Trail of the Space Pirates	Support us on Patreon by becoming a member it helps us to sustain and provide more free audiobooks.	https://i.ytimg.com/vi/V9G9OSCa5gs/hqdefault.jpg	2025-11-22 01:00:24.661788+00	1036	\N
+19130	zLIoYluh4pU	17945	Danger in Deep Space	Danger in Deep Space (Dramatic Reading). By Carey Rockwell FULL Audiobook Here's a detailed summary of the book "Danger ...	https://i.ytimg.com/vi/zLIoYluh4pU/hqdefault.jpg	2025-11-22 01:00:48.331964+00	1036	\N
+19131	d7SbvyQVmk8	17863	Sabotage in Space	Tom Corbett and his fellow cadets face their most dangerous mission yet in Sabotage in Space. As explosions rock the Space ...	https://i.ytimg.com/vi/d7SbvyQVmk8/hqdefault.jpg	2025-11-22 01:01:08.7623+00	1036	\N
+19132	1IeD9GfMPY0	17864	Sabotage in Space	Sabotage in Space - audiobook Carey ROCKWELL ( - ) This book is part of the on-going adventures of Tom Corbett in the Space ...	https://i.ytimg.com/vi/1IeD9GfMPY0/hqdefault.jpg	2025-11-22 01:01:30.463904+00	1036	\N
+19133	8cgZxLsVvmY	18792	The Space Pioneers	The Space Pioneers - Carey Rockwell 0:00:00 - 01 - Chapter 1 0:15:25 - 02 - Chapter 2 0:35:53 - 03 - Chapter 3 0:53:33 - 04 ...	https://i.ytimg.com/vi/8cgZxLsVvmY/hqdefault.jpg	2025-11-22 01:01:51.434742+00	1036	\N
+19134	6oZmlS8dmjE	35755	Tish: The Chronicle of Her Escapades and Excursions	Tish : The Chronicle of Her Escapades and Excursions audiobook Mary Roberts RINEHART Chapter Time Mind Over Motor I ...	https://i.ytimg.com/vi/6oZmlS8dmjE/hqdefault.jpg	2025-11-22 01:02:21.52426+00	1460	\N
+19135	22h4mVi5wYU	25293	Dangerous Days 01~30	Audiobook.	https://i.ytimg.com/vi/22h4mVi5wYU/hqdefault.jpg	2025-11-22 01:02:41.398644+00	1460	\N
+19136	TU1qg4uwFOg	27620	The Circular Staircase	mystery audiobook: The Circular Staircase, by Mary Roberts Rinehart ...	https://i.ytimg.com/vi/TU1qg4uwFOg/hqdefault.jpg	2025-11-22 01:03:02.285693+00	1460	\N
+19137	3ltmBZG0vb4	25340	The Red Lamp	The Red Lamp by Mary Roberts Rinehart. Read in English by Zach Hoyt. William A. Porter, professor of English, inherits a large ...	https://i.ytimg.com/vi/3ltmBZG0vb4/hqdefault.jpg	2025-11-22 01:03:22.010664+00	1460	\N
+19138	q-SYsAcm_c0	35750	Tish: The Chronicle of Her Escapades and Excursions	Tish: The Chronicle of Her Escapades and Excursions - audiobook Mary Roberts RINEHART (1876 - 1958) The story of three ...	https://i.ytimg.com/vi/q-SYsAcm_c0/hqdefault.jpg	2025-11-22 01:03:43.051192+00	1460	\N
+19139	qom2QqvV1nY	20709	More Tish	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. More Tish Mary Roberts ...	https://i.ytimg.com/vi/qom2QqvV1nY/hqdefault.jpg	2025-11-22 01:04:04.430892+00	1460	\N
+19140	pE6ODPql44I	27638	The Circular Staircase	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Circular Staircase ...	https://i.ytimg.com/vi/pE6ODPql44I/hqdefault.jpg	2025-11-22 01:04:24.013053+00	1460	\N
+19141	tQ7xhQED4D8	20423	The Amazing Adventures of Letitia Carberry	The Amazing Adventures of Letitia Carberry Mary Roberts Rinehart (1876 - 1958) "The Amazing Adventures of Letitia Carberry" ...	https://i.ytimg.com/vi/tQ7xhQED4D8/hqdefault.jpg	2025-11-22 01:04:43.873216+00	1460	\N
+19142	S_PfBmBKbF4	26034	THE MAN IN LOWER TEN	In the darkened corridors of a moving train, every passenger has a story, but one will reach a chilling stop. "The Man in Lower ...	https://i.ytimg.com/vi/S_PfBmBKbF4/hqdefault.jpg	2025-11-22 01:05:03.419027+00	1460	\N
+19143	W6UwPgpjGFU	24645	The Window at the White Cat	The Window at the White Cat by Mary Roberts RINEHART (1876 - 1958) Genre(s): General Fiction, Detective Fiction Read by: ...	https://i.ytimg.com/vi/W6UwPgpjGFU/hqdefault.jpg	2025-11-22 01:05:23.375077+00	1460	\N
+19144	HodwK_KbsLU	27629	The Circular Staircase	The Circular Staircase by Mary Roberts RINEHART (1876 - 1958) Genre(s): Detective Fiction Read by: J. M. Smallheer, Laurie ...	https://i.ytimg.com/vi/HodwK_KbsLU/hqdefault.jpg	2025-11-22 01:05:43.511469+00	1460	\N
+19145	k1m-xiS-5gQ	20713	More Tish	More Tish audiobook Mary Roberts RINEHART Chapter THE CAVE ON THUNDER CLOUD, Part 1 THE CAVE ON THUNDER ...	https://i.ytimg.com/vi/k1m-xiS-5gQ/hqdefault.jpg	2025-11-22 01:06:04.23111+00	1460	\N
+19146	NdYRLE_2mt0	24158	Mystery : The Bat	mystery audiobook: The Bat, by Mary Roberts Rinehart https://www.youtube.com/channel/UC_y_-0l7xakjAsPf3t7rsmA Subscribe ...	https://i.ytimg.com/vi/NdYRLE_2mt0/hqdefault.jpg	2025-11-22 01:06:23.899638+00	1460	\N
+19147	cOcfrGeiLUU	40910	The Breaking Point	The Breaking Point, by Mary Roberts Rinehart. Read by Nicholas Clifford. Mary Roberts Rinehart -- "America's Agatha Christie," ...	https://i.ytimg.com/vi/cOcfrGeiLUU/hqdefault.jpg	2025-11-22 01:06:43.547745+00	1460	\N
+19148	ZNVBdEliFJo	41311	The Breaking Point	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Breaking Point, Mary ...	https://i.ytimg.com/vi/ZNVBdEliFJo/hqdefault.jpg	2025-11-22 01:07:04.86988+00	1460	\N
+19149	rC5pZ_xBxrw	19277	The Breaking Point	https://youtu.be/P2C45BGpf8s?si=HpYRmb_b6hhJNQ2O https://youtu.be/TlSjCZ27AEg?si=MngDkIpnl2Eo30E9 MAKE A ...	https://i.ytimg.com/vi/rC5pZ_xBxrw/hqdefault.jpg	2025-11-22 01:07:27.443434+00	1460	\N
+19150	Wo9xy2O4itI	41264	The Breaking Point	mystery audiobook: The Breaking Point, by Mary Roberts Rinehart https://www.youtube.com/channel/UC_y_-0l7xakjAsPf3t7rsmA ...	https://i.ytimg.com/vi/Wo9xy2O4itI/hqdefault.jpg	2025-11-22 01:07:48.005292+00	1460	\N
+19151	gXU1WiYhk2M	25532	The Red Lamp	The Red Lamp (Audiobook Full Book) - By Mary Roberts Rinehart #audiobook #fullaudiobook #timelessaudiobooks ...	https://i.ytimg.com/vi/gXU1WiYhk2M/hqdefault.jpg	2025-11-22 01:08:11.595676+00	1460	\N
+19152	GM3T6rbHJVs	25465	Love Stories	This work is in the public domain. You can find the e-book and paperback on Amazon and with Kindle Unlimited: ...	https://i.ytimg.com/vi/GM3T6rbHJVs/hqdefault.jpg	2025-11-22 01:08:31.041232+00	1460	\N
+19153	bxScudkDBXo	23509	The Bat	The Bat by Mary Roberts Reinhart. Read by Alan Winterrowd. The novelization of the play of the same name that had an initial run ...	https://i.ytimg.com/vi/bxScudkDBXo/hqdefault.jpg	2025-11-22 01:08:52.838929+00	1460	\N
+19154	Gwf4xQYVCoA	21106	The After House	The After House - Mary Roberts Rinehart 0:00:00 - 01 - I Plan a Voyage 0:12:29 - 02 - The Painted Ship 0:23:43 - 03 - I Unclench ...	https://i.ytimg.com/vi/Gwf4xQYVCoA/hqdefault.jpg	2025-11-22 01:09:14.408932+00	1460	\N
+19155	kBp-zz_fDw0	34060	Bab: A Sub-Deb	Odin's Library Classics is dedicated to bringing the world the best of humankind's literature from throughout the ages. Carefully ...	https://i.ytimg.com/vi/kBp-zz_fDw0/hqdefault.jpg	2025-11-22 01:09:34.947167+00	1460	\N
+19156	6RDjD7Xixvg	21003	When a Man Marries	https://youtu.be/P2C45BGpf8s?si=HpYRmb_b6hhJNQ2O https://youtu.be/TlSjCZ27AEg?si=MngDkIpnl2Eo30E9 MAKE A ...	https://i.ytimg.com/vi/6RDjD7Xixvg/hqdefault.jpg	2025-11-22 01:09:57.123167+00	1460	\N
+19157	Lbw44VQuCsw	22159	The Man in Lower Ten	The Man in Lower Ten, by Mary Roberts Rinehart. Read by MaryAnn Spiegel. Someone had to take the bank notes to Pittsburgh ...	https://i.ytimg.com/vi/Lbw44VQuCsw/hqdefault.jpg	2025-11-22 01:10:16.787133+00	1460	\N
+19158	jhJ-54TgQlk	21001	When a Man Marries	When a Man Marries Mary Roberts RINEHART Audiobook Chapter Time At Least I Meant Well 00:00:00 The Way It Began ...	https://i.ytimg.com/vi/jhJ-54TgQlk/hqdefault.jpg	2025-11-22 01:10:39.187625+00	1460	\N
+19159	NY12rGaGBCQ	24022	The Bat	An elite, rich, and spunky older lady rents a country house for the summer along with her skittish Irish maid and her niece.	https://i.ytimg.com/vi/NY12rGaGBCQ/hqdefault.jpg	2025-11-22 01:11:03.353907+00	1460	\N
+19160	coyUefdOKPo	27620	The Circular Staircase	https://youtu.be/P2C45BGpf8s?si=HpYRmb_b6hhJNQ2O https://youtu.be/TlSjCZ27AEg?si=MngDkIpnl2Eo30E9 MAKE A ...	https://i.ytimg.com/vi/coyUefdOKPo/hqdefault.jpg	2025-11-22 01:11:24.214972+00	1460	\N
+19161	SmsmkSAySVM	24640	The Window at the White Cat	Good day to you for watching my video! Subscribe for another related episode ! - My chanel: ...	https://i.ytimg.com/vi/SmsmkSAySVM/hqdefault.jpg	2025-11-22 01:11:47.362326+00	1460	\N
+19162	PLw-4OizGwk	22392	Dangerous Days Part 2/2	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Dangerous Days,, Mary ...	https://i.ytimg.com/vi/PLw-4OizGwk/hqdefault.jpg	2025-11-22 01:12:08.681044+00	1460	\N
+19163	V7eg4_tF_gg	27639	Circular Staircase	Circular Staircase. By Mary Roberts Rinehart FULL Audiobook Here's a detailed summary of "The Circular Staircase" by Mary ...	https://i.ytimg.com/vi/V7eg4_tF_gg/hqdefault.jpg	2025-11-22 01:12:32.67202+00	1460	\N
+19164	mnyNUZOGr9s	24148	The Window at the White Cat	The Window at the White Cat, by Mary Roberts Rinehart. When a clumsy, well-meaning lawyer gets involved with a pair of ...	https://i.ytimg.com/vi/mnyNUZOGr9s/hqdefault.jpg	2025-11-22 01:12:52.409983+00	1460	\N
+19165	SgoxcieCA1o	34789	K.	K. by Mary Roberts Rinehart. Read in English by Beth Thomas; fiddlesticks; ToddHW; Steven Seitel; MickyMe; MLC13; Kathleen ...	https://i.ytimg.com/vi/SgoxcieCA1o/hqdefault.jpg	2025-11-22 01:13:13.538556+00	1460	\N
+19166	4XPrPBoe9FU	27620	The Circular Staircase	The Circular Staircase - Mary Roberts Rinehart 0:00:00 - 13 - Louise 0:23:57 - 01 - I Take a Country House 0:38:26 - 02 - A Link ...	https://i.ytimg.com/vi/4XPrPBoe9FU/hqdefault.jpg	2025-11-22 01:13:34.901023+00	1460	\N
+19167	uqR65Qg3tWc	41283	Breaking Point	Breaking Point. By Mary Roberts Rinehart FULL Audiobook Here's a detailed summary of "Breaking Point" by Mary Roberts ...	https://i.ytimg.com/vi/uqR65Qg3tWc/hqdefault.jpg	2025-11-22 01:13:54.572031+00	1460	\N
+19168	VjLqz3x3j4o	24636	The Window at the White Cat	The Window at the White Cat - Mary Roberts Rinehart 0:00:00 - 01 - Sentiment and Clues 0:21:24 - 02 - Uneasy Apprehensions ...	https://i.ytimg.com/vi/VjLqz3x3j4o/hqdefault.jpg	2025-11-22 01:14:16.031028+00	1460	\N
+19169	7wl639pgTBg	41731	A Poor Wise Man	Discover A Poor Wise Man, a gripping tale by Mary Roberts Rinehart that blends romance, political intrigue, and personal courage ...	https://i.ytimg.com/vi/7wl639pgTBg/hqdefault.jpg	2025-11-22 01:14:36.058277+00	1460	\N
+19170	FdAwOoQpKng	25583	Amazing Interlude	Amazing Interlude. By Mary Roberts Rinehart FULL Audiobook "The Amazing Interlude" by Mary Roberts Rinehart is a captivating ...	https://i.ytimg.com/vi/FdAwOoQpKng/hqdefault.jpg	2025-11-22 01:14:55.828074+00	1460	\N
+19171	gmMG6b2snhU	23929	Men of Iron	Weekly Audiobooks at https://MasonReadingRoom.com Set in fifteenth-century England, Men of Iron offers the finest historical ...	https://i.ytimg.com/vi/gmMG6b2snhU/hqdefault.jpg	2025-11-22 01:16:03.922688+00	1875	\N
+19172	HjmRx_mYRzU	37832	The Cruise of the Esmeralda	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Cruise of the Esmeralda ...	https://i.ytimg.com/vi/HjmRx_mYRzU/hqdefault.jpg	2025-11-22 01:16:28.423488+00	2186	\N
+19173	MM0bBx6n2D0	29668	The Mysteries of London vol 1 Part 1/3	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Mysteries of London vol.	https://i.ytimg.com/vi/MM0bBx6n2D0/hqdefault.jpg	2025-11-22 01:16:52.439345+00	3528	\N
+19174	nwKuquZumfs	28218	The Brotherhood of the Seven Kings	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Brotherhood of the ...	https://i.ytimg.com/vi/nwKuquZumfs/hqdefault.jpg	2025-11-22 01:17:12.768015+00	2328	\N
+19175	w9Bn5RonCu8	17180	Into the Clear Water	Into the Clear Water By B. Celeste Audiobook Part 1.	https://i.ytimg.com/vi/w9Bn5RonCu8/hqdefault.jpg	2025-11-22 01:17:35.579528+00	4645	\N
+19176	xY1wmfTwtfU	16304	The Power of the Blood	Audiobook Description ~ Seek to enter more deeply into the perfect reconciliation with God, which is yours by the shed blood of ...	https://i.ytimg.com/vi/xY1wmfTwtfU/hqdefault.jpg	2025-11-22 01:17:55.431497+00	648	\N
+19177	oKfW_ILQCdo	23779	On the Eve	On the Eve Audiobook by Ivan Turgenev. Free full length audio book. ▻ Subscribe to our channel: ...	https://i.ytimg.com/vi/oKfW_ILQCdo/hqdefault.jpg	2025-11-22 01:18:15.556748+00	2144	\N
+19178	jGQBPKWkIDE	18528	The Voice of Venus	Reading this book was an amazing revelation. Vivid descriptions of beautiful celestial cities, teaching centers, healing wards, etc., ...	https://i.ytimg.com/vi/jGQBPKWkIDE/hqdefault.jpg	2025-11-22 01:18:38.676471+00	4646	\N
+19179	Xs68ViJgFck	42807	Heaven and Hell	Heaven and Hell. By Emanuel Swedenborg. Full Audiobook Heaven and Hell is a book written by Emanuel Swedenborg in Latin ...	https://i.ytimg.com/vi/Xs68ViJgFck/hqdefault.jpg	2025-11-22 01:18:59.215239+00	4647	\N
+19180	-Kuq6ae0ku4	17628	The Sorceress of the Strand	The Sorceress of the Strand - FULL AUDIOBOOK L. T. Meade (1854 - 1914) and Robert Eustace (1854 - 1943) From the moment ...	https://i.ytimg.com/vi/-Kuq6ae0ku4/hqdefault.jpg	2025-11-22 01:19:18.988881+00	2328	\N
+19181	lcSBeJHX3tY	24784	The Iliad	The Iliad by Homer, Full Audiobook with relaxing chillhop lofi music, narrated by Jan Moorehouse. Subscribe for more Chillbooks ...	https://i.ytimg.com/vi/lcSBeJHX3tY/hqdefault.jpg	2025-11-22 01:19:41.921269+00	96	\N
+19182	AIJ-AVHF5MA	23793	The Witches of New York	00:00:00 Preface 00:01:36 CHAPTER I. is simply Explanatory so far as regards the book, but in it, the author takes occasion to pay ...	https://i.ytimg.com/vi/AIJ-AVHF5MA/hqdefault.jpg	2025-11-22 01:20:10.558618+00	2835	\N
+19183	6oUYM5lVnSc	23950	The Witches of New York	The Witches of New York - Q. K. Philander Doesticks 0:00:00 - 00 - Preface 0:01:53 - 01 - Chapter 1: Which is Merely Explanatory ...	https://i.ytimg.com/vi/6oUYM5lVnSc/hqdefault.jpg	2025-11-22 01:20:31.607603+00	2883	\N
+19184	roBH_dGIp_k	23366	The Witches of New York	The Witches of New York - FULL AUDIOBOOK Q. K. Philander Doesticks (1832 - 1875) A humorous account of visits to various ...	https://i.ytimg.com/vi/roBH_dGIp_k/hqdefault.jpg	2025-11-22 01:20:51.355812+00	2883	\N
+19185	mJmGRGkosfA	23951	THE WITCHES OF NEW YORK	The Witches of New York by Q. K. Philander Doesticks (1832 - 1875) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/mJmGRGkosfA/hqdefault.jpg	2025-11-22 01:21:13.052301+00	2883	\N
+19186	Md63zyti6Vg	32039	The Lancashire Witches Part 1/3	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Lancashire Witches ...	https://i.ytimg.com/vi/Md63zyti6Vg/hqdefault.jpg	2025-11-22 01:21:33.101143+00	4648	\N
+19187	jEhEdvMI70U	28975	The Witch's Dream A Healer's Way of Knowledge	The Witch's Dream A Healer's Way of Knowledge by Florinda Donner.	https://i.ytimg.com/vi/jEhEdvMI70U/hqdefault.jpg	2025-11-22 01:21:53.524508+00	4649	\N
+19188	4qxiugwSFHQ	22505	THE SCHOOLMASTER AND OTHER STORIES	The Schoolmaster and Other Stories by Anton Chekhov (1860 - 1904) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/4qxiugwSFHQ/hqdefault.jpg	2025-11-22 01:22:13.574365+00	3026	\N
+19189	-6xdxfO7ORA	32469	THE WITCH OF SALEM	The Witch of Salem by John R. Musick (1849 - 1901) full free audiobook ▻Subscribe for more audiobooks!: https://goo.gl/QpFTih ...	https://i.ytimg.com/vi/-6xdxfO7ORA/hqdefault.jpg	2025-11-22 01:22:33.519443+00	3306	\N
+19190	ayVf2y0eELg	25910	The Bat	The Bat Audiobook by Mary Roberts Rinehart. Free full length audio book. ▻ Subscribe to our channel: ...	https://i.ytimg.com/vi/ayVf2y0eELg/hqdefault.jpg	2025-11-22 01:22:56.709877+00	1460	\N
+19191	Q8-zGZDKgf8	27496	The Lancashire Witches Part 3/3	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Lancashire Witches ...	https://i.ytimg.com/vi/Q8-zGZDKgf8/hqdefault.jpg	2025-11-22 01:23:16.519502+00	4648	\N
+19192	HL_Aawb6YEE	28088	TWELVE STORIES AND A DREAM	Twelve Stories and a Dream by H. G. Wells (1866 - 1946) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/HL_Aawb6YEE/hqdefault.jpg	2025-11-22 01:23:37.590927+00	147	\N
+19193	bYOV0CPp9-k	25164	Knickerbocker's History of New York, Vol 1	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Knickerbocker's History of ...	https://i.ytimg.com/vi/bYOV0CPp9-k/hqdefault.jpg	2025-11-22 01:23:58.086766+00	1192	\N
+19194	B35_ewp24mA	31312	The Lancashire Witches Part 2/3	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Lancashire Witches ...	https://i.ytimg.com/vi/B35_ewp24mA/hqdefault.jpg	2025-11-22 01:24:17.833866+00	4648	\N
+19195	0lHwU1eM08g	17094	The New-York Gardener	The New-York Gardener - audiobook P. AGRICOLA (? - ?) A series of twelve letters from a proud father to a son who has just ...	https://i.ytimg.com/vi/0lHwU1eM08g/hqdefault.jpg	2025-11-22 01:24:40.5427+00	4650	\N
+19196	BCMdFElWEAc	31908	THE WITCH OF SALEM	The Witch of Salem by John R. Musick - complete unabridged audiobook. This is the book which was the inspiration for the play ...	https://i.ytimg.com/vi/BCMdFElWEAc/hqdefault.jpg	2025-11-22 01:25:24.875393+00	4651	\N
+19197	M_GtsQraAGc	25595	Brood of the Witch Queen	Brood of the Witch Queen [Full Audiobook] by Sax Rohmer A swan suffers a mysterious death, its neck wrung by apparent ...	https://i.ytimg.com/vi/M_GtsQraAGc/hqdefault.jpg	2025-11-22 01:25:44.506069+00	2567	\N
+19198	ZyMOvyAX6wk	43100	Dangerous Liaisons	Dangerous Liaisons. By Pierre Choderlos de Laclos FULL Audiobook Here's a detailed summary of "Dangerous Liaisons" by ...	https://i.ytimg.com/vi/ZyMOvyAX6wk/hqdefault.jpg	2025-11-22 01:26:15.865822+00	4376	\N
+19199	budgHcj8Ql4	41085	Les liaisons dangereuses	Les liaisons dangereuses - Pierre Choderlos de Laclos - Part 1 0:00:00 - Liaisons Ch 000-010 0:51:08 - Liaisons Ch 011-020 ...	https://i.ytimg.com/vi/budgHcj8Ql4/hqdefault.jpg	2025-11-22 01:26:58.69865+00	4376	\N
+19200	L1cFPoXREOU	26505	Dangerous Connections (Les liaisons dangereuses)	Dangerous Connections (Les liaisons dangereuses) by Pierre Choderlos de LACLOS (1741 - 1803) Genre(s): Epistolary Fiction, ...	https://i.ytimg.com/vi/L1cFPoXREOU/hqdefault.jpg	2025-11-22 01:27:21.862919+00	4652	\N
+19201	Rrk23vbsUrg	20325	The Perfumed Garden	The Perfumed Garden (Audiobook Full Book) - By Sheikh Netzaoui #audiobook #fullaudiobook #timelessaudiobooks #erotica ...	https://i.ytimg.com/vi/Rrk23vbsUrg/hqdefault.jpg	2025-11-22 01:27:56.866984+00	1489	\N
+19202	YyuFttjUSKs	22737	THE PERFUMED GARDEN	Full Audiobook reading of THE PERFUMED GARDEN by Sheikh Nefzaoui. subscribe and like Dowland Full Epsode The ...	https://i.ytimg.com/vi/YyuFttjUSKs/hqdefault.jpg	2025-11-22 01:28:17.866342+00	1115	\N
+19203	8QnhuVEcBBY	14522	Married Love	Married Love (Audiobook Full Book) - By Marie Stopes #fullaudiobook #audiobook #audiobookfullbook #timelessaudiobooks ...	https://i.ytimg.com/vi/8QnhuVEcBBY/hqdefault.jpg	2025-11-22 01:28:37.593404+00	4653	\N
+19204	hHtdI9gtUow	14494	The Life And Amours Of The Beautiful Kate Percival	The Life And Amours Of The Beautiful, Gay And Dashing Kate Percival (AUDIOBOOK FULL BOOK) - Kate Percival #audiobook ...	https://i.ytimg.com/vi/hHtdI9gtUow/hqdefault.jpg	2025-11-22 01:28:58.348671+00	4032	\N
+19205	O8wOYX-P4yw	17598	Venus in Furs	Venus In Furs (Audiobook Full Book) - By Leopold Von Sacher Masoch #audiobook #fullaudiobook #timelessaudiobooks ...	https://i.ytimg.com/vi/O8wOYX-P4yw/hqdefault.jpg	2025-11-22 01:29:18.599915+00	4654	\N
+19206	7nsoYTn8mvc	25010	THE HAPPINESS TRAP	Discover a more satisfying life by breaking free from depression, anxiety, and insecurity through Acceptance and Commitment ...	https://i.ytimg.com/vi/7nsoYTn8mvc/hqdefault.jpg	2025-11-22 01:29:56.533214+00	2393	\N
+19207	Ll7LQRBuVnA	25387	Legacy of the Fallen Heir: A New Era Begins	The play was written by Jack Thorne, with contributions from J.K. Rowling and John Tiffany, and was first published by Little, ...	https://i.ytimg.com/vi/Ll7LQRBuVnA/hqdefault.jpg	2025-11-22 01:30:22.517353+00	105	\N
+19208	qVpPyzXp4LY	43096	Bet Me		https://i.ytimg.com/vi/qVpPyzXp4LY/hqdefault.jpg	2025-11-22 01:30:43.88329+00	1784	\N
+19209	sSOdIsmKNRQ	28054	Foundation & Empire	Foundation & Empire Audiobook (Book 2 of Foundation Trilogy), by Isaac Asimov read by Dan Lazar - Devers and Barr head to ...	https://i.ytimg.com/vi/sSOdIsmKNRQ/hqdefault.jpg	2025-11-22 01:31:25.115476+00	116	\N
+19212	Tj2oEl42jDw	20198	Five Minute Stories	Five Minute Stories - audiobook Laura E. RICHARDS (1850 - 1943) Another collection of poems and short stories by Laura ...	https://i.ytimg.com/vi/Tj2oEl42jDw/hqdefault.jpg	2025-11-22 01:32:42.589273+00	4655	\N
+19213	KNkeZ82YEkY	17155	Elusive Isabel	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Elusive Isabel Jacques ...	https://i.ytimg.com/vi/KNkeZ82YEkY/hqdefault.jpg	2025-11-22 01:33:03.795662+00	4656	\N
+19214	aU3Uzd7304s	25873	THE FIXED PERIOD	The Fixed Period by Anthony Trollope (1815 - 1882) full free audiobook ▻Subscribe for more audiobooks!: https://goo.gl/QpFTih ...	https://i.ytimg.com/vi/aU3Uzd7304s/hqdefault.jpg	2025-11-22 01:33:24.256297+00	800	\N
+19215	nrUNpRVsVNQ	29462	THE SMALL HOUSE AT ALLINGTON	THE SMALL HOUSE AT ALLINGTON by Anthony Trollope ABOUT THE BOOK: The Small House at Allington is the fifth novel in ...	https://i.ytimg.com/vi/nrUNpRVsVNQ/hqdefault.jpg	2025-11-22 01:33:43.67562+00	800	\N
+19216	gr6YCG0fsK0	26214	A Popular Schoolgirl	You can read the book here for free: https://standardebooks.org/ebooks/angela-brazil/a-popular-schoolgirl Ingred Saxon grew up ...	https://i.ytimg.com/vi/gr6YCG0fsK0/hqdefault.jpg	2025-11-22 01:34:07.38198+00	4657	\N
+19217	V36AfCPHqyw	19527	Dave Dawson on Guadalcanal	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Dave Dawson on ...	https://i.ytimg.com/vi/V36AfCPHqyw/hqdefault.jpg	2025-11-22 01:34:40.635859+00	2684	\N
+19218	MQsy4TKSN1Y	33583	The Secrets of Mill House	audiobook #audiobooktx #audiobookMystery.	https://i.ytimg.com/vi/MQsy4TKSN1Y/hqdefault.jpg	2025-11-22 01:35:35.039353+00	4429	\N
+19219	QxfBmSjHt1U	34898	Whisper Cottage	audiobook #audiobooktx #audiobookMystery.	https://i.ytimg.com/vi/QxfBmSjHt1U/hqdefault.jpg	2025-11-22 01:35:55.321442+00	4429	\N
+19220	ha8z8p0NQrM	40718	The Shadows of Hill Manor	audiobook #audiobooktx #audiobookMystery.	https://i.ytimg.com/vi/ha8z8p0NQrM/hqdefault.jpg	2025-11-22 01:36:16.219516+00	4429	\N
+19221	q8V6oXQLbvg	40787	Raven Black	Step into the dark, atmospheric world of the Shetland Islands with “Raven Black” by Ann Cleeves, the first book in the acclaimed ...	https://i.ytimg.com/vi/q8V6oXQLbvg/hqdefault.jpg	2025-11-22 01:36:36.203226+00	129	\N
+19222	Hck-hTSmmqQ	37110	Raven Black	Book Title: Raven Black 🖋️ Author: Ann Cleeves Series: Shetland Book 1 Book Summary: Raven Black begins on New ...	https://i.ytimg.com/vi/Hck-hTSmmqQ/hqdefault.jpg	2025-11-22 01:36:57.583627+00	129	\N
+19223	5iTrb-FBt3c	18262	The Sleeping and the Dead part1	The Sleeping and the Dead by Ann Cleeves | Crime Mystery Thriller | Audiobook Step into the gripping world of Ann Cleeves ...	https://i.ytimg.com/vi/5iTrb-FBt3c/hqdefault.jpg	2025-11-22 01:37:17.414094+00	129	\N
+19224	eXd-b7z3Puw	54826	Choked Off	Book 2 of The Falconer Files The villagers of Stoney Cross were bustling about like hyperactive ants. In gardens, houses, and the ...	https://i.ytimg.com/vi/eXd-b7z3Puw/hqdefault.jpg	2025-11-22 01:38:08.174652+00	1832	\N
+19225	ADiROZshhgY	60640	Shadows and Sins	The thirteenth in the best-selling Falconer Files by Andrea Frazer. The body of a woman has been discovered in Castle Farthing ...	https://i.ytimg.com/vi/ADiROZshhgY/hqdefault.jpg	2025-11-22 01:38:29.456178+00	4658	\N
+19226	knM-ResWWcM	113830	The Black Ice	Support me to make better videos. Thank you! Donate here: https://ko-fi.com/txpodfm Paypal: paypal.me/cestin2 #audiobook ...	https://i.ytimg.com/vi/knM-ResWWcM/hqdefault.jpg	2025-11-22 01:38:49.191559+00	110	\N
+19227	3RbKJK-mIMo	85332	Angels and Demons		https://i.ytimg.com/vi/3RbKJK-mIMo/hqdefault.jpg	2025-11-22 01:39:10.836915+00	769	\N
+19228	Tqx-YVWgoyg	20749	Caramel Apple Murder (Full-length Cozy Mystery)	From USA Today Bestselling Cozy Mystery Author Rosie A. Point. Murder is best served sticky, sweet, and covered in caramel…	https://i.ytimg.com/vi/Tqx-YVWgoyg/hqdefault.jpg	2025-11-22 01:39:30.538238+00	4659	\N
+19229	h667AhsgQa8	52625	Death in High Circles	Book 10 of The Falconer Files by Andrea Frazer. There is mischief afoot in the village of Fallow Fold. In the course of just one night ...	https://i.ytimg.com/vi/h667AhsgQa8/hqdefault.jpg	2025-11-22 01:39:50.6186+00	1832	\N
+19230	ezD-_GHs-BY	52902	Old Moorhen's Shredded Sporran	Book 4 of The Belchester Chronicles by Andrea Frazer. Another tongue - in - cheek romp for our intrepid decrepit heroes which ...	https://i.ytimg.com/vi/ezD-_GHs-BY/hqdefault.jpg	2025-11-22 01:40:11.784918+00	1832	\N
+19231	gmFCnYoJIVY	54449	Death of an Old Git	1st book in the Falconer Files Series by Andrea Frazer. In the village of Castle Farthing a mean-spirited, spiteful, curmudgeonly ...	https://i.ytimg.com/vi/gmFCnYoJIVY/hqdefault.jpg	2025-11-22 01:40:33.624063+00	1832	\N
+19232	n3s3UvGw-uc	71601	Choral Mayhem Version 2	HUMAN NARRATED VERSION FULL LENGTH AUDIOBOOK Who would believe that choral singing could prove such a deadly ...	https://i.ytimg.com/vi/n3s3UvGw-uc/hqdefault.jpg	2025-11-22 01:40:55.366383+00	4660	\N
+19233	_eAYhO1o9L0	61551	Grave Stones	Grave Stones: The Falconer Files Book 9 by Andrea Frazer. The residents of Shepford St Bernard are to have a party in the church ...	https://i.ytimg.com/vi/_eAYhO1o9L0/hqdefault.jpg	2025-11-22 01:41:16.168478+00	1832	\N
+19234	XNDZG__nN64	60604	Glass House	The eleventh book in the Falconer Files series by Andrea Frazer. A neglected house in the village of Fairmile Green is suddenly ...	https://i.ytimg.com/vi/XNDZG__nN64/hqdefault.jpg	2025-11-22 01:41:36.947995+00	1832	\N
+19235	sdkOB2tceuM	55026	Snowballs and Scotch Mist. Cosy crime	Full length audiobook. Quirky characters. Women sleuths Book 3 of The Belchester Chronicles If you've got your breath back from ...	https://i.ytimg.com/vi/sdkOB2tceuM/hqdefault.jpg	2025-11-22 01:41:57.86258+00	1832	\N
+19236	-hKXqco9OR4	64543	Murder at the Manse (revised edition)	Murder at the Manse is the fifth instalment of Andrea Frazer's Falconer Files, a detective series chock-full of picture-postcard ...	https://i.ytimg.com/vi/-hKXqco9OR4/hqdefault.jpg	2025-11-22 01:42:20.778369+00	1832	\N
+19237	QZXxgMohvMo	65541	Down and Dirty in the Dordogne	Join Andrea Frazer as she chronicles the exhilarating ups and downs of this unforgettable journey, and discover the heartwarming ...	https://i.ytimg.com/vi/QZXxgMohvMo/hqdefault.jpg	2025-11-22 01:43:26.170184+00	1832	\N
+19238	YZ3BZxvf-yU	63058	A Fresh of Breath Air	Look no further than "A Fresh of Breath Air," the delightful tale from Andrea Frazer. After years of dreaming about a life in the ...	https://i.ytimg.com/vi/YZ3BZxvf-yU/hqdefault.jpg	2025-11-22 01:43:47.591077+00	1832	\N
+19239	0lR-BcKy7wo	61333	The House by the Lock	The House by the Lock - audiobook Alice Muriel WILLIAMSON (1869 - 1933) What secrets lay within the walls of the house by the ...	https://i.ytimg.com/vi/0lR-BcKy7wo/hqdefault.jpg	2025-11-22 01:44:31.908341+00	1597	\N
+19240	WZoANkyw06I	25727	The Chautauqua Girls at Home	The Chautauqua Girls at Home by PANSY (1841 - 1930) Genre(s): Christian Fiction Read by: TriciaG in English Parts: Part 2 ...	https://i.ytimg.com/vi/WZoANkyw06I/hqdefault.jpg	2025-11-22 01:45:05.728596+00	4244	\N
+19241	L72bo5rWXD0	28866	Interrupted By Pansy	Author: - Isabella Macdonald Alden (Pansy): The author, writing under the pseudonym Pansy, was a prolific writer of Christian ...	https://i.ytimg.com/vi/L72bo5rWXD0/hqdefault.jpg	2025-11-22 01:45:37.232515+00	2003	\N
+19242	W2yWeiWD2qY	33313	As in a Mirror	About the Author: Isabella Macdonald Alden, better known by her pen name Pansy, authored this thought-provoking novel.	https://i.ytimg.com/vi/W2yWeiWD2qY/hqdefault.jpg	2025-11-22 01:45:57.962293+00	2004	\N
+19243	G8EbEBHyEiY	31450	Wanted	Pansy (Isabella Macdonald Alden) weaves a compelling narrative that resonates with readers, emphasizing the power of faith and ...	https://i.ytimg.com/vi/G8EbEBHyEiY/hqdefault.jpg	2025-11-22 01:46:17.961415+00	2004	\N
+19244	XCg-kAoNTJc	19825	Giant of the Senate		https://i.ytimg.com/vi/XCg-kAoNTJc/hqdefault.jpg	2025-11-22 01:46:40.914622+00	3749	\N
+19245	MkRs0DFjtQM	24419	Omega The Last Days of the World	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Omega: The Last Days of ...	https://i.ytimg.com/vi/MkRs0DFjtQM/hqdefault.jpg	2025-11-22 01:47:25.097785+00	4661	\N
+19246	CDJtHD9rjDQ	28186	Frankenstein; Or, The Modern Prometheus	If you enjoyed this video, please like and subscribe to support the channel! Background: Shockingly, Mary Shelley was only 21 ...	https://i.ytimg.com/vi/CDJtHD9rjDQ/hqdefault.jpg	2025-11-22 01:48:05.214665+00	206	\N
+19247	4HuW4Aq5sVw	14518	The Day of the Jackal	One man. One mission. One shot to change history. The Day of the Jackal by Frederick Forsyth is a masterclass in espionage ...	https://i.ytimg.com/vi/4HuW4Aq5sVw/hqdefault.jpg	2025-11-22 01:49:00.748979+00	2194	\N
+19248	IBxKWnL0dUc	20651	HOT AS PUCK	Enjoy this free full audiobook of HOT AS PUCK by Lili Valente (Bad Motherpuckers Book 1) Narrated by Tyler Donne ...	https://i.ytimg.com/vi/IBxKWnL0dUc/hqdefault.jpg	2025-11-22 01:49:36.700279+00	731	\N
+19249	lx-WVfv6WOY	18548	FREE FALLING FOR THE FLING	Enjoy this free full small town audiobook of FALLING FOR THE FLING by Lili Valente (Narrated by Jason Clarke & Lili ...	https://i.ytimg.com/vi/lx-WVfv6WOY/hqdefault.jpg	2025-11-22 01:49:56.377518+00	731	\N
+19250	bJKHBIEmrXA	18263	The Trouble Maker	Enjoy this free full audiobook of THE TROUBLE MAKER by Lili Valente Narrated by Andi Arndt and Sebastian York copyright ...	https://i.ytimg.com/vi/bJKHBIEmrXA/hqdefault.jpg	2025-11-22 01:50:16.076162+00	731	\N
+19251	oVtovCYlUb4	19345	Catching Fire	Enjoy this free full audiobook of CATCHING FIRE by Lili Valente Narrated by Teddy Hamilton & Lili Valente copyright 2021 ...	https://i.ytimg.com/vi/oVtovCYlUb4/hqdefault.jpg	2025-11-22 01:50:36.697625+00	731	\N
+19252	dDr-he-HDiQ	30629	TROUBLE: An Alpha Billionaire Romance	TROUBLE: An Alpha Billionaire Romance Audiobook by Michelle Love and Ellen Lane Please like and subscribe; it helps us ...	https://i.ytimg.com/vi/dDr-he-HDiQ/hqdefault.jpg	2025-11-22 01:51:19.24904+00	670	\N
+19253	UvFIOU6OeRM	18779	He Answered My Submissive Ad	He Answered My Submissive Ad | PUCKED UP LOVE by Lili Valente When a star hockey player replies to a kinky personal ...	https://i.ytimg.com/vi/UvFIOU6OeRM/hqdefault.jpg	2025-11-22 01:52:09.562474+00	731	\N
+19254	FAZSVrH-CCQ	18915	The Baby Maker	Enjoy this free full audiobook of THE BABY MAKER by Lili Valente Narrated by Andi Arndt and Sebastian York copyright ...	https://i.ytimg.com/vi/FAZSVrH-CCQ/hqdefault.jpg	2025-11-22 01:52:29.130888+00	731	\N
+19255	X0hnJ_Jt9EU	75750	The Masterpiece	New York Times bestselling author Francine Rivers returns to her romance roots with this unexpected and redemptive love story, ...	https://i.ytimg.com/vi/X0hnJ_Jt9EU/hqdefault.jpg	2025-11-22 01:52:52.62444+00	1215	\N
+19256	2Pd2fzBTQGI	75715	Part 2 The Masterpiece	New York Times bestselling author Francine Rivers returns to her romance roots with this unexpected and redemptive love story, ...	https://i.ytimg.com/vi/2Pd2fzBTQGI/hqdefault.jpg	2025-11-22 01:53:12.2349+00	1215	\N
+19257	fjmWqwbC4kU	63444	The Atonement Child Part 2	The Atonement Child – Part 2 by Francine Rivers | Full Christian Fiction Audiobook In The Atonement Child (Part 2), bestselling ...	https://i.ytimg.com/vi/fjmWqwbC4kU/hqdefault.jpg	2025-11-22 01:53:31.884843+00	1215	\N
+19258	OOEoYmq610o	74404	The Atonement Child	The Atonement Child by Francine Rivers | Audiobook Part 1 From bestselling author Francine Rivers comes The Atonement ...	https://i.ytimg.com/vi/OOEoYmq610o/hqdefault.jpg	2025-11-22 01:53:52.528026+00	1215	\N
+19259	BcXNjw9kzZU	74555	Francine Rivers Bridge to Haven Part 1	Bridge to Haven – Part 1 by Francine Rivers ✨ From bestselling author Francine Rivers comes a deeply moving story about love, ...	https://i.ytimg.com/vi/BcXNjw9kzZU/hqdefault.jpg	2025-11-22 01:54:12.18766+00	1215	\N
+19260	pwmmRYh2Z6A	101221	As Sure as the Dawn	As Sure as the Dawn by Francine Rivers | Audiobook Part 1 (Mark of the Lion #3) From award-winning and bestselling author ...	https://i.ytimg.com/vi/pwmmRYh2Z6A/hqdefault.jpg	2025-11-22 01:54:32.908387+00	1215	\N
+19261	HiQVhjFyNB4	60021	Bridge to Haven Part 2	Bridge to Haven – Part 2 by Francine Rivers is a deeply moving Christian fiction audiobook about love, forgiveness, and the ...	https://i.ytimg.com/vi/HiQVhjFyNB4/hqdefault.jpg	2025-11-22 01:54:52.921853+00	1215	\N
+19262	BS9XHztKPOs	23418	Unshaken	Entire audiobook read by Anita Lustrea.	https://i.ytimg.com/vi/BS9XHztKPOs/hqdefault.jpg	2025-11-22 01:55:38.021484+00	1215	\N
+19263	vSShi2LwqbQ	100025	As Sure as the Dawn Part 2	As Sure as the Dawn – Part 2 by Francine Rivers | Full Christian Historical Audiobook In As Sure as the Dawn (Part 2), ...	https://i.ytimg.com/vi/vSShi2LwqbQ/hqdefault.jpg	2025-11-22 01:56:03.688562+00	1215	\N
+19264	BaLw7o-UMi4	20602	CURIOSITIES OF THE SKY	Curiosities of the Sky by Garrett P. Serviss (1851 - 1929) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/BaLw7o-UMi4/hqdefault.jpg	2025-11-22 01:56:32.035369+00	1026	\N
+19265	LCFLDf40PCo	20602	Curiosities of the Sky	Curiosities of the Sky is a newly annotated edition of the 1909 popular astronomy classic. All of the original text, photographs and ...	https://i.ytimg.com/vi/LCFLDf40PCo/hqdefault.jpg	2025-11-22 01:56:51.64136+00	1026	\N
+19266	r77zaP3dOOM	20601	Curiosities of the Sky		https://i.ytimg.com/vi/r77zaP3dOOM/hqdefault.jpg	2025-11-22 01:57:12.515018+00	1026	\N
+19267	F5NzdwzpCmc	26475	A Columbus of Space	A Columbus of Space Garrett P. Serviss (1851 - 1929) Full Audio Book read for you by Mark Nelson A classic science fiction ...	https://i.ytimg.com/vi/F5NzdwzpCmc/hqdefault.jpg	2025-11-22 01:57:32.319712+00	1026	\N
+19268	C1he-Oi6XNM	26345	A Columbus of Space	"A Columbus of Space" by Garrett P. Serviss | Pioneer Space Adventure Audiobook | Read by Mark Nelson ## Description: ...	https://i.ytimg.com/vi/C1he-Oi6XNM/hqdefault.jpg	2025-11-22 01:57:52.630479+00	1026	\N
+19269	9dQS2IZxd-M	25456	Edison's Conquest of Mars	Edison's Conquest of Mars #completeaudiobook #fullbook #fullaudiobook Garrett P. Serviss #audiobooksarc #audiobookscifi ...	https://i.ytimg.com/vi/9dQS2IZxd-M/hqdefault.jpg	2025-11-22 01:58:13.906622+00	1026	\N
+19270	djoR7ezOnCM	33074	The Secret Passage	The Secret Passage by Fergus HUME (1859 - 1932) Genre(s): Detective Fiction Read by: Dawn Larsen, Shirley Anderson, Roger ...	https://i.ytimg.com/vi/djoR7ezOnCM/hqdefault.jpg	2025-11-22 01:58:33.480389+00	2690	\N
+19271	rECUmjHRm_g	27090	The Turnpike House	The Turnpike House(AUDIOBOOK FULL BOOK) - By Fergus Hume #audiobook #fullaudiobook #timelessaudiobooks ...	https://i.ytimg.com/vi/rECUmjHRm_g/hqdefault.jpg	2025-11-22 01:58:52.965605+00	478	\N
+19272	zbLe3AtIil4	20059	Curiosities of the Sky	Curiosities of the Sky (FULL AUDIOBOOK) Garrett P. Serviss (1851 - 1929) Astronomy is known as the oldest of the sciences, and ...	https://i.ytimg.com/vi/zbLe3AtIil4/hqdefault.jpg	2025-11-22 01:59:13.74435+00	1026	\N
+19273	aBH-Zi2rz5w	25469	EDISON'S CONQUEST OF MARS	Edison's Conquest of Mars by Garrett P. Serviss (1851 - 1929) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/aBH-Zi2rz5w/hqdefault.jpg	2025-11-22 01:59:34.747726+00	1026	\N
+19274	UNBAj8IrNU8	26692	A Columbus of Space	A Columbus of Space - Garrett P. Serviss 0:00:00 - 01 - I. A MARVELOUS INVENTION 0:23:28 - 02 - II. A TRIP OF TERROR ...	https://i.ytimg.com/vi/UNBAj8IrNU8/hqdefault.jpg	2025-11-22 01:59:56.276134+00	1026	\N
+19275	HdW3tHjzdJQ	20770	Curiosities of the Sky	Get ready to embark on a fascinating tour of the universe with Garrett P. Serviss' timeless classic, "Curiosities of the Sky." Written ...	https://i.ytimg.com/vi/HdW3tHjzdJQ/hqdefault.jpg	2025-11-22 02:00:15.957757+00	1026	\N
+19276	gQK14DSTNko	36745	Curiosities of the Sky	Curiosities of the Sky is a classic astronomy guide by Garrett Serviss. What Froude says of history is true also of astronomy: it is ...	https://i.ytimg.com/vi/gQK14DSTNko/hqdefault.jpg	2025-11-22 02:00:35.808933+00	4662	\N
+19277	dbEVcZfQXdY	25469	Edison's Conquest of Mars	Edison's Conquest of Mars is an 1898 science fiction novel by American astronomer and writer Garrett P. Serviss.	https://i.ytimg.com/vi/dbEVcZfQXdY/hqdefault.jpg	2025-11-22 02:00:55.614096+00	1026	\N
+19278	vlLIa3KgSso	26693	A Columbus of Space	A Columbus of Space by Garrett P. Serviss (1851 - 1929) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/vlLIa3KgSso/hqdefault.jpg	2025-11-22 02:01:17.499872+00	1026	\N
+19279	h0Pcby5JC0g	26695	A Columbus of Space		https://i.ytimg.com/vi/h0Pcby5JC0g/hqdefault.jpg	2025-11-22 02:01:40.900843+00	1026	\N
+19280	gk-KoYG0Ylc	20602	Curiosities of the Sky	... of the Sky audiobook Garrett P. SERVISS (1851 - 1929) http://free-audio-books.info/nonfiction/curiosities-of-the-sky-audiobook/ ...	https://i.ytimg.com/vi/gk-KoYG0Ylc/hqdefault.jpg	2025-11-22 02:02:01.767129+00	4194	\N
+19281	yWz6Z4d4abk	25502	A Columbus of Space	A Columbus of Space by Garrett P. Serviss audiobook. A classic science fiction adventure in the style of and dedicated to the ...	https://i.ytimg.com/vi/yWz6Z4d4abk/hqdefault.jpg	2025-11-22 02:02:21.677025+00	1026	\N
+19282	isj2I796jnc	25467	Edison's Conquest of Mars	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Edison's Conquest of Mars ...	https://i.ytimg.com/vi/isj2I796jnc/hqdefault.jpg	2025-11-22 02:02:43.322922+00	4194	\N
+19283	byaSh5LCr9k	24788	Edison's Conquest of Mars	Edison's Conquest of Mars (FULL AUDIOBOOK) Garrett P. Serviss (1851 - 1929) Edison's Conquest of Mars, by Garrett P. Serviss, ...	https://i.ytimg.com/vi/byaSh5LCr9k/hqdefault.jpg	2025-11-22 02:03:03.117474+00	1026	\N
+19284	0hgKXnWcUt0	24015	A Columbus of Space	"A Columbus of Space" by Garrett P. Serviss is a pioneering work in the science fiction genre, taking readers on an extraordinary ...	https://i.ytimg.com/vi/0hgKXnWcUt0/hqdefault.jpg	2025-11-22 02:03:22.623437+00	4663	\N
+19285	9HBBuqHRNwM	26713	Columbus of Space	Columbus of Space. By Garrett P. Serviss FULL Audiobook Here's a detailed summary of "Columbus of Space" by Garrett P.	https://i.ytimg.com/vi/9HBBuqHRNwM/hqdefault.jpg	2025-11-22 02:03:43.468084+00	1026	\N
+19286	1HUsdgIQuCM	20622	Curiosities of the Sky	Curiosities of the Sky. By Garrett P. Serviss FULL Audiobook "Curiosities of the Sky" by Garrett P. Serviss is a captivating ...	https://i.ytimg.com/vi/1HUsdgIQuCM/hqdefault.jpg	2025-11-22 02:04:04.402243+00	1026	\N
+19287	iJN8FhqWZt0	26150	A Columbus of Space	A Columbus of Space - FULL AUDIOBOOK Garrett P. Serviss (1851 - 1929) A classic science fiction adventure in the style of and ...	https://i.ytimg.com/vi/iJN8FhqWZt0/hqdefault.jpg	2025-11-22 02:04:24.040454+00	1026	\N
+19288	bI8Y7ncax1E	26697	A Columbus of Space	A Columbus of Space Garrett P. SERVISS Audiobook Chapter Time I. A MARVELOUS INVENTION 00:00:00 II. A TRIP OF ...	https://i.ytimg.com/vi/bI8Y7ncax1E/hqdefault.jpg	2025-11-22 02:04:45.787621+00	1026	\N
+19289	IY1N-La1c5I	25469	Edison's Conquest of Mars	Edison's Conquest of Mars - audiobook Garrett P. SERVISS (1851 - 1929) Edison's Conquest of Mars, by Garrett P. Serviss, is one ...	https://i.ytimg.com/vi/IY1N-La1c5I/hqdefault.jpg	2025-11-22 02:05:06.676996+00	1026	\N
+19290	FWE3Fn4ZmBI	26693	A Columbus of Space	A Columbus of Space - audiobook Garrett P. SERVISS (1851 - 1929) A classic science fiction adventure in the style of and ...	https://i.ytimg.com/vi/FWE3Fn4ZmBI/hqdefault.jpg	2025-11-22 02:05:28.51328+00	4194	\N
+19291	31zzWvHYjV4	25468	Edison's Conquest of Mars	Edison's Conquest of Mars - Garrett P. Serviss 0:00:00 - 01 - Chapter I 0:20:27 - 02 - Chapter II 0:40:26 - 03 - Chapter III 1:05:16 ...	https://i.ytimg.com/vi/31zzWvHYjV4/hqdefault.jpg	2025-11-22 02:05:50.562276+00	1026	\N
+19292	clKHiPDVEzM	26742	A Columbus of Space	A Columbus of Space by Garrett P. Serviss/ librivox, audiobook, sci-fi, science fiction.A classic science fiction adventure in the ...	https://i.ytimg.com/vi/clKHiPDVEzM/hqdefault.jpg	2025-11-22 02:06:10.250734+00	1026	\N
+19293	8FNKLyNf1T4	20193	Curiosities of the Sky	Curiosities of the Sky by Garrett Serviss. "The dominion which astronomy has always held over the minds of men is akin to that of ...	https://i.ytimg.com/vi/8FNKLyNf1T4/hqdefault.jpg	2025-11-22 02:06:30.010292+00	4662	\N
+19294	RKa_NsP3a4w	22837	Virgin River	Book Title: Virgin River 🖋️ Author: Robyn Carr Series: Virgin River Book1 Book Summary: When the recently widowed ...	https://i.ytimg.com/vi/RKa_NsP3a4w/hqdefault.jpg	2025-11-22 02:07:19.19467+00	954	\N
+19295	66S0Fx5FC4c	19013	Her Saving Grace	Her Saving Grace Full audiobook | Christian Romance Audiobook | Author Lorana Hoopes | Heartwarming romance audiobooks ...	https://i.ytimg.com/vi/66S0Fx5FC4c/hqdefault.jpg	2025-11-22 02:07:43.873519+00	2079	\N
+19296	QRZMnqgFd_E	24523	Elements of Geology 01~15	Audiobook.	https://i.ytimg.com/vi/QRZMnqgFd_E/hqdefault.jpg	2025-11-22 02:08:07.105666+00	271	\N
+19297	qooxFSKxbks	24522	The Elements of Geology Part 1/2	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Elements of Geology, ...	https://i.ytimg.com/vi/qooxFSKxbks/hqdefault.jpg	2025-11-22 02:08:26.802846+00	271	\N
+19298	hBo21gT0uHs	24667	Elements of Geology	Audiobook.	https://i.ytimg.com/vi/hBo21gT0uHs/hqdefault.jpg	2025-11-22 02:08:46.199371+00	271	\N
+19299	0hmMfNboeKI	23951	The Elements of Geology Part 2/2	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Elements of Geology, ...	https://i.ytimg.com/vi/0hmMfNboeKI/hqdefault.jpg	2025-11-22 02:09:05.818485+00	271	\N
+19300	9Oho3XpWLo0	40700	The Elements of Geology	The Elements of Geology Audiobook by William Ruschenberger. Free full length audio book. ▻ Subscribe to our channel: ...	https://i.ytimg.com/vi/9Oho3XpWLo0/hqdefault.jpg	2025-11-22 02:09:25.893524+00	3841	\N
+19301	JNCzqHdBlWg	35118	The Science - History of the Universe Vol. 2: Geology	The Science - History of the Universe Vol. 2: Geology - FULL AUDIOBOOK 2/8 Francis Rolt-Wheeler (1876 - 1960) Multi-volume ...	https://i.ytimg.com/vi/JNCzqHdBlWg/hqdefault.jpg	2025-11-22 02:09:47.887847+00	2893	\N
+19302	OBcA_8LUwV8	25244	The Elements of Geology	The Elements of Geology by William Harmon NORTON (1856 - 1944) Genre(s): Earth Sciences Read by: Esther, Roger Melin, ...	https://i.ytimg.com/vi/OBcA_8LUwV8/hqdefault.jpg	2025-11-22 02:10:07.772062+00	271	\N
+19303	cEGnQdyb_SI	32037	The Secret of Everyday Things	The Secret of Everyday Things by Jean Henri Fabre FULL Audiobook The clearness, simpicity, and charm of the great French ...	https://i.ytimg.com/vi/cEGnQdyb_SI/hqdefault.jpg	2025-11-22 02:10:27.437297+00	4664	\N
+19304	3WBwHfQ2lwg	35200	Mars and Its Canals	Mars and Its Canals - FULL AUDIOBOOK Percival Lowell (1855 - 1916) In the days before telescope photography, astronomers ...	https://i.ytimg.com/vi/3WBwHfQ2lwg/hqdefault.jpg	2025-11-22 02:10:48.757999+00	3847	\N
+19305	BCu1LcXWuoM	18362	The Elements of Botany		https://i.ytimg.com/vi/BCu1LcXWuoM/hqdefault.jpg	2025-11-22 02:11:09.017321+00	3841	\N
+19306	2mFxOvHM5kY	36060	The Outline of Science, Vol 1	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Outline of Science, ...	https://i.ytimg.com/vi/2mFxOvHM5kY/hqdefault.jpg	2025-11-22 02:11:30.30876+00	2050	\N
+19307	_DkacDjSpSo	21072	The Elements of Geology		https://i.ytimg.com/vi/_DkacDjSpSo/hqdefault.jpg	2025-11-22 02:11:49.820515+00	3841	\N
+19308	Ms95dFC6aSA	17775	Radioactive Substances	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Radioactive Substances ...	https://i.ytimg.com/vi/Ms95dFC6aSA/hqdefault.jpg	2025-11-22 02:12:11.091146+00	1008	\N
+19309	CJutUuQgvXQ	17983	The Elements of Entomology	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Elements of ...	https://i.ytimg.com/vi/CJutUuQgvXQ/hqdefault.jpg	2025-11-22 02:12:31.518176+00	3841	\N
+19310	eVmRpT-w308	32610	Occult Philosophy or Magic - NATURAL MAGIC	Unlock the Secrets of Occult Philosophy In the last half of 1509, Cornelius Agrippa—one of the most influential magicians and ...	https://i.ytimg.com/vi/eVmRpT-w308/hqdefault.jpg	2025-11-22 02:13:10.531837+00	4665	\N
+19311	HVXP8jsqBQU	41705	The Science - History of the Universe Vol. 4: Chemistry	The Science - History of the Universe Vol. 4: Chemistry - FULL AUDIOBOOK 4/8 Francis Rolt-Wheeler (1876 - 1960) Multi-volume ...	https://i.ytimg.com/vi/HVXP8jsqBQU/hqdefault.jpg	2025-11-22 02:13:30.350771+00	2718	\N
+19312	kEtNniTOFc4	16926	The Elements of Geology		https://i.ytimg.com/vi/kEtNniTOFc4/hqdefault.jpg	2025-11-22 02:13:53.970686+00	3841	\N
+19313	WMU6j_DgEus	19359	Diary of a U-boat Commander	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Diary of a U-boat ...	https://i.ytimg.com/vi/WMU6j_DgEus/hqdefault.jpg	2025-11-22 02:14:36.415986+00	4666	\N
+19314	N_X8wVd9RFU	16277	Insect Stories Audiobook	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Insect Stories, Vernon ...	https://i.ytimg.com/vi/N_X8wVd9RFU/hqdefault.jpg	2025-11-22 02:14:57.193156+00	4667	\N
+19315	dfTFXy0XNcU	36141	Run to Earth Part 1/2	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Run to Earth, Mary ...	https://i.ytimg.com/vi/dfTFXy0XNcU/hqdefault.jpg	2025-11-22 02:15:18.56415+00	1119	\N
+19316	lM4Tq7vTYJc	24468	Discourses: Biological and Geological	Thomas Henry Huxley was an English biologist (comparative anatomist). He was the most effective supporter of Darwin's Theory ...	https://i.ytimg.com/vi/lM4Tq7vTYJc/hqdefault.jpg	2025-11-22 02:15:38.19436+00	3844	\N
+19317	mjg23x-g9Zc	28599	Right Ho, Jeeves	Free 30 day Audible trial : https://amzn.to/3uoURWJ Gussie Fink-Nottle has locked himself away in the country studying newts ...	https://i.ytimg.com/vi/mjg23x-g9Zc/hqdefault.jpg	2025-11-22 02:16:00.593935+00	118	\N
+19318	NBaBQjh7nNc	15915	The Divine Comedy - Inferno	The Divine Comedy (Italian: Commedia, later christened "Divina" by Giovanni Boccaccio), written by Dante Alighieri between ...	https://i.ytimg.com/vi/NBaBQjh7nNc/hqdefault.jpg	2025-11-22 02:16:22.393391+00	1751	\N
+19319	P89290ULQt4	16688	The Power and Occult Definitions of Words	Is there more to words than meets the eye? Let us tumble down the rabbit hole to explore the world of magic, words, and legalese, ...	https://i.ytimg.com/vi/P89290ULQt4/hqdefault.jpg	2025-11-22 02:16:51.863529+00	2632	\N
+19320	HdwUghAbBxg	21650	Staradigm		https://i.ytimg.com/vi/HdwUghAbBxg/hqdefault.jpg	2025-11-22 02:17:12.605256+00	4668	\N
+19321	q-ez5kaVkEU	16688	The Power and Occult Definitions of Words	Word Magic By Pao Chang Thanks For Watching Peace And Love Everyone !!! This Audiobook Will Change Your Life Forever.	https://i.ytimg.com/vi/q-ez5kaVkEU/hqdefault.jpg	2025-11-22 02:17:33.598255+00	2632	\N
+19322	1t6ixXiIfuE	16149	Fundamentals of Esoteric Knowledge	A full audiobook of The Fundamentals of Esoteric Knowledge by Jean Dubuis. This work holds a lot of valuable information for ...	https://i.ytimg.com/vi/1t6ixXiIfuE/hqdefault.jpg	2025-11-22 02:18:35.805016+00	4669	\N
+19323	cqrD745A0E0	34565	Kai Lung's Golden Hours	Kai Lung's Golden Hours. By Ernest Bramah FULL Audiobook Kai Lung's Golden Hours is a captivating fantasy novel penned by ...	https://i.ytimg.com/vi/cqrD745A0E0/hqdefault.jpg	2025-11-22 02:18:55.616258+00	2222	\N
+19324	vDS2d-Jsx4Q	29393	Kai Lung's Golden Hours	Kai Lung's Golden Hours. By Ernest Bramah. Full Audiobook Kai Lung's Golden Hours is a fantasy novel by English writer Ernest ...	https://i.ytimg.com/vi/vDS2d-Jsx4Q/hqdefault.jpg	2025-11-22 02:19:16.676121+00	2222	\N
+19325	m-7HIHBTQaA	29735	Kai Lung's Golden Hours	Kai Lung's Golden Hours. By Ernest Bramah FULL Audiobook Kai Lung's Golden Hours is a fantasy novel by English writer Ernest ...	https://i.ytimg.com/vi/m-7HIHBTQaA/hqdefault.jpg	2025-11-22 02:19:38.160532+00	2222	\N
+19326	VZSEE8UJsLo	19226	THOUGHTS ARE THINGS	Welcome to Rich & Spiritual Grow using our tools: ...	https://i.ytimg.com/vi/VZSEE8UJsLo/hqdefault.jpg	2025-11-22 02:20:37.901114+00	4670	\N
+19327	J-LsQYtGGlc	15198	Unleash Your Concentration Skills	Unleash Your Concentration Skills with this Audiobook LibriVox recording of The Power of Concentration, by Theron Q. Dumont.	https://i.ytimg.com/vi/J-LsQYtGGlc/hqdefault.jpg	2025-11-22 02:21:24.563016+00	4671	\N
+19328	A1kzDd00VrI	15485	The Power of Concentration	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Power of ...	https://i.ytimg.com/vi/A1kzDd00VrI/hqdefault.jpg	2025-11-22 02:21:47.849308+00	4672	\N
+19329	dHOm9J4O1gc	15195	The Power of Concentration	A series of twenty lessons designed to help develop and improve the power of concentration. (Summary by Andrea Fiore) Written ...	https://i.ytimg.com/vi/dHOm9J4O1gc/hqdefault.jpg	2025-11-22 02:22:07.539624+00	241	\N
+19330	ELPXLEA6s7w	21624	The Green Odyssey	The Green Odyssey - FULL AUDIOBOOK Philip José Farmer (1918 - 2009) Alan Green is a space traveler stranded on a barbaric ...	https://i.ytimg.com/vi/ELPXLEA6s7w/hqdefault.jpg	2025-11-22 02:22:27.272436+00	655	\N
+19331	hSGmBVVkWlA	18627	Trees Every Child Should Know	Trees Every Child Should Know Julia Ellen ROGERS Audiobook Trees Every Child Should Know Julia Ellen ROGERS (1866 ...	https://i.ytimg.com/vi/hSGmBVVkWlA/hqdefault.jpg	2025-11-22 02:22:48.648808+00	2367	\N
+19332	1rhwasSM4o8	31414	THE END OF THE MIDDLE AGE	THE END OF THE MIDDLE AGE (1273-1453) by Eleanor Constance Lodge (1869-1936) - FULL AudioBook | Greatest ...	https://i.ytimg.com/vi/1rhwasSM4o8/hqdefault.jpg	2025-11-22 02:23:12.701467+00	2383	\N
+19333	LwlEgf3axD0	17208	The Heart of the Ancient Wood	The Heart of the Ancient Wood - FULL AUDIOBOOK Sir Charles G. D. Roberts (1860 - 1943) A woman and her daughter take ...	https://i.ytimg.com/vi/LwlEgf3axD0/hqdefault.jpg	2025-11-22 02:23:32.437829+00	4673	\N
+19334	HSU1ItvQ_UQ	17648	The Housekeeper's Billionaire Boss - A Cowboy Romance	Romance Audiobooks | Full Narration | The Housekeeper's Billionaire Boss - Clean Cowboy Romance by Bree Livingston ...	https://i.ytimg.com/vi/HSU1ItvQ_UQ/hqdefault.jpg	2025-11-22 02:23:52.550519+00	4674	\N
+19335	-hLpS9APY2k	22558	Short History of the Christian Church		https://i.ytimg.com/vi/-hLpS9APY2k/hqdefault.jpg	2025-11-22 02:24:12.309899+00	2384	\N
+19336	j2yxQXZ6w6M	27047	Eusebius History of the Christian Church Part 2/2	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Eusebius History of the ...	https://i.ytimg.com/vi/j2yxQXZ6w6M/hqdefault.jpg	2025-11-22 02:24:32.404498+00	2126	\N
+19337	gEXs9wFB2AE	31461	The Eye of Osiris	The Eye of Osiris - FULL AUDIOBOOK R. Austin Freeman (1862 - 1943) The Eye of Osiris is an early example from the Dr.	https://i.ytimg.com/vi/gEXs9wFB2AE/hqdefault.jpg	2025-11-22 02:24:54.1811+00	824	\N
+19338	ODpXkd6MRQg	18874	THE AMERICAN POSTAL SERVICE, SECOND EDITION	The American Postal Service, Second Edition by Louis Melius (1844 - 1923) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/ODpXkd6MRQg/hqdefault.jpg	2025-11-22 02:25:37.6858+00	3575	\N
+19339	ypflOooXBtI	18872	The American Postal Service, Second Edition	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The American Postal ...	https://i.ytimg.com/vi/ypflOooXBtI/hqdefault.jpg	2025-11-22 02:25:58.676342+00	4675	\N
+19340	LqqOPh9UYX8	18871	The American Postal Service, Second Edition	The American Postal Service, Second Edition Louis MELIUS Audiobook Chapter Time Biographical Sketches, Preface, ...	https://i.ytimg.com/vi/LqqOPh9UYX8/hqdefault.jpg	2025-11-22 02:26:20.808517+00	4676	\N
+19341	PBJ0cHd9XUM	18874	The American Postal Service, Second Edition	The American Postal Service, Second Edition - audiobook Louis MELIUS (1844 - 1923) The history of the postal service in the ...	https://i.ytimg.com/vi/PBJ0cHd9XUM/hqdefault.jpg	2025-11-22 02:26:43.712656+00	4677	\N
+19342	4h4PFh7dyRM	23843	The Haunted Woman	The Haunted Woman (Audiobook Full Book) - By David Lindsay #fullaudiobook #audiobook #audiobookfullbook ...	https://i.ytimg.com/vi/4h4PFh7dyRM/hqdefault.jpg	2025-11-22 02:27:12.694544+00	168	\N
+19343	4pLBAnfi35c	39946	A Voyage to Arcturus	A Voyage to Arcturus - FULL AUDIOBOOK David Lindsay (1876 - 1945) A Voyage to Arcturus is a novel by Scottish writer David ...	https://i.ytimg.com/vi/4pLBAnfi35c/hqdefault.jpg	2025-11-22 02:27:32.337329+00	168	\N
+19344	o_egQzZyCZk	23036	The Haunted Woman	The Haunted Woman. By David Lindsay. Full Audiobook "The Haunted Woman" is a dark, metaphysical fantasy novel by British ...	https://i.ytimg.com/vi/o_egQzZyCZk/hqdefault.jpg	2025-11-22 02:27:51.982249+00	168	\N
+19345	xCvqsI7p-DM	40069	A Voyage to Arcturus	After a strange interstellar journey, Maskull, a man from Earth, awakens alone in a desert on the planet Tormance, seared by the ...	https://i.ytimg.com/vi/xCvqsI7p-DM/hqdefault.jpg	2025-11-22 02:28:11.700992+00	168	\N
+19346	WHlV4hD70Ng	40538	A Voyage to Arcturus	A Voyage to Arcturus - David Lindsay 0:00:00 - 01 - Chapter 1 - The Seance 0:30:19 - 02 - Chapter 2 - In the Street 0:42:48 - 03 ...	https://i.ytimg.com/vi/WHlV4hD70Ng/hqdefault.jpg	2025-11-22 02:28:32.13097+00	168	\N
+19347	srnDCYMkwHI	23821	THE HAUNTED WOMAN	The Haunted Woman by David Lindsay (1876 - 1945) full free audiobook ▻Subscribe for more audiobooks!: https://goo.gl/QpFTih ...	https://i.ytimg.com/vi/srnDCYMkwHI/hqdefault.jpg	2025-11-22 02:28:52.491173+00	168	\N
+19348	0OEimfUanTA	36048	A Voyage to Arcturus	A Voyage to Arcturus. By David Lindsay. Full Audiobook A Voyage to Arcturus is a novel by the Scottish writer David Lindsay, first ...	https://i.ytimg.com/vi/0OEimfUanTA/hqdefault.jpg	2025-11-22 02:29:11.909432+00	168	\N
+19349	U101ergCIyo	34255	A Voyage to Arcturus	A Voyage to Arcturus is a novel by the Scottish writer David Lindsay. First published in 1920, it combines fantasy, philosophy, and ...	https://i.ytimg.com/vi/U101ergCIyo/hqdefault.jpg	2025-11-22 02:29:31.382944+00	168	\N
+19350	Bbc4rl7uNn0	23982	Earthless	In 2166, Earth was destroyed. It wasn't an alien spacefleet firing from above. It was a bomb planted in the center of the planet ...	https://i.ytimg.com/vi/Bbc4rl7uNn0/hqdefault.jpg	2025-11-22 02:29:51.823449+00	4678	\N
+19351	b3JUKQLdNxY	23820	The Haunted Woman	Audio-book: The Haunted Woman by David Lindsay. Isabel Loment is engaged to the affectionate, but unemotional, Marshall ...	https://i.ytimg.com/vi/b3JUKQLdNxY/hqdefault.jpg	2025-11-22 02:30:12.306012+00	168	\N
+19352	GEJ6JwcDxPk	40172	A Voyage to Arcturus	"A Voyage to Arcturus" is a science fiction novel by David Lindsay, first published in 1920. The story follows Maskull, ...	https://i.ytimg.com/vi/GEJ6JwcDxPk/hqdefault.jpg	2025-11-22 02:30:31.752347+00	168	\N
+19353	FETH5SqTK94	36636	A Voyage to Arcturus	A Voyage to Arcturus. By David Lindsay FULL Audiobook "A Voyage to Arcturus" is a novel by Scottish writer David Lindsay, first ...	https://i.ytimg.com/vi/FETH5SqTK94/hqdefault.jpg	2025-11-22 02:30:51.319851+00	168	\N
+19354	DZ4QKs_u4R0	23825	The Haunted Woman	Isabel Loment is engaged to the affectionate, but unemotional, Marshall Stokes. House-hunting for her aunt, she comes to Runhill ...	https://i.ytimg.com/vi/DZ4QKs_u4R0/hqdefault.jpg	2025-11-22 02:31:14.565907+00	168	\N
+19355	CefK3NjsfQU	40537	A Voyage to Arcturus	Audiobook.	https://i.ytimg.com/vi/CefK3NjsfQU/hqdefault.jpg	2025-11-22 02:31:33.988784+00	168	\N
+19356	O-3Q_KobtPE	40122	A Voyage to Arcturus	A Voyage to Arcturus by David Lindsay. Read by Mark Nelson. A Voyage to Arcturus is a novel by Scottish writer David Lindsay, ...	https://i.ytimg.com/vi/O-3Q_KobtPE/hqdefault.jpg	2025-11-22 02:31:53.702052+00	168	\N
+19357	ey08AySUSyE	40172	A Voyage to Arcturus	"A Voyage to Arcturus" is a science fiction novel by David Lindsay, first published in 1920. The story follows Maskull, ...	https://i.ytimg.com/vi/ey08AySUSyE/hqdefault.jpg	2025-11-22 02:32:16.330032+00	168	\N
+19358	fPtC5xVRnbw	29058	A Voyage to Arcturus		https://i.ytimg.com/vi/fPtC5xVRnbw/hqdefault.jpg	2025-11-22 02:32:37.676622+00	168	\N
+19359	BugG80CVveo	40537	A Voyage to Arcturus	A Voyage to Arcturus David Lindsay (1876 - 1945) A Voyage to Arcturus is a novel by Scottish writer David Lindsay, first published ...	https://i.ytimg.com/vi/BugG80CVveo/hqdefault.jpg	2025-11-22 02:32:58.356007+00	168	\N
+19360	0tN0FzgDHRA	40573	A Voyage to Arcturus	A Voyage to Arcturus by David Lindsay audiobook. A Voyage to Arcturus is a novel by Scottish writer David Lindsay, first ...	https://i.ytimg.com/vi/0tN0FzgDHRA/hqdefault.jpg	2025-11-22 02:33:17.861228+00	168	\N
+19361	oPOujJ643-g	39217	A Voyage to Arcturus	... by David Lindsay Part 1/2 Full Playlist: https://www.youtube.com/playlist?list=PLqPQQc4SlnxKTgAs8HqoaF3GqMR7mFURp Ion ...	https://i.ytimg.com/vi/oPOujJ643-g/hqdefault.jpg	2025-11-22 02:33:38.097168+00	168	\N
+19362	pmR7l73HG8U	31262	THE DARKEST WINTER	A Post-Apocalyptic Survival and Fantasy Adventure Audiobook Written by Lindsey Pogue Narrated by Sarah Ruth Thomas and ...	https://i.ytimg.com/vi/pmR7l73HG8U/hqdefault.jpg	2025-11-22 02:33:59.453443+00	657	\N
+19363	Nz45yQ-Wj2E	26719	MIND OVER MAGIC	This is the full fantasy audiobook of Mind Over Magic, the first novel in the A Witch in Wolf Wood series. (It's a complete story - no ...	https://i.ytimg.com/vi/Nz45yQ-Wj2E/hqdefault.jpg	2025-11-22 02:34:22.937213+00	615	\N
+19365	yUYdBU1wjRk	24252	The 9th Judgment	Four women. One impossible case. Justice has a price. ⚖️ In The 9th Judgment, James Patterson delivers one of the most ...	https://i.ytimg.com/vi/yUYdBU1wjRk/hqdefault.jpg	2025-11-22 02:35:03.149011+00	16	\N
+19366	-JdWevBQwDI	28279	Gwen Wynn		https://i.ytimg.com/vi/-JdWevBQwDI/hqdefault.jpg	2025-11-22 02:35:25.577604+00	2699	\N
+19367	KnAR6jbKp1c	30221	THE CLIFF CLIMBERS	The Cliff Climbers by Thomas Mayne Reid (1818 - 1883) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/KnAR6jbKp1c/hqdefault.jpg	2025-11-22 02:35:46.314181+00	2699	\N
+19368	JXluI8dx1MY	23482	The Ocean Waifs, Part 1	The Ocean Waifs, Part 1 Thomas Mayne Reid (1818 - 1883) "The Ocean Waifs" by Thomas Mayne Reid is a maritime adventure ...	https://i.ytimg.com/vi/JXluI8dx1MY/hqdefault.jpg	2025-11-22 02:36:06.299648+00	2699	\N
+19369	6h-S0vPvdbo	43122	Osceola the Seminole	Osceola the Seminole - Thomas Mayne Reid - Part 1 0:00:00 - 00 - Preface 0:02:02 - 01 - The Flowery Land 0:10:05 - 02 - The ...	https://i.ytimg.com/vi/6h-S0vPvdbo/hqdefault.jpg	2025-11-22 02:36:28.158417+00	2699	\N
+19370	TtjZ91ihO00	42581	The Wild Huntress	The Wild Huntress - Thomas Mayne Reid - Part 1 0:00:00 - 001 - The Squatter's Clearing 0:18:20 - 002 - Marian and Lilian 0:31:20 ...	https://i.ytimg.com/vi/TtjZ91ihO00/hqdefault.jpg	2025-11-22 02:36:50.032274+00	2699	\N
+19371	OAJlglBS5XM	30229	The Cliff Climbers	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/OAJlglBS5XM/hqdefault.jpg	2025-11-22 02:37:09.797627+00	2699	\N
+19372	VBFh27qJQSo	36668	Maroon	"Maroon" immerses readers in the throes of the ruthless high seas as author Thomas Mayne Reid pens a spellbinding tale of ...	https://i.ytimg.com/vi/VBFh27qJQSo/hqdefault.jpg	2025-11-22 02:37:29.272124+00	2699	\N
+19373	EMvPN9A7NFI	42106	No Quarter!	No Quarter! - Thomas Mayne Reid - Part 1 0:00:00 - 00 - Prologue 0:33:47 - 01 - A Sword Duel in the Saddle 0:49:58 - 02 - Foes ...	https://i.ytimg.com/vi/EMvPN9A7NFI/hqdefault.jpg	2025-11-22 02:37:50.708628+00	2699	\N
+19374	JfEZWRS-rn4	44020	The Scalp Hunters	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Scalp Hunters Thomas ...	https://i.ytimg.com/vi/JfEZWRS-rn4/hqdefault.jpg	2025-11-22 02:38:10.981066+00	2699	\N
+19375	GxTnyu2T1nk	42939	The War Trail	The War Trail - Thomas Mayne Reid - Part 1 0:00:00 - 001 - Souvenirs 0:08:44 - 002 - A Mexican Frontier Village 0:18:53 - 003 ...	https://i.ytimg.com/vi/GxTnyu2T1nk/hqdefault.jpg	2025-11-22 02:38:31.997387+00	2699	\N
+19376	xUyZ9JE4x9o	35162	THE GIRAFFE HUNTERS	The Giraffe Hunters by Thomas Mayne Reid (1818 - 1883) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/xUyZ9JE4x9o/hqdefault.jpg	2025-11-22 02:38:55.985649+00	2699	\N
+19377	PhtBkvW-R8Q	27053	Gwen Wynn 01~38	Audiobook.	https://i.ytimg.com/vi/PhtBkvW-R8Q/hqdefault.jpg	2025-11-22 02:39:16.736252+00	4679	\N
+19378	637178WUSX0	42644	The Headless Horseman (1/2)	The Headless Horseman. By Mayne Reid. Full Audiobook "The Headless Horseman" is a novel by Mayne Reid, first published in ...	https://i.ytimg.com/vi/637178WUSX0/hqdefault.jpg	2025-11-22 02:39:36.36512+00	4679	\N
+19379	ffcp7YY5VxU	22609	The Giraffe Hunters		https://i.ytimg.com/vi/ffcp7YY5VxU/hqdefault.jpg	2025-11-22 02:39:55.868484+00	2699	\N
+19380	Xr2JsvxHRL0	26065	Gwen Wynn		https://i.ytimg.com/vi/Xr2JsvxHRL0/hqdefault.jpg	2025-11-22 02:40:16.42049+00	2699	\N
+19381	t9KbZq0em5o	20298	The Scalp Hunters		https://i.ytimg.com/vi/t9KbZq0em5o/hqdefault.jpg	2025-11-22 02:40:35.677399+00	2699	\N
+19382	K0VW1E67GUU	35157	The Giraffe Hunters	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Giraffe Hunters ...	https://i.ytimg.com/vi/K0VW1E67GUU/hqdefault.jpg	2025-11-22 02:41:00.862696+00	2699	\N
+19383	AJgSL-i7tAw	30222	The Cliff Climbers	The Cliff Climbers - audiobook Thomas Mayne REID (1818 - 1883) A plant hunter, Karl Linden, and his brother Caspar are on ...	https://i.ytimg.com/vi/AJgSL-i7tAw/hqdefault.jpg	2025-11-22 02:41:22.186245+00	2699	\N
+19384	4DE0oDcOuoo	35164	The Giraffe Hunters	The Giraffe Hunters - audio book Thomas Mayne REID (1818 - 1883) The Young Yägers, Hans and Hendrik Von Bloom, Groot ...	https://i.ytimg.com/vi/4DE0oDcOuoo/hqdefault.jpg	2025-11-22 02:41:45.015342+00	2699	\N
+19385	IJW0ux9XJ48	23403	The War Trail	The War Trail - Thomas Mayne Reid - Part 2 0:00:00 - 060 - The Sombrero 0:07:06 - 061 - The Trail Recovered 0:15:25 - 062 ...	https://i.ytimg.com/vi/IJW0ux9XJ48/hqdefault.jpg	2025-11-22 02:42:06.178192+00	2699	\N
+19386	i_cubwYxxjQ	17259	Osceola the Seminole	Osceola the Seminole - Thomas Mayne Reid - Part 2 0:00:00 - 67 - The Battle of "Ouithlacoochee" 0:13:13 - 68 - A Victory Ending ...	https://i.ytimg.com/vi/i_cubwYxxjQ/hqdefault.jpg	2025-11-22 02:42:27.408815+00	2699	\N
+19387	zVLr6TKz-NM	27402	The Headless Horseman	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/zVLr6TKz-NM/hqdefault.jpg	2025-11-22 02:42:46.882796+00	2699	\N
+19388	UimL3oUhhgo	26317	The Headless Horseman	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/UimL3oUhhgo/hqdefault.jpg	2025-11-22 02:43:06.517454+00	2699	\N
+19389	Ppyo8f7RTqM	36345	Ran Away to Sea	Ran Away to Sea - Thomas Mayne Reid 0:00:00 - 01 - Chapter 1 0:06:34 - 02 - Chapter 2 0:19:58 - 03 - Chapter 3 0:32:02 - 04 ...	https://i.ytimg.com/vi/Ppyo8f7RTqM/hqdefault.jpg	2025-11-22 02:43:28.031444+00	2699	\N
+19390	_8fvSDerNX0	20292	The Scalp Hunters	The Scalp Hunters Audiobook Part 2 - Thomas Mayne REID Chapter Time A Buffalo 'Surround' 00:00:00 Another 'Coup' 00:17:32 ...	https://i.ytimg.com/vi/_8fvSDerNX0/hqdefault.jpg	2025-11-22 02:43:47.411852+00	2699	\N
+19391	-VAGC6m1seg	17757	The Giraffe Hunters, Parts 01-37	The Giraffe Hunters, Parts 01-37 Thomas Mayne Reid (1818 - 1883) "The Giraffe Hunters" by Thomas Mayne Reid is an ...	https://i.ytimg.com/vi/-VAGC6m1seg/hqdefault.jpg	2025-11-22 02:44:07.141058+00	2699	\N
+19392	rhX6vkFIbko	23479	The Wild Huntress	The Wild Huntress - Thomas Mayne Reid - Part 2 0:00:00 - 076 - The History of the Huntress 0:10:29 - 077 - The Surprise 0:24:51 ...	https://i.ytimg.com/vi/rhX6vkFIbko/hqdefault.jpg	2025-11-22 02:44:27.466721+00	2699	\N
+19393	SnArZu8xpiA	22409	The Scalp Hunters	https://youtu.be/P2C45BGpf8s?si=HpYRmb_b6hhJNQ2O https://youtu.be/TlSjCZ27AEg?si=MngDkIpnl2Eo30E9 MAKE A ...	https://i.ytimg.com/vi/SnArZu8xpiA/hqdefault.jpg	2025-11-22 02:44:48.197989+00	2699	\N
+19394	Hd5eYb1CGdA	15387	No Quarter!	No Quarter! - Thomas Mayne Reid - Part 2 0:00:00 - 48 - Between Two Prisons 0:24:45 - 49 - An Uphill Chase 0:42:40 - 50 - An ...	https://i.ytimg.com/vi/Hd5eYb1CGdA/hqdefault.jpg	2025-11-22 02:45:09.686481+00	2699	\N
+19395	RX9-a5G_1KA	29909	Osceola the Seminole Chapters 46-96 | Native Hero	... and Resistance Experience the gripping narrative of Osceola the Seminole, a classic adventure novel by Thomas Mayne Reid.	https://i.ytimg.com/vi/RX9-a5G_1KA/hqdefault.jpg	2025-11-22 02:45:29.98015+00	2699	\N
+19396	tW1jWlHpCdE	24120	Gwen Wynn A Romance of the Wye	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Gwen Wynn - A Romance of ...	https://i.ytimg.com/vi/tW1jWlHpCdE/hqdefault.jpg	2025-11-22 02:45:50.992183+00	2699	\N
+19397	dlNZyQSnv_A	27286	Gwen Wynn	Audiobook.	https://i.ytimg.com/vi/dlNZyQSnv_A/hqdefault.jpg	2025-11-22 02:46:16.654832+00	4679	\N
+19398	hthulVDgJ8E	42532	The Scalp Hunters	The Scalp Hunters by Thomas Mayne Reid. "Unroll the world's map and look upon the great northern continent of America.	https://i.ytimg.com/vi/hthulVDgJ8E/hqdefault.jpg	2025-11-22 02:46:38.526571+00	2699	\N
+19399	wrbP3f2Abzo	27637	The Headless Horseman	DONATE TO SUPPORT OLD LIBRARY AUDIOBOOKS https://www.tipeeestream.com/oldlibraryaudiobooks/donation ...	https://i.ytimg.com/vi/wrbP3f2Abzo/hqdefault.jpg	2025-11-22 02:46:58.624808+00	2699	\N
+19400	pktUiRjLmw4	17414	The Giraffe Hunters	The Giraffe Hunters, Parts 38-73 Thomas Mayne Reid (1818 - 1883) "The Giraffe Hunters" by Thomas Mayne Reid is an ...	https://i.ytimg.com/vi/pktUiRjLmw4/hqdefault.jpg	2025-11-22 02:47:19.201623+00	2699	\N
+19401	HeBVQJklYac	43754	The Scalp Hunters	The Scalp Hunters - audiobook Thomas Mayne REID (1818 - 1883) "Unroll the world's map, and look upon the great northern ...	https://i.ytimg.com/vi/HeBVQJklYac/hqdefault.jpg	2025-11-22 02:47:42.039365+00	2699	\N
+19402	BL_6e134ke8	37260	The Headless Horseman	The Headless Horseman. By Mayne Reid. Full Audiobook "The Headless Horseman" is a novel by Mayne Reid, first published in ...	https://i.ytimg.com/vi/BL_6e134ke8/hqdefault.jpg	2025-11-22 02:48:01.379495+00	4679	\N
+19403	sOlqGIYfuag	33655	THE RIFLE RANGERS	"The Rifle Rangers" is an adventure novel written by Mayne Reid, a popular author of the 19th century known for his thrilling tales ...	https://i.ytimg.com/vi/sOlqGIYfuag/hqdefault.jpg	2025-11-22 02:48:20.978951+00	4680	\N
+19404	D_4kia4UYa4	22624	The Ocean Waifs, Part 2	The Ocean Waifs, Part 2 Thomas Mayne Reid (1818 - 1883) "The Ocean Waifs" by Thomas Mayne Reid is a maritime adventure ...	https://i.ytimg.com/vi/D_4kia4UYa4/hqdefault.jpg	2025-11-22 02:48:41.105984+00	2699	\N
+19405	9n6Dsfqc9Co	30238	Gwen Wynn A Romance of the Wye Part 2/2	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Gwen Wynn - A Romance of ...	https://i.ytimg.com/vi/9n6Dsfqc9Co/hqdefault.jpg	2025-11-22 02:49:01.687933+00	2699	\N
+19406	kNMNttb9mpQ	43018	The Headless Horseman | Listen, Imagine, Understand	Listen to The Headless Horseman by Captain Mayne Reid – A Thrilling Western Mystery of Love, Honor, and Revenge ...	https://i.ytimg.com/vi/kNMNttb9mpQ/hqdefault.jpg	2025-11-22 02:49:23.519129+00	4681	\N
+19407	iWptvMFe7zE	21344	The Scalp Hunters	https://youtu.be/P2C45BGpf8s?si=HpYRmb_b6hhJNQ2O https://youtu.be/TlSjCZ27AEg?si=MngDkIpnl2Eo30E9 MAKE A ...	https://i.ytimg.com/vi/iWptvMFe7zE/hqdefault.jpg	2025-11-22 02:49:45.547144+00	2699	\N
+19408	jgznpeJkdi8	24706	I Robot	Scifi Audiobooks Isaac Asimov -1950 I Robot Askey.	https://i.ytimg.com/vi/jgznpeJkdi8/hqdefault.jpg	2025-11-22 02:50:07.211071+00	116	\N
+19409	chHZFZN4IxE	31599	Gunman's Reckoning	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Gunman's Reckoning Max ...	https://i.ytimg.com/vi/chHZFZN4IxE/hqdefault.jpg	2025-11-22 02:50:31.94325+00	2104	\N
+19410	iXmE0IAE3G0	41472	Pearl Maiden	Pearl Maiden Audiobook by H. Rider Haggard. Free full length audio book. ▻ Subscribe to our channel: ...	https://i.ytimg.com/vi/iXmE0IAE3G0/hqdefault.jpg	2025-11-22 02:50:52.710687+00	934	\N
+19411	TxUw9gq1YKM	29429	The Adventures of Tom Sawyer	The Adventures of Tom Sawyer (Audiobook Full Book) - By Mark Twain #audiobook #timelessaudiobooks #fullaudiobook ...	https://i.ytimg.com/vi/TxUw9gq1YKM/hqdefault.jpg	2025-11-22 02:51:12.543302+00	201	\N
+19412	JCoQtvMg5Aw	27913	No Man's Land	Title : [No Man's Land] - by Sapper ♡ Topics : librivox, audiobooks, fiction, World War I, WWI ♡ Summary : This book was written ...	https://i.ytimg.com/vi/JCoQtvMg5Aw/hqdefault.jpg	2025-11-22 02:51:35.658157+00	4682	\N
+19413	Lm404ZFW_7A	25959	Professor Dowell's Head		https://i.ytimg.com/vi/Lm404ZFW_7A/hqdefault.jpg	2025-11-22 02:51:57.586715+00	4683	\N
+19414	ywJh0TmJIGc	28792	Annie Kilburn	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Annie Kilburn William ...	https://i.ytimg.com/vi/ywJh0TmJIGc/hqdefault.jpg	2025-11-22 02:52:18.883794+00	2193	\N
+19415	p4vd-1OHTAw	75703	Edward O. Wilson On Human Nature	Edward O. Wilson On Human Nature.	https://i.ytimg.com/vi/p4vd-1OHTAw/hqdefault.jpg	2025-11-22 02:52:43.615289+00	2439	\N
+19416	7F84igSUFyw	50659	The Meaning of Human Existence	Edward O. Wilson The Meaning of Human Existence.	https://i.ytimg.com/vi/7F84igSUFyw/hqdefault.jpg	2025-11-22 02:53:03.007378+00	2439	\N
+19417	WXNU2qFDNd4	64719	Half-Earth	Edward O. Wilson Half-Earth.	https://i.ytimg.com/vi/WXNU2qFDNd4/hqdefault.jpg	2025-11-22 02:53:22.833678+00	2439	\N
+19418	NgZ1b23GLPY	23551	A Campaign of Giants--The Battle for...	PURCHASE ON GOOGLE PLAY BOOKS ▻▻ https://g.co/booksYT/AQAAAEDMlhLWzM A Campaign of Giants--The Battle for ...	https://i.ytimg.com/vi/NgZ1b23GLPY/hqdefault.jpg	2025-11-22 02:53:49.829106+00	4684	\N
+19419	IkBoQ4VPwXQ	50741	Hitler - Historical Biography	History Audiobooks A. N. Wilson - Hitler - Historical Biography.	https://i.ytimg.com/vi/IkBoQ4VPwXQ/hqdefault.jpg	2025-11-22 02:54:11.041977+00	299	\N
+19420	N7_jAM9HGbM	62705	Missionary Work Among the Ojebway Indians	This work is in the public domain. You can find the e-book and paperback on Amazon and with Kindle Unlimited: ...	https://i.ytimg.com/vi/N7_jAM9HGbM/hqdefault.jpg	2025-11-22 02:54:51.002431+00	4685	\N
+19421	TY-Hqx7FrC0	75629	The Report on UFO part 2	Welcome to my Channel! 'Straight from the horse's mouth', as they say. Edward Ruppelt was the first head of the U.S. Air Force's ...	https://i.ytimg.com/vi/TY-Hqx7FrC0/hqdefault.jpg	2025-11-22 02:55:13.891155+00	3921	\N
+19422	hUBf6HJ4SvY	90910	Daring Deeds of Famous Pirates	Title : [Daring Deeds of Famous Pirates] by Edward Keble Chatterton ♡ Topics : librivox, audiobooks, pirates, sea, piracy, sailing, ...	https://i.ytimg.com/vi/hUBf6HJ4SvY/hqdefault.jpg	2025-11-22 02:55:35.983425+00	4686	\N
+19423	vFBuYyKK1LQ	63921	PHILIP DRU: ADMINISTRATOR	Philip Dru: Administrator by Edward M. House (1858 - 1938) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/vFBuYyKK1LQ/hqdefault.jpg	2025-11-22 02:55:56.841132+00	1013	\N
+19424	-8mi--AaeFI	24125	Michael Stokes Paulsen Constitution	Michael Stokes Paulsen Constitution.	https://i.ytimg.com/vi/-8mi--AaeFI/hqdefault.jpg	2025-11-22 02:56:22.802202+00	2936	\N
+19425	b1QnRAC1fbU	35447	The Protector - Life of Cromwell	J. H. D'Aubigne - The Protector - Life of Cromwell.	https://i.ytimg.com/vi/b1QnRAC1fbU/hqdefault.jpg	2025-11-22 02:56:43.308765+00	1032	\N
+19426	syfzIKh-pZc	27891	Horde (Razorland)	If you like these audio books, you can donate to me so that I have more motivation to upload more books.	https://i.ytimg.com/vi/syfzIKh-pZc/hqdefault.jpg	2025-11-22 02:57:26.222276+00	2352	\N
+19427	_6NQTtf6iK4	37462	The Confessions	The Confessions (Pusey translation) by Saint AUGUSTINE OF HIPPO (354 - 430), translated by Edward Bouverie PUSEY (1800 ...	https://i.ytimg.com/vi/_6NQTtf6iK4/hqdefault.jpg	2025-11-22 02:57:50.651836+00	1504	\N
+19428	BJgfaBZ6hCQ	42289	The Confessions	Augustine of Hippo ( November 13th 354 – August 28th 430 AD), also known as Saint Augustine, was a theologian, philosopher, ...	https://i.ytimg.com/vi/BJgfaBZ6hCQ/hqdefault.jpg	2025-11-22 02:58:12.966872+00	1504	\N
+19429	ZKfrPNywFCA	42292	The Confessions	The Confessions - Saint AUGUSTINE OF HIPPO Audiobook Chapter Time Book One, Chapters 1-10 00:00:00 Book One, ...	https://i.ytimg.com/vi/ZKfrPNywFCA/hqdefault.jpg	2025-11-22 02:58:33.53393+00	1504	\N
+19430	ciHboECq2D0	41414	The City of God	The City of God Part 1, Christian Audiobook by Saint Augustine of Hippo, Jesus Christ, Gospel. The City of God Part 3, Christian ...	https://i.ytimg.com/vi/ciHboECq2D0/hqdefault.jpg	2025-11-22 02:58:56.900899+00	1504	\N
+19431	-GrfQgPrZ88	23403	Confessions	Don't forget to LIKE, SUBSCRIBE, and SHARE the magic with fellow book lovers! More information about this book is on our ...	https://i.ytimg.com/vi/-GrfQgPrZ88/hqdefault.jpg	2025-11-22 02:59:16.22298+00	1504	\N
+19432	Vb7rw_2mfkY	42771	Confessions	Enjoy a complete audiobook reading of "Confessions" by Saint Augustine of Hippo. Immerse yourself in this timeless classic that ...	https://i.ytimg.com/vi/Vb7rw_2mfkY/hqdefault.jpg	2025-11-22 02:59:35.673018+00	1504	\N
+19433	_2Ym43Vu-9Y	42294	The Confessions	The Confessions outlines Augustine's sinful youth and his conversion to Christianity. It is widely seen as the first Western ...	https://i.ytimg.com/vi/_2Ym43Vu-9Y/hqdefault.jpg	2025-11-22 02:59:58.417583+00	3667	\N
+19434	YVQnUxEKVr4	23142	Confessionum Libri Tredecim Part 1/2	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Confessionum Libri ...	https://i.ytimg.com/vi/YVQnUxEKVr4/hqdefault.jpg	2025-11-22 03:00:20.226858+00	1504	\N
+19435	05FsuTLxwX4	25934	On Christian Doctrine	On Christian Doctrine. By Saint Augustine of Hippo FULL Audiobook "On Christian Doctrine" (De doctrina Christiana) is a ...	https://i.ytimg.com/vi/05FsuTLxwX4/hqdefault.jpg	2025-11-22 03:00:44.067376+00	1504	\N
+19436	9KhaWFbfFnY	20948	Confessions Part 2	Audiobook.	https://i.ytimg.com/vi/9KhaWFbfFnY/hqdefault.jpg	2025-11-22 03:01:03.459857+00	4155	\N
+19437	3iqydKV6UWM	32177	The Taming Of The Billionaire		https://i.ytimg.com/vi/3iqydKV6UWM/hqdefault.jpg	2025-11-22 03:01:27.085856+00	2536	\N
+19438	RgcH6vHNjk8	34561	The Billionaire's Favorite Mistake		https://i.ytimg.com/vi/RgcH6vHNjk8/hqdefault.jpg	2025-11-22 03:02:08.018161+00	2536	\N
+19439	zE1eoUKNgR4	32202	Dirty Bastard		https://i.ytimg.com/vi/zE1eoUKNgR4/hqdefault.jpg	2025-11-22 03:02:28.674472+00	2536	\N
+19440	zOsoO8tSKZM	42195	Last Hit (Hitman)		https://i.ytimg.com/vi/zOsoO8tSKZM/hqdefault.jpg	2025-11-22 03:03:12.396851+00	2536	\N
+19441	svHBuE6wpWs	40215	Last Kiss		https://i.ytimg.com/vi/svHBuE6wpWs/hqdefault.jpg	2025-11-22 03:03:32.368582+00	2536	\N
+19442	aYdDYNXujQQ	30762	Stranded with a Billionaire		https://i.ytimg.com/vi/aYdDYNXujQQ/hqdefault.jpg	2025-11-22 03:03:53.586897+00	115	\N
+19443	2nGEJKZ5K-o	32048	Billionaire Romance Shameless Bastards	Billionaire Romance Audiobook “continence” written by Jessica Clare Narrator by Rebecca Estrella, Rudy Sanda #audiolibro ...	https://i.ytimg.com/vi/2nGEJKZ5K-o/hqdefault.jpg	2025-11-22 03:04:34.701268+00	2536	\N
+19444	J1R2zSTDYgA	31369	The Billionaire Takes A Bride		https://i.ytimg.com/vi/J1R2zSTDYgA/hqdefault.jpg	2025-11-22 03:04:55.208978+00	115	\N
+19445	dh67xuxnj6Q	31556	Romancing the Billionaire		https://i.ytimg.com/vi/dh67xuxnj6Q/hqdefault.jpg	2025-11-22 03:05:58.891338+00	2536	\N
+19446	KMqd_yCte4M	22203	Billionaire Romance 'Fake It for Me'	Fake it for Real: A Friends to Lovers Second Chance Romance (Accidental Love 3 by Jessica F. Please like and subscribe; ...	https://i.ytimg.com/vi/KMqd_yCte4M/hqdefault.jpg	2025-11-22 03:06:46.495269+00	712	\N
+19447	YdTQbhi7bMg	21777	The Fix	Enjoy this free full audiobook of ❤️ THE FIX: A Hot Romantic Comedy by Sylvie Stewart. Carolina Connections, Book 1 ...	https://i.ytimg.com/vi/YdTQbhi7bMg/hqdefault.jpg	2025-11-22 03:08:32.502681+00	370	\N
+19448	UjVhsPKDf0o	18333	Whiskey Girl	WHISKEY GIRL is Now Amazon Hot New Release A suspenseful and supremely romantic full-length standalone from an Amazon ...	https://i.ytimg.com/vi/UjVhsPKDf0o/hqdefault.jpg	2025-11-22 03:09:16.965571+00	4687	\N
+19449	08xyEXWuqxs	38797	A History of American Christianity	A History of American Christianity - audio book Leonard Woolsey BACON (1830 - 1907) Published in 1897, this book describes ...	https://i.ytimg.com/vi/08xyEXWuqxs/hqdefault.jpg	2025-11-22 03:09:45.697717+00	3582	\N
+19450	52x8trzUwb0	49178	Price of Forever	The Price of Forever The Bad Boys of Wall Street book five written by Ember Lee narrated by Jill Smith and Jeremy York.	https://i.ytimg.com/vi/52x8trzUwb0/hqdefault.jpg	2025-11-22 03:10:10.264478+00	365	\N
+19451	usCWUwnF4_s	45730	[Billionaire Romance] The Price of Infamy	This is The Price of Infamy, a free romance audiobook by Ember Leigh, part of the Bad Boys of Wall Street series. #romance ...	https://i.ytimg.com/vi/usCWUwnF4_s/hqdefault.jpg	2025-11-22 03:10:29.937458+00	365	\N
+19452	U_jvn8xjHz4	32839	Price of Revenge	NOTE: This is an ABRIDGED version which means some content has been removed to comply with YouTube policies. You can ...	https://i.ytimg.com/vi/U_jvn8xjHz4/hqdefault.jpg	2025-11-22 03:10:49.694031+00	365	\N
+19453	bTVtNivD8h8	15189	Price of a Promise	NOTE: This is an ABRIDGED version which means some content has been removed to comply with YouTube policies. You can ...	https://i.ytimg.com/vi/bTVtNivD8h8/hqdefault.jpg	2025-11-22 03:11:09.267608+00	365	\N
+19454	ol6ZBzj1jUs	15881	Broken Bodyguard	This is BROKEN BODYGUARD by Ember Leigh, book #1 in the Nightingales of Wall Street (a continuation from The Bad Boys of ...	https://i.ytimg.com/vi/ol6ZBzj1jUs/hqdefault.jpg	2025-11-22 03:11:29.569149+00	365	\N
+19455	sJkxUDoGb8g	15500	A Fork In The Road	NOTE: This is an ABRIDGED version which means some content has been removed to comply with YouTube policies. You can ...	https://i.ytimg.com/vi/sJkxUDoGb8g/hqdefault.jpg	2025-11-22 03:11:49.404201+00	365	\N
+19456	R_bsh4C2J4o	29547	[Secret Pregnancy Romance] Full Romance, Changing the Game	This is CHANGING THE GAME from the MMA sports romance series, the Breaking series, by Ember Leigh. This is an AI-narrated ...	https://i.ytimg.com/vi/R_bsh4C2J4o/hqdefault.jpg	2025-11-22 03:12:11.926324+00	365	\N
+19457	UgMM8bAmalk	31469	Breaking the Sinner	This is BREAKING THE SINNER from the MMA sports romance series, the Breaking series, by Ember Leigh. This is an AI-narrated ...	https://i.ytimg.com/vi/UgMM8bAmalk/hqdefault.jpg	2025-11-22 03:12:32.494162+00	365	\N
+19458	7IIkUSk-aOU	30996	Flame and Ember	Simon believes love is no longer an option for him and decides to enter a marriage of convenience with Mina — but she secretly ...	https://i.ytimg.com/vi/7IIkUSk-aOU/hqdefault.jpg	2025-11-22 03:12:51.988001+00	667	\N
+19459	d4EJmd5-eUA	27313	THE AGENT: An Alpha Billionaire Romance	THE AGENT: An Alpha Billionaire Romance Audiobook by Michelle Love and Ellen Lane Please like and subscribe; it helps us ...	https://i.ytimg.com/vi/d4EJmd5-eUA/hqdefault.jpg	2025-11-22 03:13:12.924452+00	670	\N
+19460	FQGSF1DYB6s	35458	A Beautiful Mess	A Beautiful Mess by T. K. Leigh Audiobooks full length.	https://i.ytimg.com/vi/FQGSF1DYB6s/hqdefault.jpg	2025-11-22 03:13:33.516372+00	668	\N
+19461	JYYbgosQSwM	35852	Hearts Entwined	Victoria and Oliver are on the brink of engagement. Their parents are thrilled with the arrangement, but when the couple are ...	https://i.ytimg.com/vi/JYYbgosQSwM/hqdefault.jpg	2025-11-22 03:14:19.456569+00	667	\N
+19462	k2d2MIvY784	31919	Tempest & Sunshine	A disastrous declaration. A broken heart. Can they get it right the second time? Available to purchase on Amazon ...	https://i.ytimg.com/vi/k2d2MIvY784/hqdefault.jpg	2025-11-22 03:14:40.196158+00	667	\N
+19463	NapA5q_G-S0	28481	The Complete Green Ember	This is the COMPLETE Book One of The Green Ember Series by S. D. Smith, read by Joel Clarkson. For FREE coloring pages and ...	https://i.ytimg.com/vi/NapA5q_G-S0/hqdefault.jpg	2025-11-22 03:14:59.917898+00	2858	\N
+19464	DtoyYbBYkwo	30351	PRISON & PRISONERS: SOME PERSONAL EXPERIENCES	Prison & Prisoners: Some Personal Experiences by Constance Lytton (1869 - 1923) full free audiobook ▻Subscribe for more ...	https://i.ytimg.com/vi/DtoyYbBYkwo/hqdefault.jpg	2025-11-22 03:15:46.412135+00	2737	\N
+19465	iGHA__9z1JU	30348	Prison & Prisoners: Some Personal Experiences	Prison & Prisoners: Some Personal Experiences by Constance LYTTON (1869 - 1923) - FULL AudioBook ...	https://i.ytimg.com/vi/iGHA__9z1JU/hqdefault.jpg	2025-11-22 03:16:09.029419+00	4688	\N
+19466	2dVuTvxQDnY	31718	On the Irrawaddy, A Story of the First Burmese War	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. On the Irrawaddy, A Story ...	https://i.ytimg.com/vi/2dVuTvxQDnY/hqdefault.jpg	2025-11-22 03:16:28.913482+00	2041	\N
+19467	BlHo6T-vLdI	37232	Queen Victoria	Queen Victoria by Giles Lytton STRACHEY (1880 - 1932) Genre(s): Biography & Autobiography, Modern (19th C) Read by: R. S. ...	https://i.ytimg.com/vi/BlHo6T-vLdI/hqdefault.jpg	2025-11-22 03:16:48.74161+00	315	\N
+19468	rnwv4s--MwU	16759	Prisoner B 3087	A gripping novel based on the astonishing true story of a boy who survived ten concentration camps. Based on the true story by ...	https://i.ytimg.com/vi/rnwv4s--MwU/hqdefault.jpg	2025-11-22 03:17:08.588033+00	4689	\N
+19469	k4jSVoGpW78	24888	PRISONER FOR BLASPHEMY	Prisoner for Blasphemy by George William Foote (1850 - 1915) full free audiobook ▻Subscribe for more audiobooks!	https://i.ytimg.com/vi/k4jSVoGpW78/hqdefault.jpg	2025-11-22 03:17:29.047856+00	3971	\N
+19470	zj0gEOpvIys	18182	Alcatraz		https://i.ytimg.com/vi/zj0gEOpvIys/hqdefault.jpg	2025-11-22 03:17:48.402478+00	2104	\N
+19471	z_Gn63ztd_I	24439	Six Years in the Prisons of England	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Six Years in the Prisons of ...	https://i.ytimg.com/vi/z_Gn63ztd_I/hqdefault.jpg	2025-11-22 03:18:30.944996+00	4690	\N
+19472	ZUZAgjK0A4s	25058	Prison Memoirs of an Anarchist	Get your Alexander Berkman T-shirt (and sundry products) from this link!: https://teespring.com/Alexander-Berkman-T-Shirt The ...	https://i.ytimg.com/vi/ZUZAgjK0A4s/hqdefault.jpg	2025-11-22 03:18:53.179403+00	1645	\N
+19473	WL2Kd03lxNA	30463	PRISON MEMOIRS OF AN ANARCHIST, PART 2	PRISON MEMOIRS OF AN ANARCHIST, PART 2 - Alexander Berkman FULL Audiobook SPECIAL OFFER FREE stocks: ...	https://i.ytimg.com/vi/WL2Kd03lxNA/hqdefault.jpg	2025-11-22 03:19:14.637319+00	1645	\N
+19474	nni2HUYHBbg	17502	Allan's Wife	Allan's Wife by H. Rider Haggard (1856 -- 1925) The story of Allan Quatermain's wife and further adventures of Allan Quatermain.	https://i.ytimg.com/vi/nni2HUYHBbg/hqdefault.jpg	2025-11-22 03:19:36.211609+00	934	\N
+19475	ZYtYN9CpY2Q	28261	Mists of Avalon		https://i.ytimg.com/vi/ZYtYN9CpY2Q/hqdefault.jpg	2025-11-22 03:19:56.622706+00	115	\N
+19476	JsCkB2lwlXA	19170	Anna Karenina	Anna Karenina by Leo Tolstoy Part 1 Full AudioBook Greatest AudioBooks Anna Karenina by Leo Tolstoy Part 1 Full AudioBook ...	https://i.ytimg.com/vi/JsCkB2lwlXA/hqdefault.jpg	2025-11-22 03:20:17.824402+00	407	\N
+19477	969Oolf3wnQ	21524	Space Prison		https://i.ytimg.com/vi/969Oolf3wnQ/hqdefault.jpg	2025-11-22 03:20:37.203777+00	135	\N
+19478	1ugOm5udnLs	19010	Anna Karenina	Two love stories are set against the backdrop of high society in Tsarist Russia. Anna awakes from a loveless marriage to find ...	https://i.ytimg.com/vi/1ugOm5udnLs/hqdefault.jpg	2025-11-22 03:21:00.235154+00	407	\N
+19479	Q4OW-dgIIuk	22373	The Convict		https://i.ytimg.com/vi/Q4OW-dgIIuk/hqdefault.jpg	2025-11-22 03:21:19.56472+00	2584	\N
+19480	DhPRzFoW6XI	15790	The Girl in the Golden Atom	Ray Cummings' The Girl in the Golden Atom (1919) is a groundbreaking work of early science fiction. Inspired by his background ...	https://i.ytimg.com/vi/DhPRzFoW6XI/hqdefault.jpg	2025-11-22 03:21:51.210052+00	2187	\N
+19481	zWEAGawVKmg	27287	Brigands of the Moon	Ray Cummings' Brigands of the Moon (1930) is a thrilling space adventure of piracy, betrayal, and survival in the void. When the ...	https://i.ytimg.com/vi/zWEAGawVKmg/hqdefault.jpg	2025-11-22 03:22:11.100977+00	2187	\N
+19482	LjV8NPUYUHs	27248	Brigands of the Moon	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Brigands of the Moon, Ray ...	https://i.ytimg.com/vi/LjV8NPUYUHs/hqdefault.jpg	2025-11-22 03:22:32.304038+00	4691	\N
+19483	LGKcSpNJWNw	27247	Brigands of the Moon	Brigands of the Moon by Ray Cummings / Science fiction, sci-fi, audiobook, literature, Librivox/Gregg Haljan was aware that there ...	https://i.ytimg.com/vi/LGKcSpNJWNw/hqdefault.jpg	2025-11-22 03:22:52.055401+00	2187	\N
+19484	IlKJbS4NU1A	19958	Creatures of the Abyss	Unabridged audio book - Genre(s): General Fiction Creatures of the Abyss Murray Leinster (1896 - 1975) Orejas de ellos, "the ...	https://i.ytimg.com/vi/IlKJbS4NU1A/hqdefault.jpg	2025-11-22 03:23:13.130294+00	176	\N
+19485	BGoKdl0PLlg	14981	Jetta of The Lowlands	Jetta of The Lowlands #completeaudiobook Science Fiction - Ray Cummings Subscribe to this channel and turn on notifications to ...	https://i.ytimg.com/vi/BGoKdl0PLlg/hqdefault.jpg	2025-11-22 03:23:32.66981+00	2187	\N
+19486	N7iSB3I-RmA	29500	The Fire People	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Fire People Ray ...	https://i.ytimg.com/vi/N7iSB3I-RmA/hqdefault.jpg	2025-11-22 03:23:53.970997+00	2187	\N
+19487	aYqIDLgo_dY	23638	The Girl in the Golden Atom	Ray Cummings' The Girl in the Golden Atom (1919) is a groundbreaking pulp science fiction adventure. A chemist, obsessed with ...	https://i.ytimg.com/vi/aYqIDLgo_dY/hqdefault.jpg	2025-11-22 03:24:13.642326+00	2187	\N
+19488	IEnbaQQNDjs	30996	Tarrano the Conqueror	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Tarrano the Conqueror Ray ...	https://i.ytimg.com/vi/IEnbaQQNDjs/hqdefault.jpg	2025-11-22 03:24:35.036865+00	4691	\N
+19489	doEnDutBE-Y	29334	The Fire People	Ray Cummings' The Fire People (1922) is a thrilling pulp-era science fiction tale blending adventure, romance, and cosmic ...	https://i.ytimg.com/vi/doEnDutBE-Y/hqdefault.jpg	2025-11-22 03:24:58.683842+00	2187	\N
+19490	Pvqn5vlRJ-k	19106	Wandl the Invader	Wandl the Invader by Ray Cummings | Classic Space Opera Audiobook | Interplanetary War Epic Description: Experience an ...	https://i.ytimg.com/vi/Pvqn5vlRJ-k/hqdefault.jpg	2025-11-22 03:25:18.024319+00	2187	\N
+19491	qVhn8EI8d_0	18794	Wandl the Invader	Wandl the Invader by Ray Cummings. Read in English by Mark Nelson. There were nine major planets in the Solar System and it ...	https://i.ytimg.com/vi/qVhn8EI8d_0/hqdefault.jpg	2025-11-22 03:25:38.358838+00	2187	\N
+19492	CY3h2F8-74s	26119	Brigands of the Moon	Brigands of the Moon - FULL AUDIOBOOK Ray Cummings (1887 - 1957) Gregg Haljan was aware that there was a certain ...	https://i.ytimg.com/vi/CY3h2F8-74s/hqdefault.jpg	2025-11-22 03:25:58.634487+00	2187	\N
+19493	hzCVEUf0QeI	29871	Astounding Stories	Step into the fascinating realm of classic science fiction with Ray Cummings' "Astounding Stories 10, October 1930." Through ...	https://i.ytimg.com/vi/hzCVEUf0QeI/hqdefault.jpg	2025-11-22 03:26:17.983404+00	2187	\N
+19494	EqaaP45P0mM	38505	The Girl in the Golden Atom	The Girl in the Golden Atom - FULL AUDIOBOOK Ray Cummings (1887 - 1957) While examining a golden ring under a ...	https://i.ytimg.com/vi/EqaaP45P0mM/hqdefault.jpg	2025-11-22 03:26:37.653576+00	2187	\N
+19495	yA-CeiBMTs4	29292	The Fire People	Support us on Patreon by becoming a member it helps us to sustain and provide more free audiobooks.	https://i.ytimg.com/vi/yA-CeiBMTs4/hqdefault.jpg	2025-11-22 03:26:57.123624+00	2187	\N
+19496	JS-BA60liD4	30618	Tarrano the Conqueror	In "Tarrano the Conqueror" is presented a tale of the year 2430 A.D.--a time somewhat farther beyond our present-day era than ...	https://i.ytimg.com/vi/JS-BA60liD4/hqdefault.jpg	2025-11-22 03:27:16.521428+00	2187	\N
+19497	FfDpYFNtkS0	29298	The Fire People	The Fire People Ray CUMMINGS Audiobook Chapter Time The Coming of the Light 00:00:00 The Unknown Enemy 00:16:19 The ...	https://i.ytimg.com/vi/FfDpYFNtkS0/hqdefault.jpg	2025-11-22 03:27:41.81725+00	2187	\N
+19498	YrQfhClIGmQ	18908	Wandl the Invader	Support us on Patreon by becoming a member it helps us to sustain and provide more free audiobooks.	https://i.ytimg.com/vi/YrQfhClIGmQ/hqdefault.jpg	2025-11-22 03:28:01.392917+00	2187	\N
+19499	QcywXIM7Sxw	15028	Jetta of the Lowlands	Ray Cummings' Jetta of the Lowlands (1930) is a thrilling pulp-era science fiction tale of love, danger, and adventure beneath the ...	https://i.ytimg.com/vi/QcywXIM7Sxw/hqdefault.jpg	2025-11-22 03:28:20.938227+00	2187	\N
+19500	qlFhiFxZz3k	26374	Brigands of the Moon	Brigands of the Moon, by Ray Cummings. Gregg Haljan was aware that there was a certain danger in having the giant spaceship ...	https://i.ytimg.com/vi/qlFhiFxZz3k/hqdefault.jpg	2025-11-22 03:28:40.339719+00	2187	\N
 \.
 
 
@@ -14125,6 +16781,134 @@ COPY public.authors (id, name) FROM stdin;
 4561	Terry Schott
 4562	Edward Abbey
 4563	Henry van Dyke
+4564	Ectro & Holly
+4565	H
+4566	Charles H Spurgeon
+4567	Charles Fort
+4568	Charles Dickens & others
+4569	Charles Fillmore
+4570	Charles Bukowski
+4571	Charles F. Haanel
+4572	Charles Grant
+4573	Dorothy M. Richardson
+4574	Dorothy L. SAYERS
+4575	Elizabeth F. Ellet
+4576	SINCLAIR
+4577	Dorothy Sayers
+4578	Nancy Oakley
+4579	Mark Twain; Albert Bigelow Paine
+4580	Ernest SHACKLETON
+4581	HILDEGARDE HAWTHORNE
+4582	Emily Brightwell
+4583	Anne Perry
+4584	ALDOUS HUXLEY
+4585	Clive Cussler, Michael Pritchard
+4586	Luke Richardson
+4587	Fran STRIKER
+4588	Christy Rutherford
+4589	John Kendrick Bangs
+4590	Frederik Pohl; Lester del Rey
+4591	Lester Del Ray
+4592	Lester del Rey
+4593	Katie Lane
+4594	Emma Ashwood
+4595	Giacomo Casanova
+4596	Eric Thomson
+4597	John S. Mosby (1833-1916)
+4598	John Cleland
+4599	George Edward Woodberry
+4600	Cyrus Townsend Brady
+4601	THOMAS CARLYLE
+4602	Heidi Gray McGill
+4603	Maria EDGEWORTH
+4604	Carroll Watson RANKIN
+4605	Clemence Dane
+4606	William Shakespeare, Walt Whitman et al.
+4607	Kerry Greenwood
+4608	Rufus Tate
+4609	Kelly Jackson
+4610	Runnyx
+4611	Charles L. Grant
+4612	Thomas A. Kempis
+4613	Thomas A Kempis
+4614	ST THOMAS A KEMPIS
+4615	Dolore Hitchnes
+4616	Raphael Sabatini
+4617	Barry Cornwall
+4618	Charles & Mary Lamb
+4619	Margaret Gatty
+4620	Mary Lamb
+4621	John H. Haaren
+4622	Mary Stuart
+4623	Elizabeth Jane Cochrane
+4624	Nellie BLY
+4625	R. A. S. Macalister
+4626	Peter Kropotkin
+4627	Kropotkin
+4628	Emma Goldman
+4629	John MUIR
+4630	Elizabeth Louisa GEBHARD
+4631	James
+4632	Leigh Brackett
+4633	Arthur Empey
+4634	George Macdonald
+4635	Margery Williams
+4636	E.J. Gold
+4637	Marcel ALLAIN
+4638	Apollonius of Rhodes
+4639	Benjamin Alire Saenz
+4640	Frances Calderón de la Barca
+4641	Jane D. Abbott
+4642	Agnes REPELLIER
+4643	Edgar Cayce
+4644	Edgar Cayce & Henry Reed
+4645	B. Celeste
+4646	Ernest L. Norman
+4647	Emanuel Swedenborg
+4648	William Harrison AINSWORTH
+4649	Florinda Donner
+4650	P. AGRICOLA
+4651	John R Musick
+4652	Pierre Choderlos de LACLOS
+4653	Marie Stopes
+4654	Leopold von Sacher-Masoch
+4655	Laura E. RICHARDS
+4656	Jacques Futrelle
+4657	Angela Brazil
+4658	Andrea Fraser
+4659	Rosie A. Point
+4660	An Andrea Frazer
+4661	Camille FLAMMARION
+4662	Garrett Serviss
+4663	Garrett Puttan Serviss
+4664	Jean Henri Fabre
+4665	Henry Cornelius Agrippa
+4666	Stephen KING-HALL
+4667	Vernon KELLOGG
+4668	Pao L. Chang
+4669	Jean Dubuis
+4670	PRENTICE MULFORD
+4671	Theron Q. Dumont
+4672	William Walker ATKINSON
+4673	Sir Charles G. D. Roberts
+4674	Bree Livingston
+4675	Louis MELEIU
+4676	Louis MEILIUS
+4677	Louis MEHLIS
+4678	Jason Letts
+4679	Mayne Reid
+4680	MAYNE REID
+4681	Captain Mayne Reid
+4682	Sapper
+4683	Alexander Belyaev
+4684	A. Wilson Greene
+4685	Edward Francis Wilson
+4686	Edward Keble Chatterton
+4687	The Author and Zack McCann
+4688	Constance LYTTLE
+4689	Alan Gratz
+4690	Frank Henderson
+4691	Ray CUMMINGS
 \.
 
 
@@ -60755,6 +63539,2490 @@ COPY public.skipped_videos (id, video_id, reason, "timestamp") FROM stdin;
 46652	PDIAP3asBAQ	Too short	2025-11-21 16:44:59.197857+00
 46653	PKyNg3Tohag	Too short	2025-11-21 16:47:28.299147+00
 46654	GxqeODH7vnw	Too short	2025-11-21 16:48:08.644655+00
+46655	eT7difrPLoQ	Too short	2025-11-21 19:49:13.429193+00
+46656	GAYn9ZaPgJM	Too short	2025-11-21 19:49:19.084148+00
+46657	x_fKIxgI2_c	Too short	2025-11-21 19:49:19.130395+00
+46658	4iXaFo9bJpE	Too short	2025-11-21 19:49:19.175521+00
+46659	JQvr4VQz4ZY	Too short	2025-11-21 19:49:19.256202+00
+46660	hqIn3TA9CDM	Too short	2025-11-21 19:49:19.293028+00
+46661	H1b4N0uANQ0	Too short	2025-11-21 19:49:19.333792+00
+46662	Y4IgYn3XYdE	Too short	2025-11-21 19:49:44.120435+00
+46663	l_bnW5VfaAA	Too short	2025-11-21 19:49:44.18923+00
+46664	Gl06tlH6erE	Too short	2025-11-21 19:49:44.238538+00
+46665	F5DINfI_E6g	Too short	2025-11-21 19:50:05.472255+00
+46666	5Aaj5ZXeMak	Too short	2025-11-21 19:50:05.537253+00
+46667	DvDv9qICK38	Too short	2025-11-21 19:50:09.824871+00
+46668	5dYyS0b0T1I	Too short	2025-11-21 19:50:09.859843+00
+46669	evUJ4gCquJA	Too short	2025-11-21 19:50:09.893595+00
+46670	7F1grIziVbs	Too short	2025-11-21 19:50:50.619842+00
+46671	Eh-N899Acso	Too short	2025-11-21 19:50:50.68213+00
+46672	b5MYqMzEJ2g	Too short	2025-11-21 19:50:50.725846+00
+46673	fbcwsbl3GgY	Too short	2025-11-21 19:50:50.76256+00
+46674	tGmdra8HAF0	Too short	2025-11-21 19:50:50.799913+00
+46675	b7STLS6mAwo	Too short	2025-11-21 19:50:50.832195+00
+46676	pru-MuCYy4E	Too short	2025-11-21 19:50:50.86574+00
+46677	PIUYjPT2Ru0	Too short	2025-11-21 19:50:50.901025+00
+46678	jOuU9PfcZTU	Too short	2025-11-21 19:50:50.938308+00
+46679	i1c76rJbJSk	Too short	2025-11-21 19:50:50.979974+00
+46680	vLs52Z39g_Q	Too short	2025-11-21 19:50:51.02223+00
+46681	2RVCfu2BtKE	Too short	2025-11-21 19:51:12.862803+00
+46682	CGLaJs9B_9U	Too short	2025-11-21 19:51:16.551262+00
+46683	S-h2NmhFOus	Too short	2025-11-21 19:51:16.599265+00
+46684	xWNZ0YJzFHw	Too short	2025-11-21 19:51:16.641492+00
+46685	_tAR-YIq9P4	Too short	2025-11-21 19:51:16.672383+00
+46686	T4lJjvGok-U	Too short	2025-11-21 19:51:16.714379+00
+46687	kyVGi08LqmY	Too short	2025-11-21 19:51:16.757901+00
+46688	T4Q4jrsy4oE	Too short	2025-11-21 19:51:16.798337+00
+46689	5FnnLru_YLY	Too short	2025-11-21 19:51:16.845938+00
+46690	QodjH6SHHLg	Too short	2025-11-21 19:51:16.885944+00
+46691	_HZ0CuvFL5Q	Too short	2025-11-21 19:51:16.923801+00
+46692	h4GAXc6t884	Too short	2025-11-21 19:51:16.964543+00
+46693	f2eOAmDgFxs	Too short	2025-11-21 19:51:17.006376+00
+46694	eIul196MZf4	Too short	2025-11-21 19:51:17.044815+00
+46695	XAg56jLIqJg	Too short	2025-11-21 19:51:17.079174+00
+46696	83DBXfS1Tik	Too short	2025-11-21 19:51:17.12126+00
+46697	I0TSWrVdIKw	Too short	2025-11-21 19:51:17.160196+00
+46698	55p_MLsVGFY	Too short	2025-11-21 19:51:17.206032+00
+46699	yAHnz1GoExk	Too short	2025-11-21 19:51:17.237637+00
+46700	tJfesG0Z6hA	Too short	2025-11-21 19:51:17.280699+00
+46701	tDD8Z-BWPBo	Too short	2025-11-21 19:51:20.142138+00
+46702	bNuXhQAjiR4	Too short	2025-11-21 19:51:20.253115+00
+46703	C4WCikNHxOs	Too short	2025-11-21 19:51:20.329614+00
+46704	90L3G6Qgmto	Too short	2025-11-21 19:51:20.461123+00
+46705	xufFupzFSjA	No author found	2025-11-21 19:51:26.594316+00
+46706	yW4GD3oRmFg	Too short	2025-11-21 19:53:10.169076+00
+46707	0zbMBgg5-pI	Too short	2025-11-21 19:55:38.605669+00
+46708	h-wSpxhxHRc	No author found	2025-11-21 19:57:21.084826+00
+46709	ec2L4t7Bn1o	No author found	2025-11-21 19:58:00.841918+00
+46710	VQj22oQJf6Y	Too short	2025-11-21 19:59:59.916751+00
+46711	CrFYHOx7p3E	Too short	2025-11-21 20:00:19.092494+00
+46712	qs9JXRrKnfQ	Too short	2025-11-21 20:00:38.489341+00
+46713	du8-XWtW8ZM	Too short	2025-11-21 20:02:22.541356+00
+46714	_IoTCYW3gkc	Too short	2025-11-21 20:02:41.845578+00
+46715	x5kE00JpgCc	Too short	2025-11-21 20:03:46.608804+00
+46716	VWVTbLDDqMI	Too short	2025-11-21 20:04:27.558287+00
+46717	KgTtdJMAFuc	Too short	2025-11-21 20:04:46.925645+00
+46718	2TG6jZfLYdw	No author found	2025-11-21 20:06:29.200897+00
+46719	lfNLSCju68o	Too short	2025-11-21 20:07:10.927834+00
+46720	zDuqEqhJm0c	Too short	2025-11-21 20:08:38.632208+00
+46721	VX3Vi8jQ-RE	Too short	2025-11-21 20:08:58.909587+00
+46722	DvHp-3zPVao	Too short	2025-11-21 20:08:58.973901+00
+46723	kHagdaF7eI8	Too short	2025-11-21 20:08:59.002729+00
+46724	HTMTLt8OL5U	Too short	2025-11-21 20:09:41.238028+00
+46725	R_-HSH9Y80U	Too short	2025-11-21 20:09:41.289216+00
+46726	bgeFpd3rECU	Too short	2025-11-21 20:10:03.016804+00
+46727	_bzo8q4XXyE	Too short	2025-11-21 20:10:43.188776+00
+46728	rRZI8Lqdjr4	Too short	2025-11-21 20:11:08.340614+00
+46729	frZwQJ38DDY	Too short	2025-11-21 20:11:08.428908+00
+46730	RbSr0y6k7fQ	Too short	2025-11-21 20:11:08.46389+00
+46731	g7wj3pGN_ZA	Too short	2025-11-21 20:11:08.495083+00
+46732	MNGe5IFZpXQ	No author found	2025-11-21 20:11:30.272843+00
+46733	3DRwrlVF958	Too short	2025-11-21 20:12:32.312251+00
+46734	Orl-kMmRigw	Too short	2025-11-21 20:12:32.387187+00
+46735	fpDB11cV1qk	Too short	2025-11-21 20:12:32.424042+00
+46736	LYJLvtxKQcs	Too short	2025-11-21 20:13:12.371402+00
+46737	Xxvwr0kLWY0	Too short	2025-11-21 20:13:16.684874+00
+46738	QAiOvkt9QxY	Too short	2025-11-21 20:13:16.730481+00
+46739	HWBGwMM9lCc	Too short	2025-11-21 20:13:38.468868+00
+46740	XvxNmqAGvjU	Too short	2025-11-21 20:14:21.915061+00
+46741	eIXZJVXKkRU	Too short	2025-11-21 20:17:12.068546+00
+46742	LhVfKqtr1KE	Too short	2025-11-21 20:17:53.516791+00
+46743	Yo5U-0uKeMA	Too short	2025-11-21 20:18:56.220807+00
+46744	sN5wZAPVUNk	Too short	2025-11-21 20:19:59.373208+00
+46745	1SniofCks0Q	Too short	2025-11-21 20:20:21.6439+00
+46746	IDeiJhBHkvk	Too short	2025-11-21 20:20:21.710276+00
+46747	v4FbneedfEA	Too short	2025-11-21 20:20:21.75952+00
+46748	W68KT1sFZwU	Too short	2025-11-21 20:20:42.972049+00
+46749	wXqB8XR7E7o	Too short	2025-11-21 20:21:49.521034+00
+46750	OA3qVxmG5fE	Too short	2025-11-21 20:21:49.592104+00
+46751	gUxWMDYzRQ8	Too short	2025-11-21 20:22:29.661801+00
+46752	dcTcI3-kErk	Too short	2025-11-21 20:25:19.822166+00
+46753	o7dxvt-cDLs	Too short	2025-11-21 20:26:00.753015+00
+46754	i6bjlAWqFTI	Too short	2025-11-21 20:28:07.934413+00
+46755	Ful2NwyWuZI	Too short	2025-11-21 20:28:08.000317+00
+46756	hUBJIOL1mUo	Too short	2025-11-21 20:28:08.032154+00
+46757	BELV4ATJdUY	Too short	2025-11-21 20:28:08.066353+00
+46758	S2tlwoe16tw	Too short	2025-11-21 20:28:08.10041+00
+46759	LXkmel4yERA	Too short	2025-11-21 20:28:08.135467+00
+46760	vqy1S9iF56c	Too short	2025-11-21 20:29:21.799063+00
+46761	Pbxio_lnD6M	Too short	2025-11-21 20:29:21.861506+00
+46762	vp9vRhm3zPY	Too short	2025-11-21 20:29:21.893934+00
+46763	4ewZKUgdZ_4	Too short	2025-11-21 20:29:21.926843+00
+46764	GfaqN6oFyuc	Too short	2025-11-21 20:29:21.958479+00
+46765	scNYEF1G6Tc	Too short	2025-11-21 20:29:21.990193+00
+46766	_BEeg8JOjs4	Too short	2025-11-21 20:29:22.02442+00
+46767	_zFhfT6Zkpk	Too short	2025-11-21 20:29:22.058361+00
+46768	Fvv8LgvLxxM	Too short	2025-11-21 20:29:22.097446+00
+46769	8_B4beExHbY	Too short	2025-11-21 20:29:22.136648+00
+46770	p0a0KWoUtD0	Too short	2025-11-21 20:29:22.168712+00
+46771	C93rXmQJbk8	Too short	2025-11-21 20:29:22.200237+00
+46772	n7pjyLtNjT4	Too short	2025-11-21 20:29:22.264484+00
+46773	hlbE-kcBlc8	Too short	2025-11-21 20:29:22.296978+00
+46774	8Fli_qLai5E	Too short	2025-11-21 20:29:43.923329+00
+46775	3MGIR6Zl2bg	Too short	2025-11-21 20:29:43.984786+00
+46776	sqZmcR_1Tac	Too short	2025-11-21 20:29:46.346256+00
+46777	1WQeIrn2uxM	No author found	2025-11-21 20:29:46.390941+00
+46778	DyDQv3h37CM	Too short	2025-11-21 20:30:06.595937+00
+46779	1gOhYSAFztM	Too short	2025-11-21 20:30:06.657837+00
+46780	LfGa66ziZ9Q	Too short	2025-11-21 20:30:06.706724+00
+46781	jcS3s-g6yqY	Too short	2025-11-21 20:30:06.74145+00
+46782	ZtEC_8gVyso	Too short	2025-11-21 20:30:06.791816+00
+46783	zt_koh60xWc	Too short	2025-11-21 20:30:06.827773+00
+46784	S2s1xKvLBWo	Too short	2025-11-21 20:30:09.655299+00
+46785	mcRU7TcoRvw	Too short	2025-11-21 20:30:09.69326+00
+46786	FNx7A1EU9Xk	Too short	2025-11-21 20:30:29.518841+00
+46787	_aHk8vwZWZ4	Too short	2025-11-21 20:30:29.595345+00
+46788	Sg9jXBTnNd8	Too short	2025-11-21 20:30:29.62871+00
+46789	19hLzvWYNSo	Too short	2025-11-21 20:30:29.660577+00
+46790	cM-kxWR4e80	Too short	2025-11-21 20:30:29.694256+00
+46791	3mzRwu2-zxs	Too short	2025-11-21 20:30:29.733472+00
+46792	3CgHmbClriU	No author found	2025-11-21 20:30:29.765086+00
+46793	WnDfdLsFDTM	Too short	2025-11-21 20:30:51.443475+00
+46794	4SU3RaIF3zI	Too short	2025-11-21 20:30:51.47265+00
+46795	VmibGSo5y5Q	Too short	2025-11-21 20:30:51.507475+00
+46796	UaUk3aARtuU	Too short	2025-11-21 20:30:51.536518+00
+46797	mHQ9ZEjV4b8	Too short	2025-11-21 20:30:51.567327+00
+46798	wLeGjk2Qego	Too short	2025-11-21 20:30:51.598004+00
+46799	295JhtnNAyg	Too short	2025-11-21 20:30:51.652806+00
+46800	4i_qcc6a_6U	Too short	2025-11-21 20:30:51.680362+00
+46801	So_huougKEM	Too short	2025-11-21 20:30:51.707644+00
+46802	hoJUv5-gVlc	Too short	2025-11-21 20:30:51.757705+00
+46803	2IuEhnP8WpI	Too short	2025-11-21 20:30:51.786594+00
+46804	G6kgUV792u8	Too short	2025-11-21 20:30:51.818915+00
+46805	AQNxIaofPSc	No author found	2025-11-21 20:30:51.847292+00
+46806	MPvwTIR22OI	Too short	2025-11-21 20:31:12.039866+00
+46807	AGTNbldurjE	Too short	2025-11-21 20:31:33.703893+00
+46808	pRyWs40bKmA	Too short	2025-11-21 20:31:39.067544+00
+46809	cbdjC9Rm-Jw	Too short	2025-11-21 20:31:39.129948+00
+46810	R2S2WmoftrI	Too short	2025-11-21 20:31:58.931318+00
+46811	jcgYHSdVBRs	Too short	2025-11-21 20:31:58.999218+00
+46812	lABXs9XEaNI	Too short	2025-11-21 20:31:59.070845+00
+46813	XvVi9_wCdNs	Too short	2025-11-21 20:31:59.106227+00
+46814	8vt6XINjeQs	Too short	2025-11-21 20:32:38.230735+00
+46815	mL1fZOP1Ctw	Too short	2025-11-21 20:32:38.293215+00
+46816	O9KbZ4Gzh4I	Too short	2025-11-21 20:32:38.329074+00
+46817	XMbVr9UpOvs	Too short	2025-11-21 20:32:57.99588+00
+46818	z-H5sroyR8g	No author found	2025-11-21 20:33:17.834875+00
+46819	MRrytZI3LdQ	Too short	2025-11-21 20:33:57.823047+00
+46820	JnV4bWrpuxE	Too short	2025-11-21 20:33:57.929919+00
+46821	Qra-Jj8EOvE	Too short	2025-11-21 20:33:58.015956+00
+46822	EO0RxEO-1jo	No author found	2025-11-21 20:37:22.610208+00
+46823	YDWaaC9oHjY	No author found	2025-11-21 20:37:42.64583+00
+46824	Y7ZcgxzGMUE	Too short	2025-11-21 20:39:24.184337+00
+46825	Xpz6tyzkffE	Too short	2025-11-21 20:40:30.335562+00
+46826	zklCHtW-A5s	Too short	2025-11-21 20:40:52.892485+00
+46827	ju5hNvxyxfc	Too short	2025-11-21 20:41:34.145882+00
+46828	VZ3xwlj3EHI	Too short	2025-11-21 20:41:55.653138+00
+46829	YSWf0vKwvvY	Too short	2025-11-21 20:41:55.768033+00
+46830	HsmveV6at78	Too short	2025-11-21 20:41:55.802049+00
+46831	4mQlikMstHQ	Too short	2025-11-21 20:42:17.525204+00
+46832	OVUwYaKrJuw	Too short	2025-11-21 20:42:17.57854+00
+46833	alrRPj68GMQ	Too short	2025-11-21 20:42:21.346942+00
+46834	UYSdSKzmX3E	Too short	2025-11-21 20:42:21.370311+00
+46835	jSJuAQLZBE8	Too short	2025-11-21 20:42:21.394868+00
+46836	JKpzlZ2OlhI	Too short	2025-11-21 20:42:40.998058+00
+46837	Yh53QtEl9sE	Too short	2025-11-21 20:43:03.263534+00
+46838	vuIYgLwsUIg	Too short	2025-11-21 20:43:06.219875+00
+46839	V5fR-M6MqoY	Too short	2025-11-21 20:43:06.241963+00
+46840	hNl3hTizXT4	Too short	2025-11-21 20:43:06.266148+00
+46841	fAmdGzaFXOw	Too short	2025-11-21 20:43:06.289078+00
+46842	QN_e6YOWTqo	Too short	2025-11-21 20:43:06.374506+00
+46843	dF2s4L9Z5Ac	No author found	2025-11-21 20:43:27.04671+00
+46844	8dWT6bn9cts	Not in English (det. by LLM)	2025-11-21 20:45:11.735979+00
+46845	yw0w8BGUAow	Too short	2025-11-21 20:45:35.653911+00
+46846	mQtNsCeCssc	Too short	2025-11-21 20:45:35.72026+00
+46847	QcztWQjXim0	Not in English (det. by LLM)	2025-11-21 20:45:35.747685+00
+46848	XoLbGZJoZvM	Too short	2025-11-21 20:47:19.185723+00
+46849	5qVqKgq1Jus	Too short	2025-11-21 20:47:19.258641+00
+46850	PFdTTNzd3B8	Too short	2025-11-21 20:47:39.781035+00
+46851	ULVntti4Ja8	Too short	2025-11-21 20:47:39.850593+00
+46852	ISKb163zN_8	Too short	2025-11-21 20:48:05.414375+00
+46853	L3dWnWIE4n0	Too short	2025-11-21 20:49:26.556441+00
+46854	neLb2w52opQ	Too short	2025-11-21 20:50:09.255497+00
+46855	PUrS3rTWcnQ	Too short	2025-11-21 20:52:12.587169+00
+46856	8l1hBOaJqiQ	Too short	2025-11-21 20:52:12.662145+00
+46857	p9WrMI2m8bM	Too short	2025-11-21 20:52:32.401173+00
+46858	z74ocjKvZbI	Too short	2025-11-21 20:55:08.054214+00
+46859	pAmCB48vGBw	Too short	2025-11-21 20:55:08.113637+00
+46860	P8RQ8EHj8FU	Too short	2025-11-21 20:55:08.135245+00
+46861	_-HJyPgGWms	Too short	2025-11-21 20:55:27.763353+00
+46862	VBh_GHH2c1c	Too short	2025-11-21 20:55:27.833996+00
+46863	zwSQhCqlsK0	Too short	2025-11-21 20:55:27.862255+00
+46864	noDw6HEjOKg	Too short	2025-11-21 20:55:27.883968+00
+46865	hP6Tm11Z9pc	Too short	2025-11-21 20:55:27.910208+00
+46866	1ziE0Nv5Iyc	Too short	2025-11-21 20:55:47.555856+00
+46867	l_IOgqIhZnY	Too short	2025-11-21 20:55:47.619556+00
+46868	_FGpMxaS10M	Too short	2025-11-21 20:55:47.641512+00
+46869	Z6_yvukk4Lo	Too short	2025-11-21 20:56:29.40179+00
+46870	Sz61vHuMFXs	Too short	2025-11-21 20:56:29.467859+00
+46871	VkPyw34Wtgg	Too short	2025-11-21 20:57:54.884795+00
+46872	SxNuCQVabwA	Too short	2025-11-21 20:57:54.939845+00
+46873	PU3CPU9nqVc	Too short	2025-11-21 20:57:54.964684+00
+46874	wl1VFql4Qt4	Too short	2025-11-21 20:58:14.808216+00
+46875	0YYykAzZ92c	Too short	2025-11-21 20:58:14.866674+00
+46876	r_iJ047uxUM	Too short	2025-11-21 20:58:14.894488+00
+46877	84KWq5PjMtA	Too short	2025-11-21 20:58:35.215944+00
+46878	oqFIYfYqdDc	Too short	2025-11-21 20:59:16.542191+00
+46879	vONk7kQ3oQM	No author found	2025-11-21 20:59:38.588399+00
+46880	GGMed-5TgGQ	Too short	2025-11-21 20:59:58.419531+00
+46881	BV90POmnbbQ	Too short	2025-11-21 21:00:39.39765+00
+46882	rFzF1nkn-_c	Too short	2025-11-21 21:00:39.451111+00
+46883	eM4Gklmp1lw	Too short	2025-11-21 21:01:00.682244+00
+46884	s-ChWs-63Ec	Too short	2025-11-21 21:01:00.741715+00
+46885	NpkipRt-tdk	Too short	2025-11-21 21:01:00.776853+00
+46886	MUtNjxTEkSQ	Too short	2025-11-21 21:01:21.193008+00
+46887	-AUfvCMynhk	Too short	2025-11-21 21:02:01.610487+00
+46888	LyPdcgdjnko	Too short	2025-11-21 21:02:04.983765+00
+46889	axe5__WO1uw	Too short	2025-11-21 21:02:05.021689+00
+46890	Lx83z_qaKt4	Too short	2025-11-21 21:02:05.047365+00
+46891	0-jBS-UdBWg	Too short	2025-11-21 21:02:46.43085+00
+46892	-b_np4Rjd0A	Too short	2025-11-21 21:02:46.490907+00
+46893	PC9cITHxaaU	Too short	2025-11-21 21:02:46.518903+00
+46894	aQCy3aFoCUk	Too short	2025-11-21 21:02:46.595752+00
+46895	IHyFSclWdKI	Too short	2025-11-21 21:02:46.618526+00
+46896	vNs4tXwrTqg	Too short	2025-11-21 21:03:06.119557+00
+46897	3llsdHPOqUI	Too short	2025-11-21 21:03:31.529475+00
+46898	n7xVLeZQ8ao	Too short	2025-11-21 21:03:31.607022+00
+46899	iFeFuCjQFHs	Too short	2025-11-21 21:03:31.667114+00
+46900	EAsZWE2ATU0	Too short	2025-11-21 21:03:31.694278+00
+46901	X6ObVE5ELGA	Too short	2025-11-21 21:03:31.721111+00
+46902	LhC-PoOomAE	Too short	2025-11-21 21:03:31.750664+00
+46903	eU2ePTuKDPw	Too short	2025-11-21 21:04:10.980771+00
+46904	mWmerKoh_kk	Too short	2025-11-21 21:04:11.032176+00
+46905	3d1cEGDbVWY	Not in English (det. by LLM)	2025-11-21 21:05:38.013301+00
+46906	2a6tZrC-PA4	Too short	2025-11-21 21:06:40.56673+00
+46907	BftTaUto8KE	Too short	2025-11-21 21:07:00.494545+00
+46908	HANkhj8l3_Y	Too short	2025-11-21 21:07:00.554944+00
+46909	k3JtgQ-zbiQ	Not in English (det. by LLM)	2025-11-21 21:10:07.941319+00
+46910	2Rx2owEkwIs	No author found	2025-11-21 21:10:34.232251+00
+46911	t4cR_R9CdnA	Too short	2025-11-21 21:11:35.207579+00
+46912	CPWT5vWAkJI	Too short	2025-11-21 21:11:35.26034+00
+46913	Ef_AeZx8wXY	Too short	2025-11-21 21:12:18.499829+00
+46914	VeEdA5W2EWM	Too short	2025-11-21 21:12:18.576704+00
+46915	9jw6OQAZAQ0	Too short	2025-11-21 21:12:18.602166+00
+46916	kS7Ont16QYw	Too short	2025-11-21 21:12:38.061323+00
+46917	hSGBMExhWK0	Too short	2025-11-21 21:12:38.124168+00
+46918	M_sbEXcp7_o	Too short	2025-11-21 21:13:42.770777+00
+46919	_PvhyeGQBRg	Too short	2025-11-21 21:13:42.826931+00
+46920	znFXlIDGHbA	Too short	2025-11-21 21:13:42.854855+00
+46921	fpRqOEpD0BE	Too short	2025-11-21 21:13:42.882104+00
+46922	5ZuKrPHNqik	Not in English (det. by LLM)	2025-11-21 21:14:03.70164+00
+46923	en__5IqqDmM	Too short	2025-11-21 21:15:26.573939+00
+46924	2Ubkf8Gn61o	Too short	2025-11-21 21:15:26.652947+00
+46925	5AOxFzak8xo	Too short	2025-11-21 21:15:26.683482+00
+46926	eKD-tcTIHRQ	Not in English (det. by LLM)	2025-11-21 21:15:26.709788+00
+46927	JvzJtd4ylvc	Too short	2025-11-21 21:15:28.211776+00
+46928	EkakstVEufw	Too short	2025-11-21 21:15:28.239682+00
+46929	HHuN2OthqGY	Too short	2025-11-21 21:15:28.266388+00
+46930	RRNWqklLdzo	Too short	2025-11-21 21:15:48.498914+00
+46931	WuOlE55YUu8	Too short	2025-11-21 21:15:53.104096+00
+46932	nGPC-BQlKBc	Too short	2025-11-21 21:15:53.131198+00
+46933	vUGoyyCPopE	Too short	2025-11-21 21:15:53.159306+00
+46934	vWN8YEyz45U	Too short	2025-11-21 21:15:53.188372+00
+46935	dwmIaOHPZac	Too short	2025-11-21 21:15:53.215325+00
+46936	aC6Xp0HQ6YM	Too short	2025-11-21 21:15:53.24198+00
+46937	c8dAsaurjOQ	Too short	2025-11-21 21:15:53.269281+00
+46938	Jim5Cjn7ip4	Too short	2025-11-21 21:15:53.296673+00
+46939	tUbYUxMyHD8	Too short	2025-11-21 21:15:53.328749+00
+46940	z10HRFTP5ac	Too short	2025-11-21 21:15:53.357072+00
+46941	DWxAXeae5LE	Too short	2025-11-21 21:15:53.384372+00
+46942	frJO6ywRbqg	Too short	2025-11-21 21:15:53.414+00
+46943	LWGvTFrcE8Y	Too short	2025-11-21 21:15:53.441387+00
+46944	9ggXxlaele0	Too short	2025-11-21 21:15:53.470443+00
+46945	mXmklbavTkA	Too short	2025-11-21 21:15:53.497133+00
+46946	MA6rjut2xTU	Too short	2025-11-21 21:15:53.530475+00
+46947	M-h1HJYphv8	Too short	2025-11-21 21:16:14.64589+00
+46948	bYaiGWWMs2M	Too short	2025-11-21 21:18:16.068902+00
+46949	caaF-IgJR8s	Too short	2025-11-21 21:18:36.011132+00
+46950	HgAE8EOafTI	Too short	2025-11-21 21:19:16.819942+00
+46951	RV5bDlDVVX0	Too short	2025-11-21 21:20:18.964001+00
+46952	SuF5LxEWHFE	Too short	2025-11-21 21:20:19.016528+00
+46953	ZUYslfFvLaQ	Too short	2025-11-21 21:20:19.041453+00
+46954	xtB1-NYwksw	Too short	2025-11-21 21:20:38.738739+00
+46955	yXN9OGAg99k	Too short	2025-11-21 21:20:38.789721+00
+46956	clRZlEOAEFo	Too short	2025-11-21 21:21:01.652047+00
+46957	M28tEdOVbZM	Too short	2025-11-21 21:21:01.72038+00
+46958	TOmLSFPVvP8	Too short	2025-11-21 21:21:01.76112+00
+46959	UMNgeQGFG7E	Too short	2025-11-21 21:21:01.805898+00
+46960	YS4jGSwdBnw	Too short	2025-11-21 21:21:01.836219+00
+46961	GEGkTLCMtyQ	Too short	2025-11-21 21:21:01.936416+00
+46962	O09_BOTQ9f8	Too short	2025-11-21 21:21:02.360754+00
+46963	uuZrUnssRcE	Too short	2025-11-21 21:21:02.685382+00
+46964	-2mPGyrnfBc	Too short	2025-11-21 21:21:02.717354+00
+46965	u9hU8UxYkwk	Too short	2025-11-21 21:21:02.74703+00
+46966	9jF8Tu0viPc	Too short	2025-11-21 21:21:02.77812+00
+46967	MtxGJpjCezU	Too short	2025-11-21 21:21:24.38087+00
+46968	TkAeyGDxuGU	Too short	2025-11-21 21:21:24.432663+00
+46969	f5Nq7HA1vHI	Too short	2025-11-21 21:21:24.458086+00
+46970	L0D5-YRagOA	Too short	2025-11-21 21:21:24.486114+00
+46971	NUelbZ0KaL8	Too short	2025-11-21 21:21:24.509824+00
+46972	fD9VYnZqzf8	Too short	2025-11-21 21:21:24.535201+00
+46973	SXIBrgXeVS4	Too short	2025-11-21 21:21:24.559611+00
+46974	V-a63UaADbA	Too short	2025-11-21 21:21:24.584042+00
+46975	fABJmMMEB7k	Too short	2025-11-21 21:21:24.609313+00
+46976	Kf9Jb0PCtBM	Too short	2025-11-21 21:21:24.63781+00
+46977	l0XZmJ6KXhA	Too short	2025-11-21 21:21:24.669119+00
+46978	68o9A-YDoLc	Too short	2025-11-21 21:21:24.695303+00
+46979	xIlHnq3XB6A	Too short	2025-11-21 21:21:24.7223+00
+46980	h--gRNgt99M	Too short	2025-11-21 21:21:24.746399+00
+46981	VcZrxNZ7GYU	No author found	2025-11-21 21:21:24.770805+00
+46982	eY_pk4UYq5o	Too short	2025-11-21 21:21:44.689686+00
+46983	kQzwQeDD6co	Too short	2025-11-21 21:21:47.499925+00
+46984	fVCSbKqwejE	Too short	2025-11-21 21:21:47.525968+00
+46985	Sl8RgWPrEyY	Too short	2025-11-21 21:21:47.551048+00
+46986	zgWKS6Qtu2o	Too short	2025-11-21 21:21:47.585872+00
+46987	fHw2Hx_H3j4	Too short	2025-11-21 21:21:47.614587+00
+46988	peWK7CRXym4	Too short	2025-11-21 21:21:47.662292+00
+46989	8GBoMsjeSpU	Too short	2025-11-21 21:21:47.686274+00
+46990	mth7ORIMyas	Too short	2025-11-21 21:21:47.734095+00
+46991	lxcprk3K5P0	Too short	2025-11-21 21:21:47.765172+00
+46992	U_l2U1u0IAA	Too short	2025-11-21 21:21:47.791027+00
+46993	HlFzoD6a82A	Too short	2025-11-21 21:21:47.815289+00
+46994	7sDGJCoJw9M	Too short	2025-11-21 21:21:47.844855+00
+46995	ynDentEGV9I	Too short	2025-11-21 21:21:47.870468+00
+46996	SCdAdM8v7HU	Too short	2025-11-21 21:21:51.162943+00
+46997	Ad-F7lCdiMo	Too short	2025-11-21 21:21:51.190447+00
+46998	up1WaItwM0E	Too short	2025-11-21 21:21:51.217597+00
+46999	SZSx-NJgqR8	Too short	2025-11-21 21:21:51.246461+00
+47000	dWQ7HtqAlNg	Too short	2025-11-21 21:21:51.298812+00
+47001	tPPi45TFKUU	Too short	2025-11-21 21:21:51.32735+00
+47002	szBr5IxW_tk	Too short	2025-11-21 21:21:51.439062+00
+47003	Gnz7xZTNQ9Q	Too short	2025-11-21 21:21:51.467184+00
+47004	Yzs1bx02T8g	Too short	2025-11-21 21:21:51.519664+00
+47005	_fGeycIBEIo	Too short	2025-11-21 21:21:51.545556+00
+47006	j8W1fwISHrA	Too short	2025-11-21 21:22:13.234321+00
+47007	r82OwlWf_LA	Too short	2025-11-21 21:22:13.292674+00
+47008	fCYQgrMv7cc	Too short	2025-11-21 21:22:55.398359+00
+47009	r_vDFjDGNY4	Too short	2025-11-21 21:22:55.448543+00
+47010	J65ZYDpOl4I	Too short	2025-11-21 21:22:55.472651+00
+47011	5xeP50We93s	Too short	2025-11-21 21:22:57.400657+00
+47012	N_KenPAW80c	Too short	2025-11-21 21:22:57.427553+00
+47013	jJMHV4NikVg	Too short	2025-11-21 21:22:57.452256+00
+47014	YqOdZfDS088	Too short	2025-11-21 21:22:57.479902+00
+47015	xYFdb4lFvuc	Too short	2025-11-21 21:22:57.505374+00
+47016	9Roq1W9-H9Y	Too short	2025-11-21 21:23:18.986894+00
+47017	LyPoTntFNtQ	Too short	2025-11-21 21:23:19.042239+00
+47018	Vni3_lpAHR4	Too short	2025-11-21 21:23:19.068323+00
+47019	4m9Wy9ytJDM	Too short	2025-11-21 21:23:19.094263+00
+47020	I0b3yk92tQw	Too short	2025-11-21 21:23:19.120545+00
+47021	hE8p5p-MXT8	Too short	2025-11-21 21:23:19.14806+00
+47022	0k-OdAZOoK8	Too short	2025-11-21 21:23:19.175902+00
+47023	CFnOKwCXj3E	Too short	2025-11-21 21:23:40.39798+00
+47024	bHy1vjFnLG4	Too short	2025-11-21 21:23:40.45034+00
+47025	uKHiIfYylbo	Too short	2025-11-21 21:23:40.474598+00
+47026	6nshUnnAut8	Too short	2025-11-21 21:23:40.499733+00
+47027	NsOJOemhtHc	Too short	2025-11-21 21:23:43.006234+00
+47028	yVek2ZGMFdo	Too short	2025-11-21 21:23:43.033175+00
+47029	0o629eRLCUU	Too short	2025-11-21 21:23:43.058688+00
+47030	xxZUZziRVeo	Too short	2025-11-21 21:23:43.08534+00
+47031	zsRXdrxkaaA	Too short	2025-11-21 21:23:43.115711+00
+47032	SG2jjyM4fO0	Too short	2025-11-21 21:23:43.144166+00
+47033	ftIZxBUps18	Too short	2025-11-21 21:23:43.175184+00
+47034	sd9NFr0YmHw	Too short	2025-11-21 21:23:43.236696+00
+47035	T7Xy8M1aq_0	Too short	2025-11-21 21:23:43.270357+00
+47036	4EgqVZMgo68	Too short	2025-11-21 21:23:43.297723+00
+47037	aKfbOuVztaY	Too short	2025-11-21 21:23:43.350319+00
+47038	rVi9ixcpV6s	Too short	2025-11-21 21:23:43.382018+00
+47039	PpIdzi6q2-8	Too short	2025-11-21 21:23:43.411569+00
+47040	z0PuQGK_sy4	Too short	2025-11-21 21:23:43.442239+00
+47041	0YNxE05LypI	Too short	2025-11-21 21:23:43.471445+00
+47042	BSjBKOs3bek	Too short	2025-11-21 21:23:43.503135+00
+47043	PaFqSRJeiF4	Too short	2025-11-21 21:24:08.790052+00
+47044	nXHzH7em198	Too short	2025-11-21 21:24:08.873503+00
+47045	eWV1ABxXz1M	Too short	2025-11-21 21:24:08.900777+00
+47046	SfyoF8fQgE0	Too short	2025-11-21 21:24:08.932582+00
+47047	CVX2ELHtP_c	Too short	2025-11-21 21:24:08.981075+00
+47048	fzdrbZxxxCQ	Too short	2025-11-21 21:24:09.008893+00
+47049	qFtVuyDFEIk	Too short	2025-11-21 21:24:09.036953+00
+47050	V9flOW96zCA	Too short	2025-11-21 21:24:09.06459+00
+47051	y23U9-AKzoM	Too short	2025-11-21 21:24:09.123288+00
+47052	05RXgBwGmjo	Too short	2025-11-21 21:24:09.155364+00
+47053	OwLbURg401M	Too short	2025-11-21 21:24:09.181962+00
+47054	qeS6-_bPM4E	Too short	2025-11-21 21:24:09.209707+00
+47055	mSeslBpLFjU	Too short	2025-11-21 21:24:09.234768+00
+47056	N0ei8VzR6p0	Too short	2025-11-21 21:24:40.384596+00
+47057	OlZVtOnqSNU	Too short	2025-11-21 21:24:40.464538+00
+47058	lbeoz_rZVdY	Too short	2025-11-21 21:24:40.487383+00
+47059	aQbW4J_HNCc	Too short	2025-11-21 21:24:40.512294+00
+47060	5YdJUQT-KRE	Too short	2025-11-21 21:25:01.426007+00
+47061	T1GUORLaYhM	Too short	2025-11-21 21:25:20.280093+00
+47062	7goJy7SbJNo	Too short	2025-11-21 21:25:20.305429+00
+47063	h8JwYXjOF2M	Too short	2025-11-21 21:25:20.331645+00
+47064	-f5xV9dMuWA	Too short	2025-11-21 21:25:20.359354+00
+47065	ASIAxUXnfYk	Too short	2025-11-21 21:25:20.398231+00
+47066	xGO5Rvnjosw	Not in English (det. by LLM)	2025-11-21 21:25:20.435412+00
+47067	8-f67i5mlEw	Too short	2025-11-21 21:25:21.343668+00
+47068	ATrPGhcJZrY	Too short	2025-11-21 21:25:21.387614+00
+47069	dAnnhgC1g8s	Too short	2025-11-21 21:25:21.444202+00
+47070	AKFjEbPwKf4	Too short	2025-11-21 21:25:21.470237+00
+47071	u5U8ghq_SSs	Too short	2025-11-21 21:25:43.343853+00
+47072	8wYE1FphGBo	Too short	2025-11-21 21:26:04.536961+00
+47073	yqGExxBwQNg	Too short	2025-11-21 21:26:04.611587+00
+47074	PMtO_XhDZoA	Too short	2025-11-21 21:26:24.169877+00
+47075	cq51-rZ2qXg	Too short	2025-11-21 21:26:24.262568+00
+47076	IvaBvy1NQfI	Not in English (det. by LLM)	2025-11-21 21:26:28.155566+00
+47077	GrbJVd540QA	Too short	2025-11-21 21:26:29.903426+00
+47078	8_PPLfrx4Uk	Too short	2025-11-21 21:26:29.951922+00
+47079	Urs7LaguP-k	Too short	2025-11-21 21:26:29.974556+00
+47080	xWD9IrXk99o	Too short	2025-11-21 21:26:49.682105+00
+47081	84e7Oan-6z0	Not in English (det. by LLM)	2025-11-21 21:26:49.760936+00
+47082	484bkGG7iv4	Too short	2025-11-21 21:27:11.892329+00
+47083	w4K-J0elguk	Too short	2025-11-21 21:27:11.978152+00
+47084	MlE8dt7O4Kk	Too short	2025-11-21 21:27:12.001529+00
+47085	__1V9jcxTK8	Too short	2025-11-21 21:27:31.69431+00
+47086	uU0kY8aST4w	Too short	2025-11-21 21:27:31.76155+00
+47087	Lm67Q1CHRG4	Not in English (det. by LLM)	2025-11-21 21:27:31.781043+00
+47088	ZfBJQXA5f5E	Too short	2025-11-21 21:27:33.370287+00
+47089	lecdp7-LXMI	Too short	2025-11-21 21:27:35.743008+00
+47090	LJEjVx3XGEg	Too short	2025-11-21 21:27:35.765712+00
+47091	F1i4a6ckhFQ	Too short	2025-11-21 21:27:35.789006+00
+47092	2NZyG9eCvo0	Too short	2025-11-21 21:27:35.811265+00
+47093	BoIKl1mo-CA	No author found	2025-11-21 21:29:28.958154+00
+47094	z-0WaXiM_C0	No author found	2025-11-21 21:29:49.738204+00
+47095	H4A_aeA6tfw	Too short	2025-11-21 21:30:11.481269+00
+47096	AH3HPw5jvq8	Too short	2025-11-21 21:30:31.545295+00
+47097	oAj9GDVNKmk	No author found	2025-11-21 21:30:53.200861+00
+47098	eFa5x68Ljf8	Too short	2025-11-21 21:31:53.598775+00
+47099	9ppaGjkyoow	Too short	2025-11-21 21:31:53.669021+00
+47100	J79EIw6m8oQ	No author found	2025-11-21 21:31:53.710709+00
+47101	rIv1C5yrtkg	Too short	2025-11-21 21:32:13.814281+00
+47102	nok2apxbA8s	Too short	2025-11-21 21:32:54.910242+00
+47103	Yx61S4_7ayg	Too short	2025-11-21 21:32:58.204655+00
+47104	UNyxCfWJ9Fs	Too short	2025-11-21 21:32:58.230892+00
+47105	iSiuuX3ONMM	Too short	2025-11-21 21:32:58.252803+00
+47106	mpccuyXQ8pU	Too short	2025-11-21 21:32:58.277745+00
+47107	tObLmHbFg2M	Too short	2025-11-21 21:32:58.299989+00
+47108	C3Ecw1dOdB8	Too short	2025-11-21 21:32:58.321698+00
+47109	ZPNXm8n9830	Too short	2025-11-21 21:32:58.364161+00
+47110	HIJhmGm8Qhs	Too short	2025-11-21 21:32:58.385953+00
+47111	8KYjPQYPee0	Too short	2025-11-21 21:32:58.407011+00
+47112	RmAxNgENx0Q	Too short	2025-11-21 21:32:58.428884+00
+47113	cR_5c-wsRJ4	Too short	2025-11-21 21:32:58.450922+00
+47114	lyCN9MSuTVY	Too short	2025-11-21 21:32:58.472402+00
+47115	pqidtHQuH98	Too short	2025-11-21 21:33:02.058246+00
+47116	u-KYap7gfbE	Too short	2025-11-21 21:33:02.10943+00
+47117	8sJmZJbaqmQ	Too short	2025-11-21 21:33:02.137798+00
+47118	KZawBsosXLY	Too short	2025-11-21 21:33:02.157219+00
+47119	pN2cxQFUaGg	Too short	2025-11-21 21:33:02.201228+00
+47120	uAoeNdtamAE	Too short	2025-11-21 21:33:02.224397+00
+47121	cTA1SEmdI8Y	Too short	2025-11-21 21:33:02.273477+00
+47122	Raufgt-k0UM	Too short	2025-11-21 21:33:05.002431+00
+47123	cCtrn4fhmVo	Too short	2025-11-21 21:33:05.024885+00
+47124	U9R4-e9rMz4	Too short	2025-11-21 21:33:24.774194+00
+47125	x1lP7G-kRxw	Too short	2025-11-21 21:33:44.361008+00
+47126	X0noqUYN0YE	Too short	2025-11-21 21:33:44.429416+00
+47127	hjrQ2uSr7TE	Too short	2025-11-21 21:34:04.195925+00
+47128	fPKxZFrPbV8	Too short	2025-11-21 21:34:04.253373+00
+47129	fhn3BvYk9tQ	Too short	2025-11-21 21:34:04.275552+00
+47130	ZqaDCC54FYw	Too short	2025-11-21 21:34:04.29719+00
+47131	_KLHRvz4udI	No author found	2025-11-21 21:34:28.164726+00
+47132	nS2KETv37UY	Too short	2025-11-21 21:34:50.171246+00
+47133	QI4_MfVtPto	Too short	2025-11-21 21:34:50.200892+00
+47134	zovm-lYXORw	Too short	2025-11-21 21:34:50.228622+00
+47135	TphJGeQAOCk	No author found	2025-11-21 21:35:13.317047+00
+47136	e_FvQamIxBQ	No author found	2025-11-21 21:35:34.312868+00
+47137	yJHn0WpYWfU	Too short	2025-11-21 21:35:56.46539+00
+47138	ALkn_4pRCWs	Too short	2025-11-21 21:35:56.492163+00
+47139	5P8PCGgnnmQ	Too short	2025-11-21 21:35:56.514564+00
+47140	319FlKgzy6M	Too short	2025-11-21 21:35:56.536441+00
+47141	9_RkuClN7Fs	Too short	2025-11-21 21:35:56.558335+00
+47142	ED6bQoPRWIQ	Too short	2025-11-21 21:35:56.580819+00
+47143	utWR_CQPA7k	Too short	2025-11-21 21:35:56.602627+00
+47144	0dUdd3MY59U	Too short	2025-11-21 21:35:56.625031+00
+47145	K986gZfudR4	Too short	2025-11-21 21:35:59.389095+00
+47146	RMspVSUoef8	Too short	2025-11-21 21:35:59.412674+00
+47147	rmB3KUr3nxk	Too short	2025-11-21 21:35:59.435899+00
+47148	iAKrwfFYy_A	Too short	2025-11-21 21:35:59.459036+00
+47149	XkODjTw2Fos	Too short	2025-11-21 21:35:59.481881+00
+47150	kY-mDlDoEMQ	Too short	2025-11-21 21:35:59.572863+00
+47151	Fp0RcVpDovE	Too short	2025-11-21 21:35:59.595076+00
+47152	cOYcAK6IDok	Too short	2025-11-21 21:35:59.617538+00
+47153	PgXQVCE3dRw	Too short	2025-11-21 21:35:59.639812+00
+47154	ZziF4OgNbNU	Too short	2025-11-21 21:36:03.59405+00
+47155	03bISPao31s	Too short	2025-11-21 21:36:03.616594+00
+47156	tgi2b8zeHo8	Too short	2025-11-21 21:36:03.660538+00
+47157	pyofBRYOZxE	Too short	2025-11-21 21:36:03.684673+00
+47158	hQOgGp3KSm8	Too short	2025-11-21 21:36:03.813474+00
+47159	aR2eFjARnzQ	Too short	2025-11-21 21:36:03.836377+00
+47160	eB-qPgieShM	Too short	2025-11-21 21:36:03.858772+00
+47161	IdzG-fX_Q40	Too short	2025-11-21 21:36:03.901631+00
+47162	05DM_rh6mxo	Too short	2025-11-21 21:38:59.479105+00
+47163	_02VEgelL88	Too short	2025-11-21 21:38:59.556746+00
+47164	sDccydAxxG8	Too short	2025-11-21 21:38:59.580302+00
+47165	ZSRPeQDt1yc	Too short	2025-11-21 21:38:59.602204+00
+47166	lSynXr6e7Hs	Too short	2025-11-21 21:38:59.625907+00
+47167	p3ZsrtDUYmw	Too short	2025-11-21 21:38:59.648543+00
+47168	EvE7jM4uIco	No author found	2025-11-21 21:39:20.532154+00
+47169	N5ypP-Oa_bw	No author found	2025-11-21 21:39:42.50447+00
+47170	-L7I5XdBlts	Too short	2025-11-21 21:40:22.67063+00
+47171	axQNUx8tA4s	Too short	2025-11-21 21:41:04.613542+00
+47172	hRXiAmLhjAc	Too short	2025-11-21 21:41:04.72551+00
+47173	aNf6h3d65cY	Too short	2025-11-21 21:41:04.748504+00
+47174	ZuoPFLHUxTg	No author found	2025-11-21 21:41:50.99243+00
+47175	0WuRs4xe5-A	Too short	2025-11-21 21:42:11.954228+00
+47176	PXQzilOqLwM	Too short	2025-11-21 21:42:11.977618+00
+47177	0D_wL_mRUMc	Too short	2025-11-21 21:42:12.000352+00
+47178	qk5WxSDIkHQ	Too short	2025-11-21 21:42:12.022257+00
+47179	X-P1tCZMUoM	Too short	2025-11-21 21:42:12.044282+00
+47180	e2vMeLIPTlc	Too short	2025-11-21 21:42:12.066756+00
+47181	AWHMcP7pA_Y	Too short	2025-11-21 21:42:12.089499+00
+47182	DNbRgmJWeTI	Too short	2025-11-21 21:42:32.907786+00
+47183	jwMgEpELxVo	Too short	2025-11-21 21:42:32.969338+00
+47184	8FDclEoF6PM	Too short	2025-11-21 21:42:32.991127+00
+47185	TYj2PhiCRuk	Too short	2025-11-21 21:47:51.314962+00
+47186	E2ocimsrkxQ	Too short	2025-11-21 21:51:03.086714+00
+47187	NQsLaPknr1c	Too short	2025-11-21 21:51:03.155402+00
+47188	C-9Cr6QdINc	Too short	2025-11-21 21:51:47.573133+00
+47189	ECHJnRcK3hI	Too short	2025-11-21 21:51:47.630315+00
+47190	YMR8wGkySvI	Too short	2025-11-21 21:52:21.373306+00
+47191	8XxP_jUiX0I	Too short	2025-11-21 21:53:42.708397+00
+47192	tI4V3zGHmmE	Too short	2025-11-21 21:53:42.77017+00
+47193	LUmnGNzw63g	Too short	2025-11-21 21:55:26.747155+00
+47194	Dntt-uZgmJ0	Not in English (det. by LLM)	2025-11-21 21:57:09.689529+00
+47195	OhY6FzYrb4U	Too short	2025-11-21 21:58:14.208557+00
+47196	98kU6kdn5yg	Too short	2025-11-21 21:58:17.755988+00
+47197	nQW1dVvViU4	Too short	2025-11-21 22:01:03.474162+00
+47198	gI4dbodm-oI	Too short	2025-11-21 22:01:24.747407+00
+47199	LMfqZsq6gQ4	No author found	2025-11-21 22:01:24.810563+00
+47200	tIKW2vjvcGw	Too short	2025-11-21 22:02:04.399482+00
+47201	napr4rGcJHo	Too short	2025-11-21 22:02:07.141951+00
+47202	XX6ZDO6ao14	Not in English (det. by LLM)	2025-11-21 22:02:07.164609+00
+47203	BFmiC_EJnMo	Too short	2025-11-21 22:02:08.990628+00
+47204	NOfXfyuweR0	Too short	2025-11-21 22:02:09.019532+00
+47205	yVVGrJXNvU8	Too short	2025-11-21 22:02:28.639264+00
+47206	Mkj09EHw6pM	Too short	2025-11-21 22:04:26.290725+00
+47207	PElIW7gd9UQ	Not in English (det. by LLM)	2025-11-21 22:06:32.860468+00
+47208	FT09M0dgf4w	Too short	2025-11-21 22:07:38.774782+00
+47209	lDrXWeMsHk4	No author found	2025-11-21 22:07:38.841137+00
+47210	Z5e_o0HPgzQ	Too short	2025-11-21 22:07:58.780781+00
+47211	ZPjES8hxIpU	No author found	2025-11-21 22:08:38.067306+00
+47212	Lx0AwueGS7U	No author found	2025-11-21 22:09:20.745393+00
+47213	0EoBhDUFCEY	Too short	2025-11-21 22:09:59.516095+00
+47214	rER6cLtruTs	Too short	2025-11-21 22:09:59.592334+00
+47215	zPBd398TW14	Too short	2025-11-21 22:09:59.615822+00
+47216	Ff-sx0SEO5Q	Too short	2025-11-21 22:11:42.223976+00
+47217	bHI-dW99uNc	No author found	2025-11-21 22:18:07.588467+00
+47218	PIhXUzD071Q	No author found	2025-11-21 22:18:48.788555+00
+47219	f24OgVaXeFA	Too short	2025-11-21 22:20:18.990177+00
+47220	c7gcCk2S6Sg	No author found	2025-11-21 22:21:18.655486+00
+47221	YNnSc8wqAcc	No author found	2025-11-21 22:22:21.618504+00
+47222	NZQjpKMr6A0	Too short	2025-11-21 22:22:41.64088+00
+47223	wzg1TiG6ZSU	Too short	2025-11-21 22:24:50.889441+00
+47224	FvFe-NahUGQ	Too short	2025-11-21 22:24:50.964798+00
+47225	YLGdUimcBQ8	Too short	2025-11-21 22:25:13.059899+00
+47226	Oottqiiynog	Too short	2025-11-21 22:25:13.126813+00
+47227	q2NT2OrIJrw	No author found	2025-11-21 22:25:35.128764+00
+47228	G0mnyE3eogs	Too short	2025-11-21 22:25:59.173582+00
+47229	CsjsU3La7h8	No author found	2025-11-21 22:25:59.23544+00
+47230	wPfoNpt4EgE	Too short	2025-11-21 22:26:21.009715+00
+47231	6FF_aWiBHDA	Too short	2025-11-21 22:26:21.038277+00
+47232	8XgmX59JHKU	Too short	2025-11-21 22:26:21.103104+00
+47233	IQn1Yhxja3Y	Too short	2025-11-21 22:27:02.729403+00
+47234	FbxpqTxuYV4	Too short	2025-11-21 22:27:02.791656+00
+47235	6fRtxyyp-24	Too short	2025-11-21 22:27:02.81501+00
+47236	u1fZYrl42mw	Too short	2025-11-21 22:27:02.836708+00
+47237	nyqr99zcGkM	No author found	2025-11-21 22:27:47.912915+00
+47238	N21RHDXd67g	No author found	2025-11-21 22:28:07.517763+00
+47239	hN9NHt9llKc	Too short	2025-11-21 22:28:28.613269+00
+47240	7TZFTcf_klo	Too short	2025-11-21 22:28:47.903389+00
+47241	WC2YWF8KFRc	No author found	2025-11-21 22:28:47.977743+00
+47242	0mwIJP-8QHk	Too short	2025-11-21 22:30:54.68254+00
+47243	GjFxeR1d0r4	No author found	2025-11-21 22:30:54.754238+00
+47244	Y791gO0-xmI	Too short	2025-11-21 22:31:34.605049+00
+47245	LAw6ri_vXIg	Too short	2025-11-21 22:31:34.665404+00
+47246	UAHGITtmOu0	Too short	2025-11-21 22:31:55.224765+00
+47247	F7G1GF6BrJw	Too short	2025-11-21 22:31:55.299314+00
+47248	1xyrULrA-BU	Too short	2025-11-21 22:31:55.321766+00
+47249	EwImlliWJR0	Too short	2025-11-21 22:31:55.345113+00
+47250	M5SehWP0FcQ	Too short	2025-11-21 22:31:55.366948+00
+47251	PRKYv-8z6Yw	Not in English (det. by LLM)	2025-11-21 22:31:55.410606+00
+47252	jplgTJiXsXs	No author found	2025-11-21 22:31:57.326407+00
+47253	4_jPxW7ZVIo	Too short	2025-11-21 22:32:37.688111+00
+47254	33TnTyaVZDw	Too short	2025-11-21 22:32:41.431893+00
+47255	_kugk6SklxE	Too short	2025-11-21 22:32:41.475333+00
+47256	Tg5_QmbI8kk	Too short	2025-11-21 22:33:01.28954+00
+47257	968RUKlvCQc	No author found	2025-11-21 22:33:01.361663+00
+47258	sUf3J5WgGHk	No author found	2025-11-21 22:33:22.627796+00
+47259	xoYhYH99tmM	Too short	2025-11-21 22:33:42.389732+00
+47260	TWghhssi3fs	Too short	2025-11-21 22:33:42.439835+00
+47261	nEVTLvrwcyY	Too short	2025-11-21 22:33:42.462285+00
+47262	hSFYAUAqRhg	Too short	2025-11-21 22:33:42.484013+00
+47263	jqloNxo2Iw4	Too short	2025-11-21 22:33:42.50683+00
+47264	kNdG5qxWmOs	Too short	2025-11-21 22:33:42.528186+00
+47265	EIWI1w2zbY0	Too short	2025-11-21 22:33:42.550075+00
+47266	k7Sru7-PZ7Q	Too short	2025-11-21 22:33:45.268095+00
+47267	MSylF-LGKKQ	Too short	2025-11-21 22:33:45.289889+00
+47268	NVre-nsZA0U	Too short	2025-11-21 22:33:45.311384+00
+47269	dSYZVA49O68	Too short	2025-11-21 22:33:45.353517+00
+47270	QxTvHmEq9OU	Too short	2025-11-21 22:33:45.375893+00
+47271	v9EZgz7FBZs	Too short	2025-11-21 22:33:45.416019+00
+47272	GB29xOb1VSc	Too short	2025-11-21 22:34:07.458142+00
+47273	TEbLtZBj-8Y	Too short	2025-11-21 22:34:10.992875+00
+47274	zMFX7rMuGvE	Too short	2025-11-21 22:34:11.014469+00
+47275	pF_SUIDUfjo	Too short	2025-11-21 22:34:11.036144+00
+47276	Q_9tOXEvSeM	Too short	2025-11-21 22:34:11.058836+00
+47277	KyKWxmdeNyg	Too short	2025-11-21 22:34:11.119495+00
+47278	HBdA4T7T9LE	Too short	2025-11-21 22:34:11.162054+00
+47279	gvZ8xo3-BaE	Too short	2025-11-21 22:34:11.183303+00
+47280	MR6gy36oONo	Too short	2025-11-21 22:34:11.204419+00
+47281	KQaUgeUVnNg	Too short	2025-11-21 22:34:11.225488+00
+47282	4ul1ssNLUGM	Too short	2025-11-21 22:34:11.314094+00
+47283	t9GBHriPy_g	Too short	2025-11-21 22:34:11.355294+00
+47284	cOelpJXNybk	Too short	2025-11-21 22:34:11.377696+00
+47285	qLDR79BSOjw	Too short	2025-11-21 22:34:15.564769+00
+47286	NQvaaI6asjM	Too short	2025-11-21 22:34:15.587053+00
+47287	52z1a7d0mcs	Too short	2025-11-21 22:34:15.670368+00
+47288	f99FQ-GslZs	Too short	2025-11-21 22:34:15.692471+00
+47289	VTKHrzeeE8A	Too short	2025-11-21 22:34:15.774184+00
+47290	Axe59ISoMcI	Too short	2025-11-21 22:34:15.797254+00
+47291	SXW-nMHqJ-c	Too short	2025-11-21 22:34:15.818415+00
+47292	LoudRDcysFA	Too short	2025-11-21 22:34:15.839569+00
+47293	y0XZtIFG0Qk	Too short	2025-11-21 22:34:15.886986+00
+47294	SL0_0J0gxJE	Too short	2025-11-21 22:34:15.908383+00
+47295	5nO64IDqJ94	Too short	2025-11-21 22:34:18.444985+00
+47296	Tx5k7DWKvG4	Too short	2025-11-21 22:36:06.683863+00
+47297	12moG5Pg64A	Too short	2025-11-21 22:37:14.238771+00
+47298	KrACVteM7fU	Too short	2025-11-21 22:37:14.368729+00
+47299	9sFy3_f5Aq0	Too short	2025-11-21 22:37:56.866598+00
+47300	zHhFR-KZDYQ	Too short	2025-11-21 22:38:38.314296+00
+47301	mGF3-7QNqrM	Too short	2025-11-21 22:38:38.412128+00
+47302	WV0GKfBDZZ8	Too short	2025-11-21 22:39:40.172249+00
+47303	eA0SlAs7lYM	Too short	2025-11-21 22:39:40.242043+00
+47304	m85Q_I62764	Too short	2025-11-21 22:39:40.264184+00
+47305	VlXDlx6zxAk	Too short	2025-11-21 22:39:40.285509+00
+47306	rcAtMgtiLZU	Too short	2025-11-21 22:39:40.307936+00
+47307	vbTqL95_TeQ	No author found	2025-11-21 22:40:03.640147+00
+47308	6WM8eL4ifuY	No author found	2025-11-21 22:40:24.816917+00
+47309	9f0eWLo8blA	No author found	2025-11-21 22:40:46.239066+00
+47310	y3Ncpnl94Ns	No author found	2025-11-21 22:41:07.753684+00
+47311	aqqnebLlS4c	No author found	2025-11-21 22:41:29.443514+00
+47312	doT5CGkEYHY	No author found	2025-11-21 22:42:12.166654+00
+47313	iJL-OqJn8rM	No author found	2025-11-21 22:43:53.394275+00
+47314	aJBhurqCeAI	No author found	2025-11-21 22:44:14.506077+00
+47315	UALPr8JDJLo	No author found	2025-11-21 22:48:22.532908+00
+47316	aUIIFzH_IlI	No author found	2025-11-21 22:51:02.404906+00
+47317	9ImE2QTRPJw	Too short	2025-11-21 22:51:42.065776+00
+47318	G3P0Uqp6Tc4	No author found	2025-11-21 22:51:42.140379+00
+47319	N_R9_n_esw0	No author found	2025-11-21 22:52:04.311129+00
+47320	NIVUVnmY5Ns	No author found	2025-11-21 22:53:26.141988+00
+47321	VK0Ch5gWPX4	Too short	2025-11-21 22:53:46.271164+00
+47322	POr-J5wstxo	Too short	2025-11-21 22:53:46.300108+00
+47323	sdnGek7BCP4	No author found	2025-11-21 22:53:46.360407+00
+47324	llsEwvRfj-c	Too short	2025-11-21 22:54:05.671772+00
+47325	-z1OA8GQn8I	No author found	2025-11-21 22:54:28.015063+00
+47326	LMMbAtp7C5g	Too short	2025-11-21 22:54:49.081512+00
+47327	3XrY2oBcnus	Too short	2025-11-21 22:55:09.883794+00
+47328	Ks546o80Eg4	Too short	2025-11-21 22:56:15.56041+00
+47329	j-8a4DhESAQ	No author found	2025-11-21 22:56:15.62851+00
+47330	0paWKAs1pjc	No author found	2025-11-21 22:56:58.243386+00
+47331	LPeiBnROSnc	Too short	2025-11-21 22:57:19.418422+00
+47332	bMqV686nPS4	Too short	2025-11-21 22:57:59.107484+00
+47333	hh8WsnvxeN8	Too short	2025-11-21 23:00:39.486596+00
+47334	ql0Lz-CmrJk	Too short	2025-11-21 23:00:39.596988+00
+47335	9eiFdz99i3A	Too short	2025-11-21 23:00:39.619847+00
+47336	v2X7r3w44d8	Too short	2025-11-21 23:00:39.641181+00
+47337	AJS9mGW1FI0	Too short	2025-11-21 23:00:39.663182+00
+47338	LB7M8W_anvo	Too short	2025-11-21 23:00:39.684475+00
+47339	mCnTVgVnN4E	Too short	2025-11-21 23:00:39.706753+00
+47340	P7l4zx_umFk	Too short	2025-11-21 23:00:39.728579+00
+47341	IgB72GelN7A	Too short	2025-11-21 23:00:41.698184+00
+47342	_eBNgpf-gec	Too short	2025-11-21 23:00:41.71996+00
+47343	dIjOHYsf-9w	Too short	2025-11-21 23:00:41.74285+00
+47344	X831nncdksQ	Too short	2025-11-21 23:00:41.771449+00
+47345	RMC2GIpOp1U	Too short	2025-11-21 23:00:41.795855+00
+47346	RnDTwh6JEvA	Too short	2025-11-21 23:00:41.847701+00
+47347	I8b9uDI9KbE	Too short	2025-11-21 23:00:41.870085+00
+47348	DkwT19q0jLs	Too short	2025-11-21 23:00:41.891279+00
+47349	qXDQDq4ZzF8	Too short	2025-11-21 23:01:02.67498+00
+47350	V2XzBda5E5Q	Too short	2025-11-21 23:01:02.726899+00
+47351	dl05hGX-kzY	No author found	2025-11-21 23:01:02.750519+00
+47352	IjX1A_u0d5o	No author found	2025-11-21 23:01:26.472613+00
+47353	vj5rJ2BO3RA	Too short	2025-11-21 23:01:47.390097+00
+47354	TgAhVjd3Uv0	Too short	2025-11-21 23:01:47.416989+00
+47355	uIzw_94am74	Too short	2025-11-21 23:01:47.469664+00
+47356	IOB17eKzTSg	Too short	2025-11-21 23:01:47.509127+00
+47357	iBCKctbA-vM	Too short	2025-11-21 23:01:47.530379+00
+47358	G0sLcq7tqIw	Too short	2025-11-21 23:01:47.555986+00
+47359	UTBrFCrK4aw	No author found	2025-11-21 23:01:47.578182+00
+47360	3Z2j4Ct4xZg	No author found	2025-11-21 23:02:09.472948+00
+47361	cjPLXaUN1Po	Too short	2025-11-21 23:02:28.882663+00
+47362	MOqQPL-YPUY	Too short	2025-11-21 23:02:28.91546+00
+47363	b_sTR54OSBY	Not in English (det. by LLM)	2025-11-21 23:02:28.940236+00
+47364	EVCaDVVTwtA	No author found	2025-11-21 23:02:33.497441+00
+47365	DI-oCv2Ofd0	Too short	2025-11-21 23:02:53.329775+00
+47366	x6_9ayMs1Jo	Too short	2025-11-21 23:02:53.368963+00
+47367	v4BRvQXlhvk	Too short	2025-11-21 23:03:14.800965+00
+47368	aqaZ7Z4hDQI	Too short	2025-11-21 23:03:14.856728+00
+47369	kYYDi-R3jek	Too short	2025-11-21 23:03:14.884597+00
+47370	OYu16VajXog	Not in English (det. by LLM)	2025-11-21 23:03:14.923833+00
+47371	526uZLbQG58	Too short	2025-11-21 23:03:37.39479+00
+47372	gjZ-ZVVEAfk	Too short	2025-11-21 23:03:37.471887+00
+47373	9uvvC-82814	Too short	2025-11-21 23:03:57.389466+00
+47374	oWwFGl7zEzg	Too short	2025-11-21 23:03:57.492403+00
+47375	nxcln5mdGTs	Too short	2025-11-21 23:04:40.226307+00
+47376	D1klFIafrPY	Not in English (det. by LLM)	2025-11-21 23:05:20.548349+00
+47377	5mZpN90XMew	Too short	2025-11-21 23:05:43.860061+00
+47378	YWY94JYIp_8	Too short	2025-11-21 23:08:07.466715+00
+47379	R-uU2dEL6HE	Too short	2025-11-21 23:08:07.530568+00
+47380	QdAMlV7xFrs	Too short	2025-11-21 23:09:26.94622+00
+47381	0UHXOTd3Mec	Too short	2025-11-21 23:10:12.358691+00
+47382	4M6jpkcQaOI	Too short	2025-11-21 23:10:32.421893+00
+47383	vDcy8wRQxpc	Too short	2025-11-21 23:10:32.486201+00
+47384	l_l0Vi2Q574	Too short	2025-11-21 23:10:32.507986+00
+47385	Rjbq1ZwAXwo	Too short	2025-11-21 23:10:53.117481+00
+47386	YacLNukjMSQ	Too short	2025-11-21 23:11:34.374558+00
+47387	sXQ7i0Dyogw	Too short	2025-11-21 23:11:54.229719+00
+47388	EiPNE4qbXkU	Too short	2025-11-21 23:12:35.455437+00
+47389	ynHPIZ125yc	Too short	2025-11-21 23:12:58.32323+00
+47390	L169EBdAh6A	Too short	2025-11-21 23:13:18.878871+00
+47391	s1x687Hfw34	Not in English (det. by LLM)	2025-11-21 23:13:18.935237+00
+47392	PQ0RY4SvCLg	Too short	2025-11-21 23:13:20.61968+00
+47393	t98WLEm1ZtM	Not in English (det. by LLM)	2025-11-21 23:13:20.646428+00
+47394	vxWr7_tIGps	Too short	2025-11-21 23:14:03.480305+00
+47395	7OplpnaIcuU	Too short	2025-11-21 23:14:23.512066+00
+47396	d76BZBy5paM	Too short	2025-11-21 23:14:23.585707+00
+47397	Q3VgQeTmzCU	Too short	2025-11-21 23:14:23.60749+00
+47398	sowbR5GAI6Q	Too short	2025-11-21 23:14:23.629888+00
+47399	lFcLg4IW0Ow	Too short	2025-11-21 23:14:26.062546+00
+47400	60-9L14KO3c	Too short	2025-11-21 23:14:45.921065+00
+47401	Tej8_iUn8jA	Too short	2025-11-21 23:14:45.983503+00
+47402	IJOyof2VWR0	Too short	2025-11-21 23:14:46.005594+00
+47403	4TVx2NylW6k	Too short	2025-11-21 23:14:46.027089+00
+47404	hM96ILlHAEc	Too short	2025-11-21 23:14:46.049111+00
+47405	92uF3NBWcmY	Too short	2025-11-21 23:14:46.069932+00
+47406	m6_GdTHIH24	Too short	2025-11-21 23:14:46.090634+00
+47407	kp0kz8nCoTs	Too short	2025-11-21 23:14:46.112999+00
+47408	lg24e3oJPik	Too short	2025-11-21 23:14:46.13427+00
+47409	rtHzQ_fwNv4	Too short	2025-11-21 23:14:46.179969+00
+47410	aPCjtwKs4Yc	Too short	2025-11-21 23:14:46.20168+00
+47411	cUIR0PCADBE	Too short	2025-11-21 23:14:46.222815+00
+47412	BmzJacRIFRo	Too short	2025-11-21 23:14:46.244979+00
+47413	R6e_Mz9hSP0	Too short	2025-11-21 23:14:46.267475+00
+47414	hAKRnqq2qQ0	Too short	2025-11-21 23:14:46.289625+00
+47415	eYcSuCuNbbE	Too short	2025-11-21 23:14:49.31141+00
+47416	qCJ0QJPlPPQ	Too short	2025-11-21 23:15:08.843122+00
+47417	YMdMJiGM5cE	Too short	2025-11-21 23:15:08.920506+00
+47418	me59gSEMZHw	Too short	2025-11-21 23:15:08.9455+00
+47419	Z4QO5Qn_9JY	Too short	2025-11-21 23:15:08.967996+00
+47420	k5KiVqABnsU	Too short	2025-11-21 23:15:29.462715+00
+47421	GiTaY9eNC5Y	Too short	2025-11-21 23:15:29.529132+00
+47422	DLGmSsjFXOs	Too short	2025-11-21 23:15:29.554306+00
+47423	lEFgz4QCxhw	Too short	2025-11-21 23:15:29.576351+00
+47424	UjRej-tfyRc	Too short	2025-11-21 23:15:49.119964+00
+47425	oSAd0pGlNRI	Too short	2025-11-21 23:15:49.198889+00
+47426	_61ZiICGCgg	Too short	2025-11-21 23:15:49.221201+00
+47427	22CX8mwcqUg	Too short	2025-11-21 23:15:49.243489+00
+47428	VTMQn920zgA	Too short	2025-11-21 23:15:49.267067+00
+47429	cSbc6_DAzXs	Too short	2025-11-21 23:15:49.291868+00
+47430	KnzDLOmvWcQ	Too short	2025-11-21 23:15:49.314685+00
+47431	yxzd_feZYHg	Too short	2025-11-21 23:15:49.337158+00
+47432	ePa87EwxdJA	Too short	2025-11-21 23:15:49.358722+00
+47433	yzqUmXbdpoI	Too short	2025-11-21 23:15:49.378964+00
+47434	DLSIe71BzsE	Too short	2025-11-21 23:15:51.501443+00
+47435	br2eXQjVFYQ	Too short	2025-11-21 23:15:51.523416+00
+47436	lq-TeDKyPLU	Too short	2025-11-21 23:15:51.545105+00
+47437	S9QqkWU-fHY	Too short	2025-11-21 23:15:51.567131+00
+47438	P0J1o0E5H9k	Too short	2025-11-21 23:15:51.589666+00
+47439	DmdVTQEqaBM	Too short	2025-11-21 23:15:51.632224+00
+47440	Q8Sfjn94OvI	Too short	2025-11-21 23:15:51.65499+00
+47441	w1VsjtBYIlw	Too short	2025-11-21 23:15:51.67682+00
+47442	F97V0UXKrtc	Too short	2025-11-21 23:15:51.697948+00
+47443	BBW2DYsN0b8	Too short	2025-11-21 23:15:51.720231+00
+47444	ioA1Nn44iU4	Too short	2025-11-21 23:15:51.74147+00
+47445	ymGG3_GiPdc	Too short	2025-11-21 23:15:51.783295+00
+47446	-q_y6fal524	Too short	2025-11-21 23:15:51.804727+00
+47447	I0a_s8Oj9sg	Too short	2025-11-21 23:15:51.825723+00
+47448	zkpiNf_VQ-A	Too short	2025-11-21 23:15:51.847316+00
+47449	zSnVjmehwKI	Too short	2025-11-21 23:15:54.621847+00
+47450	19Jr3kS6yVE	Too short	2025-11-21 23:15:54.645401+00
+47451	hAsh68d6XH4	Too short	2025-11-21 23:15:54.667805+00
+47452	jvOea057SbI	Too short	2025-11-21 23:15:54.689779+00
+47453	Dua5x31JKwE	Too short	2025-11-21 23:15:54.711416+00
+47454	OyjAy5uyCuM	Too short	2025-11-21 23:15:54.733152+00
+47455	RhjLXoz3RYk	Too short	2025-11-21 23:15:54.755225+00
+47456	c26MQ_FLF_s	Too short	2025-11-21 23:15:54.776487+00
+47457	0oHdJkHA9dI	Too short	2025-11-21 23:15:54.798434+00
+47458	uRF93nMLAGY	Too short	2025-11-21 23:15:54.820328+00
+47459	NjqMgtP0cak	Too short	2025-11-21 23:15:54.841705+00
+47460	kyt494Ieokk	Too short	2025-11-21 23:15:54.863201+00
+47461	c23kAF-lOmY	Too short	2025-11-21 23:15:54.885195+00
+47462	vuNg3CFTUr8	Too short	2025-11-21 23:15:54.906984+00
+47463	9ILc3segBZ8	Too short	2025-11-21 23:15:54.928165+00
+47464	UvLqq1zCEek	Too short	2025-11-21 23:15:54.949502+00
+47465	7ElG9qu42c8	Too short	2025-11-21 23:15:54.971483+00
+47466	tLbGW3tYFCg	Too short	2025-11-21 23:15:54.994103+00
+47467	a1zeAxHQudk	Too short	2025-11-21 23:15:58.078502+00
+47468	hCVjZwg-5fc	Too short	2025-11-21 23:15:58.103515+00
+47469	ZmbtJNwBYoY	Too short	2025-11-21 23:15:58.1265+00
+47470	DFigjcktLYI	Too short	2025-11-21 23:15:58.149813+00
+47471	ffnXFRqIkdI	Too short	2025-11-21 23:15:58.1728+00
+47472	PURzuKzbCzs	Too short	2025-11-21 23:15:58.195169+00
+47473	Hx1AEglDRnA	Too short	2025-11-21 23:15:58.217718+00
+47474	IwWXL6e-4vU	Too short	2025-11-21 23:15:58.241593+00
+47475	OAwtlkvE3wM	Too short	2025-11-21 23:15:58.264575+00
+47476	xLuM7o1he9Q	Too short	2025-11-21 23:15:58.286797+00
+47477	n2rK9fAVcW8	Too short	2025-11-21 23:15:58.309431+00
+47478	HcpbMbwfK6U	Too short	2025-11-21 23:15:58.354352+00
+47479	tCHjHf2a0To	Too short	2025-11-21 23:15:58.377227+00
+47480	I0Wu0qxZfTs	Too short	2025-11-21 23:15:58.400673+00
+47481	dMXxsB-7kUU	Too short	2025-11-21 23:15:58.458869+00
+47482	rQ6HagRfCus	Too short	2025-11-21 23:15:58.479408+00
+47483	Axa7R4gmpEs	Too short	2025-11-21 23:16:20.882009+00
+47484	vq_5Y2EbG0o	Too short	2025-11-21 23:17:20.004069+00
+47485	o3V5IG5rV0g	No author found	2025-11-21 23:17:20.092138+00
+47486	W7l22wOpD6A	No author found	2025-11-21 23:17:41.507216+00
+47487	YBR-l7qFWjY	No author found	2025-11-21 23:18:01.689388+00
+47488	eSLaUvsdNVo	Too short	2025-11-21 23:18:20.798951+00
+47489	EZ-eMvKQMbI	Too short	2025-11-21 23:18:40.407529+00
+47490	4IoG9YM2rbc	Too short	2025-11-21 23:18:59.827954+00
+47491	92ufPkNiRyk	Too short	2025-11-21 23:18:59.927105+00
+47492	J6rVotw6chk	Too short	2025-11-21 23:19:21.755407+00
+47493	Vk277N-XvCs	No author found	2025-11-21 23:19:21.847172+00
+47494	IzbQ4k2lips	Too short	2025-11-21 23:19:41.815527+00
+47495	88BjMf5oBSY	Too short	2025-11-21 23:19:44.015675+00
+47496	WYdKK5bZ7GU	Too short	2025-11-21 23:19:44.042828+00
+47497	Ee-yMgSHWJ0	Too short	2025-11-21 23:19:44.066321+00
+47498	ZzqjA4_1Sww	Too short	2025-11-21 23:19:44.089261+00
+47499	b5fcVGnfQ2Y	Too short	2025-11-21 23:19:44.111265+00
+47500	MhULsv6veM0	No author found	2025-11-21 23:19:44.141615+00
+47501	dfEQjx-F-LQ	Too short	2025-11-21 23:20:04.828242+00
+47502	dbO6yScK28Y	Too short	2025-11-21 23:20:04.85592+00
+47503	Sz8VOzQgkmU	Too short	2025-11-21 23:20:04.878185+00
+47504	jCffcJlTx1A	Too short	2025-11-21 23:20:04.900036+00
+47505	h9oVd05f8DY	Too short	2025-11-21 23:20:04.922689+00
+47506	IOzziUv25ak	Too short	2025-11-21 23:20:04.949985+00
+47507	_PH_8haz-Zw	No author found	2025-11-21 23:20:04.97248+00
+47508	Y4Vt5i_D7_8	Too short	2025-11-21 23:20:25.698102+00
+47509	W73_a-g7hOE	No author found	2025-11-21 23:20:29.162971+00
+47510	v6DFEUS_iig	Too short	2025-11-21 23:20:50.170037+00
+47511	j0j-uwBR3TE	Too short	2025-11-21 23:20:50.198244+00
+47512	Bx_6s9K3XUM	No author found	2025-11-21 23:20:50.225507+00
+47513	1garP2FcBB8	Too short	2025-11-21 23:21:10.962246+00
+47514	loTDUPZkKwI	Too short	2025-11-21 23:21:10.989174+00
+47515	WYIxe7EBN6s	Too short	2025-11-21 23:21:11.011761+00
+47516	_E_ZzUyby1c	Too short	2025-11-21 23:21:11.054338+00
+47517	-GNHm4z7RN0	Too short	2025-11-21 23:21:11.076902+00
+47518	Xgvb9moIuik	No author found	2025-11-21 23:21:11.105312+00
+47519	li5NIcnHdjE	Too short	2025-11-21 23:21:30.770914+00
+47520	UXbquMIzHuQ	Too short	2025-11-21 23:21:30.796731+00
+47521	doO-mur0hQI	Too short	2025-11-21 23:21:34.950685+00
+47522	e-w7WyOzPTw	Too short	2025-11-21 23:21:34.972964+00
+47523	jUH7sXHK_tU	Too short	2025-11-21 23:21:35.002458+00
+47524	3Jc4C5Dip3I	Too short	2025-11-21 23:21:35.045208+00
+47525	1oPTsIiEjuw	Too short	2025-11-21 23:21:35.067698+00
+47526	be90tTjsY5M	Too short	2025-11-21 23:21:35.089677+00
+47527	MgVdPD3BuCQ	Too short	2025-11-21 23:21:35.111821+00
+47528	7Kz8x5_5SAg	Too short	2025-11-21 23:21:35.133776+00
+47529	zpWq-EkLzzM	Too short	2025-11-21 23:21:35.156197+00
+47530	2yzzPYSYveU	Too short	2025-11-21 23:21:35.177606+00
+47531	LPLPw2dSEqw	Too short	2025-11-21 23:21:35.198928+00
+47532	0XHKAoMQMkk	Too short	2025-11-21 23:21:35.221981+00
+47533	VJ21Giy5slw	Not in English (det. by LLM)	2025-11-21 23:21:38.125355+00
+47534	Bu87O0ymhmw	Not in English (det. by LLM)	2025-11-21 23:22:00.231468+00
+47535	mAmZeWapkKg	Too short	2025-11-21 23:22:02.144155+00
+47536	PGpAXj7x6Kw	Not in English (det. by LLM)	2025-11-21 23:22:02.173438+00
+47537	KxRsGSaERE0	Too short	2025-11-21 23:22:23.354386+00
+47538	oPPj2-OJe9I	Not in English (det. by LLM)	2025-11-21 23:22:23.461719+00
+47539	5IVLEsYwb6k	Too short	2025-11-21 23:22:25.393451+00
+47540	ovQ4H3kI95w	Not in English (det. by LLM)	2025-11-21 23:24:26.61077+00
+47541	K7R96VtYP-0	Too short	2025-11-21 23:26:08.664351+00
+47542	VRfFyHatzpI	Too short	2025-11-21 23:26:31.381949+00
+47543	1AQ8yPJSpKM	Too short	2025-11-21 23:26:31.453171+00
+47544	aLECiilcc7s	Too short	2025-11-21 23:27:35.975371+00
+47545	GQbLCzzegz4	Too short	2025-11-21 23:28:36.91493+00
+47546	Pt15jXMDDgs	Too short	2025-11-21 23:28:36.979473+00
+47547	AtUSPwx87bw	Too short	2025-11-21 23:28:37.002359+00
+47548	9QtOMovEQlo	Too short	2025-11-21 23:28:37.024072+00
+47549	YE9a7IxTwWs	Too short	2025-11-21 23:28:37.045631+00
+47550	qbnjeMB5YC4	Too short	2025-11-21 23:28:57.738151+00
+47551	OCFlF2SKz24	Too short	2025-11-21 23:29:19.811036+00
+47552	Hh_q0uamIeE	Too short	2025-11-21 23:29:19.884884+00
+47553	UhYow3yIuS0	Not in English (det. by LLM)	2025-11-21 23:29:22.723154+00
+47554	WGodcbQ-hx0	Too short	2025-11-21 23:29:24.286166+00
+47555	mdpyZI-poDg	Not in English (det. by LLM)	2025-11-21 23:29:24.308791+00
+47556	E5nmPzxnLcA	Too short	2025-11-21 23:29:46.041466+00
+47557	x79EudNHOJc	Too short	2025-11-21 23:29:46.115349+00
+47558	6cWBErC8huw	Too short	2025-11-21 23:30:27.701465+00
+47559	PxRvata87xY	Too short	2025-11-21 23:30:48.910848+00
+47560	SS3OW4q7OBM	Too short	2025-11-21 23:31:13.939797+00
+47561	6hm02y3JhuA	Not in English (det. by LLM)	2025-11-21 23:31:14.008839+00
+47562	jWSuW62SmuE	Too short	2025-11-21 23:31:36.343894+00
+47563	88yG58zmNws	Too short	2025-11-21 23:31:36.395272+00
+47564	z78fQ_m8Pfg	Not in English (det. by LLM)	2025-11-21 23:31:57.397614+00
+47565	fQqldq8lE6Y	Too short	2025-11-21 23:32:03.346143+00
+47566	ESv30cak7Zk	Too short	2025-11-21 23:32:03.369228+00
+47567	3SXcY6sqz0w	Too short	2025-11-21 23:32:03.39114+00
+47568	kWpwoDTqBw8	Too short	2025-11-21 23:32:03.412772+00
+47569	GS_cfnO-buY	Too short	2025-11-21 23:32:03.434001+00
+47570	nKtw1bOcK6Q	Too short	2025-11-21 23:32:26.248284+00
+47571	F8u1kp9DUn4	Too short	2025-11-21 23:32:26.325714+00
+47572	nGDOU56Ex4o	Too short	2025-11-21 23:32:26.349552+00
+47573	gVgh1vkq3j0	Too short	2025-11-21 23:32:26.372428+00
+47574	XfQJQzT9IaU	Too short	2025-11-21 23:32:26.393728+00
+47575	rO9lzbY_yfU	Too short	2025-11-21 23:32:26.418784+00
+47576	_wc61uSzgNk	Too short	2025-11-21 23:32:26.441688+00
+47577	AucUeLvB28U	Too short	2025-11-21 23:32:26.463656+00
+47578	a-bXIaskP4s	Too short	2025-11-21 23:32:26.485405+00
+47579	BYn0BlJj-JE	Too short	2025-11-21 23:32:26.507105+00
+47580	3op3bF184cI	Too short	2025-11-21 23:32:47.181116+00
+47581	x_DBmlYoj-g	Too short	2025-11-21 23:32:47.253411+00
+47582	HnDPQFUBwlM	No author found	2025-11-21 23:34:52.941454+00
+47583	paKNlBQ4jXU	Too short	2025-11-21 23:35:13.733788+00
+47584	L6lK0A0ZHys	Too short	2025-11-21 23:35:13.760743+00
+47585	8cRRT7suH6M	Too short	2025-11-21 23:36:36.674948+00
+47586	4OobtcFafnA	Too short	2025-11-21 23:37:17.631713+00
+47587	fSyKL7eK52Y	Too short	2025-11-21 23:38:21.097064+00
+47588	lxFOlcqcxKc	No author found	2025-11-21 23:38:24.843503+00
+47589	_s3T7nS7pVQ	Too short	2025-11-21 23:39:07.798786+00
+47590	d-TzSrGiAew	Too short	2025-11-21 23:39:28.138763+00
+47591	SvWchVooIZo	Too short	2025-11-21 23:39:28.218899+00
+47592	skEMNoq1T4A	Too short	2025-11-21 23:39:28.243339+00
+47593	lsjzEEVFaBg	Too short	2025-11-21 23:39:28.266045+00
+47594	O05EX1wILoo	Too short	2025-11-21 23:39:47.808895+00
+47595	gPdQkoZo87M	Too short	2025-11-21 23:40:49.163257+00
+47596	L8YW1SsosFg	Too short	2025-11-21 23:41:09.104588+00
+47597	OOkAcD1SOXY	Too short	2025-11-21 23:42:12.637858+00
+47598	HIFOFf8NwTk	Too short	2025-11-21 23:42:53.935082+00
+47599	XmlnwwusYLI	Too short	2025-11-21 23:43:13.670408+00
+47600	u_XgX0XeVcU	Too short	2025-11-21 23:43:13.747935+00
+47601	Wmo5soRrano	Too short	2025-11-21 23:43:13.772074+00
+47602	qWMdwUDWmcs	Too short	2025-11-21 23:43:33.256305+00
+47603	OiJe7JI37KU	Too short	2025-11-21 23:43:33.319527+00
+47604	qEtLGI7Tx9o	Too short	2025-11-21 23:43:33.342289+00
+47605	181qlDmxQIY	Too short	2025-11-21 23:43:33.364297+00
+47606	TBEsZdccQ5M	Too short	2025-11-21 23:44:14.203532+00
+47607	A695E3TZWXI	Too short	2025-11-21 23:44:37.014724+00
+47608	vbUNrq0MOxs	Too short	2025-11-21 23:44:37.085546+00
+47609	pIyaZp2oztk	Too short	2025-11-21 23:44:37.108209+00
+47610	xGfgb76Na4Q	Too short	2025-11-21 23:44:37.135813+00
+47611	FvJYQr_9plo	Too short	2025-11-21 23:44:37.157628+00
+47612	XpykbcrZr8M	Too short	2025-11-21 23:44:37.179675+00
+47613	U1K3y2nzMd4	Too short	2025-11-21 23:44:37.201382+00
+47614	UZrOGwtxz0s	Too short	2025-11-21 23:44:37.223228+00
+47615	VPUaf6bvDro	Too short	2025-11-21 23:44:37.244872+00
+47616	p3ruyguJfuo	Too short	2025-11-21 23:44:59.137885+00
+47617	ixviFeOSTXA	Too short	2025-11-21 23:44:59.212813+00
+47618	RatSkVSNNr4	Too short	2025-11-21 23:44:59.233578+00
+47619	UWBhUv7B1Gs	Too short	2025-11-21 23:44:59.25536+00
+47620	SdFcnE_EkWo	Too short	2025-11-21 23:44:59.277206+00
+47621	IdypuKUOkMk	Too short	2025-11-21 23:44:59.299392+00
+47622	qxvaLORfSCI	Too short	2025-11-21 23:44:59.320219+00
+47623	OBuwux3XGDI	Too short	2025-11-21 23:45:24.143279+00
+47624	qNszLSewc0M	Too short	2025-11-21 23:45:24.214582+00
+47625	qfooxWUxgj8	Too short	2025-11-21 23:45:24.237171+00
+47626	njpor0rHmfM	Too short	2025-11-21 23:45:24.281031+00
+47627	-tCYxkL2baw	Too short	2025-11-21 23:45:24.369803+00
+47628	m4CpfSkUEH8	Too short	2025-11-21 23:45:24.392585+00
+47629	54QDOmW6Msw	Too short	2025-11-21 23:45:24.414051+00
+47630	oaFr-hWmZDk	Too short	2025-11-21 23:45:24.435755+00
+47631	WqWYlij_4I8	Too short	2025-11-21 23:45:24.457739+00
+47632	agw9A9jLBVY	Too short	2025-11-21 23:45:24.4798+00
+47633	K8aCo1I-FR8	Too short	2025-11-21 23:45:44.117158+00
+47634	fUuwLniZ4u0	Too short	2025-11-21 23:45:44.176814+00
+47635	0OLpi9VYqkk	Too short	2025-11-21 23:45:44.219383+00
+47636	pV-4u8d3L2E	Too short	2025-11-21 23:45:44.240945+00
+47637	zhbgl7yneYA	Too short	2025-11-21 23:45:44.263252+00
+47638	mXM1sjKBZQg	Too short	2025-11-21 23:45:44.285785+00
+47639	irn_MG0p-go	Too short	2025-11-21 23:45:46.233121+00
+47640	_0uJVc2-wDc	Too short	2025-11-21 23:45:46.255233+00
+47641	QzTuCWWDUDQ	Too short	2025-11-21 23:45:46.276581+00
+47642	a9a8z712m90	Too short	2025-11-21 23:45:46.318063+00
+47643	5qUlFQWa3oo	Too short	2025-11-21 23:45:46.340653+00
+47644	VgJaQOwfh7w	Too short	2025-11-21 23:45:46.362086+00
+47645	QIqBoK3gbKw	Too short	2025-11-21 23:46:07.504987+00
+47646	BIqWTMJYt1k	Too short	2025-11-21 23:46:07.576567+00
+47647	ghgy-3u8l1c	Too short	2025-11-21 23:46:07.599558+00
+47648	LQilH-rp_TE	Too short	2025-11-21 23:46:07.621836+00
+47649	SgbRbQuwDF4	Too short	2025-11-21 23:46:07.684431+00
+47650	FHN_3QkXDfc	Too short	2025-11-21 23:46:07.726607+00
+47651	BIYF_nG9imw	Too short	2025-11-21 23:46:07.749347+00
+47652	cFtBV7LuMPI	Too short	2025-11-21 23:46:10.890027+00
+47653	9FQwNlnWgQQ	Too short	2025-11-21 23:46:31.884249+00
+47654	Ly35ZrCM75s	Too short	2025-11-21 23:46:31.955534+00
+47655	kvgJ1kJiX7s	Too short	2025-11-21 23:46:31.978324+00
+47656	Jx6u0FJHzFw	Too short	2025-11-21 23:46:52.270727+00
+47657	A0bV5QwDpAI	Too short	2025-11-21 23:47:12.633035+00
+47658	mvOLJrPQQTI	Too short	2025-11-21 23:49:19.096346+00
+47659	T3URXGnKxLE	Too short	2025-11-21 23:49:19.167408+00
+47660	fuTN2lHCcMg	Too short	2025-11-21 23:49:59.631122+00
+47661	8KA-kWV740A	Too short	2025-11-21 23:49:59.7115+00
+47662	a7NRYJ6m4qY	Too short	2025-11-21 23:49:59.753711+00
+47663	d1EZHDkfYtw	Too short	2025-11-21 23:49:59.776134+00
+47664	Je3sJ_ywxUU	Too short	2025-11-21 23:49:59.818169+00
+47665	ZsfHf-fZTBo	Too short	2025-11-21 23:50:19.536458+00
+47666	B3QhDIL4nT4	Too short	2025-11-21 23:50:39.198446+00
+47667	7Nd3M_mXQYA	Too short	2025-11-21 23:51:02.950153+00
+47668	EIHHqDAx5Yc	Too short	2025-11-21 23:51:03.018154+00
+47669	lZIfUSJ2OEk	Too short	2025-11-21 23:51:03.040753+00
+47670	gowGTFfc4UY	Too short	2025-11-21 23:51:03.061936+00
+47671	7CAeXTutGmI	Too short	2025-11-21 23:51:23.871237+00
+47672	21-4jIg_n94	Too short	2025-11-21 23:51:23.935647+00
+47673	chfIbm-Wt2s	Too short	2025-11-21 23:51:23.958839+00
+47674	SSbJAXioRJ4	Too short	2025-11-21 23:51:43.560599+00
+47675	wFNDko0tdWQ	Too short	2025-11-21 23:51:43.656782+00
+47676	fjuzZ_unon0	Too short	2025-11-21 23:51:43.67944+00
+47677	Lu65BJHt1wk	Too short	2025-11-21 23:51:43.744055+00
+47678	PbQ1vnYghdY	Too short	2025-11-21 23:51:48.194929+00
+47679	72H2JZoEUL4	Too short	2025-11-21 23:52:08.066986+00
+47680	JpT_g3M_SAU	Too short	2025-11-21 23:52:28.275873+00
+47681	r0H4h5RSE7Y	Too short	2025-11-21 23:52:28.349909+00
+47682	MJbK41mEcTk	Too short	2025-11-21 23:52:28.372231+00
+47683	INkXPZDKgTs	Too short	2025-11-21 23:52:28.397916+00
+47684	CM7rmmdaHSs	Too short	2025-11-21 23:52:28.418599+00
+47685	wZIEGMAs7nc	Too short	2025-11-21 23:52:28.439568+00
+47686	oOQ_qSEbQVc	Too short	2025-11-21 23:52:28.460611+00
+47687	e7K_OIH-AAY	Too short	2025-11-21 23:52:28.520752+00
+47688	u-evreKQ3po	Too short	2025-11-21 23:52:28.54318+00
+47689	Ai12gbBbCk0	Too short	2025-11-21 23:52:32.333124+00
+47690	dMvGVRoykB4	Too short	2025-11-21 23:52:32.356422+00
+47691	PrkXSm-B3SY	Too short	2025-11-21 23:52:32.420005+00
+47692	Akb2qh9Jlec	Too short	2025-11-21 23:52:53.646715+00
+47693	k9EqEqB9qF0	Too short	2025-11-21 23:52:53.731899+00
+47694	hCsooZno8M0	Too short	2025-11-21 23:53:14.042305+00
+47695	OZkRu_VqIII	Too short	2025-11-21 23:53:14.11665+00
+47696	gjk0XztQyyQ	Too short	2025-11-21 23:53:14.143359+00
+47697	_e_9oAdv6Wk	Too short	2025-11-21 23:53:14.168481+00
+47698	Yt6VeXaaWVg	Too short	2025-11-21 23:53:34.686232+00
+47699	fpz-EWpK8lA	Too short	2025-11-21 23:53:34.733446+00
+47700	HdLdcylihYg	Too short	2025-11-21 23:53:54.705197+00
+47701	i3-QTsk9at4	Too short	2025-11-21 23:54:38.967422+00
+47702	YbXNz8qDfQM	Too short	2025-11-21 23:54:39.036223+00
+47703	WW_PFIfXKsU	Too short	2025-11-21 23:54:39.07986+00
+47704	NVyoy-Lc1H4	Too short	2025-11-21 23:54:39.101932+00
+47705	bX9J1f7Pjys	Too short	2025-11-21 23:54:39.123921+00
+47706	4CFiT1E_S3w	Too short	2025-11-21 23:55:00.482834+00
+47707	iaC18MXNaeM	Too short	2025-11-21 23:55:00.555336+00
+47708	ACz2bwF1gEs	Too short	2025-11-21 23:55:00.579329+00
+47709	fj86Trdz9W8	Too short	2025-11-21 23:55:00.601433+00
+47710	Zi5Cjn9ljDg	Too short	2025-11-21 23:55:00.645953+00
+47711	VNL3Ob08YO8	Too short	2025-11-21 23:55:20.604856+00
+47712	Z3DjdHY8kdU	Too short	2025-11-21 23:55:20.673837+00
+47713	iGpAXY64wJU	Too short	2025-11-21 23:55:40.336639+00
+47714	tWdGcjyon3I	Too short	2025-11-21 23:55:40.405598+00
+47715	WazBQVqQB-U	Too short	2025-11-21 23:55:42.336054+00
+47716	3TAWh7CDLbI	Too short	2025-11-21 23:55:42.358884+00
+47717	KXuA0iMOgYY	Too short	2025-11-21 23:56:01.913363+00
+47718	5_dg7V88sFI	Too short	2025-11-21 23:56:01.975821+00
+47719	yLEMFcoz9F0	Too short	2025-11-21 23:56:01.998817+00
+47720	Yfu7LIlNTeo	Too short	2025-11-21 23:56:02.020349+00
+47721	Hz3WYqYhD1o	Too short	2025-11-21 23:56:02.041939+00
+47722	4cQIxE5EeG0	Too short	2025-11-21 23:56:02.063711+00
+47723	c_ePgxgRRfk	Too short	2025-11-21 23:56:02.086377+00
+47724	zlvFWb8wnp0	Too short	2025-11-21 23:56:02.109098+00
+47725	14FDETFnDJA	Too short	2025-11-21 23:56:02.13092+00
+47726	GTxyl1LJJGc	Too short	2025-11-21 23:56:02.152104+00
+47727	bhwlyZ-Lk6g	Too short	2025-11-21 23:56:02.175455+00
+47728	hW0TGSxjNcc	Too short	2025-11-21 23:56:02.198511+00
+47729	jSdk3_MWMFU	Too short	2025-11-21 23:56:02.222024+00
+47730	nIFAp1B_kNk	Too short	2025-11-21 23:56:02.244087+00
+47731	j3eR6-McfSU	Too short	2025-11-21 23:56:02.265542+00
+47732	SsCXKVNqPJk	Too short	2025-11-21 23:56:02.28674+00
+47733	5dtUzBrOMBI	Too short	2025-11-21 23:56:02.308822+00
+47734	x0B9sB7hrCE	Too short	2025-11-21 23:56:05.845086+00
+47735	tTC0Mnl0lPI	Too short	2025-11-21 23:56:05.868613+00
+47736	rDzqEiS0qq4	Too short	2025-11-21 23:56:05.890721+00
+47737	uyVgXTIV8jY	Too short	2025-11-21 23:56:05.913462+00
+47738	gQhLwckw9-4	Too short	2025-11-21 23:56:05.93518+00
+47739	a4Clim1mcHA	Too short	2025-11-21 23:56:05.95682+00
+47740	X0a4htZZ_Gg	Too short	2025-11-21 23:56:05.979861+00
+47741	cq7NgJl1Now	Too short	2025-11-21 23:56:06.001582+00
+47742	mcCxp1PrTu4	Too short	2025-11-21 23:56:06.022742+00
+47743	Cf0uKzrpbiE	Too short	2025-11-21 23:56:06.048379+00
+47744	dqrdipkth7g	Too short	2025-11-21 23:56:06.069627+00
+47745	uEAneJNis_A	Too short	2025-11-21 23:56:06.09108+00
+47746	Lhx-yHQpxv0	Too short	2025-11-21 23:56:06.11276+00
+47747	mLODlxXQlcw	Too short	2025-11-21 23:56:06.133719+00
+47748	VxvoNayWY6Y	Too short	2025-11-21 23:56:06.156494+00
+47749	KmrxhZdOyUE	Too short	2025-11-21 23:56:06.177357+00
+47750	e5S7Y4RxjB0	Too short	2025-11-21 23:56:06.198947+00
+47751	8DQNxtIann4	Too short	2025-11-21 23:56:09.415902+00
+47752	ufvkHISjPg4	Too short	2025-11-21 23:56:09.440445+00
+47753	MxG279ugiXU	Too short	2025-11-21 23:56:09.463116+00
+47754	0yglR8yqdKQ	Too short	2025-11-21 23:56:09.485053+00
+47755	1AlBg4ZWa_U	Too short	2025-11-21 23:56:09.50673+00
+47756	lalenBh4XtU	Too short	2025-11-21 23:56:09.528622+00
+47757	RxnxK3lRBhg	Too short	2025-11-21 23:56:09.54995+00
+47758	Ge_SarrMYw8	Too short	2025-11-21 23:56:09.571386+00
+47759	smffP9nKfjU	Too short	2025-11-21 23:56:09.592543+00
+47760	B7a91JV1jIs	Too short	2025-11-21 23:56:09.615236+00
+47761	esgF7s4b5Lw	Too short	2025-11-21 23:56:09.672801+00
+47762	N0JmHaIx1bk	Too short	2025-11-21 23:56:09.699629+00
+47763	_wa_g4utu5M	Too short	2025-11-21 23:56:09.721781+00
+47764	zCgWkHClZhs	Too short	2025-11-21 23:56:09.742569+00
+47765	sd8R2oSkMzo	Too short	2025-11-21 23:56:09.763884+00
+47766	sb3yE4Rjp_U	Too short	2025-11-21 23:56:09.785391+00
+47767	aFlXcVmgOPU	Too short	2025-11-21 23:56:09.807887+00
+47768	66ISFJn3tWw	Too short	2025-11-21 23:56:09.828904+00
+47769	Jjmc4Jocl50	Too short	2025-11-21 23:56:51.778751+00
+47770	_O9l4jVUfro	Too short	2025-11-21 23:56:51.864003+00
+47771	qqnnRlDh_9M	Too short	2025-11-21 23:56:51.886456+00
+47772	35ULYM_6sug	Too short	2025-11-21 23:56:51.909501+00
+47773	8DTL0iAQ2x4	Too short	2025-11-21 23:56:51.931896+00
+47774	HilZxUtr9jY	Too short	2025-11-21 23:57:22.214285+00
+47775	7NsDiUWgvOs	Too short	2025-11-21 23:58:24.445934+00
+47776	MzIazGtgUuA	Too short	2025-11-21 23:58:24.511296+00
+47777	Tq-LJ7zlRGE	Too short	2025-11-21 23:58:24.533326+00
+47778	xf-pkZ-zpYQ	Too short	2025-11-21 23:58:44.924509+00
+47779	LthrU7cmFCU	Too short	2025-11-21 23:59:04.714818+00
+47780	3nAVq1k3k60	Too short	2025-11-21 23:59:04.787913+00
+47781	s_ezNCb8vbw	Too short	2025-11-21 23:59:28.240762+00
+47782	RHyKn_PwzgM	Too short	2025-11-22 00:00:08.813594+00
+47783	3Bz0JpOEuRE	Too short	2025-11-22 00:00:30.469717+00
+47784	U2duwIrS4Qo	Too short	2025-11-22 00:00:52.495675+00
+47785	n5FsodTca3E	Too short	2025-11-22 00:00:52.572088+00
+47786	HWiCyUAd1Gc	Too short	2025-11-22 00:00:54.947366+00
+47787	lUSgDsQH17g	Too short	2025-11-22 00:00:54.974747+00
+47788	74LObaQwVlA	Too short	2025-11-22 00:02:57.469637+00
+47789	kyE5ecwscbU	Too short	2025-11-22 00:03:18.25904+00
+47790	KKt6ugzSUXA	Too short	2025-11-22 00:03:18.326356+00
+47791	GHSitm_TA5A	Too short	2025-11-22 00:03:18.349478+00
+47792	vnWfXz6IznE	Too short	2025-11-22 00:03:18.371154+00
+47793	u84K4zczCGA	Too short	2025-11-22 00:03:18.392854+00
+47794	u3JweqwQ5Qk	Too short	2025-11-22 00:03:18.415046+00
+47795	_EIZPTVCuxU	Too short	2025-11-22 00:03:38.041587+00
+47796	LdrjFDd4I68	Too short	2025-11-22 00:04:39.647495+00
+47797	IWjc8SWxSTU	Too short	2025-11-22 00:04:39.720161+00
+47798	75aMCEEWCBY	Too short	2025-11-22 00:04:39.742743+00
+47799	j3Sl267j7tI	Too short	2025-11-22 00:04:39.76503+00
+47800	4_lB5p-zbZk	Too short	2025-11-22 00:04:39.786471+00
+47801	0QZxhRcnavQ	Too short	2025-11-22 00:04:39.808458+00
+47802	7yVYoB8syQ8	Too short	2025-11-22 00:05:01.794406+00
+47803	3SuhvCaXn5g	Too short	2025-11-22 00:05:01.860408+00
+47804	IH3Q0QrUDFc	Too short	2025-11-22 00:05:21.369099+00
+47805	DuQ5GS_PGCI	Too short	2025-11-22 00:05:21.443026+00
+47806	cDtsLiTivWs	Too short	2025-11-22 00:05:21.465465+00
+47807	ixtHkTrdXHg	Too short	2025-11-22 00:05:21.4868+00
+47808	E2WfPLH_qQw	Too short	2025-11-22 00:05:21.508438+00
+47809	fIsbUXiMW6I	Too short	2025-11-22 00:06:25.947467+00
+47810	Cv9vvW1xZOU	Too short	2025-11-22 00:06:26.016853+00
+47811	Dgk4V9AU6xg	Too short	2025-11-22 00:06:26.039203+00
+47812	8ye9vV06zX8	Too short	2025-11-22 00:06:26.060652+00
+47813	hzzW6WmZMWk	Too short	2025-11-22 00:06:26.083228+00
+47814	2dosYweK-lQ	Too short	2025-11-22 00:06:26.105072+00
+47815	L4FvAUg8pkE	Too short	2025-11-22 00:06:26.122743+00
+47816	oZgsPrp80lA	Too short	2025-11-22 00:06:26.142007+00
+47817	QkfRHNEPnIE	Too short	2025-11-22 00:06:47.52+00
+47818	ve2nYEFgADc	Too short	2025-11-22 00:06:47.593415+00
+47819	tO6WD3jpOkA	Too short	2025-11-22 00:06:47.615754+00
+47820	Es42z3Psnhc	Too short	2025-11-22 00:08:54.318926+00
+47821	zaiNVQklOdI	Too short	2025-11-22 00:08:54.392342+00
+47822	auoK2HbcqFw	Too short	2025-11-22 00:09:04.270989+00
+47823	7IOevguCIJE	Too short	2025-11-22 00:09:25.425138+00
+47824	oC7EEMdGIHw	Too short	2025-11-22 00:09:46.58636+00
+47825	njfbu2g_dGM	No author found	2025-11-22 00:09:46.663074+00
+47826	RaJrtMcI0gQ	Too short	2025-11-22 00:10:06.795243+00
+47827	HirhpqZA54w	Too short	2025-11-22 00:10:27.138298+00
+47828	VDzX29d74K4	Too short	2025-11-22 00:11:07.866312+00
+47829	zSZ3CmXaPPo	Too short	2025-11-22 00:11:07.95996+00
+47830	vvZhI57iM_c	Too short	2025-11-22 00:11:07.983681+00
+47831	6dU6rl6j3fg	Too short	2025-11-22 00:11:08.029167+00
+47832	pn6oiT0JHeg	Too short	2025-11-22 00:11:08.052368+00
+47833	ThTS0SFBTD0	Too short	2025-11-22 00:11:08.073994+00
+47834	_-6Sg2TFXT0	Too short	2025-11-22 00:11:08.115709+00
+47835	Qx3XijNbHD4	Too short	2025-11-22 00:11:11.872481+00
+47836	Rp7T8kGdMFg	Too short	2025-11-22 00:11:11.896044+00
+47837	mhIPqNQ8TAo	Too short	2025-11-22 00:11:31.626726+00
+47838	13x4_2CXuzI	Too short	2025-11-22 00:11:31.70429+00
+47839	uUupJ1TGbHk	Too short	2025-11-22 00:11:31.7458+00
+47840	_C4SlvApX0s	Too short	2025-11-22 00:11:51.42226+00
+47841	vASJjNVtPgc	Too short	2025-11-22 00:11:51.506277+00
+47842	mcQ3UUtbQfA	Too short	2025-11-22 00:11:51.548213+00
+47843	G_61u_oR0DI	Too short	2025-11-22 00:11:51.57006+00
+47844	OK0H_0W11V4	Too short	2025-11-22 00:11:51.592487+00
+47845	40vxe0EeZn8	Too short	2025-11-22 00:11:51.614894+00
+47846	GPnvj4kX7vc	Too short	2025-11-22 00:11:51.635892+00
+47847	TKITs766lEY	Too short	2025-11-22 00:11:51.657306+00
+47848	N6KqO1j4x-w	Too short	2025-11-22 00:11:55.444417+00
+47849	ukm2Ddjo8rg	Too short	2025-11-22 00:11:55.466905+00
+47850	T8Gn34ZNAO8	Too short	2025-11-22 00:11:55.489151+00
+47851	jjiKyFPfJ8U	Too short	2025-11-22 00:11:55.510728+00
+47852	vuwib2GyJOY	Too short	2025-11-22 00:11:55.531956+00
+47853	uIdZP87whDw	Too short	2025-11-22 00:11:55.553721+00
+47854	FyNROCqIIIU	Too short	2025-11-22 00:11:55.574858+00
+47855	3wFT6WM2pbw	Too short	2025-11-22 00:11:55.597021+00
+47856	ZMSdu9_1M6k	Too short	2025-11-22 00:11:55.646943+00
+47857	H2ke6M9kwbM	Too short	2025-11-22 00:11:55.669814+00
+47858	QbQ824n8ck0	Too short	2025-11-22 00:11:55.696894+00
+47859	mK23k0W5QEQ	Too short	2025-11-22 00:11:55.737925+00
+47860	ZEZjuK3Y4jU	Too short	2025-11-22 00:11:55.760317+00
+47861	PrhLRphYiO0	Too short	2025-11-22 00:11:59.709489+00
+47862	9awFntRXR4E	Too short	2025-11-22 00:11:59.762018+00
+47863	oMWxI0QFCZw	Too short	2025-11-22 00:11:59.789972+00
+47864	PMtNcspR1sA	Too short	2025-11-22 00:11:59.851826+00
+47865	UzomzXeSxHg	Too short	2025-11-22 00:11:59.873878+00
+47866	Y1B-h7n3u4Q	Too short	2025-11-22 00:11:59.895071+00
+47867	sunICWCd5QM	Too short	2025-11-22 00:12:21.68515+00
+47868	hW7BCrMUu4w	Too short	2025-11-22 00:12:21.847857+00
+47869	1GJRS1WLcJQ	Too short	2025-11-22 00:12:24.224483+00
+47870	DEZYR77JYQs	No author found	2025-11-22 00:12:24.256726+00
+47871	bIaJNd6UzUE	Too short	2025-11-22 00:12:43.964014+00
+47872	nFOJqGqUCpM	Too short	2025-11-22 00:12:43.996213+00
+47873	R3dc-FmXbI4	Too short	2025-11-22 00:12:44.021154+00
+47874	NiRKFbGcRss	Too short	2025-11-22 00:12:44.045613+00
+47875	padhiwBxIvI	Too short	2025-11-22 00:12:44.068957+00
+47876	8zb1EhhJHUo	Too short	2025-11-22 00:12:44.092102+00
+47877	g9J2gYUp98E	Too short	2025-11-22 00:13:03.919101+00
+47878	s5Ea4HgBmLo	Too short	2025-11-22 00:13:03.989814+00
+47879	Sq0OfUss8NA	Too short	2025-11-22 00:13:04.015302+00
+47880	VpiPxthjj3Y	Too short	2025-11-22 00:13:04.0487+00
+47881	bTOlPlP_uj4	Too short	2025-11-22 00:13:04.072732+00
+47882	LewdVISYjaU	Too short	2025-11-22 00:13:04.101419+00
+47883	LprstnjLfXw	Too short	2025-11-22 00:13:04.122889+00
+47884	Y1qSfx82DkI	Too short	2025-11-22 00:13:04.14725+00
+47885	tD7Ux2gJvhE	Too short	2025-11-22 00:13:04.173275+00
+47886	WChX7CkLvrA	Too short	2025-11-22 00:13:04.19791+00
+47887	hYRf_a0h3vY	Too short	2025-11-22 00:13:04.221899+00
+47888	vvig1ZKcJHM	Too short	2025-11-22 00:13:04.246861+00
+47889	cyBZmLQEz6M	Too short	2025-11-22 00:13:08.036787+00
+47890	tRwpuqtcAXE	Too short	2025-11-22 00:13:08.062317+00
+47891	mOzyHOCWAtI	Too short	2025-11-22 00:13:08.085411+00
+47892	9kG33qtRYRA	Too short	2025-11-22 00:13:08.108035+00
+47893	CyrMTlJ3FKE	Too short	2025-11-22 00:13:08.132343+00
+47894	hQ0b4Kmm9P0	Too short	2025-11-22 00:13:08.15496+00
+47895	6ZKTKNrEBIY	Too short	2025-11-22 00:13:08.178077+00
+47896	uWAL-4yKSuo	Too short	2025-11-22 00:13:08.200035+00
+47897	dldSk44AGc8	Too short	2025-11-22 00:13:08.222993+00
+47898	v7rOTYuB-4o	Too short	2025-11-22 00:13:08.244592+00
+47899	oDbpxbzIImI	Too short	2025-11-22 00:13:08.272451+00
+47900	VvDY9k10CWw	Too short	2025-11-22 00:13:08.296531+00
+47901	yQMn1yOAoxc	Too short	2025-11-22 00:13:08.323994+00
+47902	Vt5PRgVFPqE	Too short	2025-11-22 00:13:08.349148+00
+47903	PWUI4znNiPo	Too short	2025-11-22 00:13:08.373531+00
+47904	0Ku5zYsEBwI	Too short	2025-11-22 00:13:08.395076+00
+47905	F2x3WU-Xwi8	Too short	2025-11-22 00:13:08.418214+00
+47906	O91OI1sbGKI	Too short	2025-11-22 00:13:12.731583+00
+47907	LFN1jy4F-JE	Too short	2025-11-22 00:13:12.756114+00
+47908	-Q4hhEVI_5I	Too short	2025-11-22 00:13:12.77913+00
+47909	3FZvemPQWEM	Too short	2025-11-22 00:13:12.802265+00
+47910	deXHdznNin8	Too short	2025-11-22 00:13:12.825189+00
+47911	-OpCa25dK4o	Too short	2025-11-22 00:13:12.847152+00
+47912	5vTRAUrLf9o	Too short	2025-11-22 00:13:12.869494+00
+47913	7eH417PrpEM	Too short	2025-11-22 00:13:12.897149+00
+47914	1lQ-c2idZac	Too short	2025-11-22 00:13:12.925969+00
+47915	IM0qEcREQxE	Too short	2025-11-22 00:13:12.951689+00
+47916	i3-aSa2jmeA	Too short	2025-11-22 00:13:12.978774+00
+47917	9gmKligslS8	Too short	2025-11-22 00:13:16.579595+00
+47918	8Wq4d-8qO2U	Too short	2025-11-22 00:13:16.599155+00
+47919	6RTq9AsffFw	No author found	2025-11-22 00:13:16.631002+00
+47920	2PQDcgCwPJY	Too short	2025-11-22 00:13:36.520603+00
+47921	Bc1MOdk_LkM	Too short	2025-11-22 00:13:36.549622+00
+47922	r4feVn7BYlU	Too short	2025-11-22 00:13:36.57284+00
+47923	OhXCHuNQj-0	Too short	2025-11-22 00:13:36.595764+00
+47924	angrbslmV8M	Too short	2025-11-22 00:13:36.618192+00
+47925	FTcYWpUbvMY	Too short	2025-11-22 00:13:36.644576+00
+47926	UMtArRailYM	Too short	2025-11-22 00:13:36.666457+00
+47927	XenHjNQCJho	Too short	2025-11-22 00:13:36.692091+00
+47928	g9suNj32FmA	Too short	2025-11-22 00:13:36.716889+00
+47929	i2syGxbd84Y	Too short	2025-11-22 00:13:36.741931+00
+47930	GWKnkr7gmMA	Too short	2025-11-22 00:13:36.764758+00
+47931	W14nIQWJSxc	Too short	2025-11-22 00:13:36.786432+00
+47932	-wz5ssLFFKc	Too short	2025-11-22 00:15:36.892125+00
+47933	bmCYoRZdVpo	Too short	2025-11-22 00:15:56.566284+00
+47934	xnA4BSRxjXU	Too short	2025-11-22 00:15:56.642446+00
+47935	v1jqpKQtn1c	Too short	2025-11-22 00:16:35.768112+00
+47936	mSYXz5tWxL4	Too short	2025-11-22 00:16:35.863852+00
+47937	8GuA4XXQ6us	Too short	2025-11-22 00:16:35.887033+00
+47938	9WZ5LOhPSgI	Too short	2025-11-22 00:16:55.483039+00
+47939	YUK99gaykWY	Too short	2025-11-22 00:16:55.578707+00
+47940	YW998VH1hrU	Too short	2025-11-22 00:16:55.60106+00
+47941	n00QLrNG9_Y	Too short	2025-11-22 00:16:55.622673+00
+47942	5xoSF-42Js8	Too short	2025-11-22 00:16:55.645328+00
+47943	qvzwHFWjVn8	Too short	2025-11-22 00:16:55.666454+00
+47944	Dke8IVvOT0A	Too short	2025-11-22 00:16:59.629526+00
+47945	o_i8yfLoKM4	Too short	2025-11-22 00:16:59.651467+00
+47946	zekexba6Tq4	Too short	2025-11-22 00:16:59.673057+00
+47947	D9sxr0nvOs4	Too short	2025-11-22 00:16:59.69511+00
+47948	VpoytkUPTjg	Too short	2025-11-22 00:16:59.716431+00
+47949	uQgSwo57YD4	Too short	2025-11-22 00:16:59.737853+00
+47950	udqltVgMtK0	Too short	2025-11-22 00:17:19.29223+00
+47951	1NqpNXG322E	Too short	2025-11-22 00:17:59.405574+00
+47952	x3KPee_vo3c	Too short	2025-11-22 00:17:59.469801+00
+47953	2xUp6uzATto	Too short	2025-11-22 00:17:59.492379+00
+47954	E8dyGKVXfwI	Too short	2025-11-22 00:18:19.502166+00
+47955	lbGjj4L_H9o	Too short	2025-11-22 00:18:19.552376+00
+47956	j-rvSQZbIUU	Too short	2025-11-22 00:18:22.400414+00
+47957	FrDZQZti1FY	Too short	2025-11-22 00:18:22.464558+00
+47958	Yrls7wshBiU	Too short	2025-11-22 00:18:22.487601+00
+47959	db6BDXldzlo	Too short	2025-11-22 00:18:22.509251+00
+47960	UYUh-x9GuhM	Too short	2025-11-22 00:18:22.530647+00
+47961	wuQsdvQ2B1o	No author found	2025-11-22 00:18:22.553229+00
+47962	vIcOQaUBg-c	Too short	2025-11-22 00:18:42.905354+00
+47963	F7TbZKg_85U	Too short	2025-11-22 00:18:46.14791+00
+47964	1FIpfmxBuRQ	Too short	2025-11-22 00:18:46.237072+00
+47965	2HeiPMxvnyY	No author found	2025-11-22 00:18:46.258539+00
+47966	UaiUpX6Cekk	Too short	2025-11-22 00:19:49.594713+00
+47967	t7sMkTjVJSg	Too short	2025-11-22 00:19:49.684717+00
+47968	b1oC6H0YHXI	Too short	2025-11-22 00:20:10.037647+00
+47969	odk0xUhhF5I	Too short	2025-11-22 00:20:12.753223+00
+47970	yuY4BP6CBJE	Too short	2025-11-22 00:20:12.808822+00
+47971	Fb_PXHZQDNc	Too short	2025-11-22 00:20:12.865098+00
+47972	yUtvH5_ggcA	Too short	2025-11-22 00:20:33.491309+00
+47973	QAt5Nc5rJ1M	Too short	2025-11-22 00:20:33.539442+00
+47974	UofKlXYaiOs	Too short	2025-11-22 00:20:33.562702+00
+47975	AH5NFpK2CCQ	Too short	2025-11-22 00:21:14.646453+00
+47976	JrK0vSybTqo	Too short	2025-11-22 00:21:14.735693+00
+47977	cooTpacrlOU	Too short	2025-11-22 00:23:24.662574+00
+47978	BZmCmswYETM	Too short	2025-11-22 00:23:24.723704+00
+47979	HcpnqhvQJ4k	Too short	2025-11-22 00:23:24.745898+00
+47980	i8QXLbuNSWM	Too short	2025-11-22 00:25:03.137852+00
+47981	E46jxNRg6G0	Too short	2025-11-22 00:25:22.673289+00
+47982	Rxb_I2fc5Cs	Too short	2025-11-22 00:25:22.748071+00
+47983	EEiAkNpawy0	Too short	2025-11-22 00:25:22.771629+00
+47984	J6JDtzfw6T0	Too short	2025-11-22 00:25:22.793663+00
+47985	G4xvg-8_X7s	Too short	2025-11-22 00:25:22.815653+00
+47986	-ZSOa5yOzZI	Too short	2025-11-22 00:25:22.837954+00
+47987	bFv1hBFct9M	Too short	2025-11-22 00:25:26.543241+00
+47988	sl48eOCJECY	Too short	2025-11-22 00:25:26.569979+00
+47989	pufj9anLaAM	Too short	2025-11-22 00:25:26.593179+00
+47990	IlyPi9NPsxQ	Too short	2025-11-22 00:25:26.614925+00
+47991	lpqwx5PsW14	Too short	2025-11-22 00:25:26.636525+00
+47992	8P7ydKM4G0Y	Too short	2025-11-22 00:25:26.658508+00
+47993	GI1Zt_YfteU	Too short	2025-11-22 00:25:26.680323+00
+47994	eVNR2fldZM4	Too short	2025-11-22 00:25:26.702108+00
+47995	5NaHQzOYyPM	Too short	2025-11-22 00:25:26.724372+00
+47996	d9D61duxTXA	Too short	2025-11-22 00:25:26.747397+00
+47997	cPsAXGVq-R4	Too short	2025-11-22 00:25:26.768895+00
+47998	1KuIn2IIlMI	Too short	2025-11-22 00:25:26.790091+00
+47999	6Tcy0EUQJB4	Too short	2025-11-22 00:25:26.81133+00
+48000	hbCWKv2TKIs	Too short	2025-11-22 00:25:26.832144+00
+48001	MT2oXSyCqtE	Too short	2025-11-22 00:25:26.853459+00
+48002	8aM67FJT8hc	Too short	2025-11-22 00:25:26.875202+00
+48003	POx_zb6gYTo	Too short	2025-11-22 00:25:26.896781+00
+48004	W2Cbh7nG3MU	Too short	2025-11-22 00:25:26.919165+00
+48005	UkN4RcGxkGY	Too short	2025-11-22 00:25:50.949265+00
+48006	5V0qJv2F3PU	No author found	2025-11-22 00:25:51.017028+00
+48007	EqnW9NHvLXM	Too short	2025-11-22 00:26:30.302077+00
+48008	bySMibLDLcM	Too short	2025-11-22 00:26:30.37544+00
+48009	GV1wxmjp9YA	Too short	2025-11-22 00:26:30.437319+00
+48010	mfkTNfw_Et0	Too short	2025-11-22 00:26:30.460467+00
+48011	C2UILz0_iXw	Too short	2025-11-22 00:26:30.48864+00
+48012	vazYy05Q_nY	Too short	2025-11-22 00:26:30.546074+00
+48013	_13yFUp180Y	Too short	2025-11-22 00:26:30.588646+00
+48014	_zAffPU9BXc	Too short	2025-11-22 00:26:30.630206+00
+48015	bqZaz9-tZ28	Too short	2025-11-22 00:27:15.359428+00
+48016	uOHx2XKf_uc	Too short	2025-11-22 00:27:34.696932+00
+48017	mEr14jKr0O0	No author found	2025-11-22 00:27:34.767122+00
+48018	ccVgI3m34H0	Too short	2025-11-22 00:27:54.382399+00
+48019	LykYB2Uty68	Too short	2025-11-22 00:27:54.409161+00
+48020	yNLK82BAG6E	Too short	2025-11-22 00:27:54.43181+00
+48021	R_Ki20ZUeA0	Too short	2025-11-22 00:32:57.96564+00
+48022	5UIJQbZmwbY	Too short	2025-11-22 00:34:43.958755+00
+48023	yf9DQh20hYE	Too short	2025-11-22 00:34:44.009483+00
+48024	JLOBXmMUctg	Too short	2025-11-22 00:34:44.033385+00
+48025	wcu3SqFnmeg	Too short	2025-11-22 00:34:44.056327+00
+48026	z88PZSxAxD0	Too short	2025-11-22 00:34:44.084451+00
+48027	y06D98JK2ak	Too short	2025-11-22 00:35:03.791031+00
+48028	R3MEr6-DZoQ	Too short	2025-11-22 00:35:24.441431+00
+48029	Ada_kBUAMsE	No author found	2025-11-22 00:35:24.516438+00
+48030	3bRqBxFWE3c	Too short	2025-11-22 00:35:45.635394+00
+48031	RQcLbOcq7oE	Too short	2025-11-22 00:35:45.659643+00
+48032	nTOPgJ5v_fI	Too short	2025-11-22 00:36:06.116946+00
+48033	D3dNzdsKNVg	Too short	2025-11-22 00:36:06.183628+00
+48034	GfVKWFqVmcc	Too short	2025-11-22 00:36:09.832763+00
+48035	H2vq_NnJhEU	Too short	2025-11-22 00:36:09.854996+00
+48036	OWbTMHL83to	Too short	2025-11-22 00:36:09.877867+00
+48037	yuUhSAJro6w	Too short	2025-11-22 00:36:09.899927+00
+48038	SJxotuuUifY	Too short	2025-11-22 00:36:09.921739+00
+48039	MscYZY2NG1Y	Too short	2025-11-22 00:36:29.583129+00
+48040	YStRp7OvGWs	Too short	2025-11-22 00:36:29.650805+00
+48041	FZ8yYMWfmSQ	Too short	2025-11-22 00:36:48.947398+00
+48042	GveJl13Ii5g	No author found	2025-11-22 00:36:49.013037+00
+48043	87-_uvMPi8A	Too short	2025-11-22 00:37:08.949198+00
+48044	UpLss2eTMUw	Too short	2025-11-22 00:37:08.974702+00
+48045	6pSfSbrlrUc	Too short	2025-11-22 00:37:08.997493+00
+48046	v4d8l_bqcOM	Too short	2025-11-22 00:37:09.020479+00
+48047	xZivQvV2azk	Too short	2025-11-22 00:37:28.690997+00
+48048	f3BIjFQ09Vs	No author found	2025-11-22 00:37:52.368002+00
+48049	y1uPrwp74LQ	No author found	2025-11-22 00:38:13.048924+00
+48050	F0iFGjr9MSU	Too short	2025-11-22 00:38:33.797724+00
+48051	nx8-e2fl8K8	Too short	2025-11-22 00:38:33.82885+00
+48052	R_hv3mwoEy4	Too short	2025-11-22 00:38:33.8497+00
+48053	UBUIlKhBQQ0	Too short	2025-11-22 00:38:33.871921+00
+48054	cdp71CGKyi8	Too short	2025-11-22 00:38:33.893923+00
+48055	kNV2BNeUcQQ	Too short	2025-11-22 00:38:33.916321+00
+48056	FhggeII1yUo	Too short	2025-11-22 00:38:33.950449+00
+48057	spp-6H6KJmw	Too short	2025-11-22 00:38:33.976092+00
+48058	PFrlkL6RyNM	Too short	2025-11-22 00:38:33.999536+00
+48059	IVnvQWRjltM	Too short	2025-11-22 00:38:34.022524+00
+48060	ojx-28GjErs	No author found	2025-11-22 00:38:34.042766+00
+48061	9bCcRHX8Fwk	Too short	2025-11-22 00:39:16.750073+00
+48062	PQsnk9LZlFg	Too short	2025-11-22 00:39:16.816889+00
+48063	6vieX-7ATCY	Too short	2025-11-22 00:39:16.846016+00
+48064	UoftBJb4e18	Too short	2025-11-22 00:39:19.806015+00
+48065	my9dsddScMw	Too short	2025-11-22 00:39:19.83672+00
+48066	3hSvRZB_kp8	Too short	2025-11-22 00:39:19.865155+00
+48067	cJKX4OqciCk	Too short	2025-11-22 00:39:19.891951+00
+48068	vZEP8rhyrrM	Too short	2025-11-22 00:39:19.945066+00
+48069	i8nffd9TpYE	Too short	2025-11-22 00:39:19.969117+00
+48070	iof3i-7YhkI	Too short	2025-11-22 00:39:19.992685+00
+48071	VONHg2mUu1Q	Too short	2025-11-22 00:39:20.015502+00
+48072	EEIE8D3xNbk	Too short	2025-11-22 00:39:20.0405+00
+48073	MSAsNqw9JLw	Too short	2025-11-22 00:39:20.082556+00
+48074	j2qK9fSLGQc	Too short	2025-11-22 00:39:39.935016+00
+48075	pRXAvMzYloQ	Too short	2025-11-22 00:39:40.023943+00
+48076	xJuRV7t4-wU	Too short	2025-11-22 00:39:40.047792+00
+48077	s0z00aOhDfA	Too short	2025-11-22 00:39:40.071641+00
+48078	GgiQkk-2eKc	Too short	2025-11-22 00:39:40.095116+00
+48079	uB5T9z85fwA	Too short	2025-11-22 00:39:40.118644+00
+48080	noy0IEtw7X0	Too short	2025-11-22 00:39:40.142247+00
+48081	5ui4WmaM5i4	Too short	2025-11-22 00:39:40.164657+00
+48082	2Iht7MVxg7c	Too short	2025-11-22 00:39:40.187205+00
+48083	xODVQPdIYp8	Too short	2025-11-22 00:39:42.073015+00
+48084	w0eQpuGA364	Too short	2025-11-22 00:39:42.095693+00
+48085	CWaD7ejjo_U	Too short	2025-11-22 00:39:42.118172+00
+48086	lLfwe0vAG4U	No author found	2025-11-22 00:40:13.068371+00
+48087	UuRutMLMPNA	No author found	2025-11-22 00:40:56.604546+00
+48088	fcJ987ZtxXk	Too short	2025-11-22 00:41:18.85224+00
+48089	XZ0x5ttlr6g	Too short	2025-11-22 00:41:18.876733+00
+48090	hYklGz3u7-8	Too short	2025-11-22 00:41:40.005868+00
+48091	m-DrQEyWfn8	Too short	2025-11-22 00:41:50.658439+00
+48092	DmBTuN_x6KA	Too short	2025-11-22 00:42:32.10117+00
+48093	yNgHDWPbkvY	Too short	2025-11-22 00:43:31.930705+00
+48094	8f5uMpVduVs	Too short	2025-11-22 00:43:32.006446+00
+48095	HbOZuq8y-wk	No author found	2025-11-22 00:43:32.09003+00
+48096	nk-IaIvsSdY	Too short	2025-11-22 00:43:53.767314+00
+48097	Z4_Hf88lDKc	Too short	2025-11-22 00:44:13.472984+00
+48098	AdW5P3Ac9dg	Too short	2025-11-22 00:44:58.250185+00
+48099	vrSKme3ah9s	Too short	2025-11-22 00:45:18.673082+00
+48100	r0i4HiJA1-M	Too short	2025-11-22 00:45:18.730154+00
+48101	7GNYGlDMK4k	Too short	2025-11-22 00:45:43.412878+00
+48102	1YC09MrygXg	Too short	2025-11-22 00:45:56.352342+00
+48103	VRPJ0jTEKhs	Too short	2025-11-22 00:45:56.810223+00
+48104	N3UjlV3TKb8	Too short	2025-11-22 00:45:56.898989+00
+48105	eIiAokj3ajg	Too short	2025-11-22 00:46:01.15618+00
+48106	Jm3e_7jNX0w	Too short	2025-11-22 00:46:23.882211+00
+48107	5zq3RCeoWaw	Too short	2025-11-22 00:46:23.939539+00
+48108	I3FhtMzAJPM	Too short	2025-11-22 00:46:27.063392+00
+48109	QnA3rhmjNNg	Too short	2025-11-22 00:46:27.108382+00
+48110	zUU--yNauxk	Too short	2025-11-22 00:46:27.163147+00
+48111	qOfkHrOAaK4	Too short	2025-11-22 00:46:27.186715+00
+48112	eXeYckCEJcM	Too short	2025-11-22 00:46:27.209819+00
+48113	qdEMSloLpvs	Too short	2025-11-22 00:46:27.232323+00
+48114	qFE56a4zo60	Too short	2025-11-22 00:46:27.276601+00
+48115	8e0SAqAQDM8	Too short	2025-11-22 00:46:27.319415+00
+48116	yw5lIxEViZ4	Too short	2025-11-22 00:46:27.341077+00
+48117	lsGMNvpwrNc	Too short	2025-11-22 00:46:27.363464+00
+48118	XHWV-rXJBWc	Too short	2025-11-22 00:46:27.385556+00
+48119	FUmCOY_KU8M	Too short	2025-11-22 00:46:30.208859+00
+48120	GhLqvh-MiNE	Too short	2025-11-22 00:46:30.320324+00
+48121	_O9zYKLYMJg	Too short	2025-11-22 00:46:30.368141+00
+48122	iwC5iDELreM	Too short	2025-11-22 00:46:30.399602+00
+48123	CL6rx3SAzgk	Too short	2025-11-22 00:46:30.425006+00
+48124	6UkDKrLitac	Too short	2025-11-22 00:46:30.449213+00
+48125	zIbni2GkmGE	Too short	2025-11-22 00:46:30.473566+00
+48126	lPiC5f6d88o	Too short	2025-11-22 00:46:30.496884+00
+48127	4sUFXzF_82A	Too short	2025-11-22 00:46:40.974359+00
+48128	QlzRdst8qcA	Too short	2025-11-22 00:47:32.119807+00
+48129	-BE1OMWWBLw	No author found	2025-11-22 00:48:21.192589+00
+48130	Q93_KotfowA	Too short	2025-11-22 00:49:02.700309+00
+48131	tEctjwFjLNo	Too short	2025-11-22 00:49:02.776871+00
+48132	ofV7FzLFZk4	Too short	2025-11-22 00:49:02.801063+00
+48133	y29ZK9pnIGg	Too short	2025-11-22 00:49:02.824123+00
+48134	mtFmCSo0SjY	Too short	2025-11-22 00:49:02.850494+00
+48135	8iJxbQY7UFk	Too short	2025-11-22 00:49:02.873964+00
+48136	fVWEmeCIboI	Too short	2025-11-22 00:49:02.897558+00
+48137	P5TP_owI5co	Not in English (det. by LLM)	2025-11-22 00:49:02.920527+00
+48138	hkIemRAFzC0	Too short	2025-11-22 00:49:04.71003+00
+48139	L74J19fpGr0	Too short	2025-11-22 00:49:04.737649+00
+48140	84RvqxSWlQE	Too short	2025-11-22 00:49:04.762181+00
+48141	vD3m8O2EQ8s	Too short	2025-11-22 00:49:04.78407+00
+48142	MQXcNXZpzP4	Too short	2025-11-22 00:49:04.806364+00
+48143	jul_lw1M0z0	Too short	2025-11-22 00:49:04.828226+00
+48144	5nzC7zyWRq8	Too short	2025-11-22 00:49:04.85234+00
+48145	ZivBd88jwSc	Too short	2025-11-22 00:49:04.875243+00
+48146	ss8s40aUN78	Too short	2025-11-22 00:49:04.89706+00
+48147	a7Pz_0LN8y4	Too short	2025-11-22 00:49:04.920093+00
+48148	oMMLYYVpQZM	Not in English (det. by LLM)	2025-11-22 00:49:04.942486+00
+48149	m7-8w9lHmi4	No author found	2025-11-22 00:49:10.403405+00
+48150	A1hUq9oaAGk	Too short	2025-11-22 00:49:29.783434+00
+48151	iKF9GGvjLJY	Too short	2025-11-22 00:49:29.807848+00
+48152	akulOHu0OXY	Too short	2025-11-22 00:49:29.830441+00
+48153	pupo4Yyfkm0	Too short	2025-11-22 00:49:29.854775+00
+48154	OePvRpb1SCo	Too short	2025-11-22 00:49:29.879361+00
+48155	dD1wYNxwaT4	Too short	2025-11-22 00:49:29.901931+00
+48156	HjFuuQqFCEw	Too short	2025-11-22 00:49:29.927392+00
+48157	mooHeDR08zk	Too short	2025-11-22 00:52:04.794285+00
+48158	LNDYf_-njFo	Too short	2025-11-22 00:52:26.06818+00
+48159	ePAHtV9_xaU	Too short	2025-11-22 00:55:53.820286+00
+48160	M5UsTNCXEUM	Too short	2025-11-22 00:56:35.035421+00
+48161	CXSGn0Xk9xU	Too short	2025-11-22 00:56:39.176613+00
+48162	TgIkbexK6e8	Too short	2025-11-22 00:56:39.199504+00
+48163	1hyfAii0lB0	Too short	2025-11-22 00:57:00.239964+00
+48164	n2569_rXg38	Too short	2025-11-22 00:57:00.302778+00
+48165	NIPLYIerQ4U	Too short	2025-11-22 00:57:19.723039+00
+48166	RIOee-DKpdY	Too short	2025-11-22 00:58:42.24118+00
+48167	7ooyIry6T2c	Too short	2025-11-22 01:00:24.664333+00
+48168	skU_-XLLjS0	Too short	2025-11-22 01:00:24.720081+00
+48169	9OhQDM5ciXI	Too short	2025-11-22 01:00:27.508947+00
+48170	vVZquQFzCjo	Too short	2025-11-22 01:00:27.533092+00
+48171	OSGuqnqXrjw	Too short	2025-11-22 01:00:27.555882+00
+48172	eRcKboAZnq8	Too short	2025-11-22 01:00:27.57936+00
+48173	KoH2f-551HI	Too short	2025-11-22 01:01:30.466272+00
+48174	EPBYCK2M8HE	Too short	2025-11-22 01:01:51.442439+00
+48175	gP-7KhepLKw	Too short	2025-11-22 01:01:51.520321+00
+48176	_4QxFa2yFqY	Too short	2025-11-22 01:01:51.544177+00
+48177	AfAlZYKtRjE	Too short	2025-11-22 01:01:51.566423+00
+48178	q1owVkJ_Sto	Too short	2025-11-22 01:01:51.587938+00
+48179	6qXNRFMTpuk	Too short	2025-11-22 01:01:51.611087+00
+48180	3Bl5pOepRQ8	Too short	2025-11-22 01:01:51.632195+00
+48181	uBzu9kJCwiY	Too short	2025-11-22 01:01:55.927153+00
+48182	Y-RnW4i1Ulg	Too short	2025-11-22 01:01:55.954754+00
+48183	iCjWsl-6kew	Too short	2025-11-22 01:01:55.979774+00
+48184	szWHSY61pL0	Too short	2025-11-22 01:01:56.00408+00
+48185	sBo7CgsA6OU	Too short	2025-11-22 01:01:56.043858+00
+48186	S75QrC-ie5Q	Too short	2025-11-22 01:01:56.076287+00
+48187	J-UwHvOqK9A	Too short	2025-11-22 01:01:56.100255+00
+48188	lm3rAU0qLAw	Too short	2025-11-22 01:01:56.123115+00
+48189	hgiQf8yWITk	Too short	2025-11-22 01:01:56.145011+00
+48190	dwpyg9NViIs	Too short	2025-11-22 01:01:56.169321+00
+48191	Ljmdq-qLA84	Too short	2025-11-22 01:01:56.192572+00
+48192	An1BOHzLxj0	Too short	2025-11-22 01:01:56.21987+00
+48193	sTW_jbkeBZI	Too short	2025-11-22 01:01:56.243895+00
+48194	i1K1J7kSFKY	Too short	2025-11-22 01:01:56.266148+00
+48195	SDr1fWAnSrA	Too short	2025-11-22 01:01:56.28868+00
+48196	ek7CRaO8tTE	Too short	2025-11-22 01:01:56.310571+00
+48197	s71pmKHvwUw	Too short	2025-11-22 01:01:56.33218+00
+48198	Yr7BD6749HU	Too short	2025-11-22 01:01:56.354575+00
+48199	Ka72kuzLT8k	Too short	2025-11-22 01:01:56.37627+00
+48200	n-kgq9j0guI	Too short	2025-11-22 01:03:43.057261+00
+48201	SjRTbrmPs9g	Too short	2025-11-22 01:04:24.018942+00
+48202	9pdpT1Jfs0A	Too short	2025-11-22 01:04:43.878475+00
+48203	CU8KpOnJkSM	Too short	2025-11-22 01:05:23.381718+00
+48204	Np7ct7GtB0Q	Too short	2025-11-22 01:05:43.517243+00
+48205	93ay-M0W0FM	Too short	2025-11-22 01:09:14.416285+00
+48206	7dm2DGuDI0g	Too short	2025-11-22 01:09:57.129526+00
+48207	kOn6XZ2cxiU	Too short	2025-11-22 01:09:57.198188+00
+48208	3QEurxEyaK4	Too short	2025-11-22 01:09:57.221038+00
+48209	wGBtazj6KbY	Too short	2025-11-22 01:09:57.243835+00
+48210	51VOGy-T-g4	Too short	2025-11-22 01:09:57.266214+00
+48211	JLQP70iwCC4	Too short	2025-11-22 01:10:39.197044+00
+48212	JQ7o-xbmLnc	Too short	2025-11-22 01:10:39.266579+00
+48213	9rPrnponuog	Too short	2025-11-22 01:11:03.355896+00
+48214	QZKQOrevJ1g	Too short	2025-11-22 01:11:03.406523+00
+48215	RxXtR6DiI08	Too short	2025-11-22 01:11:03.428851+00
+48216	tkftg7Bw0YU	Too short	2025-11-22 01:11:03.452037+00
+48217	P5bh-jdw3_0	Too short	2025-11-22 01:11:03.47428+00
+48218	RtPNRB_P0wY	Too short	2025-11-22 01:11:03.517735+00
+48219	2VpXoemeMfM	Too short	2025-11-22 01:11:03.540908+00
+48220	CZ4Vsn00l0U	Too short	2025-11-22 01:11:24.218832+00
+48221	HCsoIZZNNwQ	Too short	2025-11-22 01:11:24.287406+00
+48222	twyxBcSphkI	Too short	2025-11-22 01:11:24.31065+00
+48223	EgzhDMF0Aj0	Too short	2025-11-22 01:12:08.683023+00
+48224	JgYGm2uO6o0	Too short	2025-11-22 01:12:08.737378+00
+48225	oXXAh_Tt1Zw	Too short	2025-11-22 01:12:08.760554+00
+48226	Nwyuii3LWPk	Too short	2025-11-22 01:12:08.78237+00
+48227	Em0Pq6_rGbc	Too short	2025-11-22 01:12:08.804408+00
+48228	9x-nPRLIMUQ	Too short	2025-11-22 01:12:11.376734+00
+48229	nqqRMHQejYw	Too short	2025-11-22 01:12:11.400196+00
+48230	f7vJX06UAV0	Too short	2025-11-22 01:12:32.678764+00
+48231	tvrbxdjbskg	Too short	2025-11-22 01:12:32.753679+00
+48232	4o7aSPlUev0	Too short	2025-11-22 01:12:32.777141+00
+48233	DvFXLRqs9Pc	Too short	2025-11-22 01:13:13.541746+00
+48234	K9iy7JLc_4o	Too short	2025-11-22 01:13:13.612782+00
+48235	R6jkNirc0Xw	Too short	2025-11-22 01:13:54.580359+00
+48236	vJYF7DJfrfU	Too short	2025-11-22 01:13:54.63911+00
+48237	s4qI79I4n-M	Too short	2025-11-22 01:14:16.035056+00
+48238	aqCTZ4nwYug	No author found	2025-11-22 01:14:55.835988+00
+48239	4rKLyWE0-0s	No author found	2025-11-22 01:15:19.830978+00
+48240	ZR2MnShhcK8	Too short	2025-11-22 01:16:28.427235+00
+48241	WsoRWkvhn6w	Too short	2025-11-22 01:16:28.497074+00
+48242	9qlSfjFtEyw	Too short	2025-11-22 01:16:52.444162+00
+48243	SWzTUyaUbU0	Too short	2025-11-22 01:17:35.582335+00
+48244	JKdQnBa8pFo	Too short	2025-11-22 01:17:35.639211+00
+48245	AFeuOch5kQg	Too short	2025-11-22 01:17:35.662898+00
+48246	4xTNrHSyRkQ	Too short	2025-11-22 01:17:35.685213+00
+48247	-1kd6dzLuk4	Too short	2025-11-22 01:17:35.708077+00
+48248	VnCuMj9pvc0	Too short	2025-11-22 01:17:35.730531+00
+48249	y1wkOT6e2C0	Too short	2025-11-22 01:17:35.754129+00
+48250	W48QItaK_0M	Too short	2025-11-22 01:17:35.77673+00
+48251	j-krGwjjtkI	Too short	2025-11-22 01:17:35.797964+00
+48252	Ueo90kF-R_Y	Too short	2025-11-22 01:17:35.820674+00
+48253	kf6Z4w2Bd_U	Too short	2025-11-22 01:17:55.44254+00
+48254	An9dwd208F4	Too short	2025-11-22 01:17:55.515152+00
+48255	b-hraz0oZr8	Too short	2025-11-22 01:17:55.539827+00
+48256	rXnBoY6QRNc	Too short	2025-11-22 01:18:15.56139+00
+48257	nXeykxgQsy4	Too short	2025-11-22 01:18:18.762238+00
+48258	PHwXUfbsFEI	Too short	2025-11-22 01:18:18.805818+00
+48259	PkKs_bJiWhw	Too short	2025-11-22 01:18:18.850845+00
+48260	uzFu0Gu65V8	Too short	2025-11-22 01:18:18.87297+00
+48261	B-6XDlGIb3o	Too short	2025-11-22 01:18:38.684157+00
+48262	B87JQpuajmM	Too short	2025-11-22 01:18:38.754849+00
+48263	y4NXQoipWH4	Too short	2025-11-22 01:18:38.777416+00
+48264	d89x6525XiY	Too short	2025-11-22 01:18:59.218013+00
+48265	GWJZaKmSNqI	Too short	2025-11-22 01:19:18.997227+00
+48266	fncJbkcZgVM	Too short	2025-11-22 01:19:22.565719+00
+48267	3XLydSM8y_8	Too short	2025-11-22 01:19:22.588808+00
+48268	_wSONQz7om4	Too short	2025-11-22 01:19:22.61174+00
+48269	i9cvK23PBxk	Too short	2025-11-22 01:19:22.6332+00
+48270	VWV5LkvA31w	Too short	2025-11-22 01:19:22.656133+00
+48271	oqjkWqVqIzI	Too short	2025-11-22 01:19:22.677851+00
+48272	UMzUFAxEq3w	Too short	2025-11-22 01:19:22.699269+00
+48273	TSNfuKH5qaI	Too short	2025-11-22 01:19:22.742169+00
+48274	kbqHvM3mV_s	Too short	2025-11-22 01:19:22.764853+00
+48275	8zoFEH_9wFE	Too short	2025-11-22 01:19:22.78652+00
+48276	vPqIpyA_SF4	Too short	2025-11-22 01:19:41.926694+00
+48277	nfM0aCM4Qq8	Too short	2025-11-22 01:19:41.994714+00
+48278	-GZVwV0hb-4	Too short	2025-11-22 01:19:42.03699+00
+48279	Fs0Ne5GgBfw	Too short	2025-11-22 01:19:42.05925+00
+48280	OrkPQgCpsSE	Too short	2025-11-22 01:19:44.230027+00
+48281	m3y273-6FQM	Too short	2025-11-22 01:19:44.273853+00
+48282	7KeHGYekYrw	Too short	2025-11-22 01:19:44.297264+00
+48283	8vNmf-_0tGU	Too short	2025-11-22 01:19:44.31929+00
+48284	1aI2ZhYkw8E	Not in English (det. by LLM)	2025-11-22 01:19:44.341051+00
+48285	5uUr6J1VZ24	Too short	2025-11-22 01:19:46.377543+00
+48286	Y8odA2ZKdLM	Too short	2025-11-22 01:19:46.401379+00
+48287	JXaW8oSlFD8	Too short	2025-11-22 01:19:46.424818+00
+48288	kPeOFuVSSWk	Too short	2025-11-22 01:19:46.447137+00
+48289	C0KnSd9QGsE	Too short	2025-11-22 01:21:13.055381+00
+48290	2gRWg8fQi54	Too short	2025-11-22 01:21:13.125879+00
+48291	Cm7eNUvmsYE	Too short	2025-11-22 01:21:33.107423+00
+48292	jmKOMgrgd7g	Too short	2025-11-22 01:21:53.532486+00
+48293	-KEgJfOwHe8	Too short	2025-11-22 01:21:53.60188+00
+48294	jflUzO-L_nE	Too short	2025-11-22 01:23:16.527521+00
+48295	DW56hDUSonE	Too short	2025-11-22 01:23:37.595992+00
+48296	irOUfaOw66k	Too short	2025-11-22 01:24:17.841503+00
+48297	XwHJoRZMR4o	Too short	2025-11-22 01:24:40.549743+00
+48298	B4O5xNi7QI8	Too short	2025-11-22 01:24:40.628352+00
+48299	iXKQMeRde28	No author found	2025-11-22 01:24:40.650982+00
+48300	dwSnWOHP56w	Too short	2025-11-22 01:25:01.600938+00
+48301	LIHHW6GFnj0	Too short	2025-11-22 01:25:01.626995+00
+48302	x7EvW-ei-DU	Too short	2025-11-22 01:25:01.649061+00
+48303	XHyWfktjt74	Too short	2025-11-22 01:25:01.670083+00
+48304	samwklPxno4	Too short	2025-11-22 01:25:04.985624+00
+48305	fskzE6qcyuY	Too short	2025-11-22 01:25:24.880316+00
+48306	eteXYE2rSGQ	Too short	2025-11-22 01:25:24.947013+00
+48307	GozUoJPFuCc	Too short	2025-11-22 01:25:44.513076+00
+48308	Quaaqqvl-gU	No author found	2025-11-22 01:26:15.869639+00
+48309	jjVukNEydxU	Too short	2025-11-22 01:26:35.814505+00
+48310	hCfILsfqmPQ	Not in English (det. by LLM)	2025-11-22 01:26:35.8392+00
+48311	jKYdVJsjoUI	Too short	2025-11-22 01:26:58.700093+00
+48312	JCFbQXZG0SU	Too short	2025-11-22 01:26:58.752028+00
+48313	QdqLnLHFKvI	Too short	2025-11-22 01:26:58.774962+00
+48314	BvVhMwZ2HCA	Too short	2025-11-22 01:26:58.798725+00
+48315	2vvG0VEBEAI	Not in English (det. by LLM)	2025-11-22 01:26:58.845678+00
+48316	AOf1FSiryMY	Too short	2025-11-22 01:27:00.800931+00
+48317	EQ2O9ud0Ero	Too short	2025-11-22 01:27:21.867326+00
+48318	YK_zB146-qA	Too short	2025-11-22 01:27:21.965678+00
+48319	D61z-UZ_awU	Too short	2025-11-22 01:27:21.989243+00
+48320	qxli9XsJAOA	Too short	2025-11-22 01:27:22.011087+00
+48321	p67s3yeMT3E	Too short	2025-11-22 01:27:22.033439+00
+48322	upHS0srC6zY	Too short	2025-11-22 01:27:22.055445+00
+48323	bTpk66x548E	Too short	2025-11-22 01:27:22.083684+00
+48324	3_v-23TrE_Y	Too short	2025-11-22 01:27:26.186039+00
+48325	nRQrnz76WXI	Too short	2025-11-22 01:27:26.209785+00
+48326	hle5rrlx_7w	Too short	2025-11-22 01:27:26.232758+00
+48327	hFl0RVWOrrU	Too short	2025-11-22 01:27:26.254992+00
+48328	Dmep1pmxiUE	Too short	2025-11-22 01:27:26.277505+00
+48329	FOgkIOGALd4	Too short	2025-11-22 01:27:26.3007+00
+48330	zN8AJYn3eoE	Too short	2025-11-22 01:27:26.323611+00
+48331	pk0tKfzNaKM	Too short	2025-11-22 01:27:26.34941+00
+48332	jp5NhqBhxiU	Too short	2025-11-22 01:27:26.372171+00
+48333	vtQA3Cnt8Jc	Too short	2025-11-22 01:27:26.396064+00
+48334	8w-PAnKoKkw	Too short	2025-11-22 01:27:26.420105+00
+48335	HGihrW_iw9g	Too short	2025-11-22 01:27:26.443248+00
+48336	zG9r-h3Xx-8	Too short	2025-11-22 01:27:26.469116+00
+48337	jJktMRNnipI	Too short	2025-11-22 01:27:26.491154+00
+48338	CEIo6DDm8iY	Too short	2025-11-22 01:27:26.514508+00
+48339	Hqno40UdVHc	Too short	2025-11-22 01:27:26.537201+00
+48340	ocUhKvM-bA8	Too short	2025-11-22 01:27:26.55894+00
+48341	j_2CdTAoAVI	Too short	2025-11-22 01:27:26.581006+00
+48342	GZLPf_hfTWM	Too short	2025-11-22 01:27:26.602794+00
+48343	4YOCz0RgBNI	Too short	2025-11-22 01:27:26.624994+00
+48344	sFSKC2IyT2o	Too short	2025-11-22 01:27:29.528963+00
+48345	xfKalyulGNc	Too short	2025-11-22 01:27:29.551917+00
+48346	3TfszFdpQ4k	Too short	2025-11-22 01:27:29.573705+00
+48347	KRm1tDo2_88	Too short	2025-11-22 01:27:29.594784+00
+48348	hdB1r2ilyyg	Too short	2025-11-22 01:27:29.617066+00
+48349	0MZrh_j_p6E	Too short	2025-11-22 01:27:29.639956+00
+48350	KwdaRgwodmc	Too short	2025-11-22 01:27:29.662447+00
+48351	ukknjRkxJ3Y	Too short	2025-11-22 01:27:29.685048+00
+48352	0tcOvgxa_5U	Too short	2025-11-22 01:27:29.707685+00
+48353	kXrw-Le53kc	Too short	2025-11-22 01:27:29.729427+00
+48354	ig2yPxjW4yM	Too short	2025-11-22 01:27:29.751542+00
+48355	YZ8of92feAQ	Too short	2025-11-22 01:27:29.77427+00
+48356	NOFM_CxjUkw	Too short	2025-11-22 01:27:29.796469+00
+48357	Ho3gAB4vpd0	Too short	2025-11-22 01:27:29.817685+00
+48358	YcDn0EQV1YY	Too short	2025-11-22 01:27:29.839428+00
+48359	C5UtulXitVE	Too short	2025-11-22 01:27:29.861422+00
+48360	wbuVoQIvkbU	Too short	2025-11-22 01:27:29.883408+00
+48361	o6i8xo0reqs	Too short	2025-11-22 01:27:29.906057+00
+48362	0H-H9fHjUXs	Too short	2025-11-22 01:27:29.927963+00
+48363	2tkMRXKwUGc	Too short	2025-11-22 01:27:29.950398+00
+48364	RbqBFENZWes	Too short	2025-11-22 01:27:33.737106+00
+48365	oRExvhS-f6s	Too short	2025-11-22 01:27:33.767442+00
+48366	0-o4_7wvB3A	Too short	2025-11-22 01:27:33.788715+00
+48367	9m9NZtFv7GA	Too short	2025-11-22 01:27:33.811234+00
+48368	5yZPGNwUqgI	Too short	2025-11-22 01:27:33.833688+00
+48369	kQ4LOX7nOPg	Too short	2025-11-22 01:27:33.85673+00
+48370	46cI_0kY6hc	Too short	2025-11-22 01:27:33.878948+00
+48371	p93AzwKads8	Too short	2025-11-22 01:27:33.901432+00
+48372	Gq4vEhcJJ7A	Too short	2025-11-22 01:27:33.923106+00
+48373	Du1zq42ic9w	Too short	2025-11-22 01:27:33.947136+00
+48374	oY0G7v5nvgM	Too short	2025-11-22 01:27:33.970265+00
+48375	XP3jLTZIRJw	Too short	2025-11-22 01:27:33.992581+00
+48376	fa5dDrMWYNM	Too short	2025-11-22 01:27:34.015249+00
+48377	PHuVjsPnuIE	Too short	2025-11-22 01:27:34.039088+00
+48378	76Lemrj2SJ0	Too short	2025-11-22 01:27:34.061898+00
+48379	euiJSRwuYsw	Too short	2025-11-22 01:27:34.084959+00
+48380	KjA_JOFNo30	Too short	2025-11-22 01:27:34.110037+00
+48381	3SX-sO-l_aI	Too short	2025-11-22 01:27:34.133405+00
+48382	vJAX4e-kTmA	Too short	2025-11-22 01:27:34.155932+00
+48383	nMLvQpIjUgQ	Too short	2025-11-22 01:27:34.18197+00
+48384	aUQJfkHFXw0	Too short	2025-11-22 01:28:17.872525+00
+48385	tbRUDaqy54U	Too short	2025-11-22 01:28:17.938873+00
+48386	KiMRkX_QB0c	Too short	2025-11-22 01:28:37.598298+00
+48387	CDdIDCJLWgU	Too short	2025-11-22 01:28:37.655728+00
+48388	pF7HRNWEejE	Too short	2025-11-22 01:28:58.355087+00
+48389	0HARBaGdxzM	Too short	2025-11-22 01:29:18.605488+00
+48390	wajECo5nJZk	Too short	2025-11-22 01:29:28.797497+00
+48391	gTD19n3hczw	Too short	2025-11-22 01:29:28.84983+00
+48392	2Kh5glbfShg	Too short	2025-11-22 01:29:28.87401+00
+48393	yJF8pcTHHcY	Too short	2025-11-22 01:29:28.898576+00
+48394	fl7jkRK6P30	Too short	2025-11-22 01:29:28.920311+00
+48395	G4VMqzHTR8Q	Too short	2025-11-22 01:29:28.943322+00
+48396	_xYEuKC44Xo	Too short	2025-11-22 01:29:29.01212+00
+48397	gAQpDbTRMww	Too short	2025-11-22 01:29:29.035333+00
+48398	xzrJiTloppw	Too short	2025-11-22 01:29:29.057323+00
+48399	_76gBS9wFEI	Too short	2025-11-22 01:29:29.078844+00
+48400	Jbio7yzvSoA	Too short	2025-11-22 01:29:29.100847+00
+48401	RCt-jIGcLEM	Too short	2025-11-22 01:29:29.119326+00
+48402	tFq6L4GZChY	Too short	2025-11-22 01:29:29.16265+00
+48403	jzN8pFx9rgQ	Too short	2025-11-22 01:29:29.207945+00
+48404	lVeKA6bAn1g	Too short	2025-11-22 01:29:29.230003+00
+48405	xeT7Z5fK784	Too short	2025-11-22 01:29:29.251928+00
+48406	m3XhORVn77o	Too short	2025-11-22 01:29:29.274488+00
+48407	xXwdKipqBlQ	Too short	2025-11-22 01:29:29.296795+00
+48408	-cu6zxCrdI4	Too short	2025-11-22 01:29:32.617041+00
+48409	XkY1S99m2hs	Too short	2025-11-22 01:29:32.639651+00
+48410	tipOuys_m6A	Too short	2025-11-22 01:29:32.661942+00
+48411	zmaTzQdtCwk	Too short	2025-11-22 01:29:32.684125+00
+48412	UZdU3GYhbko	Too short	2025-11-22 01:29:32.7071+00
+48413	Eq_tShGtVac	Too short	2025-11-22 01:29:32.729187+00
+48414	Pq2u6oqH0EM	Too short	2025-11-22 01:29:32.755183+00
+48415	AtAFeTMm3bw	Too short	2025-11-22 01:29:32.776654+00
+48416	_SaBfWKt-Rk	Too short	2025-11-22 01:29:32.799445+00
+48417	N7y1q6kiRvg	Too short	2025-11-22 01:29:32.821069+00
+48418	azW_OptEfdM	Too short	2025-11-22 01:29:32.84203+00
+48419	wQwUR6xMN6E	Too short	2025-11-22 01:29:32.865029+00
+48420	aVHQ07ZfujE	Too short	2025-11-22 01:29:32.886119+00
+48421	8Q-lYSaHXTg	Too short	2025-11-22 01:29:32.906777+00
+48422	VHpvGic6PT0	Too short	2025-11-22 01:29:32.92887+00
+48423	6tumf8Y7OhM	Too short	2025-11-22 01:29:32.950657+00
+48424	iKpj9_HGCs8	Too short	2025-11-22 01:29:36.533199+00
+48425	w-ru7AGmcU0	Too short	2025-11-22 01:29:36.555824+00
+48426	96jk95Igl4M	Too short	2025-11-22 01:29:36.578335+00
+48427	SSCQFHZ4y2A	Too short	2025-11-22 01:29:36.600338+00
+48428	pty2WKd4mAg	Too short	2025-11-22 01:29:36.621944+00
+48429	_tUEBf0D-Fs	Too short	2025-11-22 01:29:36.645028+00
+48430	-GC5JzlznCI	Too short	2025-11-22 01:29:36.670382+00
+48431	neLibDI2BgE	Too short	2025-11-22 01:29:36.692634+00
+48432	EVZMMTMNSOI	Too short	2025-11-22 01:29:36.737067+00
+48433	UvnHqvc1iU8	Too short	2025-11-22 01:29:36.759408+00
+48434	hbwG4YlQ-wY	Too short	2025-11-22 01:29:36.782228+00
+48435	otGzlQ9rJSM	Too short	2025-11-22 01:29:36.803916+00
+48436	Mi9F9frqjYU	Too short	2025-11-22 01:29:36.825906+00
+48437	S_SXNONTqT8	Too short	2025-11-22 01:29:36.848748+00
+48438	eP6xDWYfx7c	Too short	2025-11-22 01:29:56.53515+00
+48439	5vM1DKOhVWQ	Too short	2025-11-22 01:29:58.81891+00
+48440	iZQuJFnxYWE	Too short	2025-11-22 01:29:58.840692+00
+48441	SvR4hk4XiEA	Too short	2025-11-22 01:29:58.86289+00
+48442	VvZ0-co0Eng	Too short	2025-11-22 01:29:58.890138+00
+48443	W9WL-_0qfAw	Too short	2025-11-22 01:29:58.988194+00
+48444	3_01x29tgkY	Too short	2025-11-22 01:29:59.016784+00
+48445	gw0u2RurkQ4	Too short	2025-11-22 01:29:59.039437+00
+48446	QJKYTLPQGZ0	Too short	2025-11-22 01:29:59.063174+00
+48447	qtkgqaRglTE	Too short	2025-11-22 01:29:59.085084+00
+48448	KDFakSW_VoA	Too short	2025-11-22 01:29:59.107396+00
+48449	3xwZamCfz-A	Too short	2025-11-22 01:29:59.130114+00
+48450	_sHYwq4v-eE	Too short	2025-11-22 01:29:59.156361+00
+48451	MBg0V9KlwTI	Too short	2025-11-22 01:29:59.201493+00
+48452	tEwL3qrk2Sw	Too short	2025-11-22 01:29:59.224053+00
+48453	ZnQbbF7rhdY	Too short	2025-11-22 01:29:59.246579+00
+48454	wyfM03tNaRc	Too short	2025-11-22 01:30:43.89012+00
+48455	OeOFL2gG2XM	No author found	2025-11-22 01:30:44.003292+00
+48456	1Wvz68HVB9E	Too short	2025-11-22 01:31:05.15014+00
+48457	6ltNefaMlFo	Too short	2025-11-22 01:31:05.243546+00
+48458	5bMHjbSTmdE	Too short	2025-11-22 01:31:05.288847+00
+48459	veZBUIfgD3M	Too short	2025-11-22 01:31:05.37431+00
+48460	xIx2pXLBfwI	Too short	2025-11-22 01:31:25.124248+00
+48461	WQg8gVOJHtY	Too short	2025-11-22 01:31:48.783316+00
+48462	rfIEfMA9hQY	Too short	2025-11-22 01:31:48.843625+00
+48463	WKKo0IVk09E	Too short	2025-11-22 01:31:48.86586+00
+48464	jhMPVUR2cfM	Too short	2025-11-22 01:31:48.888213+00
+48465	ViN-vJGVjZ4	Too short	2025-11-22 01:31:48.931153+00
+48466	_wMIe0tJGWA	Too short	2025-11-22 01:31:48.994455+00
+48467	bKpCxBehOsc	Too short	2025-11-22 01:32:12.016079+00
+48468	vmwshmttkVE	Too short	2025-11-22 01:32:12.085866+00
+48469	V9kTYO7gi8c	Too short	2025-11-22 01:32:12.109515+00
+48470	aTuzgr48I5c	Too short	2025-11-22 01:32:12.175396+00
+48471	iEv8Imo4Kt4	Not in English (det. by LLM)	2025-11-22 01:32:15.907888+00
+48472	jNA6olZOdmg	Too short	2025-11-22 01:32:17.62589+00
+48473	MmNOKbrl5P4	Too short	2025-11-22 01:32:17.672599+00
+48474	Ery_3iMAkEU	Too short	2025-11-22 01:32:17.694986+00
+48475	B5m1JU6NXrA	Too short	2025-11-22 01:32:17.717604+00
+48476	FDwdgz8ZqXQ	Too short	2025-11-22 01:32:17.741619+00
+48477	2YNdnUi0j10	Too short	2025-11-22 01:32:17.812677+00
+48478	xJd0lpcYuJI	Too short	2025-11-22 01:32:17.836102+00
+48479	_-QKajcE_Js	Too short	2025-11-22 01:32:17.858598+00
+48480	CYeGqYcx2iM	Too short	2025-11-22 01:32:17.90629+00
+48481	44XKUaCHMDk	Too short	2025-11-22 01:32:17.951064+00
+48482	UBwMtyA0GWk	Too short	2025-11-22 01:32:21.631533+00
+48483	_wVRFZ-INSI	Too short	2025-11-22 01:32:21.701024+00
+48484	bABUUGLxvzs	Too short	2025-11-22 01:32:21.724655+00
+48485	5tGlKsa1miQ	Too short	2025-11-22 01:32:21.747476+00
+48486	hPIYIedgYkU	Too short	2025-11-22 01:32:21.769121+00
+48487	bg65_PiOUmc	Too short	2025-11-22 01:33:24.26359+00
+48488	J7_3tPIkDnE	Too short	2025-11-22 01:33:43.682094+00
+48489	FqXQGECR5Kc	Too short	2025-11-22 01:33:43.790218+00
+48490	hWtxv5KayMc	Too short	2025-11-22 01:33:47.159662+00
+48491	YUTP5BqeQKI	Too short	2025-11-22 01:33:47.185021+00
+48492	rtqS4KRuwhE	Too short	2025-11-22 01:33:47.213854+00
+48493	gXKwvHz7hoc	Too short	2025-11-22 01:33:47.239356+00
+48494	bNHIGPBMLns	Too short	2025-11-22 01:33:47.265267+00
+48495	raWmmRUcgOE	Too short	2025-11-22 01:33:47.290617+00
+48496	HlA9Ks17LTk	Too short	2025-11-22 01:33:47.316958+00
+48497	NJ7XH6DQ6nU	Too short	2025-11-22 01:33:47.341229+00
+48498	72xB5hJsB-I	Too short	2025-11-22 01:33:47.390712+00
+48499	u_WQePfBRcw	Too short	2025-11-22 01:34:07.385855+00
+48500	7TyIIEgjSvo	Too short	2025-11-22 01:34:07.449567+00
+48501	BkxhTXySsqg	Too short	2025-11-22 01:34:07.475289+00
+48502	LMbXUgAikI4	Too short	2025-11-22 01:34:17.494188+00
+48503	rsCkgcw0MLI	Too short	2025-11-22 01:34:17.531669+00
+48504	H4cXojIOJ-s	Too short	2025-11-22 01:34:17.558155+00
+48505	jgbvEi5mf5Y	Too short	2025-11-22 01:34:17.582976+00
+48506	nE6EcEXO6zg	Too short	2025-11-22 01:34:17.606466+00
+48507	DNwRUpu9FSs	Too short	2025-11-22 01:34:17.62956+00
+48508	h48rjriOHwU	Too short	2025-11-22 01:34:17.65443+00
+48509	cR1nkF6ev2U	Too short	2025-11-22 01:34:17.679097+00
+48510	YZ2quLn8Reg	Too short	2025-11-22 01:34:17.702029+00
+48511	33xvj9oO_oE	Too short	2025-11-22 01:34:17.727323+00
+48512	UfcI9IfcZ6I	Too short	2025-11-22 01:34:17.750405+00
+48513	FOgantN1LgU	Too short	2025-11-22 01:34:17.774181+00
+48514	KHEu7YYR_k0	Too short	2025-11-22 01:34:17.814301+00
+48515	fr92BwihIoU	Too short	2025-11-22 01:34:17.840184+00
+48516	1iXoVTJ2AU4	Too short	2025-11-22 01:34:40.641312+00
+48517	iO48_roR2X0	Too short	2025-11-22 01:34:40.703882+00
+48518	RSuwBRAPi6s	Too short	2025-11-22 01:34:40.728102+00
+48519	IuFo1VaOjc0	No author found	2025-11-22 01:34:40.751109+00
+48520	apj684y2kCI	Too short	2025-11-22 01:34:59.627521+00
+48521	5GL84tE0boU	Too short	2025-11-22 01:34:59.677665+00
+48522	cnnDjfpERl0	Too short	2025-11-22 01:34:59.703108+00
+48523	nev1Zx1YlnU	Too short	2025-11-22 01:35:03.601419+00
+48524	EdFuBM4w89g	Too short	2025-11-22 01:35:03.62467+00
+48525	w-Vfs2IT8c4	Too short	2025-11-22 01:36:16.227692+00
+48526	MSxUFcxgVRs	Too short	2025-11-22 01:36:16.341698+00
+48527	FmlWJXGxxi0	Too short	2025-11-22 01:36:16.364836+00
+48528	SmlazfgEuuM	Too short	2025-11-22 01:36:16.387356+00
+48529	ouLH7_FIDKA	Too short	2025-11-22 01:36:16.411045+00
+48530	8E1ZLZiH_JU	Too short	2025-11-22 01:37:17.42429+00
+48531	7YtaZSfKQks	Too short	2025-11-22 01:37:17.490817+00
+48532	9u5vvtx_Ndo	No author found	2025-11-22 01:37:28.005362+00
+48533	PZaHb2nXdMY	Too short	2025-11-22 01:38:29.46484+00
+48534	XaI_1IFPWtI	Too short	2025-11-22 01:38:29.560912+00
+48535	d5FKJb9rRt8	Too short	2025-11-22 01:39:30.546264+00
+48536	AbsiNoJnPhg	Too short	2025-11-22 01:40:11.789875+00
+48537	n3SLryT9ZPI	Too short	2025-11-22 01:40:55.370907+00
+48538	qtWJ_wx6R9Q	Too short	2025-11-22 01:41:16.173792+00
+48539	x4EoPxo6gXk	Too short	2025-11-22 01:41:57.867824+00
+48540	ylZiMwrbyPw	Too short	2025-11-22 01:41:57.933347+00
+48541	MTcfTjuz7EE	Too short	2025-11-22 01:42:20.784229+00
+48542	D7X9ulzZJHw	Too short	2025-11-22 01:42:23.746183+00
+48543	mbcmKQ2SJvQ	No author found	2025-11-22 01:42:23.770709+00
+48544	vDxz-Go0sY0	No author found	2025-11-22 01:42:44.838671+00
+48545	qOiU4Lq1dPU	Too short	2025-11-22 01:43:05.736675+00
+48546	fWpB86X-afI	Too short	2025-11-22 01:43:26.179937+00
+48547	SMowb8zSELA	Too short	2025-11-22 01:43:26.246088+00
+48548	aVMukjrcyzE	Too short	2025-11-22 01:43:26.269092+00
+48549	oTAISOunU-Y	Too short	2025-11-22 01:43:26.291652+00
+48550	99e6JUGMecs	Too short	2025-11-22 01:43:47.5993+00
+48551	63KGud60y3c	No author found	2025-11-22 01:43:47.651364+00
+48552	b_WZkERXmuQ	Too short	2025-11-22 01:44:09.433459+00
+48553	ZT9doQpIUyg	Not in English (det. by LLM)	2025-11-22 01:44:31.913834+00
+48554	D-3Y49nzyxw	Too short	2025-11-22 01:44:33.266231+00
+48555	S20F2_fEX-8	Too short	2025-11-22 01:44:44.605691+00
+48556	cJA6MtE30vw	Too short	2025-11-22 01:45:05.735265+00
+48557	_9WjjsCr_ww	Too short	2025-11-22 01:45:13.492921+00
+48558	q74gH6cHUaA	Too short	2025-11-22 01:46:17.966735+00
+48559	nD3s7rUmiVk	Too short	2025-11-22 01:46:18.054355+00
+48560	pbXDxvzexZo	Too short	2025-11-22 01:46:40.922795+00
+48561	Rvf-hIT1zlg	Too short	2025-11-22 01:46:41.038863+00
+48562	PAIfRSfGGzo	No author found	2025-11-22 01:46:41.059552+00
+48563	jh5jGBtcq24	Too short	2025-11-22 01:47:00.426119+00
+48564	1OxQ5__zKp0	Too short	2025-11-22 01:47:00.478363+00
+48565	QrNtec_y5s8	Too short	2025-11-22 01:47:00.50542+00
+48566	poTjr8S-BAY	Too short	2025-11-22 01:47:00.55724+00
+48567	WIUBsbVSBA8	Too short	2025-11-22 01:47:00.590287+00
+48568	cWY2xl0mDdU	Too short	2025-11-22 01:47:00.613139+00
+48569	trJMF61BSj8	Too short	2025-11-22 01:47:00.636306+00
+48570	UzOB_6GCDn8	Too short	2025-11-22 01:47:00.658293+00
+48571	qcB3gNPSUp4	Too short	2025-11-22 01:47:00.680854+00
+48572	Hq7K52bIUJU	Too short	2025-11-22 01:47:00.744937+00
+48573	099x5_2Hug4	Too short	2025-11-22 01:47:00.769217+00
+48574	c-33PJCQ4Jo	Too short	2025-11-22 01:47:00.794494+00
+48575	2Iy2PtMc9zA	Too short	2025-11-22 01:47:04.501542+00
+48576	WS0n1gbioEE	Too short	2025-11-22 01:47:04.523791+00
+48577	WTXiLEH7E4U	Too short	2025-11-22 01:47:04.546135+00
+48578	MO8rG4fAFIs	Too short	2025-11-22 01:47:04.567905+00
+48579	-XDtrafaUeY	Too short	2025-11-22 01:47:04.615244+00
+48580	X-F3zpjX2Zk	Too short	2025-11-22 01:47:25.103763+00
+48581	kGyO8FKOQbQ	Too short	2025-11-22 01:47:25.17988+00
+48582	EooIT8EfOaw	No author found	2025-11-22 01:47:25.208279+00
+48583	-rTysZHeXUo	Too short	2025-11-22 01:47:45.394432+00
+48584	8kWESZCPbTk	Too short	2025-11-22 01:47:45.429285+00
+48585	DKrLcWKKV4w	Too short	2025-11-22 01:48:05.220449+00
+48586	pwIIBJZS3Rw	Too short	2025-11-22 01:48:05.292366+00
+48587	1FWZUGMlMGk	Too short	2025-11-22 01:48:05.335732+00
+48588	tSEdwUIIsi0	Too short	2025-11-22 01:48:05.37779+00
+48589	VT4m8BgsTRo	Too short	2025-11-22 01:48:05.419778+00
+48590	MZMMp7dI1rA	Too short	2025-11-22 01:48:05.440927+00
+48591	D_PX1FbaNGM	Too short	2025-11-22 01:48:08.326292+00
+48592	bNB3kwqO-mM	Too short	2025-11-22 01:48:08.3495+00
+48593	MvKF_qPK7xQ	Too short	2025-11-22 01:48:08.372572+00
+48594	mjlHWEAE0rU	Too short	2025-11-22 01:48:08.394495+00
+48595	8xLvC_YPgNU	Too short	2025-11-22 01:48:08.415806+00
+48596	z0laLE5iekc	Too short	2025-11-22 01:48:08.437686+00
+48597	t39gfKD8b78	No author found	2025-11-22 01:48:08.459908+00
+48598	t2y4PmZqQAw	Too short	2025-11-22 01:48:30.195852+00
+48599	kW5PgIqRbog	Too short	2025-11-22 01:48:30.222213+00
+48600	m2o1aSjlJbk	Too short	2025-11-22 01:48:40.69796+00
+48601	rNahKflj5mg	Too short	2025-11-22 01:48:40.763223+00
+48602	xn1EQQ72T7w	Too short	2025-11-22 01:49:00.754131+00
+48603	68pEUENgRXY	Too short	2025-11-22 01:49:00.822004+00
+48604	LBqiz3PwBio	Too short	2025-11-22 01:49:00.845696+00
+48605	x0oZ-dBtfhg	Too short	2025-11-22 01:49:00.868399+00
+48606	snLyH7XypHo	Too short	2025-11-22 01:49:00.906263+00
+48607	Vdxb559Xa5k	Too short	2025-11-22 01:49:00.946867+00
+48608	w1svCgGbeQs	Too short	2025-11-22 01:49:00.990445+00
+48609	4Xc_jf3_mzg	Too short	2025-11-22 01:49:01.01569+00
+48610	SaZZsFfzz0w	Too short	2025-11-22 01:49:01.039192+00
+48611	05GOPPftLHg	Too short	2025-11-22 01:49:01.06255+00
+48612	KF4ve_3RKi0	Too short	2025-11-22 01:49:01.08531+00
+48613	ZTiE_tqNx5I	Too short	2025-11-22 01:49:02.941541+00
+48614	SWaRZOdiqw8	Too short	2025-11-22 01:49:02.965072+00
+48615	RL1ogcm80Ew	Too short	2025-11-22 01:49:02.992724+00
+48616	byG3qXkwA1I	Too short	2025-11-22 01:49:03.01639+00
+48617	i0gHX7gYmAM	Too short	2025-11-22 01:49:03.039655+00
+48618	1cTiCXhHNeI	Too short	2025-11-22 01:49:03.063714+00
+48619	yhUvtLK8TFg	Too short	2025-11-22 01:49:03.086181+00
+48620	BEr9fZYeJOk	Too short	2025-11-22 01:49:03.108548+00
+48621	gtMtAbaYmgQ	Too short	2025-11-22 01:49:03.130703+00
+48622	JIbfjJP_olw	Too short	2025-11-22 01:49:03.152806+00
+48623	8Di_YmS35Rs	Too short	2025-11-22 01:49:03.175042+00
+48624	sXMOnfKdvC8	Too short	2025-11-22 01:49:03.197084+00
+48625	X7qUhifF3sQ	Too short	2025-11-22 01:49:03.219771+00
+48626	dAN5r3duGeE	Too short	2025-11-22 01:49:03.247912+00
+48627	0gUeMs7CG90	Too short	2025-11-22 01:49:03.269942+00
+48628	t4V1J81dthE	Too short	2025-11-22 01:49:03.323327+00
+48629	Gbuvz49EF-Y	Too short	2025-11-22 01:49:07.434876+00
+48630	FTC0qw6j4rc	Too short	2025-11-22 01:49:07.4576+00
+48631	6PN1m4EG6Sw	Too short	2025-11-22 01:49:07.480828+00
+48632	RQhLrtszzAs	Too short	2025-11-22 01:49:07.503473+00
+48633	ReBG3rYDpf0	Too short	2025-11-22 01:49:07.526027+00
+48634	ztOJ-MuHFI4	Too short	2025-11-22 01:49:07.549032+00
+48635	946BZ7WYFgU	Too short	2025-11-22 01:49:07.571325+00
+48636	cSn7CfIG4D8	Too short	2025-11-22 01:49:07.592786+00
+48637	aoKn-oi3ULk	Too short	2025-11-22 01:49:07.61504+00
+48638	DaGemCr3-dY	Too short	2025-11-22 01:49:07.637833+00
+48639	cJhYn6mYj-w	Too short	2025-11-22 01:49:07.664531+00
+48640	g-aFAh8qzjY	Too short	2025-11-22 01:49:07.686885+00
+48641	Fy3ekV61B_U	Too short	2025-11-22 01:49:07.711397+00
+48642	5h9YjHBCefo	Too short	2025-11-22 01:49:07.732433+00
+48643	lurJOkKvt8Q	Too short	2025-11-22 01:49:07.754687+00
+48644	m1JgwqCcN4I	Too short	2025-11-22 01:49:07.77689+00
+48645	JCI_cd5p37c	Too short	2025-11-22 01:49:07.798293+00
+48646	TMGhrNdifKI	Not in English (det. by LLM)	2025-11-22 01:49:07.820097+00
+48647	vBrJNdnQrxM	Too short	2025-11-22 01:49:09.575864+00
+48648	Dx8UfCxmB68	Too short	2025-11-22 01:49:12.737196+00
+48649	iq6vU1AtgoI	Too short	2025-11-22 01:49:12.761398+00
+48650	hRKnlbE0Oxw	Too short	2025-11-22 01:49:12.785181+00
+48651	zmcThQ14Uko	Too short	2025-11-22 01:49:12.809005+00
+48652	pgsQ827LA_E	Too short	2025-11-22 01:49:12.831828+00
+48653	c-V4RfDlU8M	Too short	2025-11-22 01:49:12.859933+00
+48654	5pC0M92FupU	Too short	2025-11-22 01:49:12.882342+00
+48655	g5tN5LPP5pI	Too short	2025-11-22 01:49:12.905646+00
+48656	QpnD9690oLU	Too short	2025-11-22 01:49:12.927839+00
+48657	OOK9MlxOzRU	Too short	2025-11-22 01:49:12.949805+00
+48658	99qyiALdDjo	Too short	2025-11-22 01:49:12.972331+00
+48659	bi5aF1JnArA	No author found	2025-11-22 01:50:36.703418+00
+48660	7t_cSulct78	Too short	2025-11-22 01:50:57.640453+00
+48661	JYZTJ9VRawE	Too short	2025-11-22 01:50:57.665809+00
+48662	VzAr7QowL0o	Too short	2025-11-22 01:50:57.688504+00
+48663	AtGKOyjjvxU	Too short	2025-11-22 01:50:57.733592+00
+48664	lYbAFiOnrUU	Too short	2025-11-22 01:50:57.775334+00
+48665	2VcK1BGVLhA	Too short	2025-11-22 01:51:19.253972+00
+48666	YH7aORE7ik0	Too short	2025-11-22 01:51:19.33051+00
+48667	9JBM7JK0jOo	Too short	2025-11-22 01:51:19.353647+00
+48668	CgVWBa57aTQ	Too short	2025-11-22 01:51:19.376527+00
+48669	myykxvMQrHo	Too short	2025-11-22 01:51:19.41996+00
+48670	3PJb13-zGzg	Too short	2025-11-22 01:51:19.460985+00
+48671	J271hW_Liu4	Too short	2025-11-22 01:51:21.441181+00
+48672	FStngK5P7j4	Too short	2025-11-22 01:51:21.463999+00
+48673	Kj1EC9UKAXw	Too short	2025-11-22 01:51:21.526587+00
+48674	8OhVmEh02qk	Too short	2025-11-22 01:51:21.553338+00
+48675	SJA4Vr-nlRs	Too short	2025-11-22 01:51:21.575663+00
+48676	GgDV3rgJIo8	Too short	2025-11-22 01:51:21.602747+00
+48677	lQgM041Qmyw	Too short	2025-11-22 01:51:21.64472+00
+48678	KtwiubPGPGM	No author found	2025-11-22 01:51:21.666381+00
+48679	Oop9Ak-8Vpk	Too short	2025-11-22 01:51:41.914232+00
+48680	pB1d-PTUQR4	Too short	2025-11-22 01:51:41.94131+00
+48681	FM_Vc42eU8Q	Too short	2025-11-22 01:51:41.963249+00
+48682	9IYE8CHMSyk	Too short	2025-11-22 01:51:41.985255+00
+48683	stFmwBb24_E	Too short	2025-11-22 01:51:44.872652+00
+48684	uCPIZaZe5UU	Too short	2025-11-22 01:51:44.895442+00
+48685	b-nehNWuwKU	Too short	2025-11-22 01:51:44.91794+00
+48686	i8PtuFfLoL8	Too short	2025-11-22 01:51:44.940744+00
+48687	gXmSToCPN0U	Too short	2025-11-22 01:51:44.982924+00
+48688	oAKq8f9dcfs	Too short	2025-11-22 01:51:45.026097+00
+48689	-fHxid9MuVE	Too short	2025-11-22 01:51:45.048499+00
+48690	3_vD6kxpLuI	Too short	2025-11-22 01:51:45.072554+00
+48691	LrZlwIcw6_U	Too short	2025-11-22 01:51:45.095278+00
+48692	jsP6TYZ3rfs	Too short	2025-11-22 01:51:45.136738+00
+48693	NG2gQPiEVKM	Too short	2025-11-22 01:51:45.177793+00
+48694	f0jcZo7T2jk	Too short	2025-11-22 01:51:45.198937+00
+48695	lVvjh2PpYOg	Too short	2025-11-22 01:51:45.220769+00
+48696	GfumEOHcSPg	Too short	2025-11-22 01:51:45.242965+00
+48697	WMWZqXsfQrw	Too short	2025-11-22 01:51:45.264193+00
+48698	DpGrX1bBw88	Too short	2025-11-22 01:51:48.723153+00
+48699	qfgpAaCoEKg	Too short	2025-11-22 01:51:48.746594+00
+48700	dhwIhkeuEyI	Too short	2025-11-22 01:51:48.768317+00
+48701	xbMa_u3wn7k	Too short	2025-11-22 01:51:48.790536+00
+48702	0IViNyB_9FE	Too short	2025-11-22 01:51:48.812512+00
+48703	Dw_ldwrykbc	Too short	2025-11-22 01:52:29.137803+00
+48704	JT6gtoTNMlo	Too short	2025-11-22 01:52:29.194566+00
+48705	2-4-1OoIGSQ	Too short	2025-11-22 01:52:29.222627+00
+48706	-bHN9DN-YRI	Too short	2025-11-22 01:52:29.244775+00
+48707	r8fTsGeolJA	Too short	2025-11-22 01:52:29.266174+00
+48708	sebq4BDCgu0	Too short	2025-11-22 01:52:29.287985+00
+48709	NOwG_2SIAAA	Too short	2025-11-22 01:52:29.309605+00
+48710	sGQ87CjMPCk	Too short	2025-11-22 01:52:29.331779+00
+48711	y_KlIrS1q0s	Too short	2025-11-22 01:52:29.354058+00
+48712	Z3iN4jjMGVE	Too short	2025-11-22 01:52:29.37597+00
+48713	FuGJu2BzHSM	Too short	2025-11-22 01:54:32.915452+00
+48714	U8Q0u5H0wGU	No author found	2025-11-22 01:54:52.928132+00
+48715	ltucfmupRB4	Too short	2025-11-22 01:55:14.000614+00
+48716	mjj7Khkbg-U	Too short	2025-11-22 01:55:38.027738+00
+48717	aYq0RsOLBjM	Too short	2025-11-22 01:55:38.14617+00
+48718	9oFR8F3dT6o	Too short	2025-11-22 01:55:38.189822+00
+48719	Vrm13Wlm2VQ	Too short	2025-11-22 01:55:38.239954+00
+48720	HmrbK_Ano6s	Too short	2025-11-22 01:55:42.641419+00
+48721	Bf5gVca4eaE	Too short	2025-11-22 01:55:42.674414+00
+48722	q8BY2qRBOws	Too short	2025-11-22 01:55:42.778182+00
+48723	evFNbtEHWTo	Too short	2025-11-22 01:55:42.801589+00
+48724	AQcijDTT2hQ	Too short	2025-11-22 01:55:42.824914+00
+48725	qb388Y5lZr8	Too short	2025-11-22 01:55:42.867205+00
+48726	mVbm5zj_voQ	Too short	2025-11-22 01:55:42.890624+00
+48727	AzLaq3HUIuk	Too short	2025-11-22 01:55:42.93989+00
+48728	0oRgdKLRlak	Too short	2025-11-22 01:56:03.696104+00
+48729	wcu6R3PrD5g	Too short	2025-11-22 01:56:07.482348+00
+48730	IS4ABJNcsC0	Too short	2025-11-22 01:56:07.587819+00
+48731	XVhl4qDR6Vs	Too short	2025-11-22 01:56:07.610333+00
+48732	kGaBD-IGFc0	Too short	2025-11-22 01:56:07.632378+00
+48733	HN7F-Mth3io	Too short	2025-11-22 01:56:07.654541+00
+48734	YiylEYNdZ_I	Too short	2025-11-22 01:56:07.683436+00
+48735	yjVFA-gXn94	Too short	2025-11-22 01:56:07.70628+00
+48736	aKzBxsOhCfg	Too short	2025-11-22 01:56:07.729458+00
+48737	5hRgcT0822g	Too short	2025-11-22 01:56:07.751693+00
+48738	8Txrbo8zrDg	Too short	2025-11-22 01:56:07.783718+00
+48739	NdRijMNJUT8	Too short	2025-11-22 01:56:07.806246+00
+48740	grC46RwnXww	Too short	2025-11-22 01:56:32.043929+00
+48741	Rb4qIy_6zwM	Too short	2025-11-22 01:57:12.52069+00
+48742	dRLFBvWmaRk	Too short	2025-11-22 01:58:13.908366+00
+48743	iot2ZIkBXu8	Too short	2025-11-22 02:06:30.016266+00
+48744	H2UrBEFmzOk	Too short	2025-11-22 02:06:51.207462+00
+48745	ZjA0TAyzlSA	Too short	2025-11-22 02:06:51.246957+00
+48746	pQ7d33ccvRc	Too short	2025-11-22 02:06:51.273119+00
+48747	6mXP16FWOJU	Too short	2025-11-22 02:06:51.301233+00
+48748	wmfkwu2uy-o	Too short	2025-11-22 02:06:51.328108+00
+48749	Rkt9vEag4s0	Too short	2025-11-22 02:06:51.35365+00
+48750	MI8AUEtioaw	Too short	2025-11-22 02:06:51.378683+00
+48751	gaK-_JZset4	Too short	2025-11-22 02:06:51.403639+00
+48752	vyFhggKANdU	Too short	2025-11-22 02:06:51.471545+00
+48753	HKyAFPHAJjo	Too short	2025-11-22 02:06:51.499537+00
+48754	XhbDFTaUOUE	Too short	2025-11-22 02:06:51.526264+00
+48755	rhf7QBvZEPM	Too short	2025-11-22 02:06:51.574634+00
+48756	ezPGdYY6kMc	Too short	2025-11-22 02:06:51.599849+00
+48757	StzO05QOxcU	Too short	2025-11-22 02:06:51.625597+00
+48758	uIObK2obtTc	Too short	2025-11-22 02:06:51.65089+00
+48759	5fB8bOeLudM	Too short	2025-11-22 02:06:51.675927+00
+48760	Elyt3I9NuM4	Too short	2025-11-22 02:06:51.701356+00
+48761	2rRm22_aT5o	Too short	2025-11-22 02:06:51.725873+00
+48762	5KwS8IikXd8	Too short	2025-11-22 02:06:51.749641+00
+48763	56y-YUlqXik	Too short	2025-11-22 02:06:55.535123+00
+48764	qWe11yh8Pqk	Too short	2025-11-22 02:06:55.55822+00
+48765	HhnK4GuNXGM	Too short	2025-11-22 02:06:55.583538+00
+48766	zaI4_vmo6Z4	Too short	2025-11-22 02:06:55.607627+00
+48767	1b8uv3rIZn0	Too short	2025-11-22 02:06:55.635183+00
+48768	i5JrrPmnAa0	Too short	2025-11-22 02:06:55.661463+00
+48769	CNPodEEPv6M	Too short	2025-11-22 02:06:55.687128+00
+48770	Fp1u9258tP0	Too short	2025-11-22 02:06:55.711802+00
+48771	-AhmhWZg6pY	Too short	2025-11-22 02:06:55.737973+00
+48772	zlg78mv3nHs	Too short	2025-11-22 02:06:55.762632+00
+48773	fI8rSwsumZw	Too short	2025-11-22 02:06:55.791725+00
+48774	q24I_eQDJFo	Too short	2025-11-22 02:06:55.817717+00
+48775	U9JfatlbeaY	Too short	2025-11-22 02:06:55.843362+00
+48776	Q_-7UI5M3mQ	Too short	2025-11-22 02:06:55.866583+00
+48777	u61qBKscJfE	Too short	2025-11-22 02:06:55.89474+00
+48778	IQqdcovxWuU	Too short	2025-11-22 02:06:55.921233+00
+48779	vfI5MBFp2XY	Too short	2025-11-22 02:06:55.946113+00
+48780	LTkBPfQ0WGU	Too short	2025-11-22 02:06:58.317809+00
+48781	kiJmtLsr2rE	Too short	2025-11-22 02:06:58.344311+00
+48782	pZhOOs8sAcM	Too short	2025-11-22 02:07:19.196481+00
+48783	jFd7KDdCOMM	Too short	2025-11-22 02:07:19.264718+00
+48784	fVAli7BqWHg	Too short	2025-11-22 02:07:19.293328+00
+48785	t49DeV3m6Mg	Too short	2025-11-22 02:07:43.879481+00
+48786	jmw98dtKhz0	Too short	2025-11-22 02:07:44.050345+00
+48787	paWRt9DubaQ	Too short	2025-11-22 02:07:44.12606+00
+48788	PNdKYPsNM8Q	Too short	2025-11-22 02:07:44.195458+00
+48789	syVJzZhOb2c	Too short	2025-11-22 02:07:44.224707+00
+48790	MbRqrP3GmbE	Too short	2025-11-22 02:07:44.313294+00
+48791	luYAeyB93-Q	No author found	2025-11-22 02:12:31.523399+00
+48792	RclG-k6itpk	Too short	2025-11-22 02:13:53.975563+00
+48793	S1hVa13HblI	No author found	2025-11-22 02:13:54.04721+00
+48794	O4nsCQ-35ts	Too short	2025-11-22 02:16:00.599967+00
+48795	N388FvU0H1o	No author found	2025-11-22 02:17:33.602895+00
+48796	uJ_AO3QeuBs	Too short	2025-11-22 02:17:53.478804+00
+48797	PadI5-HZ9F8	No author found	2025-11-22 02:17:53.529671+00
+48798	DtijfosFd_I	Too short	2025-11-22 02:18:15.064913+00
+48799	LXm4BQC4dso	Too short	2025-11-22 02:18:35.810259+00
+48800	X65PqvI0-So	Too short	2025-11-22 02:18:35.89485+00
+48801	BwhsTrQmJYI	Too short	2025-11-22 02:19:38.166626+00
+48802	Uwfnlqa7emI	Too short	2025-11-22 02:19:49.10413+00
+48803	hHCuYKV4ODM	Too short	2025-11-22 02:19:49.133023+00
+48804	c8uHDJJAUz0	Too short	2025-11-22 02:19:49.161698+00
+48805	NqaplGKRSxk	Too short	2025-11-22 02:19:49.195515+00
+48806	1ZgbVGxt-fY	Not in English (det. by LLM)	2025-11-22 02:19:49.222171+00
+48807	bD2LT5dRCKM	Too short	2025-11-22 02:19:51.036695+00
+48808	Py3K3qXCfGs	No author found	2025-11-22 02:19:51.066532+00
+48809	QIZD_OSYuT0	Too short	2025-11-22 02:20:13.323188+00
+48810	swcw1YV5kRY	Too short	2025-11-22 02:20:13.352702+00
+48811	-LGWZoT0iUg	Too short	2025-11-22 02:20:13.42628+00
+48812	3WaAF11zgMA	Too short	2025-11-22 02:20:13.453426+00
+48813	_w2gq6IkxSk	Too short	2025-11-22 02:20:13.479058+00
+48814	bDewdP48M-g	Too short	2025-11-22 02:20:13.531302+00
+48815	5mggfAUqnW4	Too short	2025-11-22 02:20:13.579181+00
+48816	VJOuU695YJw	Too short	2025-11-22 02:20:17.611174+00
+48817	AXvZI8JopWs	Too short	2025-11-22 02:20:17.634522+00
+48818	5o7S1-mCB7o	Too short	2025-11-22 02:20:17.707763+00
+48819	iwisLEz_f00	Too short	2025-11-22 02:20:17.753278+00
+48820	guVWOqHv6ME	Too short	2025-11-22 02:20:17.806367+00
+48821	HcdGKcZMSfQ	Too short	2025-11-22 02:20:17.836526+00
+48822	jiuvOJsJkck	Too short	2025-11-22 02:20:17.882895+00
+48823	I8i1SAZRn2A	Too short	2025-11-22 02:20:37.907641+00
+48824	O8j2mHbuDps	No author found	2025-11-22 02:20:37.970896+00
+48825	Nte9qoUCfcI	Too short	2025-11-22 02:20:57.878318+00
+48826	_VKZ5KXtFNg	Too short	2025-11-22 02:20:57.907148+00
+48827	Tr9FmByMGWA	Too short	2025-11-22 02:20:57.940143+00
+48828	o0jaVSM-h48	Too short	2025-11-22 02:21:01.987924+00
+48829	kMo2qd1kZOM	Too short	2025-11-22 02:21:02.013211+00
+48830	OR1iNqDUHYE	Too short	2025-11-22 02:21:02.039898+00
+48831	A3CBYqKanR4	Too short	2025-11-22 02:21:02.0665+00
+48832	V6QakD4CZBk	Too short	2025-11-22 02:21:02.101244+00
+48833	-GyvmXodFPE	Too short	2025-11-22 02:21:02.128619+00
+48834	7iamnW0WjLc	Too short	2025-11-22 02:21:02.163704+00
+48835	FTkxdapqS74	Too short	2025-11-22 02:21:02.188957+00
+48836	r1vfzSTua7w	Too short	2025-11-22 02:21:02.214028+00
+48837	coN20W9zCCA	Too short	2025-11-22 02:21:02.239276+00
+48838	kSOX37hMjU4	Too short	2025-11-22 02:21:02.263403+00
+48839	LxInJqqR_LI	Too short	2025-11-22 02:21:02.310278+00
+48840	ztE5GQ-vQfg	Too short	2025-11-22 02:21:02.36682+00
+48841	9HayuJm1IwA	Too short	2025-11-22 02:21:02.414784+00
+48842	n5eDXGVMP5o	Too short	2025-11-22 02:21:47.854964+00
+48843	y_BV67vqs0A	Too short	2025-11-22 02:21:47.930507+00
+48844	XZXn2B8VnvA	Too short	2025-11-22 02:21:47.957532+00
+48845	u-MoQLSIwXQ	Too short	2025-11-22 02:21:47.98245+00
+48846	CLxfzgFj1zk	Too short	2025-11-22 02:22:07.54713+00
+48847	WZ3371OL2Lg	Too short	2025-11-22 02:22:07.611116+00
+48848	VLe_Ed9amyA	Too short	2025-11-22 02:22:07.661328+00
+48849	8SaVGHAIOm8	Too short	2025-11-22 02:22:27.276879+00
+48850	diAHv3ZjYqU	Too short	2025-11-22 02:22:27.34673+00
+48851	aodxtam8wY8	Too short	2025-11-22 02:22:27.395978+00
+48852	Jk689RPITj8	Too short	2025-11-22 02:22:48.655072+00
+48853	_wE8LU1aHIo	Too short	2025-11-22 02:23:12.70828+00
+48854	hHcnRzTX7xk	Too short	2025-11-22 02:23:32.442089+00
+48855	AADbsPvp_AU	Too short	2025-11-22 02:23:52.556305+00
+48856	YweSVH6nWcw	Too short	2025-11-22 02:24:12.317422+00
+48857	xtK6acCVhCo	Too short	2025-11-22 02:24:54.187035+00
+48858	XLEhOMPJVGQ	Too short	2025-11-22 02:27:32.343576+00
+48859	8w-9qbAYK2Y	Too short	2025-11-22 02:29:31.38921+00
+48860	jHEFrFsPrs4	Too short	2025-11-22 02:30:51.325484+00
+48861	_UUr101MuXU	Too short	2025-11-22 02:30:51.401059+00
+48862	obXpFs8xzg4	Too short	2025-11-22 02:31:14.568272+00
+48863	8PnnyeVK_ys	Too short	2025-11-22 02:31:14.627013+00
+48864	l_KO0mC95lk	Too short	2025-11-22 02:31:14.650378+00
+48865	ZX81YOlJvls	Too short	2025-11-22 02:31:14.675256+00
+48866	xDeReLe13qM	Too short	2025-11-22 02:31:14.697976+00
+48867	qWsJwQG07RI	Too short	2025-11-22 02:31:14.72095+00
+48868	4Sh1YrmV7f0	Too short	2025-11-22 02:31:14.752042+00
+48869	EfMG52zt8Mg	Too short	2025-11-22 02:31:33.995731+00
+48870	ftAshTzl3-w	Too short	2025-11-22 02:32:16.332955+00
+48871	FkibfLGGFVQ	Too short	2025-11-22 02:32:16.398481+00
+48872	2CnDQ6vY8Pk	Too short	2025-11-22 02:32:37.67924+00
+48873	BT5YNlM3ErY	Too short	2025-11-22 02:32:37.74104+00
+48874	xztYcQkg7S4	Too short	2025-11-22 02:33:17.867259+00
+48875	hM9U-A_CI-o	Too short	2025-11-22 02:33:17.9367+00
+48876	XlCRFOVffKE	Too short	2025-11-22 02:33:17.960736+00
+48877	0VWvvFQNgao	Too short	2025-11-22 02:33:59.460212+00
+48878	gLxVrBj5kUQ	Too short	2025-11-22 02:33:59.524127+00
+48879	wq5Au8buDWE	Too short	2025-11-22 02:34:03.190588+00
+48880	spYBkJtYeHQ	Too short	2025-11-22 02:34:22.942119+00
+48881	6wGToKg_1c0	Too short	2025-11-22 02:34:23.017276+00
+48882	roPOmsHtBmI	Too short	2025-11-22 02:34:23.040867+00
+48883	DhrnU3c-EG8	Too short	2025-11-22 02:34:23.063298+00
+48884	mIjAXU6AYk0	Too short	2025-11-22 02:35:03.156948+00
+48885	MldFLZHp7OE	Too short	2025-11-22 02:35:03.225461+00
+48886	Dw-QjVeWl78	Too short	2025-11-22 02:35:03.244981+00
+48887	ezTedNrwJpE	Too short	2025-11-22 02:38:32.003321+00
+48888	PJEf-XkXqsY	Too short	2025-11-22 02:38:32.076616+00
+48889	hzvmG9YdYIE	Not in English (det. by LLM)	2025-11-22 02:38:32.099068+00
+48890	cG6VEiOiYp8	Not in English (det. by LLM)	2025-11-22 02:38:33.642376+00
+48891	T_ceTrcwpMw	Too short	2025-11-22 02:38:35.319025+00
+48892	PR4NViSrP6k	Too short	2025-11-22 02:40:16.425794+00
+48893	SUP-1wv4JmU	Too short	2025-11-22 02:42:06.183726+00
+48894	FceksBTYVnY	Too short	2025-11-22 02:44:27.46852+00
+48895	tbShudVCUaM	Too short	2025-11-22 02:45:50.996951+00
+48896	qLjce37R5y4	Too short	2025-11-22 02:45:55.258175+00
+48897	BLVkufRNfY4	Too short	2025-11-22 02:49:23.523782+00
+48898	5Zp_xCuSYBA	Too short	2025-11-22 02:49:45.553706+00
+48899	TE7B360kMAM	Too short	2025-11-22 02:49:45.626062+00
+48900	oXGHp_I1FYU	Not in English (det. by LLM)	2025-11-22 02:50:07.220232+00
+48901	gxwBsS6wue4	Too short	2025-11-22 02:50:11.587223+00
+48902	hILJ29mPsko	Too short	2025-11-22 02:50:11.610168+00
+48903	bgGwpMR17zI	Too short	2025-11-22 02:50:11.631694+00
+48904	Ku5qzRc_lS4	Too short	2025-11-22 02:51:12.547899+00
+48905	0d83i99pCDs	Not in English (det. by LLM)	2025-11-22 02:51:12.621135+00
+48906	RejmoCtKpjI	Too short	2025-11-22 02:51:35.664755+00
+48907	d_VOpWbx4MU	Too short	2025-11-22 02:52:18.889047+00
+48908	NmFc2GRTUYA	Too short	2025-11-22 02:53:22.835459+00
+48909	BFhd_g5qLP8	Too short	2025-11-22 02:53:22.905367+00
+48910	vVUKvJNplBE	Too short	2025-11-22 02:53:22.928544+00
+48911	yPQExdMvegE	Too short	2025-11-22 02:53:22.950342+00
+48912	7zfDU4vZeVs	Too short	2025-11-22 02:53:22.972603+00
+48913	9ya_9-06MIQ	Too short	2025-11-22 02:53:22.994408+00
+48914	GvhjdGk0JzI	Too short	2025-11-22 02:53:23.018294+00
+48915	GVtNorZnWV0	Too short	2025-11-22 02:53:23.060017+00
+48916	jq9R3XbWrB0	Too short	2025-11-22 02:53:23.084441+00
+48917	3ydf1LlEu7o	Too short	2025-11-22 02:53:23.10717+00
+48918	x1bUlq0isW4	Too short	2025-11-22 02:53:23.127972+00
+48919	YgqY47GxQzA	Too short	2025-11-22 02:53:23.149403+00
+48920	jNveOgNqmh0	Too short	2025-11-22 02:53:23.170476+00
+48921	wLj3aeA-FWk	Too short	2025-11-22 02:53:23.192059+00
+48922	RKtxHTyJK-c	Too short	2025-11-22 02:53:23.213934+00
+48923	F0DDuSqObFE	Too short	2025-11-22 02:53:23.238428+00
+48924	9KR4W9q3nBY	Too short	2025-11-22 02:53:23.260135+00
+48925	pkWqUWlCUV4	Too short	2025-11-22 02:53:23.281103+00
+48926	SkqNrOrN-YU	Too short	2025-11-22 02:53:23.302392+00
+48927	o_xYXtCCkQA	Too short	2025-11-22 02:53:23.324317+00
+48928	fCyFyrqeJHY	Too short	2025-11-22 02:53:26.413713+00
+48929	39DfcMEVVqs	Too short	2025-11-22 02:53:26.440204+00
+48930	Ij6_DCaRv6k	Too short	2025-11-22 02:53:26.464464+00
+48931	ZRk-LubkdzM	Too short	2025-11-22 02:53:26.486185+00
+48932	UMfOa1kaR6E	Too short	2025-11-22 02:53:26.510518+00
+48933	oqGXr4gw5nM	Too short	2025-11-22 02:53:26.537753+00
+48934	CKbVGmntXdA	Too short	2025-11-22 02:53:26.559257+00
+48935	jMud1bdmbTM	Too short	2025-11-22 02:53:26.581252+00
+48936	oU5qX8z9JNw	Too short	2025-11-22 02:53:26.603032+00
+48937	P7sgvSVsxQ0	Too short	2025-11-22 02:53:26.624687+00
+48938	VaVcfObz3jM	Too short	2025-11-22 02:53:26.645965+00
+48939	_Ko3HPhUbPg	Too short	2025-11-22 02:53:26.668002+00
+48940	SKf0glwyYvk	Too short	2025-11-22 02:53:26.689343+00
+48941	0Hb5xsHFjMo	Too short	2025-11-22 02:53:26.715848+00
+48942	xfAk8KAxz-M	Too short	2025-11-22 02:53:26.737517+00
+48943	bn3laWP_NeQ	Too short	2025-11-22 02:53:26.779983+00
+48944	jkaZ_oqDqmo	Too short	2025-11-22 02:53:49.834769+00
+48945	v9YPWtlfbZ8	Too short	2025-11-22 02:54:11.046581+00
+48946	GM8S_5zPEmY	No author found	2025-11-22 02:54:11.099445+00
+48947	dIl3pxa0Mmg	Too short	2025-11-22 02:54:51.005833+00
+48948	LEpUq8UrL1U	Too short	2025-11-22 02:54:51.068612+00
+48949	earkkFb_tCA	Too short	2025-11-22 02:54:51.092136+00
+48950	G50kTJyEkXI	Too short	2025-11-22 02:54:51.11565+00
+48951	JiGLEDQYV2w	Too short	2025-11-22 02:54:51.138119+00
+48952	mSsTHCBZwDw	Too short	2025-11-22 02:54:51.16152+00
+48953	MRHv63gK3bo	Too short	2025-11-22 02:55:13.895436+00
+48954	z-UkUYN487k	Too short	2025-11-22 02:55:13.975808+00
+48955	Sd1s0D5Rdjk	Too short	2025-11-22 02:55:13.998614+00
+48956	_lZZU3RuGGo	Too short	2025-11-22 02:55:14.021266+00
+48957	6cMcFqaWS1E	Too short	2025-11-22 02:55:14.043604+00
+48958	RmuxmtLh_qk	Too short	2025-11-22 02:55:14.069417+00
+48959	5ZItHuzWXxk	Too short	2025-11-22 02:55:35.991255+00
+48960	UnHpIP43zlI	Too short	2025-11-22 02:55:56.845981+00
+48961	sKL-sKdoXvM	Too short	2025-11-22 02:55:56.915663+00
+48962	4i9e1yPcZMo	Too short	2025-11-22 02:55:56.938437+00
+48963	GqOwskV7ivI	Too short	2025-11-22 02:55:56.960307+00
+48964	IVLlTd3UVR0	Too short	2025-11-22 02:56:22.807887+00
+48965	u1ivRRPmWfk	Too short	2025-11-22 02:56:43.315265+00
+48966	-4R5Fav_BPc	Too short	2025-11-22 02:56:43.385962+00
+48967	Hn_Xlk65UoA	Too short	2025-11-22 02:56:52.581128+00
+48968	6i6NLvqXQHo	Too short	2025-11-22 02:57:01.694137+00
+48969	FIYaXHAjQaQ	Too short	2025-11-22 02:57:04.744947+00
+48970	iT7_e4aIfrU	Too short	2025-11-22 02:57:04.864022+00
+48971	NjPYR3UVI5M	Too short	2025-11-22 02:57:26.22695+00
+48972	JRSYagaTF0k	Too short	2025-11-22 02:57:29.214074+00
+48973	EpfFWS0WHPA	Not in English (det. by LLM)	2025-11-22 02:57:50.654469+00
+48974	_wSbVRdKCGY	Too short	2025-11-22 02:57:52.164901+00
+48975	I9KaUVg86gU	Too short	2025-11-22 02:58:56.905427+00
+48976	IRdymmVhHZ8	Too short	2025-11-22 02:59:35.678414+00
+48977	czSEER1ZDmY	Too short	2025-11-22 02:59:35.751136+00
+48978	WIu-yfrTDxQ	Too short	2025-11-22 02:59:35.796063+00
+48979	ue1jUlQuTs8	Too short	2025-11-22 02:59:35.81904+00
+48980	5f0LgPqd4uw	Too short	2025-11-22 02:59:38.863866+00
+48981	hHcYD9dAlxQ	Too short	2025-11-22 02:59:58.422546+00
+48982	BGGPzKzL2Xc	Too short	2025-11-22 02:59:58.547206+00
+48983	9ZBeh-SKnxQ	Too short	2025-11-22 02:59:58.569953+00
+48984	SCOKV088V4E	Too short	2025-11-22 02:59:58.591733+00
+48985	jZFD_MXpmuE	Too short	2025-11-22 03:00:20.231671+00
+48986	WFSr9Ra5KGQ	Too short	2025-11-22 03:01:03.465172+00
+48987	TURB7g0Gptw	Too short	2025-11-22 03:01:03.678732+00
+48988	QNuppztCsCM	Too short	2025-11-22 03:01:03.730771+00
+48989	-si8mMw8Bko	No author found	2025-11-22 03:01:27.091046+00
+48990	YTm106kxY_4	No author found	2025-11-22 03:02:28.683471+00
+48991	lKsBmSSduZE	No author found	2025-11-22 03:03:53.593821+00
+48992	l-wiibvOlTk	No author found	2025-11-22 03:04:55.214725+00
+48993	P6iqaKZsU3M	No author found	2025-11-22 03:05:15.667217+00
+48994	MRtVo6Fb-ls	Too short	2025-11-22 03:05:38.549438+00
+48995	j0dVjOtsmmo	Too short	2025-11-22 03:05:38.572553+00
+48996	qIlloksZ5IY	Too short	2025-11-22 03:05:38.595877+00
+48997	V9hUogFUAS8	Too short	2025-11-22 03:05:58.897605+00
+48998	054RKwsWed0	Too short	2025-11-22 03:05:58.965042+00
+48999	bYoNtM4TGcI	Too short	2025-11-22 03:05:58.989886+00
+49000	gE5yGuoe_PI	No author found	2025-11-22 03:05:59.011677+00
+49001	0LeK59Wbxws	Too short	2025-11-22 03:06:18.947197+00
+49002	6ju_N7Gms8M	Too short	2025-11-22 03:06:18.971707+00
+49003	y9mzTgsFXss	Too short	2025-11-22 03:06:18.994233+00
+49004	czdrgZ1p_Fg	Too short	2025-11-22 03:06:19.017332+00
+49005	pYfmJ69C7xA	Too short	2025-11-22 03:06:19.041341+00
+49006	gVUB67OmUus	Too short	2025-11-22 03:06:19.062889+00
+49007	hRTEsu0awJ4	Too short	2025-11-22 03:06:19.084118+00
+49008	mdg9nu9sAmI	Too short	2025-11-22 03:06:19.10573+00
+49009	GAqgaMGkwtE	Too short	2025-11-22 03:06:19.12774+00
+49010	hbgJn3i1qCI	Too short	2025-11-22 03:06:21.760232+00
+49011	TyZv3D6Dl4k	Too short	2025-11-22 03:06:21.782584+00
+49012	Ob6eE4SPPyk	Too short	2025-11-22 03:06:21.803746+00
+49013	LxTOwHLlGR0	Too short	2025-11-22 03:06:21.824769+00
+49014	pDNO_T8q2qE	Too short	2025-11-22 03:06:21.846545+00
+49015	HJ0wdAaG6eA	Too short	2025-11-22 03:06:21.867655+00
+49016	WHClMQeY2p4	Too short	2025-11-22 03:06:21.889809+00
+49017	GMqMaErSRKk	Too short	2025-11-22 03:06:21.911137+00
+49018	2ytWWkLedJY	Too short	2025-11-22 03:06:21.932217+00
+49019	JG1PgRSC0aY	Too short	2025-11-22 03:06:21.953198+00
+49020	H2gupvN6Txo	Too short	2025-11-22 03:06:21.97482+00
+49021	C0sZRXZ7ohs	Too short	2025-11-22 03:06:21.996453+00
+49022	Y9auCBmGt-w	Too short	2025-11-22 03:06:22.017127+00
+49023	yD8oYIPn0bQ	Too short	2025-11-22 03:06:24.194331+00
+49024	RDrQA7ELj2E	Too short	2025-11-22 03:06:24.216154+00
+49025	EVf35EXqH5o	Too short	2025-11-22 03:06:24.238568+00
+49026	4ZHKXdwV5BE	Too short	2025-11-22 03:06:24.259944+00
+49027	1WJZC3j80s0	Too short	2025-11-22 03:06:24.281147+00
+49028	pf3hFeF0pMA	Too short	2025-11-22 03:06:24.32774+00
+49029	0L_y0rK2-HI	Too short	2025-11-22 03:06:46.501589+00
+49030	atzXAQkEkiQ	No author found	2025-11-22 03:06:46.568213+00
+49031	Xk3IPU_sKk4	No author found	2025-11-22 03:07:06.515448+00
+49032	1b2keuDyEnE	Too short	2025-11-22 03:07:27.482623+00
+49033	JW3qrktTISI	No author found	2025-11-22 03:07:27.508704+00
+49034	ASJBDyO0ks8	No author found	2025-11-22 03:07:48.529118+00
+49035	YCid1RMytRw	Too short	2025-11-22 03:08:11.465908+00
+49036	CcFQs_DjaF4	Too short	2025-11-22 03:08:11.617614+00
+49037	mVkLkMcqwk4	Too short	2025-11-22 03:08:11.671649+00
+49038	2c7cBuTITyg	Too short	2025-11-22 03:08:11.723214+00
+49039	tuWCY08sYNc	Too short	2025-11-22 03:08:11.751057+00
+49040	N70lPdrw-Ks	Too short	2025-11-22 03:08:11.773229+00
+49041	XVhJSJsK_OQ	Too short	2025-11-22 03:08:11.897277+00
+49042	vCdzYsGZGLU	Too short	2025-11-22 03:08:32.508114+00
+49043	3NTC32fVhvE	Too short	2025-11-22 03:08:32.583012+00
+49044	rlM_BLirxJI	Too short	2025-11-22 03:08:32.606769+00
+49045	F1lGdj8tyFg	Too short	2025-11-22 03:08:32.648263+00
+49046	YZ6IN7sZsKk	Too short	2025-11-22 03:08:35.654416+00
+49047	PTA8sb8w4j0	No author found	2025-11-22 03:08:35.707921+00
+49048	wff8CHhI_Z4	Too short	2025-11-22 03:08:56.782061+00
+49049	dIgEZDQZACk	Too short	2025-11-22 03:08:56.829879+00
+49050	jsl7feev0c4	Too short	2025-11-22 03:08:56.853198+00
+49051	XX2REA-YsYQ	Too short	2025-11-22 03:08:56.876259+00
+49052	YShd6HJtNO4	Too short	2025-11-22 03:09:16.970763+00
+49053	Ob3dYXvrQRY	Too short	2025-11-22 03:09:17.045821+00
+49054	gewmalZjcFY	Too short	2025-11-22 03:09:17.10957+00
+49055	FPisevL3YS4	Too short	2025-11-22 03:09:17.130921+00
+49056	D6bNVEhmG3Q	Too short	2025-11-22 03:09:17.152333+00
+49057	Hjo_KMpeEXw	Too short	2025-11-22 03:09:21.340063+00
+49058	W_o-DcaCiIA	Too short	2025-11-22 03:09:21.365025+00
+49059	qCxud1QjNoA	Too short	2025-11-22 03:09:21.389451+00
+49060	V3wNDcp7yG0	Too short	2025-11-22 03:09:21.415845+00
+49061	AEeA2aPsIuw	Too short	2025-11-22 03:09:21.458849+00
+49062	eEDbzB1Bpj8	Too short	2025-11-22 03:09:21.481165+00
+49063	-JdtsiDj52g	Too short	2025-11-22 03:09:21.503813+00
+49064	GjpvXoLhhUo	Too short	2025-11-22 03:09:21.546686+00
+49065	BUb2iB9rrRk	Too short	2025-11-22 03:09:21.568912+00
+49066	_o5upCL7xb0	Too short	2025-11-22 03:09:21.590313+00
+49067	uDIOXnzVBEk	Too short	2025-11-22 03:09:21.611404+00
+49068	UKPYZFt0KuM	Too short	2025-11-22 03:09:21.672444+00
+49069	_vWkvnhkl20	Too short	2025-11-22 03:09:21.713037+00
+49070	wcqDK_0h-1Q	Too short	2025-11-22 03:09:21.734286+00
+49071	Uzf1TDOp0CI	Too short	2025-11-22 03:09:21.755719+00
+49072	uLdspIqH_-U	Too short	2025-11-22 03:09:24.037583+00
+49073	xH3o_Ux8fbo	Too short	2025-11-22 03:09:24.060169+00
+49074	yqzRle2Pvyc	Too short	2025-11-22 03:09:24.083315+00
+49075	BjysjPKAjiw	Too short	2025-11-22 03:09:24.105541+00
+49076	ys7Fn-1YzN0	Too short	2025-11-22 03:09:24.126173+00
+49077	1blTpqXmVxU	Too short	2025-11-22 03:09:24.147567+00
+49078	Z3NRrv6xEE4	Too short	2025-11-22 03:09:24.169229+00
+49079	-tZOS-VMDBo	Too short	2025-11-22 03:09:24.191578+00
+49080	R07Urn-Wq6M	Too short	2025-11-22 03:09:24.214985+00
+49081	H60pIMKmFD4	Too short	2025-11-22 03:09:24.236143+00
+49082	gt7BILVsMA8	Too short	2025-11-22 03:09:24.25737+00
+49083	xmyvYtOrd7A	Too short	2025-11-22 03:09:24.278531+00
+49084	YOrdPqZIMkY	Too short	2025-11-22 03:09:24.29994+00
+49085	0IZ0xaccIUs	Too short	2025-11-22 03:09:24.321888+00
+49086	OSLnvXZ7vng	Too short	2025-11-22 03:09:24.343743+00
+49087	pEcXaxNxtl4	Too short	2025-11-22 03:09:24.365356+00
+49088	BAqYmkmjvXw	Too short	2025-11-22 03:09:24.387499+00
+49089	wITrkZk7UwU	Too short	2025-11-22 03:13:12.928669+00
+49090	seQSPiljus0	Too short	2025-11-22 03:13:33.522814+00
+49091	SnZzf10IlXs	Too short	2025-11-22 03:13:36.474959+00
+49092	7yCWIWX_8UQ	No author found	2025-11-22 03:13:36.570314+00
+49093	Ct_LVMV3CEo	Too short	2025-11-22 03:13:55.714439+00
+49094	gBHYY-vxwHo	Too short	2025-11-22 03:13:59.988849+00
+49095	n5MRWWV1G48	Too short	2025-11-22 03:14:59.920288+00
+49096	fAGaR22rlvE	No author found	2025-11-22 03:15:03.252829+00
+49097	AsA--hEHlIk	Too short	2025-11-22 03:15:23.416679+00
+49098	pWrmDxYN44Y	Too short	2025-11-22 03:15:23.467297+00
+49099	H0O78GJB8xs	Too short	2025-11-22 03:15:23.489828+00
+49100	gKvcwBhXPoE	Too short	2025-11-22 03:16:09.03478+00
+49101	buFnr84nnRs	Too short	2025-11-22 03:17:48.406323+00
+49102	-oW5qtNUiog	No author found	2025-11-22 03:17:48.458476+00
+49103	_KLVamzeQoM	Too short	2025-11-22 03:20:37.20883+00
+49104	cfS6caJ_5cc	Too short	2025-11-22 03:20:40.373327+00
+49105	IGK7vz6WfBU	Too short	2025-11-22 03:21:19.570653+00
+49106	iX5SnbnrM80	Too short	2025-11-22 03:21:51.21756+00
+49107	btffEeezRrw	Too short	2025-11-22 03:21:51.288682+00
+49108	txBPCHubICw	Too short	2025-11-22 03:21:51.3327+00
+49109	AIxHddWWsu8	Too short	2025-11-22 03:22:32.308056+00
+49110	96oIjAG83pk	Too short	2025-11-22 03:22:32.382156+00
+49111	nLE4jTv7mTo	Too short	2025-11-22 03:22:32.406893+00
+49112	SUd3DtmTqxs	Too short	2025-11-22 03:22:32.429715+00
+49113	dxoJ21FkGHc	Too short	2025-11-22 03:23:13.135686+00
+49114	5NGL5bEucNo	Too short	2025-11-22 03:23:32.674528+00
+49115	b-qNh45V5qM	Too short	2025-11-22 03:23:32.737664+00
+49116	XIfg_WRbNnQ	Too short	2025-11-22 03:23:32.762273+00
+49117	3F8ujfG-no0	Too short	2025-11-22 03:23:53.977731+00
+49118	XG335FPqyT4	Too short	2025-11-22 03:24:58.685845+00
+49119	xcyOYbcS-NE	Too short	2025-11-22 03:24:58.737565+00
+49120	85VCTftHMKM	Too short	2025-11-22 03:25:18.02714+00
+49121	dRX5N0PWCnU	Too short	2025-11-22 03:25:58.636374+00
+49122	XsfQMFa_wVU	Too short	2025-11-22 03:25:58.684303+00
+49123	ooKyseCwtVg	Too short	2025-11-22 03:25:58.708866+00
+49124	RhMm2CnPsHY	Too short	2025-11-22 03:26:17.986314+00
+49125	rT8mRpiGMHk	Too short	2025-11-22 03:26:18.036138+00
+49126	p93C7s4Aft0	Too short	2025-11-22 03:26:18.060812+00
+49127	cDjEaKks9hg	Too short	2025-11-22 03:26:57.127265+00
+49128	jszPWX0UkZY	Too short	2025-11-22 03:26:57.177849+00
+49129	VTCKDdBCsfg	Too short	2025-11-22 03:27:16.523375+00
+49130	r7qJ9JrHp3I	Too short	2025-11-22 03:27:20.687271+00
+49131	3sTcNsdDmGY	Too short	2025-11-22 03:28:01.394573+00
+49132	OVTwfYwT7jk	Too short	2025-11-22 03:28:20.942587+00
+49133	bUIyH-v8YK4	Too short	2025-11-22 03:28:21.010441+00
+49134	aU7v_fhm9Cg	Too short	2025-11-22 03:28:40.345008+00
+49135	0XzoeYsuurU	Too short	2025-11-22 03:28:40.403162+00
+49136	_8utFWZmP0k	Too short	2025-11-22 03:28:40.427512+00
+49137	N57y2hon-sE	Too short	2025-11-22 03:28:40.450365+00
+49138	YvkP1CH4iho	Too short	2025-11-22 03:28:40.474527+00
 \.
 
 
@@ -60764,7 +66032,7 @@ COPY public.skipped_videos (id, video_id, reason, "timestamp") FROM stdin;
 
 COPY public.user_books (id, user_id, audiobook_id, created_at, status, mp3_file_path) FROM stdin;
 19	3	15414	2025-11-21 03:26:11.795714+00	completed	/app/flask_app/modules/../static/audiobooks/20251121_032611_Firewalkers_Adrian_Tchaikovsky.mp3
-21	3	14495	2025-11-21 16:50:36.0207+00	downloading	\N
+22	3	14495	2025-11-21 19:48:12.610184+00	completed	/app/flask_app/modules/../static/audiobooks/20251121_194812_Red_Rising_The_Rebellion_Begins_Pierce_Brown.mp3
 \.
 
 
@@ -60804,14 +66072,14 @@ COPY public.youtube_search_state (id, key, value, "timestamp") FROM stdin;
 -- Name: audiobooks_id_seq; Type: SEQUENCE SET; Schema: public; Owner: root
 --
 
-SELECT pg_catalog.setval('public.audiobooks_id_seq', 18349, true);
+SELECT pg_catalog.setval('public.audiobooks_id_seq', 19500, true);
 
 
 --
 -- Name: authors_id_seq; Type: SEQUENCE SET; Schema: public; Owner: root
 --
 
-SELECT pg_catalog.setval('public.authors_id_seq', 4563, true);
+SELECT pg_catalog.setval('public.authors_id_seq', 4691, true);
 
 
 --
@@ -60825,14 +66093,14 @@ SELECT pg_catalog.setval('public.categories_id_seq', 40, true);
 -- Name: skipped_videos_id_seq; Type: SEQUENCE SET; Schema: public; Owner: root
 --
 
-SELECT pg_catalog.setval('public.skipped_videos_id_seq', 46654, true);
+SELECT pg_catalog.setval('public.skipped_videos_id_seq', 49138, true);
 
 
 --
 -- Name: user_books_id_seq; Type: SEQUENCE SET; Schema: public; Owner: root
 --
 
-SELECT pg_catalog.setval('public.user_books_id_seq', 21, true);
+SELECT pg_catalog.setval('public.user_books_id_seq', 22, true);
 
 
 --
@@ -61067,5 +66335,5 @@ ALTER TABLE ONLY public.user_favorites
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 5m5kqbPa7x8krLGW9E4bwaaFXAw4BKJA0ZbZJkr7UpJzHEttbzRX0AxwNrzVWF1
+\unrestrict OlG8WCuMRrdZ9H5nhIcl1aNzuZQDwCGrJekilyJHxRiIP5iBa71hBleEKVsgWkN
 

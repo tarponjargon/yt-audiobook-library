@@ -6,6 +6,9 @@ import os
 
 rss = Blueprint("rss", __name__)
 
+# Public base URL for RSS feed links
+PUBLIC_BASE_URL = "https://ytbooks.clipcast.it"
+
 
 @rss.route("/rss-feed/<token>", methods=["GET"])
 def serve_rss_feed(token: str):
@@ -30,9 +33,9 @@ def serve_rss_feed(token: str):
     fg = FeedGenerator()
     fg.load_extension("podcast")
 
-    fg.id(request.url)
+    fg.id(f"{PUBLIC_BASE_URL}/rss-feed/{token}")
     fg.title(f"{user.email}'s Audiobook Library")
-    fg.link(href=request.url_root, rel="alternate")
+    fg.link(href=PUBLIC_BASE_URL, rel="alternate")
     fg.description("Your personal audiobook collection from YT-Audiobooks")
     fg.language("en")
     fg.copyright("All rights reserved")
@@ -56,7 +59,7 @@ def serve_rss_feed(token: str):
             continue
 
         filename = os.path.basename(book.mp3_file_path)
-        mp3_url = url_for('static', filename=f'audiobooks/{filename}', _external=True)
+        mp3_url = f"{PUBLIC_BASE_URL}/static/audiobooks/{filename}"
 
         file_size = 0
         try:

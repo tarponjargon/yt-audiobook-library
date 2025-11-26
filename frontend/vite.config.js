@@ -7,9 +7,18 @@ export default defineConfig({
   server: {
     port: 3000,
     host: true,
-    allowedHosts: ['ytbooks.com', 'localhost'],
+    allowedHosts: ['ytbooks.clipcast.it', 'localhost'],
+    hmr: false, // Disable HMR for Cloudflare Tunnel
     proxy: {
+      '/api': {
+        target: 'http://flask-app:5000',
+        changeOrigin: true,
+      },
       '/rss-feed': {
+        target: 'http://flask-app:5000',
+        changeOrigin: true,
+      },
+      '/static/audiobooks': {
         target: 'http://flask-app:5000',
         changeOrigin: true,
       },
