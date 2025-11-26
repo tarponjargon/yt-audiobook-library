@@ -34,8 +34,9 @@ ctx.push()
 load_ext autoreload
 autoreload 2
 
-## Cloudflared tunnel for ytbooks.clipcast.it
+## Starting this app on https://ytbooks.clipcast.it
 
 ```
+docker-compose up
 cloudflared tunnel run --token eyJhIjoiOTNjMTFmYzZiYTdkOGQwZmM5ZTRlMjBmY2UxZjI5N2QiLCJ0IjoiNWYyY2I5MDAtNzZiNC00NWM3LTk5M2UtOGM1OWMwZmM0NGU3IiwicyI6Ik16Z3lNelk1TjJVdE1tWmtZaTAwTm1OakxUazJOalV0TTJNM056YzROelJqWlRJNCJ9
 ```
