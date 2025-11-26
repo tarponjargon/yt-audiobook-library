@@ -7,7 +7,7 @@ import os
 rss = Blueprint("rss", __name__)
 
 # Public base URL for RSS feed links
-PUBLIC_BASE_URL = "https://ytbooks.clipcast.it"
+PUBLIC_BASE_URL = os.getenv("APP_URL", "http://localhost:5001")
 
 
 @rss.route("/rss-feed/<token>", methods=["GET"])

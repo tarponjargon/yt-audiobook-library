@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     port: 3000,
     host: true,
-    allowedHosts: ['ytbooks.clipcast.it', 'localhost'],
+    allowedHosts: true, // Allow all hosts
     hmr: false, // Disable HMR for Cloudflare Tunnel
     proxy: {
       '/api': {

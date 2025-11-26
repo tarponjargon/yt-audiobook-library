@@ -13,3 +13,4 @@ virtualenv_python
 venv
 postgres_data
 /flask_app/static
+tunnel.sh

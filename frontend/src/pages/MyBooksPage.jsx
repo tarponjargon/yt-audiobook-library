@@ -56,7 +56,7 @@ function MyBooksPage() {
   const fetchRssUrl = async () => {
     try {
       const data = await api.get('/user-books/rss-url')
-      setRssUrl(`https://ytbooks.clipcast.it/rss-feed/${data.token}`)
+      setRssUrl(`${window.location.origin}/rss-feed/${data.token}`)
     } catch (error) {
       console.error('Error fetching RSS URL:', error)
     }

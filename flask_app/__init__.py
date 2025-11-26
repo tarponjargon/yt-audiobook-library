@@ -47,7 +47,8 @@ def register_extensions(app):
     bcrypt.init_app(app)
 
     # Enable CORS for all routes
-    CORS(app, supports_credentials=True, origins=['https://ytbooks.clipcast.it', 'http://localhost:3001', 'http://localhost'])
+    app_url = os.getenv("APP_URL", "http://localhost")
+    CORS(app, supports_credentials=True, origins=[app_url, 'http://localhost:3001', 'http://localhost'])
 
 
 def create_app():

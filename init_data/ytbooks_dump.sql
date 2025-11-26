@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict OlG8WCuMRrdZ9H5nhIcl1aNzuZQDwCGrJekilyJHxRiIP5iBa71hBleEKVsgWkN
+\restrict NIdhuymZzuYN8R6Z09zRcfsroIj3sIxTaoRuxyqL7rh1r2C3dNgatzvxi8fM6X4
 
 -- Dumped from database version 15.14
 -- Dumped by pg_dump version 15.14
@@ -66047,6 +66047,7 @@ COPY public.user_favorites (user_id, audiobook_id, created_at) FROM stdin;
 3	14405	2025-11-17 00:31:20.44496+00
 3	14495	2025-11-21 03:22:49.31175+00
 3	15414	2025-11-21 03:23:53.479625+00
+3	16756	2025-11-26 03:00:28.136009+00
 \.
 
 
@@ -66335,5 +66336,5 @@ ALTER TABLE ONLY public.user_favorites
 -- PostgreSQL database dump complete
 --
 
-\unrestrict OlG8WCuMRrdZ9H5nhIcl1aNzuZQDwCGrJekilyJHxRiIP5iBa71hBleEKVsgWkN
+\unrestrict NIdhuymZzuYN8R6Z09zRcfsroIj3sIxTaoRuxyqL7rh1r2C3dNgatzvxi8fM6X4
 
