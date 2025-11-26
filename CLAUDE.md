@@ -17,10 +17,15 @@ This is a YouTube audiobook library application consisting of:
 # Start all services (Flask backend, React frontend, PostgreSQL, Adminer)
 docker-compose up
 
+# Start with Cloudflare Tunnel for HTTPS access
+docker-compose up
+./tunnel.sh
+
 # Access points:
-# - Frontend: http://localhost:3001
+# - Frontend: http://localhost (port 80)
 # - Backend API: http://localhost:5001
 # - Adminer (DB GUI): http://localhost:8081
+# - HTTPS: https://$APP_URL (via Cloudflare Tunnel)
 ```
 
 ### Working with the Flask Backend
@@ -109,7 +114,7 @@ flask db downgrade
 ```
 flask_app/
 ├── __init__.py          # App factory, extension registration, blueprint registration
-├── models.py            # SQLAlchemy models (Audiobook, Author, Category, User, etc.)
+├── models.py            # SQLAlchemy models (Audiobook, Author, Category, User, UserBook, etc.)
 ├── commands/            # Flask CLI commands
 │   ├── books.py         # Audiobook management commands
 │   └── test.py          # Test commands
@@ -117,12 +122,15 @@ flask_app/
 │   ├── api.py           # Main API endpoints (search, categories, audiobooks)
 │   ├── auth.py          # Authentication endpoints
 │   ├── favorites.py     # User favorites endpoints
+│   ├── user_books.py    # My Books endpoints (add/remove books, MP3 downloads)
+│   ├── rss.py           # RSS podcast feed generation
 │   └── views.py         # Template views (if any)
 ├── modules/             # Core business logic
 │   ├── youtube_crawler.py    # Playwright-based YouTube scraping
+│   ├── mp3_downloader.py     # yt-dlp MP3 conversion (4-hour timeout)
 │   ├── book.py               # Book processing and storage logic
 │   ├── google_books.py       # Google Books API integration
-│   ├── helpers.py            # Utility functions
+│   ├── helpers.py            # Utility functions (includes encode/decode_user_id for RSS tokens)
 │   ├── extensions.py         # Flask extension instances (db, login_manager, bcrypt)
 │   └── llm/                  # LLM integration for metadata enrichment
 │       ├── book.py           # Book-specific LLM functions (title, author, language, categories)
@@ -144,21 +152,23 @@ frontend/src/
 │   ├── SearchResultsPage.jsx     # Search results
 │   ├── LoginPage.jsx             # User login
 │   ├── RegisterPage.jsx          # User registration
-│   └── FavoritesPage.jsx         # User's favorite audiobooks
+│   ├── FavoritesPage.jsx         # User's favorite audiobooks
+│   └── MyBooksPage.jsx           # User's personal library with RSS feed URL
 ├── components/          # Reusable components
 ├── context/             # React context providers (AuthContext)
 ├── store/               # Zustand state management
-└── api/                 # API client functions
+└── api/                 # API client (uses relative /api URL for Vite proxy)
 ```
 
 ### Database Models
 
 **Core Entities:**
 
-- `Audiobook`: YouTube video data enriched with metadata (title, author, categories, thumbnail, duration)
+- `Audiobook`: YouTube video data enriched with metadata (title, author, categories, thumbnail, duration, rating)
 - `Author`: Audiobook authors (many-to-one with Audiobook)
 - `Category`: Audiobook categories (many-to-many with Audiobook via `audiobook_categories`)
 - `User`: Application users with authentication
+- `UserBook`: User's personal library entries with MP3 download status and file path
 - `user_favorites`: Many-to-many association between Users and Audiobooks
 
 **Supporting Tables:**
@@ -185,10 +195,23 @@ frontend/src/
    - Pagination support
    - User authentication and favorites management
 
+4. **My Books / MP3 Downloads** (`routes/user_books.py` and `modules/mp3_downloader.py`):
+   - Users can add audiobooks to their personal library
+   - yt-dlp downloads YouTube audio as MP3 (4-hour timeout for long audiobooks)
+   - Downloads run asynchronously in background threads
+   - Status tracked in UserBook model (pending, downloading, completed, failed)
+
+5. **RSS Podcast Feed** (`routes/rss.py`):
+   - Generates RSS feed compatible with podcast apps
+   - Uses feedgen library with podcast extension
+   - URL-safe user tokens via itsdangerous (encode/decode in helpers.py)
+   - MP3 files served from /static/audiobooks via Vite proxy
+
 ## Environment Variables
 
 Required in `.env`:
 
+- `APP_URL`: Public URL for the application (used in CORS and RSS feeds, e.g., `https://ytbooks.yourdomain.com`)
 - `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`: PostgreSQL connection
 - `SECRET_KEY`: Flask secret key
 - `GOOGLE_BOOKS_API_KEY`: Google Books API access
@@ -220,6 +243,10 @@ Initial data dump available at `init_data/ytbooks_dump.sql` and loaded automatic
 - The application handles deleted YouTube videos via the `prune_books` command
 - Deduplication is title+author based, keeping the first record found
 - Flask uses SQLAlchemy with lazy loading optimization and logging disabled for better performance
+- Cloudflare Tunnel is used for HTTPS because podcast apps require HTTPS for custom feeds
+- Vite proxies /api, /rss-feed, and /static/audiobooks to Flask backend
+- HMR is disabled in Vite when running through Cloudflare Tunnel
+- Frontend uses window.location.origin for RSS URLs to work with any domain
 
 # Development Guidelines
 
@@ -338,5 +365,3 @@ This document contains critical information about working with this codebase. Fo
    - Follow existing patterns
    - Document public APIs
    - Test thoroughly
-
-\
