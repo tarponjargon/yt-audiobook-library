@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libpango-1.0-0\
     libcairo2\
     libasound2\
+    curl \
     ffmpeg\
     && rm -rf /var/lib/apt/lists/*
 
@@ -42,9 +43,9 @@ RUN python -m playwright install chromium
 COPY wait_for_postgres.py .
 
 # Expose the ports Flask and Adminer run on
-EXPOSE 5000
+EXPOSE 5050
 EXPOSE 8080
 
 # Define the default command to wait for Postgres, initialize the DB via Flask CLI, and then run the app
-# CMD ["sh", "-c", "python wait_for_postgres.py && flask init-db && flask run --host=0.0.0.0"]
-CMD ["sh", "-c", "python wait_for_postgres.py && flask run --host=0.0.0.0"]
+# CMD ["sh", "-c", "python wait_for_postgres.py && flask init-db && flask run --host=0.0.0.0 --port=5050"]
+CMD ["sh", "-c", "python wait_for_postgres.py && flask run --host=0.0.0.0 --port=5050"]

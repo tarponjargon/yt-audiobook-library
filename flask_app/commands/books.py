@@ -13,8 +13,8 @@ import click
 @with_appcontext
 def add_books_full():
     ctx = click.get_current_context()
-    ctx.invoke(add_books_by_author)
     ctx.invoke(add_books_by_category)
+    ctx.invoke(add_books_by_author)
     ctx.invoke(add_books)
     ctx.invoke(dedupe_books)
     ctx.invoke(prune_books)

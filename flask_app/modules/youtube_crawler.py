@@ -235,12 +235,12 @@ def crawl_youtube(query, max_scrolls=30):
         term = query.replace(" ", "+")
         search_url = f"https://www.youtube.com/results?search_query={term}"
 
-        # Navigate to the search results page
-        page.goto(search_url)
+        # Navigate to the search results page (60s timeout for VPN latency)
+        page.goto(search_url, timeout=60000)
 
         # Additionally wait for search results to be visible
         try:
-            page.wait_for_selector("ytd-video-renderer")
+            page.wait_for_selector("ytd-video-renderer", timeout=60000)
         except Exception as e:
             print(f"Error waiting for search results: {e}")
             # Take a screenshot to see what's happening

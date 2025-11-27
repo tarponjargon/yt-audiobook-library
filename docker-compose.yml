@@ -1,22 +1,45 @@
 version: "3.8"
 
 services:
+  expressvpn:
+    container_name: expressvpn
+    image: expressvpn
+    environment:
+      - ACTIVATION_CODE=${EXPRESSVPN_ACTIVATION_CODE}
+      - SERVER=usph
+      - CONNECT_AT_STARTUP=true
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    stdin_open: true
+    tty: true
+    command: /bin/bash -c "cp /etc/resolv.conf /shared_data/resolv.conf && bash"
+    privileged: true
+    restart: unless-stopped
+    volumes:
+      - /tmp/vpn:/vpn_shared
+    ports:
+      - "25000:5050"
+    networks:
+      - app-network
+
   flask-app:
     build: .
-    ports:
-      - "5001:5000"
     volumes:
       - .:/app
-    # Use env_file to load all variables from .env, including the updated OLLAMA_BASE_URL
+      - /tmp/vpn/resolv.conf:/etc/resolv.conf
     env_file:
       - .env
     environment:
       - FLASK_ENV=development
       - FLASK_APP=manage.py
+    network_mode: service:expressvpn
     depends_on:
-      - postgres
-    networks:
-      - app-network
+      expressvpn:
+        condition: service_started
+      postgres:
+        condition: service_healthy
 
   frontend:
     build:
@@ -53,7 +76,6 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
-
     ports:
       - "5434:5432"
     networks:

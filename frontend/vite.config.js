@@ -11,15 +11,15 @@ export default defineConfig({
     hmr: false, // Disable HMR for Cloudflare Tunnel
     proxy: {
       '/api': {
-        target: 'http://flask-app:5000',
+        target: 'http://expressvpn:5050',
         changeOrigin: true,
       },
       '/rss-feed': {
-        target: 'http://flask-app:5000',
+        target: 'http://expressvpn:5050',
         changeOrigin: true,
       },
       '/static/audiobooks': {
-        target: 'http://flask-app:5000',
+        target: 'http://expressvpn:5050',
         changeOrigin: true,
       },
     },
