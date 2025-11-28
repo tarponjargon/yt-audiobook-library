@@ -47,5 +47,5 @@ EXPOSE 5050
 EXPOSE 8080
 
 # Define the default command to wait for Postgres, initialize the DB via Flask CLI, and then run the app
-# CMD ["sh", "-c", "python wait_for_postgres.py && flask init-db && flask run --host=0.0.0.0 --port=5050"]
-CMD ["sh", "-c", "python wait_for_postgres.py && flask run --host=0.0.0.0 --port=5050"]
+# --reload enables auto-restart on code changes (requires volume mount in docker-compose.yml)
+CMD ["sh", "-c", "python wait_for_postgres.py && flask run --host=0.0.0.0 --port=5050 --reload"]

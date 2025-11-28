@@ -6,7 +6,7 @@ services:
     image: expressvpn
     environment:
       - ACTIVATION_CODE=${EXPRESSVPN_ACTIVATION_CODE}
-      - SERVER=usph
+      - SERVER=smart
       - CONNECT_AT_STARTUP=true
     cap_add:
       - NET_ADMIN

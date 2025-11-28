@@ -220,34 +220,89 @@ def crawl_youtube(query, max_scrolls=30):
 
         headless = False if __name__ == "__main__" else True
 
-        browser = p.chromium.launch(headless=headless)  # Set headless=True for no UI
+        # Add arguments to make headless browser less detectable
+        browser = p.chromium.launch(
+            headless=headless,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--disable-dev-shm-usage",
+                "--no-sandbox",
+                "--headless=new",  # Use new headless mode (less detectable)
+            ] if headless else []
+        )
 
         # Create a new page with specific viewport size
         generator = ValidUAGenerator()
         ua = generator.generate()
         context = browser.new_context(
-            viewport={"width": 1280, "height": 800}, user_agent=ua
+            viewport={"width": 1280, "height": 800},
+            user_agent=ua,
+            locale="en-US",
+            timezone_id="America/New_York",
+            java_script_enabled=True,
         )
         page = context.new_page()
         stealth_sync(page)
+
+        # Additional anti-detection: remove webdriver property
+        page.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined
+            });
+        """)
 
         # Construct the search URL
         term = query.replace(" ", "+")
         search_url = f"https://www.youtube.com/results?search_query={term}"
 
-        # Navigate to the search results page (60s timeout for VPN latency)
-        page.goto(search_url, timeout=60000)
+        # Navigate to the search results page
+        # Use "commit" - YouTube's JS never fires load/domcontentloaded properly
+        page.goto(search_url, timeout=10000, wait_until="commit")
+
+        # Wait for page content to render (YouTube needs time for JS through VPN)
+        page.wait_for_timeout(8000)
 
         # Additionally wait for search results to be visible
+        # Use state="attached" instead of default "visible" - YouTube's elements may not pass visibility checks
         try:
-            page.wait_for_selector("ytd-video-renderer", timeout=60000)
+            page.wait_for_selector(
+                "ytd-video-renderer", timeout=30000, state="attached"
+            )
         except Exception as e:
             print(f"Error waiting for search results: {e}")
+            # Debug: print page title and URL
+            try:
+                print(f"[DEBUG] Current URL: {page.url}")
+                print(f"[DEBUG] Page title: {page.title()}")
+                html_content = page.content()
+                print(f"[DEBUG] HTML length: {len(html_content)}")
+                print(f"[DEBUG] {html_content}")
+                # Check if we got a consent page or something else
+                if "consent" in html_content.lower():
+                    print("[DEBUG] Possible consent/cookie page detected")
+                if "ytd-video-renderer" in html_content:
+                    print(
+                        "[DEBUG] ytd-video-renderer IS in the HTML but not visible yet"
+                    )
+                    # Count occurrences
+                    count = html_content.count("ytd-video-renderer")
+                    print(
+                        f"[DEBUG] Found {count} occurrences of ytd-video-renderer in HTML"
+                    )
+                else:
+                    print("[DEBUG] ytd-video-renderer is NOT in the HTML at all")
+                    # Check for other video selectors
+                    if "videoRenderer" in html_content:
+                        print("[DEBUG] Found 'videoRenderer' in HTML")
+                    if "video-title" in html_content:
+                        print("[DEBUG] Found 'video-title' in HTML")
+            except Exception as debug_error:
+                print(f"[DEBUG] Failed to get debug info: {debug_error}")
             # Take a screenshot to see what's happening
             screenshot_path = "tmp/error_screenshot.png"
             os.makedirs("tmp", exist_ok=True)
             try:
-                page.screenshot(path=screenshot_path)
+                page.screenshot(path=screenshot_path, timeout=10000)
                 print(f"Error screenshot saved to {screenshot_path}")
             except Exception as screenshot_error:
                 print(f"Failed to take error screenshot: {screenshot_error}")
