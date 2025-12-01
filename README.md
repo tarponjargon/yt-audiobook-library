@@ -33,12 +33,14 @@ A web application that scrapes YouTube for audiobooks, enriches metadata using G
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd yt-audiobook-library
    ```
 
 2. Create a `.env` file with required environment variables:
+
    ```
    APP_URL=https://your-domain.com
 
@@ -76,9 +78,10 @@ docker-compose up
 ```
 
 Access points:
+
 - Frontend: http://localhost (port 80)
 - Backend API: http://localhost:5001
-- Adminer (database GUI): http://localhost:8081
+- Adminer (database GUI): http://localhost:8082
 
 ### Start with HTTPS (Cloudflare Tunnel)
 
@@ -94,27 +97,32 @@ The app will be available at the URL configured in your Cloudflare Tunnel (set t
 ### Setting Up Cloudflare Tunnel
 
 1. Install cloudflared:
+
    ```bash
    brew install cloudflared  # macOS
    ```
 
 2. Login to Cloudflare:
+
    ```bash
    cloudflared tunnel login
    ```
 
 3. Create a tunnel in the [Cloudflare Zero Trust Dashboard](https://one.dash.cloudflare.com/):
+
    - Go to Networks > Tunnels
    - Create a new tunnel
    - Copy the tunnel token
 
 4. Create `tunnel.sh`:
+
    ```bash
    #!/bin/bash
    cloudflared tunnel run --token YOUR_TUNNEL_TOKEN
    ```
 
 5. Configure the public hostname in Zero Trust Dashboard:
+
    - Set hostname to your domain (e.g., `ytbooks.yourdomain.com`)
    - Set service to `http://localhost:80`
 

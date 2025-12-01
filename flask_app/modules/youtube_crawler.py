@@ -220,13 +220,19 @@ def crawl_youtube(query, max_scrolls=30):
 
         headless = False if __name__ == "__main__" else True
 
-        browser = p.chromium.launch(headless=headless)  # Set headless=True for no UI
+        browser = p.chromium.launch(headless=headless)
 
         # Create a new page with specific viewport size
         generator = ValidUAGenerator()
         ua = generator.generate()
+
+        # Get proxy from environment variable, default to host's SOCKS5 proxy
+        proxy_url = os.getenv("PROXY_URL", "socks5://host.docker.internal:1080")
+
         context = browser.new_context(
-            viewport={"width": 1280, "height": 800}, user_agent=ua
+            viewport={"width": 1280, "height": 800},
+            user_agent=ua,
+            proxy={"server": proxy_url} if proxy_url else None,
         )
         page = context.new_page()
         stealth_sync(page)

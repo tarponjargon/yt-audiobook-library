@@ -24,7 +24,7 @@ docker-compose up
 # Access points:
 # - Frontend: http://localhost (port 80)
 # - Backend API: http://localhost:5001
-# - Adminer (DB GUI): http://localhost:8081
+# - Adminer (DB GUI): http://localhost:8082
 # - HTTPS: https://$APP_URL (via Cloudflare Tunnel)
 ```
 
@@ -191,11 +191,13 @@ frontend/src/
    - Results stored in database with relationships
 
 3. **API Layer** (`routes/api.py`):
+
    - RESTful endpoints for searching, browsing by category, fetching audiobook details
    - Pagination support
    - User authentication and favorites management
 
 4. **My Books / MP3 Downloads** (`routes/user_books.py` and `modules/mp3_downloader.py`):
+
    - Users can add audiobooks to their personal library
    - yt-dlp downloads YouTube audio as MP3 (4-hour timeout for long audiobooks)
    - Downloads run asynchronously in background threads
@@ -228,7 +230,7 @@ FROM audiobooks
 GROUP BY title, author_id
 HAVING COUNT(*) > 1
 
-# Access Adminer at http://localhost:8081
+# Access Adminer at http://localhost:8082
 # Use credentials from .env file
 ```
 
