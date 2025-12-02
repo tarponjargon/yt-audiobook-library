@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 8xBoix25W7IrRTl2BTLPawPAa3AypYzZ2gTCw6MUZYxpbeKLi5igxijFWEgG2y7
+\restrict 2idKYiYKEfAvv0fZxY3RdrftdRI4UUIBi1guUmWB9jEEY8kSarqnuMuluhB0aGx
 
 -- Dumped from database version 15.14
 -- Dumped by pg_dump version 15.14
@@ -442,8 +442,6 @@ COPY public.audiobook_categories (audiobook_id, category_id) FROM stdin;
 14408	28
 14409	28
 14409	37
-14410	27
-14410	28
 14412	28
 14413	28
 14413	35
@@ -3472,7 +3470,6 @@ COPY public.audiobook_categories (audiobook_id, category_id) FROM stdin;
 16855	28
 16855	29
 20138	37
-20139	28
 20140	37
 16858	28
 20142	28
@@ -5385,16 +5382,22 @@ COPY public.audiobook_categories (audiobook_id, category_id) FROM stdin;
 20506	31
 20506	28
 18504	27
+20532	36
+20532	29
 18507	28
 18507	27
 18510	27
 18510	31
+20534	27
+20534	28
+20535	32
 18514	29
 18514	27
 18515	28
 18515	29
 18515	27
 18516	27
+20537	28
 18518	27
 18519	29
 18519	27
@@ -5405,6 +5408,7 @@ COPY public.audiobook_categories (audiobook_id, category_id) FROM stdin;
 18522	36
 18523	28
 18523	29
+20539	31
 18525	39
 18525	29
 18526	27
@@ -5418,6 +5422,7 @@ COPY public.audiobook_categories (audiobook_id, category_id) FROM stdin;
 18532	29
 18533	29
 18533	27
+20539	28
 18536	27
 18541	35
 18541	28
@@ -6298,7 +6303,6 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 20474	tQPVT8c4fjM	28954	Still Life With Crows Part1	A small Kansas town has turned into a killing ground. Is it a serial killer, a man with the need to destroy? Or is it a darker force, ...	https://i.ytimg.com/vi/tQPVT8c4fjM/hqdefault.jpg	2025-11-26 19:15:21.177972+00	4908	\N
 20475	N71eeNZ9oZE	36382	The Ship of Ishtar	The Ship of Ishtar by Abraham Merritt. Read in English by volunteer readers. Imaginative, sensual, gory. John Kenton, WWI ...	https://i.ytimg.com/vi/N71eeNZ9oZE/hqdefault.jpg	2025-11-26 19:16:35.370751+00	198	\N
 14409	4POeQlCKUOY	33283	The Honeycrisp Orchard Inn: A Novel	For fans of the Lovelight series and The Pumpkin Spice Café, this cozy and sexy romance follows a young event planner who returns to her family’s inn on an apple orchard to help run their Harvest Festival—only to find herself butting heads with the handsome son of the apple orchard’s owners. Ellie Lawson’s city life was treating her just fine until a sour turn of events knocks her out in one fell swoop. Dumped by her boyfriend and fired from her event planning job, she is left with no choice but to return to her parents’ idyllic inn, nestled within a picturesque Honeycrisp orchard on Long Island. Anticipating a quiet hiatus in the attic apartment, she is instead met with Aiden, the stubborn, attractive son of the orchard owner who is currently occupying her planned refuge. Forced together by circumstance, they find themselves not only roommates but also coworkers, when they’re put in charge by their parents of the orchard’s vital Harvest Festival, a lifeline for both the struggling orchard and the inn. Amidst the enchanting disorder of small-town life, Ellie and Aiden grapple with their conflicting values, burgeoning feelings, and an electrifying tension. As Ellie discovers the unexpected charm of the life she left behind and Aiden learns there’s much more to Ellie than he’d first assumed, one fact remains: the future of the orchard and the inn depends on their unlikely collaboration. Embark on a captivating journey of rediscovery, love, and the irreplaceable magic of small-town life.\n\nCategories: Fiction	https://i.ytimg.com/vi/4POeQlCKUOY/hqdefault.jpg	2025-11-17 00:19:16.404978+00	1374	\N
-14410	mP8_4HkcC6Q	131487	The Lord of the Rings - Complete Trilogy, Books 1-3	audiobook #freeaudiobooks.	https://i.ytimg.com/vi/mP8_4HkcC6Q/hqdefault.jpg	2025-11-17 00:19:18.920685+00	100	\N
 14412	9uwXFEZjMNs	227492	Book 1 & 2: A Game of Thrones	A Game of Thrones TOKYBOOK A Song of Ice and Fire, Book 1 By: George R.R. Martin A Clash of Kings Book 2 of A Song of Ice ...	https://i.ytimg.com/vi/9uwXFEZjMNs/hqdefault.jpg	2025-11-17 00:19:24.234789+00	2498	\N
 14413	ez53Se1WMzA	28335	Journey to the Center of the Earth	Journey to the Center of the Earth was published in 1864 in French under the name Voyage au centre de la Terre. In this science fiction novel, a German professor believes there are volcanic tubes going toward the center of the Earth. He, his nephew Axel, and their guide, Hans, descend into the Icelandic volcano Snæfellsjökull, encountering prehistoric animals and natural hazards, before eventually coming to the surface again in southern Italy, at the Stromboli volcano.\n\nCategories: Fiction	https://i.ytimg.com/vi/ez53Se1WMzA/hqdefault.jpg	2025-11-17 00:19:26.995407+00	142	\N
 14414	Yzz2h_sLJVg	43421	Wuthering Heights	Nominated as one of America’s best-loved novels by PBS’s The Great American Read Wuthering Heights, first published in 1847, the year before the author's death at the age of thirty, endures today as perhaps the most powerful and intensely original novel in the English language. “Only Emily Brontë,” V.S. Pritchett said about the author and her contemporaries, “exposes her imagination to the dark spirit.” And Virginia Woolf wrote, “It is as if she could tear up all that we know human beings by, and fill these unrecognisable transparencies with such a gust of life that they transcend reality. Hers, then, is the rarest of all powers. She could free life from its dependence on facts, with few touches indicate the spirit of a face so that it needs no body; by speaking of the moor make the wind blow and the thunder roar.”\n\nCategories: Fiction	https://i.ytimg.com/vi/Yzz2h_sLJVg/hqdefault.jpg	2025-11-17 00:19:32.156704+00	182	\N
@@ -6532,6 +6536,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 14650	CqOj0oTydkk	24158	Masters of Space	The Masters had ruled all space with an unconquerable iron fist. But the Masters were gone. And this new, young race who came now to take their place–could they hope to defeat the ancient Enemy of All? (Goodreads)\n\nCategories: Fiction	https://i.ytimg.com/vi/CqOj0oTydkk/hqdefault.jpg	2025-11-21 00:15:08.022447+00	164	\N
 19587	sOyrL4Q_-Fk	229290	Lord of the Mysteries 1 Anthology: Webnovel	Lord of the Mysteries 2 Official English version will updated synchronously on Webnovel APP Choose Webnovel read genuine Lord of the Mysteries novel With the rising tide of steam power and machinery, who can come close to being a Beyonder? Shrouded in the fog of history and darkness, who or what is the lurking evil that murmurs into our ears? Waking up to be faced with a string of mysteries, Zhou Mingrui finds himself reincarnated as Klein Moretti in an alternate Victorian era world where he sees a world filled with machinery, cannons, dreadnoughts, airships, difference machines, as well as Potions, Divination, Hexes, Tarot Cards, Sealed Artifacts… The Light continues to shine but mystery has never gone far. Follow Klein as he finds himself entangled with the Churches of the world—both orthodox and unorthodox—while he slowly develops newfound powers thanks to the Beyonder potions. Like the corresponding tarot card, The Fool, which is numbered 0—a number of unlimited potential—this is the legend of "The Fool."\n\nCategories: Fiction	https://i.ytimg.com/vi/sOyrL4Q_-Fk/hqdefault.jpg	2025-11-26 16:18:08.072313+00	4699	\N
 14652	2H6neF2RBeA	15268	The Avalanche: A Mystery Story	\n\nCategories: Fiction	https://i.ytimg.com/vi/2H6neF2RBeA/hqdefault.jpg	2025-11-21 00:15:19.247881+00	812	\N
+20534	ZU6wZYppYng	131487	The Lord of the Rings - Complete Trilogy, Books 1-3	audiobook #thelordoftherings #fullaudiobook.	https://i.ytimg.com/vi/ZU6wZYppYng/hqdefault.jpg	2025-12-01 01:38:19.219948+00	100	\N
 14654	qnOX6iWWKqM	31378	Target For Ransom	Can he rescue the daughter he didn't know he had? Former FBI Agent Jordan Rashid has been tasked with infiltrating a terrorist cell located in Washington, DC. But when he receives an email link with a video of a young girl being held captive by kidnappers, his mission becomes very personal-the eleven-year-old Bryn is the daughter he didn't know he had. Diana Phillips is horrified to discover her daughter has been kidnapped and is frantic to find her. And she doesn't understand why she is being directed to her former fiancé Jordan Rashid for help. Clearly her witness protection cover has been blown, and worse, her cousin Tariq is likely the mastermind behind Bryn's kidnapping. In the midst of a serious terrorist threat, Diana and Jordan must find a way to put their rocky past aside and work together to rescue Bryn. Can they save hundreds of innocent lives in time to become a family, once again?\n\nCategories: Fiction	https://i.ytimg.com/vi/qnOX6iWWKqM/hqdefault.jpg	2025-11-21 00:15:31.156914+00	980	\N
 14655	kLBk9INYYrg	25375	Peter the Great: Enriched edition. The Enigmatic Legacy of Russia's Most Influential Ruler	In "Peter the Great," Jacob Abbott masterfully chronicles the life of one of Russia's most transformative leaders. This biography not only delves into Peter I's monumental efforts to modernize Russia but also captures the tumultuous historical landscape in which he operated. Written in a clear and engaging style, Abbott employs a narrative that weaves together vivid anecdotes and critical analysis, providing readers with a comprehensive understanding of Peter's ambitions, domestic reforms, and foreign policies while contextualizing them within the broader tapestry of 17th-century Europe. Abbott's attention to detail and his adept storytelling illuminate the complexities of a nation in transition, making this biography both informative and accessible to a diverse range of readers. Jacob Abbott, a prominent 19th-century American author and educator, was known for his engaging biographies aimed at young readers. Abbott's commitment to historical accuracy and his ability to inspire curiosity in his audience were deeply influenced by his own educational background and belief in the power of knowledge. His passion for imparting important historical lessons made him particularly well-suited to explore the audacious life of Peter the Great, a figure whose legacy continues to resonate through the annals of Russian history. "Peter the Great" is a commendable addition to the libraries of both history enthusiasts and those seeking to understand the evolution of modern Russia. Abbott's insightful narrative serves as an invitation to explore not only the life of Peter I but also the broader dynamics of leadership, ambition, and national transformation. Readers drawn to captivating biographies enriched with historical context will find Abbott's work to be an enlightening and rewarding experience. In this enriched edition, we have carefully created added value for your reading experience: - A succinct Introduction situates the work's timeless appeal and themes. - The Synopsis outlines the central plot, highlighting key developments without spoiling critical twists. - A detailed Historical Context immerses you in the era's events and influences that shaped the writing. - A thorough Analysis dissects symbols, motifs, and character arcs to unearth underlying meanings. - Reflection questions prompt you to engage personally with the work's messages, connecting them to modern life. - Hand‐picked Memorable Quotes shine a spotlight on moments of literary brilliance. - Interactive footnotes clarify unusual references, historical allusions, and archaic phrases for an effortless, more informed read.\n\nCategories: Biography & Autobiography	https://i.ytimg.com/vi/kLBk9INYYrg/hqdefault.jpg	2025-11-21 00:15:37.537344+00	301	\N
 14656	wdqxi1qBqtc	26130	The Secret of the Silver Car: Further Adventures of Anthony Trent, Master Criminal	Wyndham Martyn's "The Secret of the Silver Car" is a thrilling adventure that combines elements of detective fiction and early 20th-century espionage, reflecting the tense political climate of the time. The narrative follows enigmatic protagonist, Sir William, as he deciphers codes and pursues hidden truths behind the mysterious disappearance of a valuable silver car. Martyn employs a deft literary style characterized by crisp dialogue, vivid imagery, and a fast-paced, suspenseful plot that keeps readers on the edge of their seats. The novel not only entertains but also serves as a commentary on the moral complexities of loyalty and betrayal during a time marked by intrigue and uncertainty. Wyndham Martyn, a pseudonym for the author, was deeply influenced by the societal upheavals of his era. His background in journalism imbued him with a passion for uncovering hidden narratives, guiding his pen in weaving suspenseful plots that reflect the zeitgeist of the early 1900s. This experience provided him with unique insights into human behavior, societal norms, and the art of storytelling, as evidenced in this engaging work. For readers who relish a blend of mystery, historical context, and rich character development, "The Secret of the Silver Car" is a must-read. Martyn's adept craftsmanship and the novel's exhilarating twists make it not only a captivating escapade but also a thought-provoking examination of human integrity in the face of adversity.\n\nCategories: Fiction	https://i.ytimg.com/vi/wdqxi1qBqtc/hqdefault.jpg	2025-11-21 00:15:42.881352+00	957	\N
@@ -6609,6 +6614,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 14713	flfkRXKUXGk	14680	The Story of the Treasure Seekers	A legendary children's story of sibling adventure, by the enchanting author of The Railway Children and Five Children and It, which has delighted countless generations of children The Bastable children (Dora, Oswald, Dicky, Alice, Noel, and Horace Octavius—H.O.) live in London with their widowed father. Too poor to attend school, the children are left to their own devices, and they spend their days coming up with ingenious plans to restore their father's fortune. Told from the first person perspective—which lends the narrative substantial bias—this was Nesbit's first work. Refreshingly free of Victorian sentimentality, yet still wonderfully evocative of a bygone era, the tale makes for timeless reading. amd ensures Nesbit's esteemed place in the canon of children's literature.\n\nCategories: Juvenile Fiction	https://i.ytimg.com/vi/flfkRXKUXGk/hqdefault.jpg	2025-11-21 00:20:57.87444+00	744	\N
 14714	e6f3cnNZSAg	20333	Five Children and It	Five Children and It By E. Nesbit A Children's Classic Novel Five Children and It is a children's novel by English author E. Nesbit. It was first published as a book in 1902, having been expanded from a series of stories published in the Strand Magazine in 1900 under the general title The Psammead, or the Gifts. It is the first volume of a trilogy that includes The Phoenix and the Carpet (1904) and The Story of the Amulet (1906). The book has never been out of print since its initial publication. Like Nesbit's The Railway Children, the story begins when a group of children move from London to the countryside of Kent. The five children - Cyril, Anthea, Robert, Jane, and their baby brother, known as the Lamb - are playing in a gravel pit when they uncover a rather grumpy, ugly, and occasionally malevolent Psammead or sand-fairy, who has the ability to grant wishes. He persuades the children to take one wish each day to be shared among them, with the caveat that the wishes will turn to stone at sunset. This, apparently, used to be the rule in the Stone Age, when all that children wished for was food, the bones of which then became fossils. The five children's first wish is to be "as beautiful as the day." The wish ends at sunset and its effects simply vanish, leading the Psammead to observe that some wishes are too fanciful to be changed to stone.	https://i.ytimg.com/vi/e6f3cnNZSAg/hqdefault.jpg	2025-11-21 00:21:03.135924+00	753	\N
 14773	NZ1NTip7BIg	24804	Elsie’s Children.	Reproduction of the original: Elsie’s Children. by Martha Finley\n\nCategories: Fiction	https://i.ytimg.com/vi/NZ1NTip7BIg/hqdefault.jpg	2025-11-21 00:26:28.42902+00	1766	\N
+20535	b6cUuoD_ZZI	34163	The Hunger Games	By winning the Hunger Games, Katniss and Peeta have secured a life of safety and plenty for themselves and their families, but because they won by defying the rules, they unwittingly become the faces of an impending rebellion. |\n\nCategories: Juvenile Fiction	https://i.ytimg.com/vi/b6cUuoD_ZZI/hqdefault.jpg	2025-12-01 01:38:27.6377+00	342	4.5
 14717	UuQtpkbCrc4	18091	Railway Children	A thrilling spy story, a children's adventure, a charming portrait of early twentieth century life in London and the countryside and a heart warming family tale are all combined in this classic of children's literature The Railway Children by E Nesbit. The book has remained on the list of the best-loved children's books ever since it was first published as a serial story in The London Magazine in 1905. Later, it was published in book form and won acclaim from critics and readers across the world for its wonderful elements of character and plot. Edith Nesbit the author published more than sixty books during her long and illustrious career as a children's writer. She was considered to be the first modern children's writer and departed from the hitherto focus on fantasy and fairytale type of themes that were considered suitable for children. Apart from writing for children, she wrote several novels for adults. She also dabbled in poetry, horror fiction and collaborations with other writers. Her works include another famous book, The Secret Garden which also explores the childhood landscape and influenced generations of children's writers. She was also a political activist and laid the foundations for the present Labor Party in England. Her dominant themes were children in real life settings, contemporary events, children's encounters with the mysterious and often nefarious activities of grown-ups, a deep psychological insight into the mind of a child and the enduring love of nature, family relationships and the simple pleasures of countryside life. The story opens with the description of three little Londoners who enjoy an ordinary, peaceful life in the city with visits to the Zoo and Madame Tussauds. They have a charming, well-appointed home and loving parents. Things take a sudden turn for the worst when Father suddenly leaves after receiving mysterious "bad news." Mother decides equally suddenly to move with the children to the country-side and here begins their adventure with the railways. They befriend a strange Old Gentleman who invariably travels on the 9.15 train from near their home and get drawn into bizarre and dangerous events. Said to be based on contemporary events such as the Dreyfus Affair, Russian dissidents who were fighting the Tsarist regime and the circumstances leading up to World War I, The Railway Children though ostensibly written for children certainly appeals to readers of all ages. It has been adapted extensively for radio, stage, television and screen and has retained its freshness and thrill over the hundred plus years since it first made its debut. A thrilling spy story, a children's adventure, a charming portrait of early twentieth century life in London and the countryside and a heart warming family tale are all combined in this classic of children's literature The Railway Children by E Nesbit. The book has remained on the list of the best-loved children's books ever since it was first published as a serial story in The London Magazine in 1905. Later, it was published in book form and won acclaim from critics and readers across the world for its wonderful elements of character and plot. Edith Nesbit the author published more than sixty books during her long and illustrious career as a children's writer. She was considered to be the first modern children's writer and departed from the hitherto focus on fantasy and fairytale type of themes that were considered suitable for children. Apart from writing for children, she wrote several novels for adults. She also dabbled in poetry, horror fiction and collaborations with other writers. Her works include another famous book, The Secret Garden which also explores the childhood landscape and influenced generations of children's writers. She was also a political activist and laid the foundations for the present Labor Party in England.	https://i.ytimg.com/vi/UuQtpkbCrc4/hqdefault.jpg	2025-11-21 00:21:17.801193+00	753	\N
 14718	ewTVRbFFjdI	18150	Beautiful Stories from Shakespeare	This is a lovely 19th century retelling of some of Shakespeare's most famous plays crafted to be told in the common tongue and geared toward the minds of children. While many of Shakespear's plays include tragedy, death and deceit, the author includes the whole tale both good and bad, dark and light and educates children of some of the most fantastic lines in history. Includes a number of illustrations.To gain inspiration in the famous words of Shakespeare, the author also includes quotes and how they affect specific aspects of human existence. Nesbit is most widely known for her works in the development of children's literature and has spawned the dawn of what we now know as Childrens Books.Biography included.	https://i.ytimg.com/vi/ewTVRbFFjdI/hqdefault.jpg	2025-11-21 00:21:21.917692+00	744	\N
 19614	HFGlJ31_rSE	82552	Quicksilver: The Baroque Cycle #1	Quicksilver is the story of Daniel Waterhouse, fearless thinker and conflicted Puritan, pursuing knowledge in the company of the greatest minds of Baroque-era Europe, in a chaotic world where reason wars with the bloody ambitions of the mighty, and where catastrophe, natural or otherwise, can alter the political landscape overnight. It is a chronicle of the breathtaking exploits of "Half-Cocked Jack" Shaftoe -- London street urchin turned swashbuckling adventurer and legendary King of the Vagabonds -- risking life and limb for fortune and love while slowly maddening from the pox. And it is the tale of Eliza, rescued by Jack from a Turkish harem to become spy, confidante, and pawn of royals in order to reinvent Europe through the newborn power of finance. A gloriously rich, entertaining, and endlessly inventive novel that brings a remarkable age and its momentous events to vivid life, Quicksilver is an extraordinary achievement from one of the most original and important literary talents of our time. And it's just the beginning ...\n\nCategories: Fiction	https://i.ytimg.com/vi/HFGlJ31_rSE/hqdefault.jpg	2025-11-26 16:22:09.915646+00	2916	\N
@@ -7587,6 +7593,7 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 19795	x9hvDStkT04	31935	Jane Eyre	Bronte’s novel about a shy, quiet governess who becomes a tutor in a great house and falls in love with its lonely and mysterious master is one of the great classics of English literature. Unique in its attention to the thoughts and feelings of a female protagonist, Jane Eyre was ahead of its time as a proto-feminist text. When it was published in 1847, however, Bronte was attacked by critics for what they felt was anti-Christian sentiment in her unflinching critique of the oppressions of Victorian society.	https://i.ytimg.com/vi/x9hvDStkT04/hqdefault.jpg	2025-11-26 16:48:22.884024+00	1230	4.5
 15859	_q6BXNJVgMc	23789	Bindle	SUBSCRIBE HERE https://goo.gl/uOq9vg TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. Bindle Herbert George ...	https://i.ytimg.com/vi/_q6BXNJVgMc/hqdefault.jpg	2025-11-21 04:11:22.484334+00	1471	\N
 15860	fInVla9FxXw	25518	The Rain Girl	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. The Rain-Girl Herbert ...	https://i.ytimg.com/vi/fInVla9FxXw/hqdefault.jpg	2025-11-21 04:11:43.529888+00	1471	\N
+20532	_JYebqRMCbc	35150	Pistis Sophia - An Essential Gnostic Text	Pistis Sophia - G.R.S Mead - Essential Gnostic Text and Audiobook with over 200 illustrations. This is G.R.S. Mead's translation of ...	https://i.ytimg.com/vi/_JYebqRMCbc/hqdefault.jpg	2025-12-01 01:37:46.40113+00	4261	\N
 15864	u5Q2YHufEaY	25516	The Rain Girl	The Rain Girl Audiobook Herbert George JENKINS Chapter Time Chapter I - The Road to Nowhere 00:00:00 Chapter II - The Two ...	https://i.ytimg.com/vi/u5Q2YHufEaY/hqdefault.jpg	2025-11-21 04:13:09.764627+00	1012	\N
 15866	QEqTO_m2CqU	28504	John Dene of Toronto A Comedy of Whitehall	SUBSCRIBE HERE http://goo.gl/OJrTHf TO OUR CHANNEL. FRESH CONTENT UPLOADED DAILY. John Dene of Toronto; ...	https://i.ytimg.com/vi/QEqTO_m2CqU/hqdefault.jpg	2025-11-21 04:13:52.277233+00	1012	\N
 15867	gby2L0yQ2Os	22136	Return of Alfred 01~16	Audiobook.	https://i.ytimg.com/vi/gby2L0yQ2Os/hqdefault.jpg	2025-11-21 04:14:11.805924+00	1012	\N
@@ -9991,7 +9998,6 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 18746	1Kr9XwxFaw8	17155	Varied Types	... of Satire 00:58:00 Francis 01:13:35 Rostand 01:26:49 Charles II 01:40:35 Stevenson 01:52:48 Thomas Carlyle 02:10:58 Tolstoy ...	https://i.ytimg.com/vi/1Kr9XwxFaw8/hqdefault.jpg	2025-11-21 22:22:00.475959+00	309	\N
 18747	ABMv4lthuJY	34550	The Posthumous Essays	He wrote the book in response to On Heroes, Hero-Worship, and the Heroic in History, by Thomas Carlyle (1840). His son, L.C. ...	https://i.ytimg.com/vi/ABMv4lthuJY/hqdefault.jpg	2025-11-21 22:22:21.61338+00	4381	\N
 18749	CL7AZR4z7Lw	29925	Miss Ingalis	Miss Ingalis by Anna Gertrude Hall. Read in English by Bellona Times. As the story begins, title character Grace Ingalis is a young ...	https://i.ytimg.com/vi/CL7AZR4z7Lw/hqdefault.jpg	2025-11-21 22:23:25.601743+00	4497	\N
-20139	fH-9_QFbGkQ	41868	Regretting You	Save 50% on 1 when you buy 2 Shop items Soon to be a major motion picture starring Allison Williams and Dave Franco. From #1 New York Times bestselling author of It Ends with Us comes a novel about family, first love, grief, and betrayal that will touch the hearts of both mothers and daughters. Morgan Grant and her sixteen-year-old daughter, Clara, would like nothing more than to be nothing alike. Morgan is determined to prevent her daughter from making the same mistakes she did. By getting pregnant and married way too young, Morgan put her own dreams on hold. Clara doesn’t want to follow in her mother’s footsteps. Her predictable mother doesn’t have a spontaneous bone in her body. With warring personalities and conflicting goals, Morgan and Clara find it increasingly difficult to coexist. The only person who can bring peace to the household is Chris―Morgan’s husband, Clara’s father, and the family anchor. But that peace is shattered when Chris is involved in a tragic and questionable accident. The heartbreaking and long-lasting consequences will reach far beyond just Morgan and Clara. While struggling to rebuild everything that crashed around them, Morgan finds comfort in the last person she expects to, and Clara turns to the one boy she’s been forbidden to see. With each passing day, new secrets, resentment, and misunderstandings make mother and daughter fall further apart. So far apart, it might be impossible for them to ever fall back together.\n\nCategories: Fiction	https://i.ytimg.com/vi/fH-9_QFbGkQ/hqdefault.jpg	2025-11-26 17:43:37.509602+00	431	\N
 20140	Otaa9ymYzOE	35838	Tanner_ Small Town Billionaire Romance	Tanner_ Small Town Billionaire Romance by Samantha Skye | Billionaires Romance Audiobook My new neighbor happens to be ...	https://i.ytimg.com/vi/Otaa9ymYzOE/hqdefault.jpg	2025-11-26 17:44:04.052191+00	4715	\N
 18752	L8Xc_hQUj7c	24627	Stitched on My Heart	Stitched on My Heart is an award-winning Christian historical romance audiobook filled with faith, resilience, and frontier love.	https://i.ytimg.com/vi/L8Xc_hQUj7c/hqdefault.jpg	2025-11-21 22:24:28.424949+00	4602	\N
 18754	1xJsDyBBJEA	30299	Miss Ingalis	Miss Ingalis - audiobook Gertrude HALL ( - ) As the story begins, title character Grace Ingalis is a young woman with a ...	https://i.ytimg.com/vi/1xJsDyBBJEA/hqdefault.jpg	2025-11-21 22:25:13.056001+00	1385	\N
@@ -10674,6 +10680,8 @@ COPY public.audiobooks (id, video_id, duration, title, description, thumbnail, "
 20514	R2GX6ga6sh8	38242	The People Next Door	“Hooked from the start . . . absolutely brilliant. Wish I could rate it higher . . . Just wow!” —Amazon reviewer, five stars Her new house has a mysterious past—and her new life in the English countryside is about to take a dark turn . . . When Ellie and Ash move into a beautiful old house in rural Norfolk, England, they believe they’ve found their perfect home. Intrigued by the people next door, Ellie befriends shy but sweet Benjamin, and as time goes by, becomes ever more curious about his elusive sister, Virginia. But when she discovers that her new home has a darker past and that Ash has been keeping secrets, what she thought was a perfect life in the countryside begins to unravel. Is her best friend to be trusted, are the new neighbours all that they really seem, and why is her new puppy so obsessed with the cellar? Most worrying of all is the mystery of what happened to the former occupants of the house. When Ash goes away on business and strange things begin to happen, Ellie’s paranoia goes into overdrive. But are these all coincidences—or is she really in danger?\n\nCategories: Fiction	https://i.ytimg.com/vi/R2GX6ga6sh8/hqdefault.jpg	2025-12-01 00:47:34.272906+00	3435	\N
 20515	A3HyI2BQim4	36043	All the Pretty Horses: Border Trilogy 1 (National Book Award Winner)	NATIONAL BOOK AWARD WINNER • NATIONAL BESTSELLER • The first volume in the Border Trilogy, from the bestselling author of The Passenger and the Pulitzer Prize–winning novel The Road All the Pretty Horses is the tale of John Grady Cole, who at sixteen finds himself at the end of a long line of Texas ranchers, cut off from the only life he has ever imagined for himself. With two companions, he sets off for Mexico on a sometimes idyllic, sometimes comic journey to a place where dreams are paid for in blood.\n\nCategories: Fiction	https://i.ytimg.com/vi/A3HyI2BQim4/hqdefault.jpg	2025-12-01 00:47:39.465683+00	754	\N
 20516	NmaChYDziNk	35396	Sandpiper Cove: A Hope Harbor Novel	Hope Harbor police chief Lexie Graham has plenty on her plate raising her son alone and dealing with a sudden rash of petty theft and vandalism in her coastal Oregon hometown. As a result, she has zero time for extracurricular activities--including romance. Ex-con Adam Stone isn't looking for love either--but how ironic is it that the first woman to catch his eye is a police chief? Yet wishing for things that can never be is foolish. Nevertheless, when Lexie enlists Adam's help to keep a young man from falling into a life of crime, sparks begin to fly. And as they work together, it soon becomes apparent that God may have a different--and better--future planned for them than either could imagine. Lauded by Library Journal as "a master at character development," Irene Hannon welcomes readers back to this charming Oregon seaside village where hearts heal--and love blooms.\n\nCategories: Fiction	https://i.ytimg.com/vi/NmaChYDziNk/hqdefault.jpg	2025-12-01 00:47:52.621633+00	3632	5
+20537	mmD13o3_FJY	41896	Regretting You	Save 50% on 1 when you buy 2 Shop items Soon to be a major motion picture starring Allison Williams and Dave Franco. From #1 New York Times bestselling author of It Ends with Us comes a novel about family, first love, grief, and betrayal that will touch the hearts of both mothers and daughters. Morgan Grant and her sixteen-year-old daughter, Clara, would like nothing more than to be nothing alike. Morgan is determined to prevent her daughter from making the same mistakes she did. By getting pregnant and married way too young, Morgan put her own dreams on hold. Clara doesn’t want to follow in her mother’s footsteps. Her predictable mother doesn’t have a spontaneous bone in her body. With warring personalities and conflicting goals, Morgan and Clara find it increasingly difficult to coexist. The only person who can bring peace to the household is Chris―Morgan’s husband, Clara’s father, and the family anchor. But that peace is shattered when Chris is involved in a tragic and questionable accident. The heartbreaking and long-lasting consequences will reach far beyond just Morgan and Clara. While struggling to rebuild everything that crashed around them, Morgan finds comfort in the last person she expects to, and Clara turns to the one boy she’s been forbidden to see. With each passing day, new secrets, resentment, and misunderstandings make mother and daughter fall further apart. So far apart, it might be impossible for them to ever fall back together.\n\nCategories: Fiction	https://i.ytimg.com/vi/mmD13o3_FJY/hqdefault.jpg	2025-12-01 01:39:20.59209+00	431	\N
+20539	FP8FJC-w-W8	22314	Mrs. McGinty's Dead	Approached by retired police Superintendent Spence--who's convinced the wrong man has been convicted of the crime--Hercule Poirot begins an investigation into the brutal murder of an old woman.\n\nCategories: Fiction	https://i.ytimg.com/vi/FP8FJC-w-W8/hqdefault.jpg	2025-12-01 01:40:11.582249+00	128	\N
 \.
 
 
@@ -67450,6 +67458,37 @@ COPY public.skipped_videos (id, video_id, reason, "timestamp") FROM stdin;
 51926	2CZDowxsW5U	Too short	2025-12-01 00:51:12.531486+00
 51927	4cQk59cc3YQ	Too short	2025-12-01 00:51:12.567147+00
 51928	uQhp7hhjcxg	Too short	2025-12-01 00:51:24.038813+00
+51929	fiUt574gNWs	Too short	2025-12-01 01:37:37.215921+00
+51930	7NYfAV_H1bE	No author found	2025-12-01 01:37:46.411085+00
+51931	G9XA43muciA	Too short	2025-12-01 01:38:10.680114+00
+51932	YhRgify57yc	Too short	2025-12-01 01:38:19.228718+00
+51933	KzAkvkWhglw	No author found	2025-12-01 01:38:27.645351+00
+51934	DYeGqtFHnc4	Too short	2025-12-01 01:38:46.472527+00
+51935	5bS9_QgIi-4	Too short	2025-12-01 01:38:51.335587+00
+51936	ryi8ZeaOorU	Too short	2025-12-01 01:38:51.389394+00
+51937	72Tm6hArFAA	Too short	2025-12-01 01:38:51.431636+00
+51938	FIRdkB84zgQ	Too short	2025-12-01 01:38:56.581697+00
+51939	AOS3PH15Wcw	Too short	2025-12-01 01:39:01.59747+00
+51940	MVZ8VzJ_uj0	Too short	2025-12-01 01:39:05.841083+00
+51941	KERBP2GxSnQ	Too short	2025-12-01 01:39:05.873854+00
+51942	Cg1cEvU1TzU	Too short	2025-12-01 01:39:05.902072+00
+51943	I4QMGGX2pg4	Too short	2025-12-01 01:39:06.070811+00
+51944	NAd9Q4H91LE	Too short	2025-12-01 01:39:06.101966+00
+51945	x7Uyqt5Q51I	Too short	2025-12-01 01:39:20.595993+00
+51946	CiDzwWM1C5c	Too short	2025-12-01 01:39:27.619145+00
+51947	w44OlzXD3ME	Too short	2025-12-01 01:39:38.316195+00
+51948	2ahsF50G8Fk	Too short	2025-12-01 01:39:38.340981+00
+51949	iGl-mhOdtHc	Too short	2025-12-01 01:39:38.378223+00
+51950	rNPi1fxc0OY	Not in English (det. by LLM)	2025-12-01 01:39:43.15193+00
+51951	D-C-HBRTiJE	Too short	2025-12-01 01:39:49.280508+00
+51952	cIQzkMVSK_8	Too short	2025-12-01 01:39:49.458796+00
+51953	nrZH_Yy6-ck	Too short	2025-12-01 01:39:49.511771+00
+51954	LA2koTUIo-w	No author found	2025-12-01 01:39:49.652246+00
+51955	sSFql8qcz6c	Too short	2025-12-01 01:39:54.394873+00
+51956	w-051WT20ak	Too short	2025-12-01 01:39:54.452897+00
+51957	jqWdiqpNpsw	Too short	2025-12-01 01:40:05.841721+00
+51958	K-ff4aK6kqg	Too short	2025-12-01 01:40:11.59021+00
+51959	nK5lR3tUiiY	Too short	2025-12-01 01:40:17.93602+00
 \.
 
 
@@ -67469,7 +67508,6 @@ COPY public.user_books (id, user_id, audiobook_id, created_at, status, mp3_file_
 --
 
 COPY public.user_favorites (user_id, audiobook_id, created_at) FROM stdin;
-3	14410	2025-11-17 00:29:49.404339+00
 3	14390	2025-11-17 00:30:54.495645+00
 3	14495	2025-11-21 03:22:49.31175+00
 3	15414	2025-11-21 03:23:53.479625+00
@@ -67499,7 +67537,7 @@ COPY public.youtube_search_state (id, key, value, "timestamp") FROM stdin;
 -- Name: audiobooks_id_seq; Type: SEQUENCE SET; Schema: public; Owner: root
 --
 
-SELECT pg_catalog.setval('public.audiobooks_id_seq', 20530, true);
+SELECT pg_catalog.setval('public.audiobooks_id_seq', 20539, true);
 
 
 --
@@ -67520,7 +67558,7 @@ SELECT pg_catalog.setval('public.categories_id_seq', 40, true);
 -- Name: skipped_videos_id_seq; Type: SEQUENCE SET; Schema: public; Owner: root
 --
 
-SELECT pg_catalog.setval('public.skipped_videos_id_seq', 51928, true);
+SELECT pg_catalog.setval('public.skipped_videos_id_seq', 51959, true);
 
 
 --
@@ -67762,5 +67800,5 @@ ALTER TABLE ONLY public.user_favorites
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 8xBoix25W7IrRTl2BTLPawPAa3AypYzZ2gTCw6MUZYxpbeKLi5igxijFWEgG2y7
+\unrestrict 2idKYiYKEfAvv0fZxY3RdrftdRI4UUIBi1guUmWB9jEEY8kSarqnuMuluhB0aGx
 

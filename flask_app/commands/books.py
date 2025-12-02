@@ -1,12 +1,15 @@
+import os
+import random
+import logging
+
+import click
 from flask import current_app
 from flask.cli import with_appcontext
-from flask_app.modules.youtube_crawler import crawl_youtube
-from flask_app.models import Category, Author, Audiobook, db, audiobook_categories
-import random
 from sqlalchemy import func, text
 from curl_cffi import requests
-import logging
-import click
+
+from flask_app.modules.youtube_crawler import crawl_youtube
+from flask_app.models import Category, Author, Audiobook, db, audiobook_categories
 
 
 @current_app.cli.command("add_books_full")
@@ -157,6 +160,11 @@ def prune_books():
     print(f"Found {total_count} audiobooks to check")
 
     # Set up curl_cffi with Chrome browser impersonation
+    proxy_url = os.getenv("PROXY_URL", "")
+    proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+    if proxy_url:
+        print(f"Using proxy: {proxy_url}")
+
     session = requests.Session()
 
     # Process each audiobook
@@ -174,9 +182,10 @@ def prune_books():
             # Make a HEAD request to check if the thumbnail exists
             response = session.head(
                 audiobook.thumbnail,
-                impersonate="chrome",  # Impersonate Chrome browser
-                timeout=10,  # 10 second timeout
-                allow_redirects=True,  # Follow redirects
+                impersonate="chrome",
+                timeout=10,
+                allow_redirects=True,
+                proxies=proxies,
             )
 
             # If the response is 404 (Not Found) or 403 (Forbidden), the video is likely gone
